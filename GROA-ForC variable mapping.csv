@@ -16,7 +16,7 @@ GROA order,GROA table,GROA field,GROA Description,-,ForC order,ForC table,ForC C
 15,MEASUREMENTS,n,number of plots per site and stand age,-,17,MEASUREMENTS,17 / Q,n,Number of experimental replicates used to estimate mean and statistical summary.,numeric (integer) ,-,-,-,,,,,,-,,
 15.5,MEASUREMENTS,sub.n,"number of subplots, e.g., soil samples that are pooled",-,,,,,,,,,-,,,,,,create instructions,,
 16,MEASUREMENTS,plot.size,hectares,-,20,MEASUREMENTS,20 / T,area.sampled,"Area sampled for measurement of the particular variable. If the measurement includes multiple components with different sampling area (e.g., large trees sampled in the entire plot, small trees sampled in subplots), the largest area is reported. This may be less than plot.area (PLOTS table). As this field was added after most of the data had been entered, it is coded as ""NAC"" for most records.",numeric (double),-,ha,-,,,,,,-,,
-16,MEASUREMENTS,plot.size,hectares,-,80,HISTORY,4 / D,plot.area,Area of plot or combined area of replicate plots.,numeric (double),-,ha,-,,,,,,-,,
+16,MEASUREMENTS,plot.size,hectares,-,83,HISTORY,4 / D,plot.area,Area of plot or combined area of replicate plots.,numeric (double),-,ha,-,,,,,,-,,
 17,MEASUREMENTS,variables.name,"name of stock name: aboveground_biomass; aboveground_carbon; understory_biomass; understory_carbon; litter_biomass; litter_carbon; belowground_biomass; belowground_carbon; SOC/SOM/soil_perC ",-,9,MEASUREMENTS,9 / I,variable.name,Code name for variable sampled. ,character (string),Given in VARIABLES table,-,-,(see variable_name_conversion.csv),-,-,-,-,create variable_name_conversion.csv,,
 18,MEASUREMENTS,mean_ha,value of biomass or carbon estimate,-,16,MEASUREMENTS,16 / P,mean,Mean value of measurement recorded. Units depend on the variable and can be found in the VARIABLES table. ,numeric (double) ,-,Given in VARIABLES table,-,,,,,,-,,
 19,MEASUREMENTS,covar_1 ,"type of covariate: max_depth; max_height; min_height; min_depth; root_diameter_max; root_diameter_min; soil_type; othermin_dbh;min_diameter;min_height;min_length",-,27,MEASUREMENTS,27 / AA,covariate_1,Code name for covariate associated with the variable being measured. Codes defined in VARIABLES table.,character (string),-,-,-,"if covar_1 any other than min_dbh, enter covar_1",NA,-,-,-,-,-,
@@ -27,7 +27,9 @@ GROA order,GROA table,GROA field,GROA Description,-,ForC order,ForC table,ForC C
 20.3,MEASUREMENTS,covar_3,,-,,,,,,,,,,,,,,,create instructions,,
 20.4,MEASUREMENTS,coV3_value,,-,,,,,,,,,,,,,,,create instructions,,
 21,MEASUREMENTS,density,number of individual trees per hectare,-,,,,,,,,,-,,,,,,create instructions,add as secondary variable,
-22,MEASUREMENTS,sand.silt.clay,"soil texture: %:%:% or description (e.g., clay, sandy clay, sandy clay loam, loamy sand, silty clay, silt loam)",-,,,,,,,,,-,,,,,would typically be the same through time for a plot (although there is one study where this was remeasured at the site level). Can differ between plots at a single site.,create instructions,add sand-silt-clay columns to ForC,
+22,MEASUREMENTS,sand.silt.clay,"soil texture: %:%:% or description (e.g., clay, sandy clay, sandy clay loam, loamy sand, silty clay, silt loam)",-,62,SITES,16 / P,sand,,,,,-,"when GROA value is [V1:V2:V3], V1. If there are multiple values for the site, average them.",-,-,-,Would typically be the same through time for a plot (although there is one study where this was remeasured at the site level). Can differ between plots at a single site.,-,-,-
+22,MEASUREMENTS,sand.silt.clay,"soil texture: %:%:% or description (e.g., clay, sandy clay, sandy clay loam, loamy sand, silty clay, silt loam)",-,63,SITES,17 / Q,silt,,,,,,"when GROA value is [V1:V2:V3], V2.  If there are multiple values for the site, average them.",-,-,-,Would typically be the same through time for a plot (although there is one study where this was remeasured at the site level). Can differ between plots at a single site.,-,-,-
+22,MEASUREMENTS,sand.silt.clay,"soil texture: %:%:% or description (e.g., clay, sandy clay, sandy clay loam, loamy sand, silty clay, silt loam)",-,64,SITES,18 / R,clay,,,,,,"when GROA value is [V1:V2:V3], V3.  If there are multiple values for the site, average them.",-,-,-,Would typically be the same through time for a plot (although there is one study where this was remeasured at the site level). Can differ between plots at a single site.,-,-,-
 23,MEASUREMENTS,pH,,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
 24,MEASUREMENTS,allometry,direct harvest = when all biomass is harvested; site-specific harvest = based on trees harvested at the site; species-specific; forest-type-specific; biome-specifi,-,21,MEASUREMENTS,21 / U,notes,"Additional information about the record, including notes on methodology and notes on any known anomalies.  Potentially problematic values have notes prefaced with asterisks. ",character (string),-,-,-,"""[value] allometries""",,,,"allometries are classified as to specificity, does not record original source",,,
 25,MEASUREMENTS,measurements.notes,"any ambiguities, assumptions, or judgement calls",-,-,-,-,-,-,-,-,-,-,-,-,will need manual review to place in appropriate fields,-,-,-,-,-
@@ -41,13 +43,13 @@ GROA order,GROA table,GROA field,GROA Description,-,ForC order,ForC table,ForC C
 35,SITES,elevation,height above sea level,-,54,SITES,8 / H,masl,"Elevation in meters above sea level. When a range is given, midpoint is reported.",numeric (double),-,m ,-,value,,-,-,-,-,-,
 36,SITES,AMT,annual mean precipitation,-,56,SITES,10 / J,mat,Mean annual temperature ,numeric (double),-,C,-,value,,-,-,-,-,-,
 37,SITES,AMP,annual mean temperature,-,59,SITES,13 / M,map,Mean annual precipitation ,numeric (double),-,mm,-,value,,-,-,-,-,-,
-38,SITES,soil.classification,,-,62,SITES,16 / P,soil.classification,Soil classification (USDA soil taxonomy or FAO soil classification),character (string),-,-,-,value,,-,-,-,-,-,
+38,SITES,soil.classification,,-,65,SITES,19 / S,soil.classification,Soil classification (USDA soil taxonomy or FAO soil classification),character (string),-,-,-,value,,-,-,-,-,-,
 39,SITES,site.notes,"any sources of ambiguity, judgement calls etc.",-,-,-,-,-,-,-,-,-,-,-,-,will need manual review to place in appropriate fields,-,-,-,-,-
 40,LITERATURE,study.id,unique identifier per publication,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
-41,LITERATURE,citations.author,last name of first author,-,99,CITATIONS,3 / C,citation.author,Last name of first author of citation,character (string),-,-,-,value,,-,-,-,-,-,-
-42,LITERATURE,citations.year,year of publication,-,100,CITATIONS,4 / D,citation.year,Year of publication,numeric (double),-,-,-,value,,-,-,-,-,-,-
+41,LITERATURE,citations.author,last name of first author,-,104,CITATIONS,3 / C,citation.author,Last name of first author of citation,character (string),-,-,-,value,,-,-,-,-,-,-
+42,LITERATURE,citations.year,year of publication,-,105,CITATIONS,4 / D,citation.year,Year of publication,numeric (double),-,-,-,value,,-,-,-,-,-,-
 43,LITERATURE,citations.journal,citation information,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
-44,LITERATURE,citations.title,full title from publication,-,101,CITATIONS,5 / E,citation.title,Title of publication.,character (string),-,-,-,value,,-,-,-,-,-,-
+44,LITERATURE,citations.title,full title from publication,-,106,CITATIONS,5 / E,citation.title,Title of publication.,character (string),-,-,-,value,,-,-,-,-,-,-
 45,LITERATURE,citations.notes,"any relevant details here such as ambiguities, key assumptions, or judgement calls",-,-,-,-,-,-,-,-,-,-,-,-,will need manual review to place in appropriate fields,-,-,-,-,-
 -,-,-,,-,7,MEASUREMENTS,7 / G,scientific.name,"Genus and species for single dominant species at time of measurement, if applicable.",character (string),-,-,-,,,,,,,,
 -,-,-,-,-,11,MEASUREMENTS,11 / K,date.loc,Level of confidence in date. ,numeric (double),Given in dateLOC table,-,-,8,9,,,,,,
@@ -57,6 +59,8 @@ GROA order,GROA table,GROA field,GROA Description,-,ForC order,ForC table,ForC C
 -,-,-,-,-,15,MEASUREMENTS,15 / O,end.date.loc,Level of confidence in date. ,numeric (double),Given in dateLOC table,-,-,,,,,,,,
 -,-,-,-,-,18,MEASUREMENTS,18 / R,stat.name,Name of reported statistic (SE- standard error; SD- standard deviation; 95%CI- 95% confidence interval). ,character (string),see description,-,-,,,,,,,,
 -,-,-,-,-,19,MEASUREMENTS,19 / S,stat,Value of reported statistic.,numeric (double),-,VARIABLES table,-,,,,,,,,
+-,-,-,-,-,23,MEASUREMENTS,23 / W,allometry_1,Code number for allometry (when it is a required covariate).,numeric (integer),Given in ALLOMETRY table,-,-,"""NAC""",-,-,-,-,-,-,-
+-,-,-,-,-,24,MEASUREMENTS,24 / X,allometry_2,Code number for allometry (when it is a required covariate).,numeric (integer),Given in ALLOMETRY table,-,-,"""NAC""",-,-,-,-,-,-,-
 -,-,-,,-,26,MEASUREMENTS,26 / Z,depth,Depth of measurement if belowground or including belowground components,numeric (integer),-,cm,-,,,,,"for soil variables, GROA has lots of soil profiles. We will transform all into cumulative values by max depth (as opposed to reporting for the soil layer)",,,
 -,-,-,-,-,29,MEASUREMENTS,29 / AC,covariate_2,Code name for covariate associated with the variable being measured. Codes defined in VARIABLES table.,character (string),-,-,-,NA,-,-,-,-,-,-,
 -,-,-,-,-,30,MEASUREMENTS,30 / AD,coV_2.value,Value of reported covariate.,numeric (double) ,-,VARIABLES table,-,NA,-,-,-,-,-,-,
@@ -77,52 +81,54 @@ GROA order,GROA table,GROA field,GROA Description,-,ForC order,ForC table,ForC C
 -,-,-,-,-,57,SITES,11 / K,min.temp,Mean temperature of the coldest month ,numeric (double),-,C,-,,,,,,,,
 -,-,-,-,-,58,SITES,12 / L,max.temp,Mean temperature of the warmest month,numeric (double),-,C,-,,,,,,,,
 -,-,-,-,-,60,SITES,14 / N,climate.notes,Climate details not included above,character (string),-,-,-,,,,,,,,
--,-,-,-,-,67,SITES,21 / U,biogeog,"Biogeographical region, extracted from map of (Olson et al. 2001)",character (string),-,-,-,,,,,,,,
--,-,-,-,-,68,SITES,22 / V,Koeppen,"Koppen-Geiger classification, extracted from the ESRI Koppen-Geiger map (http://www.arcgis.com/home/item.html?id=7a53584fa55643df969f93cec83788e1).",character (string),Given in Table 1 of Peel et al. (2007),-,-,,,,,,,,
--,-,-,-,-,69,SITES,23 / W,FAO.ecozone,"FAO global ecological zones classification, extracted from FAO's GeoNetwork (http://www.fao.org:80/geonetwork).",character (string),-,-,-,,,,,,,,
--,-,-,-,-,70,SITES,24 / X,site.ID.v1,"Original site.ID, where numbers <=503 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2016)",numeric (integer),-,-,-,NA,,-,-,-,-,-,
--,-,-,-,-,71,SITES,25 / Y,tropical.extratropical,Indicates whether data is from tropical or extratropical regions.,character (string),"tropical, extratropical",-,-,"|lat| >=23.5--> ""tropical"", else ""extratropical""",,-,-,-,-,-,
--,-,-,-,-,97,CITATIONS,1 / A,citation.ID,"Citation ID in the form [last name of first author]_[year]_[first letter of first four words of title, when applicable]. ",character (string),-,-,-,"create citation ID in the form [last name of first author]_[publication year]_[first letter of first four words of title, when applicable, counting hyphenated words as single words]. ",,-,-,-,-,-,-
--,-,-,-,-,98,CITATIONS,2 / B,citation.doi,Citation DOI,character (string),-,-,-,"""NAC""",,-,-,-,-,-,-
+-,-,-,-,-,70,SITES,24 / X,biogeog,"Biogeographical region, extracted from map of (Olson et al. 2001)",character (string),-,-,-,,,,,,,,
+-,-,-,-,-,71,SITES,25 / Y,Koeppen,"Koppen-Geiger classification, extracted from the ESRI Koppen-Geiger map (http://www.arcgis.com/home/item.html?id=7a53584fa55643df969f93cec83788e1).",character (string),Given in Table 1 of Peel et al. (2007),-,-,,,,,,,,
+-,-,-,-,-,72,SITES,26 / Z,FAO.ecozone,"FAO global ecological zones classification, extracted from FAO's GeoNetwork (http://www.fao.org:80/geonetwork).",character (string),-,-,-,,,,,,,,
+-,-,-,-,-,73,SITES,27 / AA,site.ID.v1,"Original site.ID, where numbers <=503 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2016)",numeric (integer),-,-,-,NA,,-,-,-,-,-,
+-,-,-,-,-,74,SITES,28 / AB,tropical.extratropical,Indicates whether data is from tropical or extratropical regions.,character (string),"tropical, extratropical",-,-,"|lat| >=23.5--> ""tropical"", else ""extratropical""",,-,-,-,-,-,
+-,-,-,-,-,102,CITATIONS,1 / A,citation.ID,"Citation ID in the form [last name of first author]_[year]_[first letter of first four words of title, when applicable]. ",character (string),-,-,-,"create citation ID in the form [last name of first author]_[publication year]_[first letter of first four words of title, when applicable, counting hyphenated words as single words]. ",,-,-,-,-,-,-
+-,-,-,-,-,103,CITATIONS,2 / B,citation.doi,Citation DOI,character (string),-,-,-,"""NAC""",,-,-,-,-,-,-
 ,,,,-,1,MEASUREMENTS,1 / A,measurement.ID,Unique identifier for each record in the measurements table.,numeric (integer),-,-,-,,,,,,,,
 ,,,,-,3,MEASUREMENTS,3 / C,plot.name,Unique plot identifier name for the plot in which the measurement was made. Links to HISTORY and PLOTS table.,character (string),-,-,-,,,,,,,,
 ,,,,-,5,MEASUREMENTS,5 / E,dominant.life.form,"Dominant life form at time of measurement, with categories including ""woody"" (trees, seedlings, or shrubs), ""grass"", and ""woody+grass"" (i.e., savanna). ",character (string),see description,-,-,,,,,,,,
 ,,,,-,6,MEASUREMENTS,6 / F,dominant.veg,"Code used to identify plant functional type of dominant vegetation at time of measurement. For trees, groupings are based on leaf type (broadleaf /needleleaf/ mixed) and phenology (deciduous/ evergreen/ mixed), and dominance is defined based on an 80% threshold (if given). If vegetation is a mix of trees and other vegetation, codes refer to the functional type of trees. For vegetation with no significant tree species component, groupings are by life form, if any. ",character (string),Given in PFT table,-,-,,,,,,,,
-,,,,-,,,,,,,,,,,,,,,,,
--,-,-,-,-,23,MEASUREMENTS,23 / W,allometry_1,Code number for allometry (when it is a required covariate).,numeric (integer),Given in ALLOMETRY table,-,-,"""NAC""",-,-,-,-,-,-,-
--,-,-,-,-,24,MEASUREMENTS,24 / X,allometry_2,Code number for allometry (when it is a required covariate).,numeric (integer),Given in ALLOMETRY table,-,-,"""NAC""",-,-,-,-,-,-,-
 ,,,,-,40,MEASUREMENTS,40 / AN,source.notes,Notes on data source. Source notes were originally entered in notes column; some source notes may remain there.,character (string) ,-,-,-,,,,,,,,
 ,,,,-,46,MEASUREMENTS,46 / AT,flag.suspicious,Field indicating suspicious measurement values that should not be used in analysis until confirmed. Reason for supicion described in notes field. ,numeric (integer),1-true; 0- false,-,-,0,,-,-,-,-,-,
 ,,,,-,47,SITES,1 / A,site.ID,Unique numerical identifier for each record in the SITES table.,numeric (integer),-,-,-,,,,,,,,
 ,,,,-,49,SITES,3 / C,city,"Nearest city, when identified in original publication.",character (string),-,-,-,,,,,,,,
 ,,,,-,55,SITES,9 / I,geography.notes,"Notes pertaining to site name, location, or topography",character (string),-,-,-,,,,,,,,
 ,,,,-,61,SITES,15 / O,soil.texture,"Soil texture, based on % sand-silt-clay. When original publication reports % sand-silt-clay, classification follows USDA soil classification. ",character (string),-,-,-,,,,,,,,
-,,,,-,63,SITES,17 / Q,soil.notes,Soil details not included above,character (string),-,-,-,,,,,,,,
-,,,,-,64,SITES,18 / R,hydrology.notes,"Notes on sites hydrology (e.g., terra firma, seasonally flooded) ",character (string),-,-,-,,,,,,,,
-,,,,-,65,SITES,19 / S,site.notes,Site details not included above,character (string),-,-,-,,,,,,,,
-,,,,-,66,SITES,20 / T,geographic.area,"Groups geographically proximate sites, where proximity was defined using a hierarchical cluster analysis on the distance matrix of the sites and a cutoff of 25km (R script available in the Github scripts folder).",numeric (integer) ,-,-,-,,,,,,,,
-,,,,-,73,SITES,27 / AA,ref.notes,"Notes on references for site data, including citations of publications not included in the ForC references library.",character (string),-,-,-,"""GROA site.ID = [value]""",,,,,,,
-,,,,-,74,SITES,28 / AB,lacks.info.from.ori.pub,Indicates studies that were flagged because they lack information obtained directly from the original study. A missing value code ('NA') does not necessarily guarantee that information was obtained from an original publication. ,numeric (integer),1- lacks info from original pub,-,-,,,,,,,,
-,,,,-,75,SITES,29 / AC,loaded.from,"Citation ID(s) of data compilations from which data were obtained, if applicable. Citation.ID is in the form [last name of first author]_[year]_[first letter of first four words of title] and links to citation.ID in the citations table.",character (string),-,-,-,"[Cook-Patton database citation, in ForC format]",,,,,,,
-,,,,-,76,SITES,30 / AD,loaded.by,Name of individual who created the record,character (string),-,-,-,"""R script by [NAME]""",,,,,,,
-,,,,-,77,HISTORY,1 / A,history.ID,Unique numerical identifier for each record in the history table. ,numeric (decimal),-,-,-,,,,,,,,
-,,,,-,78,HISTORY,2 / B,sites.sitename,"Unique site identifier, sufficient to identify the site within the original publication. Links to SITES, PLOTS and MEASUREMENTS tables.",character (string),-,-,-,,,,,,,,
-,,,,-,79,HISTORY,3 / C,plot.name,"Unique plot name, sufficient to identify the plot within the original publication.",character (string),-,-,-,,,,,,,,
-,,,,-,81,HISTORY,5 / E,event.sequence,"Order of event within the sequence of existing records. This allows determination of event order when dates are missing or events have the same date. NOTE: This field was created after original data entry based on order entered and notes, not in consultation with original publications.  ",numeric (integer),-,-,-,,,,,,,,
-,,,,-,82,HISTORY,6 / F,date,Date of plot history event.,character (string),-,decimal years,-,,,,,,,,
-,,,,-,83,HISTORY,7 / G,date.loc,Level of confidence in date.,numeric (double),Given in dateLOC table,-,-,,,,,,,,
-,,,,-,84,HISTORY,8 / H,hist.cat,Plot history event categories.,"string (mixed upper and lower case letters, numbers, and special characters)",Given in HISTTYPE metadata table,-,-,,,,,,,,
-,,,,-,85,HISTORY,9 / I,hist.type,Plot history event types. ,"string (mixed upper and lower case letters, numbers, and special characters)",Given in HISTTYPE metadata table,-,-,,,,,,,,
-,,,,-,86,HISTORY,10 / J,est.regrowth.assumed.same.year,"Indicates whether it is assumed that establishment of the oldest trees and regrowth (e.g., initiation of post-disturbance cohort, planting) occurred in the same year. These may differ if there was a lag in tree establishment following a severe/stand clearing disturbance or if some trees survived the most recent severe/stand clearing disturbance. ",numeric (integer),0- false; 1- true,-,-,,,,,,,,
-,,,,-,87,HISTORY,11 / K,level,"Intensity/frequency/amount applied of history event type, if available.",character (string),-,-,-,,,,,,,,
-,,,,-,88,HISTORY,12 / L,units,Level units.,character (string),-,-,-,,,,,,,,
-,,,,-,89,HISTORY,13 / M,percent.mortality,Percent tree mortality resulting from disturbance. 100% mortality is assumed for slash-and-burn and cultivation.,numeric (double),"""<100%"" - non- stand clearing disturbance (% mortality unkonwn/ unspecified); ""<<100%"" - very minor disturbance",-,-,,,,,,,,
-,,,,-,90,HISTORY,14 / N,hist.notes,History event details not included above.,character (string),-,-,-,,,,,,,,
-,,,,-,91,HISTORY,15 / N,plothistory.ID.v1,"Original plothistory.ID, where numbers <=2441 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2015)",numeric (integer),-,-,-,,,,,,,,
-,,,,-,92,HISTORY,16 / O ,tropical.extratropical,Indicates whether data is from tropical or extratropical regions.,character (string),"tropical, extratropical",-,-,,,,,,,,
-,,,,-,93,METHODOLOGY,1 / A,method.ID,Code name for methodology. Used in MEASUREMENTS table. ,numeric (double) ,-,-,-,,,,,,,,
-,,,,-,93,METHODOLOGY,1 / A,method.ID,Code name for methodology. Used in MEASUREMENTS table. ,numeric (double) ,-,-,-,,,,,,,,
-,,,,-,94,METHODOLOGY,2 / B,method.citation,Citation ID for publication describing the allometries. ID is in the form [last name of first author]_[year]_[first letter of first four words of title] and links to the citations table. References to non-publications are not coded,character (string) ,-,-,-,,,,,,,,
-,,,,-,95,METHODOLOGY,3 / C,variable.name,"The type of variable for which the methodology is described. May not exactly correspond to variable.name in VARIABLES table, as similar variables may be grouped together.",character (string) ,-,-,-,,,,,,,,
-,,,,-,96,METHODOLOGY,4 / D,method.notes,Description of the methodology used.,character (string) ,-,-,-,,,,,,,,
-,,,,-,96,METHODOLOGY,4 / D,method.notes,Description of the methodology used.,character (string) ,-,-,-,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,-,66,SITES,20 / T,soil.notes,Soil details not included above,character (string),-,-,-,,,,,,,,
+,,,,-,67,SITES,21 / U,hydrology.notes,"Notes on sites hydrology (e.g., terra firma, seasonally flooded) ",character (string),-,-,-,,,,,,,,
+,,,,-,68,SITES,22 / V,site.notes,Site details not included above,character (string),-,-,-,,,,,,,,
+,,,,-,69,SITES,23 / W,geographic.area,"Groups geographically proximate sites, where proximity was defined using a hierarchical cluster analysis on the distance matrix of the sites and a cutoff of 25km (R script available in the Github scripts folder).",numeric (integer) ,-,-,-,,,,,,,,
+,,,,-,75,SITES,29 / AC,site.ref,"Citation ID(s) of reference from which site data were obtained. ""NA"" indicates that all site data were obtained from references associated with measurement data. Citation.ID is in the form [last name of first author]_[year]_[first letter of first four words of title] and links to citation.ID in the citations table.",character (string),-,-,-,,,,,,,,
+,,,,-,76,SITES,30 / AD,ref.notes,"Notes on references for site data, including citations of publications not included in the ForC references library.",character (string),-,-,-,"""GROA site.ID = [value]""",,,,,,,
+,,,,-,77,SITES,31 / AE,lacks.info.from.ori.pub,Indicates studies that were flagged because they lack information obtained directly from the original study. A missing value code ('NA') does not necessarily guarantee that information was obtained from an original publication. ,numeric (integer),1- lacks info from original pub,-,-,,,,,,,,
+,,,,-,78,SITES,32 / AF,loaded.from,"Citation ID(s) of data compilations from which data were obtained, if applicable. Citation.ID is in the form [last name of first author]_[year]_[first letter of first four words of title] and links to citation.ID in the citations table.",character (string),-,-,-,"[Cook-Patton database citation, in ForC format]",,,,,,,
+,,,,,79,SITES,33 / AG,loaded.by,Name of individual who created the record,character (string),-,-,-,"""R script by [NAME]""",,,,,,,
+,,,,-,80,HISTORY,1 / A,history.ID,Unique numerical identifier for each record in the history table. ,numeric (decimal),-,-,-,,,,,,,,
+,,,,-,81,HISTORY,2 / B,sites.sitename,"Unique site identifier, sufficient to identify the site within the original publication. Links to SITES, PLOTS and MEASUREMENTS tables.",character (string),-,-,-,,,,,,,,
+,,,,-,82,HISTORY,3 / C,plot.name,"Unique plot name, sufficient to identify the plot within the original publication.",character (string),-,-,-,,,,,,,,
+,,,,-,84,HISTORY,5 / E,event.sequence,"Order of event within the sequence of existing records. This allows determination of event order when dates are missing or events have the same date. NOTE: This field was created after original data entry based on order entered and notes, not in consultation with original publications.  ",numeric (integer),-,-,-,,,,,,,,
+,,,,-,85,HISTORY,6 / F,date,Date of plot history event.,character (string),-,decimal years,-,,,,,,,,
+,,,,-,86,HISTORY,7 / G,date.loc,Level of confidence in date.,numeric (double),Given in dateLOC table,-,-,,,,,,,,
+,,,,-,87,HISTORY,8 / H,hist.cat,Plot history event categories.,"string (mixed upper and lower case letters, numbers, and special characters)",Given in HISTTYPE metadata table,-,-,,,,,,,,
+,,,,-,88,HISTORY,9 / I,hist.type,Plot history event types. ,"string (mixed upper and lower case letters, numbers, and special characters)",Given in HISTTYPE metadata table,-,-,,,,,,,,
+,,,,-,89,HISTORY,10 / J,est.regrowth.assumed.same.year,"Indicates whether it is assumed that establishment of the oldest trees and regrowth (e.g., initiation of post-disturbance cohort, planting) occurred in the same year. These may differ if there was a lag in tree establishment following a severe/stand clearing disturbance or if some trees survived the most recent severe/stand clearing disturbance. ",numeric (integer),0- false; 1- true,-,-,,,,,,,,
+,,,,-,90,HISTORY,11 / K,level,"Intensity/frequency/amount applied of history event type, if available.",character (string),-,-,-,,,,,,,,
+,,,,-,91,HISTORY,12 / L,units,Level units.,character (string),-,-,-,,,,,,,,
+,,,,-,92,HISTORY,13 / M,percent.mortality,Percent tree mortality resulting from disturbance. 100% mortality is assumed for slash-and-burn and cultivation.,numeric (double),"""<100%"" - non- stand clearing disturbance (% mortality unkonwn/ unspecified); ""<<100%"" - very minor disturbance",-,-,,,,,,,,
+,,,,-,93,HISTORY,14 / N,hist.notes,History event details not included above.,character (string),-,-,-,,,,,,,,
+,,,,-,94,HISTORY,15 / N,plothistory.ID.v1,"Original plothistory.ID, where numbers <=2441 correspond to records released in the first published version of the database (Anderson-Teixeira et al., 2015)",numeric (integer),-,-,-,,,,,,,,
+,,,,-,95,HISTORY,16 / O ,tropical.extratropical,Indicates whether data is from tropical or extratropical regions.,character (string),"tropical, extratropical",-,-,,,,,,,,
+,,,,-,96,METHODOLOGY,1 / A,method.ID,Code name for methodology. Used in MEASUREMENTS table. ,numeric (double) ,-,-,-,,,,,,,,
+,,,,-,97,METHODOLOGY,1 / A,method.ID,Code name for methodology. Used in MEASUREMENTS table. ,numeric (double) ,-,-,-,,,,,,,,
+,,,,-,98,METHODOLOGY,2 / B,method.citation,Citation ID for publication describing the allometries. ID is in the form [last name of first author]_[year]_[first letter of first four words of title] and links to the citations table. References to non-publications are not coded,character (string) ,-,-,-,,,,,,,,
+,,,,-,99,METHODOLOGY,3 / C,variable.name,"The type of variable for which the methodology is described. May not exactly correspond to variable.name in VARIABLES table, as similar variables may be grouped together.",character (string) ,-,-,-,,,,,,,,
+,,,,-,100,METHODOLOGY,4 / D,method.notes,Description of the methodology used.,character (string) ,-,-,-,,,,,,,,
+,,,,-,101,METHODOLOGY,4 / D,method.notes,Description of the methodology used.,character (string) ,-,-,-,,,,,,,,
+,,,,-,,,,,,,,,,,,,,,,,
