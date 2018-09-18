@@ -1,6 +1,6 @@
 # Cook-Patton(CP)-ForC variable mapping - 
 
-ForC-CP ariable mapping is given in [this document](https://github.com/forc-db/ForC_private/blob/master/data%20to%20add/Cook-Patton/CP-ForC%20variable%20mapping.csv). It can be sorted by either CP or ForC variable order.
+ForC-CP variable mapping is given in [this document](https://github.com/forc-db/ForC_private/blob/master/data%20to%20add/Cook-Patton/CP-ForC%20variable%20mapping.csv). It can be sorted by either CP or ForC variable order.
 
 ## Metadata for [mapping document](https://github.com/forc-db/ForC_private/blob/master/data%20to%20add/Cook-Patton/CP-ForC%20variable%20mapping.csv)
 field | def 
