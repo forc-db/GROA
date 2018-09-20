@@ -1,0 +1,530 @@
+study.id,citations.author,citations.year,Code2,Count,citations.journal,citations.title
+12001,Xu,2015,yes,1,"JOURNAL OF APPLIED ECOLOGY, 52, 1044-1052",Partial recovery of a tropical rain forest a half-century after clear-cut and selective logging
+222,Salinas-Melgoza,2017,yes,1,SILVA FENNICA 51:1-25,Carbon emissions from dryland shifting cultivation: a case study of Mexican tropical dry forest
+246,Fujiki,2017,yes,1,JOURNAL OF TROPICAL ECOLOGY 33:33-49,Plant communities and ecosystem processes in a succession-altitude matrix after shifting cultivation in the tropical montane forest zone of northern Borneo
+390,Yang,2016,yes,1,SCIENTIFIC REPORTS -0.25 ,"Soil organic carbon accumulation during post-agricultural succession in a karst area, southwest China"
+557,Paz,2016,yes,1,FOREST ECOLOGY AND MANAGEMENT376:74-83,Soil types influence predictions of soil carbon stock recovery in tropical secondary forests
+851,Zhang,2016,yes,1,ECOLOGICAL ENGINEERING 91:574-581 ,The coupling interaction of soil water and organic carbon storage in the long vegetation restoration on the Loess Plateau
+995,Wang,2016,yes,1,JOURNAL OF ARID LAND8:207-220,Dynamics of ecosystem carbon stocks during vegetation restoration on the Loess Plateau of China
+1222,Aosaar,2016,yes,1,SILVA FENNICA 50,Biomass production and nitrogen balance of naturally afforested silver birch (Betula pendula Roth.) stand in Estonia
+1394,Huang,2015,yes,1,TROPICAL CONSERVATION SCIENCE 8:1033-1052,Changes in the diversity of evergreen and deciduous species during natural recovery following clear-cutting in a subtropical evergreen-deciduous broadleaved mixed forest of central China
+1599,Zhao,2015,yes,1,CATENA 133:303-308  ,"Soil organic carbon fractions and sequestration across a 150-yr secondary forest chronosequence on the Loess Plateau, China"
+1636,Robinson,2015,yes,1,BIODIVERSITY AND CONSERVATION 24:2273-2291,Factors influencing early secondary succession and ecosystem carbon stocks in Brazilian Atlantic Forest
+1879,Zhang,2015,yes,1,PLANT AND SOIL 391:77-91,Changes in nitrogen and phosphorus limitation during secondary succession in a karst region in southwest China
+2058,Chen,2015,yes,1,FORESTS 6:794-808  ,"Carbon Storage and Allocation Pattern in Plant Biomass among Different Forest Plantation Stands in Guangdong, China"
+2148,Li,2015,yes,1,IFOREST-BIOGEOSCIENCES AND FORESTRY 8:45-52,Estimating changes in soil organic carbon storage due to land use changes using a modified calculation method
+2236,Marques,2015,yes,1,REVISTA BRASILEIRA DE CIENCIADO SOLO 39:232-242,DISTRIBUTION OF ORGANIC CARBON IN DIFFERENT SOIL FRACTIONS IN ECOSYSTEMS OF CENTRAL AMAZONIA
+2382,Jacobi,2014,yes,1,AGROFORESTRY SYSTEMS 88:1117-1132 ,"Carbon stocks, tree diversity, and the role of organic certification in different cocoa production systems in Alto Beni, Bolivia"
+2416,Novak,2014,yes,1,CATENA 123:88-98  ,"Soil and vegetation transformation in abandoned vineyards of the Tokaj Nagy-Hill, Hungary"
+2542,Guidi,2014,yes,1,FOREST ECOLOGY AND MANAGEMENT 328:103-116,Changes in soil organic carbon and nitrogen following forest expansion on grassland in the Southern Alps
+2735,Viana,2014,yes,1,SOIL & TILLAGE RESEARCH 140:1-7,Soil quality indicators for different restoration stages on Amazon rainforest
+2963,Kurth,2014,yes,1,SOIL SCIENCE SOCIETY OF AMERICA JOURNAL 78:624-633,Fifteen-Year Patterns of Soil Carbon and Nitrogen Following Biomass Harvesting
+3017,Broadbent,2014,yes,1,PLOS ONE 9:e86042,Integrating Stand and Soil Properties to Understand Foliar Nutrient Dynamics during Forest Succession Following Slash-and-Burn Agriculture in the Bolivian Amazon
+3217,Deng,2014,yes,1,SOIL RESEARCH 52:262-270 ,"Long-term natural succession improves nitrogen storage capacity of soil on the Loess Plateau, China"
+3452,Batterman,2013,yes,1,NATURE 502:224-+  ,Key role of symbiotic dinitrogen fixation in tropical forest secondary succession
+3504,Kalinina,2013,yes,1,GEODERMA 207:221-233  ,"Self-restoration of post-agrogenic Albeluvisols: Soil development, carbon stocks and dynamics of carbon pools"
+3646,Wei,2013,yes,1,FOREST ECOLOGY AND MANAGEMENT 300:60-67,Restoring ecosystem carbon sequestration through afforestation: A sub-tropic restoration case study
+3748,de Aguiar,2013,yes,1,AGROFORESTRY SYSTEMS 87:699-711 ,Does biomass production depend on plant community diversity?
+3773,Orihuela-Belmonte,2013,yes,1,AGRICULTURE ECOSYSTEMS & ENVIRONMENT171:72-84,"Carbon stocks and accumulation rates in tropical secondary forests at the scale of community, landscape and forest type"
+3871,Li,2013,yes,1,FORESTRY CHRONICLE 89:191-197 ,Carbon and nitrogen distribution across a chronosequence of secondary lacebark pine in China
+4045,Armolaitis,2013,yes,1,ZEMDIRBYSTE-AGRICULTURE 100:227-234  ,Stability of soil organic carbon in agro and forest ecosystems on Arenosol
+4149,Fortier,2013,yes,1,SPRINGERPLUS 2:539,"Root biomass and soil carbon distribution in hybrid poplar riparian buffers, herbaceous riparian buffers and natural riparian woodlots on farmland"
+4322,Cao,2012,yes,1,ECOLOGICAL RESEARCH 27:883-892 ,Pattern of carbon allocation across three different stages of stand development of a Chinese pine (Pinus tabulaeformis) forest
+4395,Ross,2012,yes,1,ECOSYSTEMS 15:725-740  ,Ecosystem Carbon Remains Low for Three Decades Following Fire and Constrains Soil CO2 Responses to Precipitation in Southwestern Ponderosa Pine Forests
+4404,Bautista-Cruz,2012,yes,1,FOREST ECOLOGY AND MANAGEMENT 277:74-80,Selection and interpretation of soil quality indicators for forest recovery after clearing of a tropical montane cloud forest in Mexico
+4457,Zhu,2012,yes,1,EUROPEAN JOURNAL OF SOIL BIOLOGY 51:1-7,"Interactions of vegetation succession, soil bio-chemical properties and microbial communities in a Karst ecosystem"
+4491,Powers,2012,yes,1,ECOLOGICAL APPLICATIONS 22:1297-1307 ,Carbon stocks across a chronosequence of thinned and unmanaged red pine (Pinus resinosa) stands
+4581,Wang,2012,yes,1,CATENA 92:186-195  ,"Changes in soil nutrient and enzyme activities under different vegetations in the Loess Plateau area, Northwest China"
+4757,Gamboa,2012,yes,1,GEODERMA 170:390-402  ,Land-use/cover change effects and carbon controls on volcanic soil profiles in highland temperate forests
+4772,Koul,2012,yes,1,ANNALS OF FOREST RESEARCH 55:253-264,"Soil carbon buildup and bioeconomics of different lanuduses in humid subtropics of West Bengal, India"
+4833,Danquah,2012,yes,1,INTERNATIONAL JOURNAL OF AGRICULTURE AND BIOLOGY 14:321-328,Effect of African Mahogany Species on Soil Chemical Properties in Degraded Dry Semi-deciduous Forest Ecosystems in Ghana
+4869,Cuesta,2012,yes,1,ACTA OECOLOGICA-INTERNATIONAL JOURNAL OF ECOLOGY 38:58-65  ,Soil chemical properties in abandoned Mediterranean cropland after succession and oak reforestation
+4923,Alberti,2011,yes,1,REGIONAL ENVIRONMENTAL CHANGE 11:917-924,Impact of woody encroachment on soil organic carbon and nitrogen in abandoned agricultural lands along a rainfall gradient in Italy
+5152,Zhang,2011,yes,1,FOREST ECOLOGY AND MANAGEMENT 262:361-369,"Links between plant diversity, carbon stocks and environmental factors along a successional gradient in a subalpine coniferous forest in Southwest China"
+5252,Pang,2011,yes,1,SOIL USE AND MANAGEMENT 27:213-220,The effects of clear-felling subalpine coniferous forests on soil physical and chemical properties in the eastern Tibetan Plateau
+5278,Neumann-Cosel,2011,yes,1,FOREST ECOLOGY AND MANAGEMENT 261:1625-1633,Soil carbon dynamics under young tropical secondary forests on former pastures-A case study from Panama
+5317,Kalinina,2011,yes,1,GEODERMA 162:196-206  ,"Self-restoration of post-agrogenic chernozems of Russia: Soil development, carbon stocks, and dynamics of carbon pools"
+5599,Mekuria,2011,yes,1,SOIL SCIENCE SOCIETY OFAMERICAJOURNAL75:246-256,"Restoration of Ecosystem Carbon Stocks Following Exclosure Establishment in Communal Grazing Lands in Tigray, Ethiopia"
+5747,Li,2010,yes,1,PLANT AND SOIL 335:245-253,Effect of conversion of sugarcane plantation to forest and pasture on soil carbon in Hawaii
+5962,Luan,2010,yes,1,GEODERMA 156:228-236  ,"Assessments of the impacts of Chinese fir plantation and natural regenerated forest on soil organic matter quality at Longmen mountain, Sichuan, China"
+5997,Zhang,2010,yes,1,FOREST ECOLOGY AND MANAGEMENT 259:2036-2047,"Vegetation community and soil characteristics of abandoned agricultural land and pine plantation in the Qinling Mountains, China"
+6214,Huang,2010,yes,1,JOURNAL OF ENVIRONMENTAL SCIENCES 22:1765-1773,Response of runoff and soil loss to reforestation and rainfall type in red soil region of southern China
+6412,Eaton,2009,yes,1,FOREST ECOLOGY AND MANAGEMENT 258:949-958,Loss of carbon sequestration potential after several decades of shifting cultivation in the Southern Yucatan
+6416,Mitchell,2009,yes,1,BIOGEOCHEMISTRY 95:215-229  ,N-2 fixing alder (Alnus viridis spp. fruticosa) effects on soil properties across a secondary successional chronosequence in interior Alaska
+6450,Kalinina,2009,yes,1,GEODERMA 152:35-42  ,"Self-restoration of post-agrogenic sandy soils in the southern Taiga of Russia: Soil development, nutrient status, and carbon dynamics"
+6521,Yan,2009,yes,1,PLANT AND SOIL 320:181-194,Temporal patterns of net soil N mineralization and nitrification through secondary succession in the subtropical forests of eastern China
+6559,Marin-Spiotta,2009,yes,1,GLOBAL CHANGE BIOLOGY 15:1584-1597,Soil organic matter dynamics during 80 years of reforestation of tropical pastures
+6588,Vargas,2009,yes,1,BIOTROPICA 41:302-311  ,Effects of Vegetation Thinning on Above- and Belowground Carbon in a Seasonally Dry Tropical Forest in Mexico
+6701,van der Kamp,2009,yes,1,GEODERMA 149:76-83  ,"Soil carbon changes upon secondary succession in Imperata grasslands (East Kalimantan, Indonesia)"
+6803,Tang,2009,yes,1,GLOBAL CHANGE BIOLOGY 15:145-155,Soil carbon fluxes and stocks in a Great Lakes forest chronosequence
+6996,Ostertag,2008,yes,1,ECOSYSTEMS 11:701-714  ,Litterfall and decomposition in relation to soil carbon pools along a secondary forest chronosequence in Puerto Rico
+7005,Tian,2008,yes,1,JOURNAL OF FOREST RESEARCH 13:205-214,"Microbial biomass and activity along a natural pH gradient in forest soils in a karst region of the upper Yangtze River, China"
+7212,Zheng,2008,yes,1,FOREST ECOLOGY AND MANAGEMENT 255:1113-1121,Variation of carbon storage by different reforestation types in the hilly red soil region of southern China
+7216,Schedlbauer,2008,yes,1,FOREST ECOLOGY AND MANAGEMENT 255:1326-1335,Soil carbon dynamics in a chronosequence of secondary forests in northeastern Costa Rica
+7276,Williams,2008,yes,1,FOREST ECOLOGY AND MANAGEMENT254:145-155,Carbon sequestration and biodiversity of re-growing miombo woodlands in Mozambique
+7280,Yamashita,2008,yes,1,FOREST ECOLOGY AND MANAGEMENT254:362-370,"Soil changes induced by Acacia mangium plantation establishment: Comparison with secondary forest and Imperata cylindrica grassland soils in South Sumatra, Indonesia"
+7333,Vasconcelos,2008,yes,1,JOURNAL OF TROPICAL ECOLOGY 24:27-38,"Effects of seasonality, litter removal and dry-season irrigation on litterfall quantity and quality in eastern Amazonian forest regrowth, Brazil"
+7582,Ritter,2007,yes,1,PLANT AND SOIL 295:239-251,"Carbon, nitrogen and phosphorus in volcanic soils following afforestation with native birch (Betula pubescens) and introduced larch (Larix sibirica) in Iceland"
+7614,Feldpausch,2007,yes,1,GLOBAL CHANGE BIOLOGY 13:967-979,Secondary forest growth deviation from chronosequence predictions in central Amazonia
+7698,Tschakert,2007,yes,1,ECOLOGICAL ECONOMICS 60:807-820 ,"Indigenous livelihoods, slash-and-burn agriculture, and carbon stocks in Eastern Panama"
+7727,Armolaitis,2007,yes,1,BALTIC FORESTRY 13:169-178 ,Carbon sequestration and nitrogen status in Arenosols following afforestation or following abandonment of arable land
+8167,Thuille,2006,yes,1,GLOBAL CHANGE BIOLOGY 12:325-342,Carbon dynamics in successional and afforested spruce stands in Thuringia and the Alps
+8304,Blouin,2005,yes,1,CANADIAN JOURNAL OF SOILSCIENCE 85:681-691,Mechanical disturbance impacts on soil properties and lodgepole pine growth in British Columbia's central interior
+8429,Zheng,2005,yes,1,LAND DEGRADATION & DEVELOPMENT 16:387-396,How different reforestation approaches affect red soil properties in southern China
+8474,Bautista-Cruz,2005,yes,1,SOIL SCIENCE SOCIETY OFAMERICAJOURNAL 69:906-914,Soil changes during secondary succession in a tropical montane cloud forest area
+8553,Li,2005,yes,1,GLOBAL CHANGE BIOLOGY 11:239-248,Comparing soil organic carbon dynamics in plantation and secondary forest in wet tropics in Puerto Rico
+8581,Monreal,2005,yes,1,CANADIAN JOURNAL OF SOILSCIENCE 85:523-530,A method for measuring above- and below-ground C stocks in hillside landscapes
+8740,Feldpausch,2004,yes,1,ECOLOGICAL APPLICATIONS 14:S164-S176 ,Carbon and nutrient accumulation in secondary forests regenerating on pastures in central Amazonia
+8742,Markewitz,2004,yes,1,ECOLOGICAL APPLICATIONS 14:S177-S199 ,Nutrient loss and redistribution after forest clearing on a highly weathered soil in Amazonia
+8782,DeGryze,2004,yes,1,GLOBAL CHANGE BIOLOGY 10:1120-1132,Soil organic carbon pool changes following land-use conversions
+8847,Salimon,2004,yes,1,GLOBAL CHANGE BIOLOGY 10:833-843,CO2 flux from soil in pastures and forests in southwestern Amazonia
+8872,Kelliher,2004,yes,1,FOREST ECOLOGY AND MANAGEMENT 191:201-213,Limitations to carbon mineralization in litter and mineral soil of young and old ponderosa pine forests
+8873,Rab,2004,yes,1,FOREST ECOLOGY AND MANAGEMENT191:329-340,"Recovery of soil physical properties from compaction and soil profile disturbance caused by logging of native forest in Victorian Central Highlands, Australia"
+8964,Yang,2004,yes,1,JOURNAL OF ENVIRONMENTAL SCIENCES 16:256-261,Long-term impacts of land-use change on dynamics of tropical soil carbon and nitrogen pools
+8989,Chen,2003,yes,1,FOREST ECOLOGY AND MANAGEMENT186:197-206,Change in soil carbon and nutrient storage after human disturbance of a primary Korean pine forest in Northeast China
+9017,O'Brien,2003,yes,1,FOREST ECOLOGY AND MANAGEMENT 185:249-261,Stability of soil organic matter in Eucalyptus regnans forests and Pinus radiata plantations in south eastern Australia
+9199,Frizano,2003,yes,1,BIOTROPICA 35:2-11  ,"Labile phosphorus in soils of forest fallows and primary forest in the Bragantina region, Brazil"
+9210,Behera,2003,yes,1,FOREST ECOLOGY AND MANAGEMENT 174:1-11,Soil microbial biomass and activity in response to Eucalyptus plantation and natural regeneration on tropical soil
+9362,Lawrence,2002,yes,1,INTERCIENCIA 27:400-408,"Changes in forest biomass, litter dynamics and soils following shifting cultivation in southern Mexico: An overview"
+9643,Johnson,2001,yes,1,FOREST ECOLOGY AND MANAGEMENT 147:245-252,Carbon and nutrient storage in primary and secondary forests in eastern Amazonia
+9813,Giese,2000,yes,1,ECOLOGICAL ENGINEERING 15:S157-S170 ,Spatial and temporal patterns of carbon storage and species richness in three South Carolina coastal plain riparian forests
+9814,Wigginton,2000,yes,1,ECOLOGICAL ENGINEERING 15:S141-S155 ,Soil organic matter formation and sequestration across a forested floodplain chronosequence
+9835,Scott,2000,yes,1,CANADIAN JOURNAL OF FORESTRESEARCH 30:1246-1255,Carbon and nitrogen distribution and accumulation in a New Zealand scrubland ecosystem
+9892,Rhoades,2000,yes,1,ECOLOGICAL APPLICATIONS 10:497-505 ,"Soil carbon differences among forest, agriculture, and secondary vegetation in lower montane Ecuador"
+9956,Sommer,2000,yes,1,PLANT AND SOIL 219:231-241,"Carbon storage and root penetration in deep soils under small-farmer land-use systems in the Eastern Amazon region, Brazil"
+10007,Hughes,1999,yes,1,ECOLOGY 80:1892-1907  ,"Biomass, carbon, and nutrient dynamics of secondary forests in a humid tropical region of Mexico"
+10030,de Camargo,1999,yes,1,GLOBAL CHANGE BIOLOGY 5:693-702,Soil carbon dynamics in regrowing forest of eastern Amazonia
+10323,Guariguata,1997,yes,1,PLANT ECOLOGY 132:107-120 ,Structure and floristics of secondary and old-growth forest stands in lowland Costa Rica
+10508,Juo,1996,yes,1,PLANT AND SOIL 180:209-217,Soil properties and crop performance on a kaolinitic Alfisol after 15 years of fallow and continuous cultivation
+10570,Montagnini,1995,yes,1,JOURNAL OF APPLIED ECOLOGY 32:841-856,"The potentials of 20 indigenous tree species for soil rehabilitation in the Atlantic forest region of Bahia, Brazil"
+10823,Faber-Langendoen,1992,yes,1,FOREST ECOLOGY AND MANAGEMENT 53:213-244,"ECOLOGICAL CONSTRAINTS ON RAIN-FOREST MANAGEMENT AT BAJO CALIMA, WESTERN COLOMBIA"
+10854,COOK,1992,yes,1,SOIL BIOLOGY & BIOCHEMISTRY 24:585-594,DISSOLVED ORGANIC-CARBON IN OLD FIELD SOILS - TOTAL AMOUNTS AS A MEASURE OF AVAILABLE RESOURCES FOR SOIL MINERALIZATION
+10860,LUGO,1992,yes,1,ECOLOGICAL MONOGRAPHS 62:1-41 ,COMPARISON OF TROPICAL TREE PLANTATIONS WITH SECONDARY FORESTS OF SIMILAR AGE
+10887,CUEVAS,1991,yes,1,PLANT AND SOIL 135:257-268,ABOVEGROUND AND BELOWGROUND ORGANIC-MATTER STORAGE AND PRODUCTION IN A TROPICAL PINE PLANTATION AND A PAIRED BROADLEAF SECONDARY FOREST
+10940,Vester,1998,yes,1,Flora 193:75–97,"Tree architecture and secondary tropical rain forest development - a case study in Araracuara, Colombian Amazoni"
+10949,Piotto,2011,yes,1,"PhD Thesis. Yale University. Spatial dynamics of forest recovery after swidden cultivation in the Atlantic forest of southern Bahia, Brazil.",Spatial Dynamics of Forest Recovery after Swidden Cultivation in the Atlantic Forest of Southern Bahia
+10968,Uhl,1984,yes,1,Ecology 65:1476–1490 ,Succession and nutrient dynamics following forest cutting and burning in Amazonia
+10972,Cifuentes-Jara,2008,yes,1,PhD Thesis. Oregon State University,Aboveground Biomass and Ecosystem Carbon Pools in Tropical Secondary Forests Growing in Six Life Zones of Costa Rica
+11111,Williams-Linera,1983,yes,1,Biotropica 15: 275-284 ,"Biomass and nutrient content in two successional stages of tropical wet forest in Uxpanapa, Mexico."
+11166,Uri,2012,yes,1,Forest Ecology and Management 267:117-126,Biomass production and carbon sequestration in a fertile silver birch forest chronosequence
+11189,Ibrahim,2006,yes,1,Agroforestería en las Américas 45:27-36,"Almacenamiento de Carbono en el suelo y la biomasa arbórea en sistemas de usos de la tierra en paisajes ganaderos de Colombia, Costa Rica y Nicaragua"
+11204,Palm,1999,yes,1,"In:Ericksen (ed). ASB Climate Change Working Group Final Report Phase II. Nairobi,Kenya",Carbon sequestration and trace gas emissions in slash-and-burn and alternative land-uses in the humid tropics
+11231,Buschbacher,1988,yes,1,Journal of Ecology 76:682-699,Abandoned pastures in eastern Amazonia II. Nutrient stocks in the soil and vegetation
+11256,Sierra,2012,yes,1,Carbon Balance and Management 7:12,Total carbon accumulation in a tropical forest landscape
+11282,Boone,1988,yes,1,Ecology 69:714-722,Stand and soil changes along a Mountain Hemlock death and regrowth sequence
+11293,Fukushima,2007,yes,1,Southeast Asian Studies 45:317-333,"Recovery Process of Fallow Vegetation in the Traditional Karen Swidden Cultivation System in the Bago Mountain Range, Myanmar"
+11295,Gough,2007,yes,1,Global Change Biology 13:1935-1949,The legacy of harvest and fire on ecosystem carbon storage in a north temperate forest
+11300,Grier,1981,yes,1,Can. J. For. Res. 11:155-167,Biomass distribution and above-and below-ground production in young and mature Abies amabilis zone ecosystems of the Washington Cascades
+11305,Hooker,2003,yes,1,Ecological Applications 13:299-313,Forest ecosystem carbon and nitrogen accumulation during the first century after agricultural abandonment
+11319,Law,2001,yes,1,Global Change Biology 7:755-777,Carbon storage and fluxes in ponderosa pine forests at different developmental stages
+11321,Litton,2004,yes,1,Ecological Applications 14:460-475,Effects of tree density and stand age on carbon allocation patterns in postfire lodgepole pine
+11323,Martin,2005,yes,1,Biogeochemistry 73:149-182,"Annual soil respiration in broadleaf forests of northern Wisconsin: influence of moisture and site biological, chemical, and physical characteristics"
+11346,Rothstein,2004,yes,1,Can. J. For. Res. 34:1908–1918,Loss and recovery of ecosystem carbon pools following stand-replacing wildfire in Michigan jack pine forests
+11366,Wirth,2002,yes,1,Plant and Soil 242:41-63,Fire and site type effects on the long-term carbon and nitrogen balance in pristine Siberian Scots pine forests
+11369,Yanai,2006,yes,1,Can. J. For. Res. 36:450–459,The vertical and horizontal distribution of roots in northern hardwood stands of varying age. 
+11447,Brown,1990,yes,1,Plant and Soil 124:53-64,Effects of forest clearing and succession on the carbon and nitrogen content of soils in Puerto Rico and US Virgin Islands
+11448,Lugo,1986,yes,1,Plant and Soil 96:185-196,Land use and organic carbon content of some subtropical soils
+11449,Wadsworth,1990,yes,1,Plant and Soil 122:151-156,Effects of length of forest fallow on fertility dynamics in a Mexican ultisol
+11450,Werner,1984,yes,1,Biotropica 16:43-50,Changes in soil properties during tropical wet forest succession in Costa Rica
+11480,Gower,1997,yes,1,Journal of Geophysical Research 102:29029-29041,"Carbon distribution and aboveground net primary production in aspen, jack pine, and black spruce stands in Saskatchewan and Manitoba, Canada"
+11500,Armolaitis,2011,yes,1,ZEMDIRBYSTE-AGRICULTURE 98:275-282,Renaturalization of Arenosols in the land afforested with Scots pine (Pinus sylvestris L.) and abandoned arable land
+11503,Davis,2003,yes,1,Forest Ecology and Management 177:313-321,Carbon storage along a stand development sequence in a New Zealand Nothofagus forest
+150,Myster,2017,yes,1,NEW ZEALAND JOURNAL OFFORESTRYSCIENCE 47:3,Gradient (elevation) vs. disturbance (agriculture) effects on primary cloud forest in Ecuador: floristics and physical structure
+270,Ali,2017,yes,1,Science of Total Environment,Community-weighted mean of leaf traits and divergence of wood traits predict aboveground biomass in secondary subtropical forests
+414,Yazaki,2016,yes,1,FORESTS 7:-,Biomass Accumulation and Net Primary Production during the Early Stage of Secondary Succession after a Severe Forest Disturbance in Northern Japan
+661,Chan,2016,yes,1,MOUNTAIN RESEARCH AND DEVELOPMENT 36:320-331,The Transition Away From Swidden Agriculture and Trends in Biomass Accumulation in Fallow Forests
+856,Silva,2016,yes,1,ACTA AMAZONICA 46:133-150 ,Floristic and structure of an Amazonian primary forest and a chronosequence of secondary succession
+1000,Ishihara,2016,yes,1,PLOS ONE 11:e0152219,A New Model for Size-Dependent Tree Growth in Forests
+1008,Otuoma,2016,yes,1,FOREST ECOLOGY AND MANAGEMENT 365:61-68,Determinants of aboveground carbon offset additionality in plantation forests in a moist tropical forest in western Kenya
+1026,Spracklen,2016,yes,1,FOREST ECOLOGY AND MANAGEMENT 364:139-144,Carbon storage and sequestration of re-growing montane forests in southern Ecuador
+1031,Mukul,2016,yes,1,SCIENTIFIC REPORTS 6:22483,Tropical secondary forests regenerating after shifting cultivation in the Philippines uplands are important carbon sinks
+1097,Poorter,2016,yes,1,NATURE 530:211-+  ,Biomass resilience of Neotropical secondary forests
+1436,McNicol,2015,yes,1,FOREST ECOLOGY AND MANAGEMENT 357:104-116,Development of allometric models for above and belowground biomass in swidden cultivation fallows of Northern Laos
+1819,Wandelli,2015,yes,1,FOREST ECOLOGY AND MANAGEMENT 347:140-148,Secondary vegetation in central Amazonia: Land-use history effects on aboveground biomass
+1945,Fortier,2015,yes,1,JOURNAL OF ENVIRONMENTAL MANAGEMENT 154:333-345,"Biomass carbon, nitrogen and phosphorus stocks in hybrid poplar buffers, herbaceous buffers and natural woodlots in the riparian zone on agricultural land"
+2161,Martinez-Sanchez,2015,yes,1,ECOSCIENCE 22:125-131  ,Relationship between structural diversity and carbon stocks in humid and sub-humid tropical forest of Mexico
+2244,Bertolin,2015,yes,1,FIRE ECOLOGY 11:32-54 ,"FIRE EMISSIONS AND CARBON UPTAKE IN SEVERELY BURNED LENGA BEECH (NOTHOFAGUS PUMILIO) FORESTS OF PATAGONIA, ARGENTINA"
+2255,Hytonen,2015,yes,1,SILVA FENNICA 49:1-16,Biomass production of coppiced grey alder and the effect of fertilization
+2287,Atkinson,2015,yes,1,FOREST ECOLOGY AND MANAGEMENT 335:270-280,"Land use legacy effects on structure and composition of subtropical dry forests in St. Croix, US Virgin Islands"
+2298,Mora,2014,yes,1,BIOTROPICA 47:38-48  ,Testing Chronosequences through Dynamic Approaches: Time and Site Effects on Tropical Dry Forest Succession
+2771,Becknell,2014,yes,1,CANADIAN JOURNAL OF FOREST RESEARCH 44:604-613,Stand age and soils as drivers of plant functional traits and aboveground biomass in secondary tropical dry forest
+2850,Costa,2014,yes,1,PLANT AND SOIL 378:113-123,Root and shoot biomasses in the tropical dry forest of semi-arid Northeast Brazil
+3037,Bu,2014,yes,1,ACTA OECOLOGICA 55:1-7  ,Field observed relationships between biodiversity and ecosystem functioning during secondary succession in a tropical lowland rainforest
+3120,Wei,2014,yes,1,PHYTON-INTERNATIONAL JOURNAL OF EXPERIMENTALBOTANY83:213-223,"The nutrient accumulation pattern and cycling in natural secondary forests in North China. A case study from the Caijiachuan watershed, Shanxi Province"
+3510,Kalaba,2013,yes,1,FOREST ECOLOGY AND MANAGEMENT 304:99-109,"Floristic composition, species diversity and carbon storage in charcoal and agriculture fallows and management implications in Miombo woodlands of Zambia"
+3514,Chan,2013,yes,1,FOREST ECOLOGY AND MANAGEMENT304:427-436,"Establishment of allometric models and estimation of biomass recovery of swidden cultivation fallows in mixed deciduous forests of the Bago Mountains, Myanmar"
+3586,Pena,2013,yes,1,FOREST ECOLOGY AND MANAGEMENT 302:54-61,"Patterns of stocks of aboveground tree biomass, dynamics, and their determinants in secondary Andean forests"
+3701,Giday,2013,yes,1,JOURNAL OF ARID ENVIRONMENTS 94:80-86,"Wood biomass functions for Acacia abyssinica trees and shrubs and implications for provision of ecosystem services in a community managed exclosure in Tigray, Ethiopia"
+3953,Zhang,2013,yes,1,SOIL BIOLOGY & BIOCHEMISTRY57:803-813,"Linking litter production, quality and decomposition to vegetation succession following agricultural abandonment"
+4241,Martins,2012,yes,1,JOURNAL OF TROPICAL ECOLOGY 28:591-601,Effects of fire on above-ground forest biomass in the northern Brazilian Amazon
+4262,Raharimalala,2012,yes,1,JOURNAL OF TROPICAL FORESTSCIENCE 24:474-489,"QUANTIFYING BIOMASS OF SECONDARY FOREST AFTER SLASH-AND-BURN CULTIVATION IN CENTRAL MENABE, MADAGASCAR"
+4476,Huffman,2012,yes,1,FOREST ECOLOGY AND MANAGEMENT274:29-37,Influence of time since fire on pinyon-juniper woodland structure
+4810,Carswell,2012,yes,1,NEW ZEALAND JOURNAL OFECOLOGY36:191-202,Carbon and plant diversity gain during 200 years of woody succession in lowland New Zealand
+4839,Hilje,2012,yes,1,Tropical Conservation Science 5:25-37,Calling activity of the common tink frog (Diasporus diastema) (Eleutherodactylidae) in secondary forests of the Caribbean of Costa Rica
+5196,Brearley,2011,yes,1,JOURNAL OF TROPICAL ECOLOGY27:413-420,Below-ground secondary succession in tropical forests of Borneo
+5307,d'Oliveira,2011,yes,1,FOREST ECOLOGY AND MANAGEMENT 261:1490-1498,Forest natural regeneration and biomass production after slash and burn in a seasonally dry forest in the Southern Brazilian Amazon
+5380,Hernandez-Stefanoni,2011,yes,1,LANDSCAPE ECOLOGY 26:355-370 ,Influence of landscape structure and stand age on species density and biomass of a tropical dry forest across spatial scales
+5457,Goulden,2011,yes,1,GLOBAL CHANGE BIOLOGY 17:855-871,"Patterns of NPP, GPP, respiration, and NEP during boreal forest succession"
+5479,Omeja,2011,yes,1,TROPICAL CONSERVATION SCIENCE 4:287-299,Fire control as a simple means of promoting tropical forest restoration
+5641,Mendoza-Ponce,2010,yes,1,FORESTRY 83:497-506  ,Aboveground and belowground biomass and carbon pools in highland temperate forest landscape in Central Mexico
+5848,Kenzo,2010,yes,1,FOREST ECOLOGY AND MANAGEMENT260:875-882,"Changes in above- and belowground biomass in early successional tropical secondary forests after shifting cultivation in Sarawak, Malaysia"
+5876,Siddique,2010,yes,1,ECOLOGY 91:2121-2131  ,Nitrogen and phosphorus additions negatively affect tree species diversity in tropical forest regrowth trajectories
+5891,Ohtsuka,2010,yes,1,JOURNAL OF PLANT RESEARCH123:393-401,Carbon cycling and net ecosystem production at an early stage of secondary succession in an abandoned coppice forest
+6058,Tran,2010,yes,1,FOREST ECOLOGY AND MANAGEMENT259:1650-1659,Recovery process of a mountain forest after shifting cultivation in Northwestern Vietnam
+6413,Powers,2009,yes,1,FOREST ECOLOGY AND MANAGEMENT258:959-970,Diversity and structure of regenerating tropical dry forests in Costa Rica: Geographic patterns and environmental drivers
+6420,Letcher,2009,yes,1,BIOTROPICA 41:608-617  ,"Rapid Recovery of Biomass, Species Richness, and Species Composition in a Forest Chronosequence in Northeastern Costa Rica"
+6576,Shoch,2009,yes,1,WETLANDS 29:535-542  ,"CARBON STORAGE OF BOTTOMLAND HARDWOOD AFFORESTATION IN THE LOWER MISSISSIPPI VALLEY, USA"
+6887,Slik,2008,yes,1,OECOLOGIA 158:579-588  ,"Tree diversity, composition, forest structure and aboveground biomass dynamics after single and repeated fire in a Bornean rain forest"
+6952,Koul,2008,yes,1,CURRENT SCIENCE 95:658-663 ,Prioritizing land-management options for carbon sequestration potential
+7037,Lebrija-Trejos,2008,yes,1,BIOTROPICA 40:422-431  ,Successional change and resilience of a very dry tropical deciduous forest following shifting agriculture
+7176,Fukushima,2008,yes,1,FOREST ECOLOGY AND MANAGEMENT255:1994-2006,Secondary forest succession after the cessation of swidden cultivation in the montane forest area in Northern Thailand
+7632,Marin-Spiotta,2007,yes,1,ECOLOGICAL APPLICATIONS 17:828-839 ,Long-term patterns in tropical reforestation: Plant community composition and aboveground biomass accumulation
+7716,Bermudez,2007,yes,1,ANNALS OF FOREST SCIENCE64:109-119,Floristic and structural recovery of a laurel forest community after clear-cutting: A 60 years chronosequence on La Palma (Canary Islands)
+7948,Eaton,2006,yes,1,FOREST ECOLOGY AND MANAGEMENT232:46-55,Woody debris stocks and fluxes during succession
+7995,Hiratsuka,2006,yes,1,JARQ 40:277-282,"Biomass recovery of naturally regenerated vegetation after the 1998 forest fire in East Kalimantan, Indonesia"
+8082,Jepsen,2006,yes,1,FOREST ECOLOGY AND MANAGEMENT 225:287-295,"Above-ground carbon stocks in tropical fallows, Sarawak, Malaysia"
+8254,Sigurdsson,2005,yes,1,ANNALS OF FOREST SCIENCE62:881-888,Biomass and composition of understory vegetation and the forest floor carbon stock across Siberian larch and mountain birch chronosequences in Iceland
+8257,Ruiz,2005,yes,1,BIOTROPICA 37:520-530  ,"Vegetation structure, composition, and species richness across a 56-year chronosequence of dry tropical forest on Providencia island, Colombia"
+8366,Neeff,2005,yes,1,FOREST ECOLOGY AND MANAGEMENT 216:270-282,A growth model for secondary forest in Central Amazonia
+8376,Gehring,2005,yes,1,JOURNAL OF TROPICAL ECOLOGY 21:519-527,Resilience of secondary forest regrowth after slash-and-burn agriculture in central Amazonia
+8587,Lawrence,2005,yes,1,ECOLOGY 86:26-33  ,Biomass accumulation after 10-200 years of shifting cultivation in bornean rain forest
+8739,Davidson,2004,yes,1,ECOLOGICAL APPLICATIONS 14:S150-S163 ,Nitrogen and phosphorus limitation of biomass growth in a tropical secondary forest
+8870,White,2004,yes,1,FOREST ECOLOGY AND MANAGEMENT191:121-127,Biomass accumulation and soil nitrogen availability in an 87-year-old Populus grandidentata chronosequence
+8882,Campo,2004,yes,1,ECOSYSTEMS 7:311-319  ,"Effects of nutrient limitation on aboveground carbon dynamics during tropical dry forest regeneration in Yucatan, Mexico"
+8898,Thenkabail,2004,yes,1,REMOTE SENSING OF ENVIRONMENT 90:23-43,"Hyperion, IKONOS, ALI, and ETM plus sensors in the study of African rainforests"
+8996,Pena-Claros,2003,yes,1,BIOTROPICA 35:450-461  ,Changes in forest structure and species composition during secondary forest succession in the Bolivian Amazon
+9020,Vieira,2003,yes,1,REMOTE SENSING OF ENVIRONMENT87:470-481,Classifying successional forests using Landsat spectral properties and ecological characteristics in eastern Amazonia
+9111,Jaramillo,2003,yes,1,JOURNAL OF TROPICAL ECOLOGY19:457-464,Root biomass and carbon in a tropical evergreen forest of Mexico: changes with secondary succession and forest conversion to pasture
+9222,Litton,2003,yes,1,CANADIAN JOURNAL OF FORESTRESEARCH-REVUECANADIENNEDERECHERCHEFORESTIERE33:351-363,Belowground and aboveground biomass in young postfire lodgepole pine forests of contrasting tree density
+9224,Read,2003,yes,1,ECOLOGICAL APPLICATIONS 13:85-97 ,Recovery of biomass following shifting cultivation in dry tropical forests of the Yucatan
+9387,Carmona,2002,yes,1,FOREST ECOLOGY AND MANAGEMENT164:265-275,"Coarse woody debris biomass in successional and primary temperate forests in Chiloe Island, Chile"
+9395,Fehse,2002,yes,1,FOREST ECOLOGY AND MANAGEMENT163:9-25,High altitude tropical secondary forests: a competitive carbon sink?
+9396,Schroth,2002,yes,1,FOREST ECOLOGY AND MANAGEMENT 163:131-150,"Conversion of secondary forest into agroforestry and monoculture plantations in Amazonia: consequences for biomass, litter and soil carbon stocks after 7 years"
+9458,Manlay,2002,yes,1,AGRICULTURE ECOSYSTEMS & ENVIRONMENT 88:215-232,"Carbon, nitrogen and phosphorus allocation in agro-ecosystems of a West African savanna I. The plant component under semi-permanent cultivation"
+9484,Janisch,2002,yes,1,TREE PHYSIOLOGY 22:77-89 ,Successional changes in live and dead wood carbon stores: implications for net ecosystem productivity
+9525,Kennard,2002,yes,1,JOURNAL OF TROPICAL ECOLOGY18:53-66,Secondary forest succession in a tropical dry forest: patterns of development across a 50-year chronosequence in lowland Bolivia
+9567,Zarin,2001,yes,1,ECOSYSTEMS 4:658-668  ,Potential biomass accumulation in Amazonian regrowth forests
+9665,Simard,2001,yes,1,CANADIAN JOURNAL OF SOILSCIENCE81:229-237,Impacts of clearcut harvesting and wildfire on soil nutrient status in the Quebec boreal forest
+9783,Aide,2000,yes,1,RESTORATION ECOLOGY 8:328-338 ,Forest regeneration in a chronosequence of tropical abandoned pastures: Implications for restoration ecology
+9825,Steininger,2000,yes,1,JOURNAL OF TROPICAL ECOLOGY16:689-708,Secondary forest structure and biomass following short and extended land-use in central and southern Amazonia
+9848,Salimon,2000,yes,1,INTERCIENCIA 25:198-202  ,Secondary forests in western Amazonia: Significant sinks for carbon released from deforestation?
+9898,Sorrensen,2000,yes,1,FOREST ECOLOGY AND MANAGEMENT128:11-25,Linking smallholder land use and fire activity: examining biomass burning in the Brazilian Lower Amazon
+10039,Li,1999,yes,1,PLANT ECOLOGY 143:13-21 ,Secondary succession in two subtropical forests
+10302,Kotto-Same,1997,yes,1,AGRICULTURE ECOSYSTEMS & ENVIRONMENT 65:245-256,Carbon dynamics in slash-and-burn agriculture and land use alternatives of the humid forest zone in Cameroon
+10314,Alves,1997,yes,1,GLOBAL CHANGE BIOLOGY 3:451-461,"Biomass of primary and secondary vegetation in Rondonia, Western Brazilian Amazon"
+10506,Nykvist,1996,yes,1,JOURNAL OF TROPICAL ECOLOGY 12:307-312,Regrowth of secondary vegetation after the 'Borneo fire' of 1982-1983
+10589,AIDE,1995,yes,1,FOREST ECOLOGY AND MANAGEMENT 77:77-86,FOREST RECOVERY IN ABANDONED TROPICAL PASTURES IN PUERTO-RICO
+10656,USOLTSEV,1995,yes,1,SCANDINAVIAN JOURNAL OF FORESTRESEARCH10:305-312,STAND BIOMASS DYNAMICS OF PINE PLANTATIONS AND NATURAL FORESTS ON DRY STEPPE IN KAZAKHSTAN
+10720,CROWELL,1994,yes,1,CANADIAN JOURNAL OF FORESTRESEARCH-REVUECANADIENNEDERECHERCHEFORESTIERE24:260-271,VEGETATION DEVELOPMENT IN A HARDWOOD-FOREST CHRONOSEQUENCE IN NOVA-SCOTIA
+10806,MOU,1993,yes,1,JOURNAL OF APPLIED ECOLOGY30:661-675,EFFECTS OF SOIL DISTURBANCE ON VEGETATION RECOVERY AND NUTRIENT ACCUMULATION FOLLOWING WHOLE-TREE HARVEST OF A NORTHERN HARDWOOD ECOSYSTEM
+10809,REINERS,1992,yes,1,ECOLOGICAL MONOGRAPHS 62:503-523 ,20 YEARS OF ECOSYSTEM REORGANIZATION FOLLOWING EXPERIMENTAL DEFORESTATION AND REGROWTH SUPPRESSION
+10851,JOHANSSON,1992,yes,1,JOURNAL OF VEGETATION SCIENCE 3:401-406,REGENERATION OF CLEARED ACACIA-ZANZIBARICA BUSHLAND IN KENYA
+10938,Junqueira,2010,yes,1,Biodivers. Conserv. 19:1933–1961,Secondary forests on anthropogenic soils conserve agrobiodiversity
+10939,Cabral,2013,yes,1,Revista Brasileira de Geografia Fisica 6:566–574,"Estrutura espacial e biomassa da parte aérea em diferentes estádios successionais de caatinga, em Santa Terezinha, Paraíba."
+10942,Saldarriaga,1988,yes,1,Journal of Ecology 76:938–958,"Long-term chronosequence of forest succession in the upper Rio Negro of Colombia and Venezuela. J. Ecol. 76, 938–958"
+10943,van Breugel,2006,yes,1,Journal of Tropical Ecology 22:663–674,Community dynamics during early secondary succession in Mexican tropical rain forests
+10944,van Breugel,2013,yes,1,PLoS ONE 8:e82433,Succession of ephemeral secondary forests and their limited role for the conservation of floristic diversity in a human-modified tropical landscape
+10945,Denslow,2000,yes,1,Journal of Vegetation Science 11:201–212,"Variation in stand structure, light and seedling abundance across a tropical moist forest chronosequence, Panama"
+10946,Dupuy,2012,yes,1,Biotropica 44:151–162 ,"Patterns and correlates of tropical dry forest structure and composition in a highly replicated chronosequence in Yucatan, Mexico"
+10951,Madeira,2009,yes,1,Plant Ecol 201:291–304,Changes in tree and liana communities along a successional gradient in a tropical dry forest in south-eastern Brazil
+10965,Naughton-Treves,2001,yes,1,J Sustainable Forestry 14:19-32,Fuelwood resources and forest regeneration on Fallow Land in Uganda
+10966,Toky,1983,yes,1,Journal of Ecology 71:735–745.,"Secondary succession following slash and burn agriculture in northeastern India. 1. Biomass, litterfall and productivity."
+10969,Uhl,1988,yes,1,Journal of Ecology 76:663-681,Abandoned pastures in Eastern Amazonia. 1. Patterns of plant succession.
+10971,Vargas,2008,yes,1,Global Change Biology 14:109–124,Biomass and carbon accumulation in a fire chronosequence of a seasonally dry tropical forest
+11064,Toledo,2006,yes,1,Biotropica 38: 161–170 ,Secondary succession and indigenous management in semideciduous forest fallows of the Amazon basin
+11079,McMahon,2010,yes,1,PNAS 107:3611-3615 ,Evidence for a recent increase in forest growth
+11093,Crow,1980,yes,1,Biotropica 12:42-55 ,"A rainforest chronicle: a 30-year record of change in structure and composition at El Verde, Puerto Rico."
+11101,Pare,1995,yes,1,Journal of Ecology 83:1001-1007,Above-ground biomass accumulation along a 230-year chronosequence in the southern portion of the Canadian boreal forest.
+11107,Sprugel,1984,yes,1,Ecological Monographs 54:165-186,"Density, biomass, productivity, and nutrient-cycling changes during stand development in wave-regenerated balsam fir forests"
+11110,Wang,1995,yes,1,Forest Ecology and Management 78:127-138,"Aboveground biomass and nutrient accumulation in an age sequence of aspens (Populus tremuloides) stands in the boreal white and black spruce zone, British Columbia."
+11120,Frouz,2008,yes,1,European Journal of Soil Biology 44:109–121,"Interactions between soil development, vegetation and soil fauna during spontaneous succession in post mining sites"
+11149,Chazdon,2005,yes,1,Ecology 86:1808–15.  ,Effects of climate and stand age on annual tree dynamics in tropical second growth rain forests
+11253,Bartholomew,1953,yes,1,Publications de L’Institut National Pour L'Etude Agronomique du Congo Belge 57:3-27,Mineral nutrient immobilization under forest and grass fallow in the Yangambi (Belgian Congo) region with some preliminary results on the decomposition of plant material on the forest floor
+11257,Schongart,2010,yes,1,"Amazonian Floodplain Forests. Ecophysiology, Biodiversity and Sustainable Management. Ecological Studies 210. ",Biomass and Net Primary Production of Central Amazonian Floodplain Forests
+11258,Aththorick,2012,yes,1,Biodiversitas 13:92-97 ,"Vegetation stands structure and aboveground biomass after the shifting cultivation practices of Karo People in Leuser Ecosystem, North Sumatra"
+11269,Nygard,2004,yes,1,Forest Ecology and Management 189:77-85,Wood-fuel yields in short-rotation coppice growth in the north Sudan savanna in Burkina Faso
+11302,Helmisaari,1995,yes,1,Plant and Soil 168/169:327-336,Nutrient cycling in Pinus sylvestris stands in eastern Finland
+11312,Kauffman,1988,yes,1,Oikos 53:167-175,Fire in the Venezuelan Amazon 1: Fuel Biomass and Fire Chemistry in the Evergreen Rainforest of Venezuela
+11360,Uhl,1990,yes,1,Ecology 71:437-449,"Deforestation, Fire Susceptibility, and Potential Tree Responses to Fire in the Eastern Amazon"
+11408,Gilroy,2014,yes,1,Nature Climate Change DOI:10.1038/NCLIMATE22,Cheap carbon and biodiversity co-benefits from forest regeneration in a hotspot of endemism
+11419,Guo,2014,yes,1,GLOBAL ECOLOGY AND BIOGEOGRAPHY 23:1461-1471,Productivity as related to diversity and age in planted versus natural forests
+11440,Moran,2000,yes,1,Forest Ecology and Management 139:93-108,Effects of soil fertility and land-use on forest succession in Amazonia
+11453,Roth,1994,yes,1,Ecological Applications 4:426-436,Large-vertebrate assemblages of primary and secondary forests in the Brazilian Amazon
+11454,Ryan,1997,yes,1,Journal of Geophysical Research 102:28871-28883,Annual carbon cost of autotrophic respiration in boreal forest ecosystems in relation to species and climate. 
+11465,Toma,2005,yes,1,Nutrient Cycling in Agroecosystems 71:63-72,"Long-term monitoring of post-fire aboveground biomass recovery in a lowland dipterocarp forest in East Kalimantan, Indonesia"
+11475,Ewel,1983,yes,1,Malaysian Forester 46:347-364,Biomass and floristics of three young second-growth forests in Sarawak.
+11481,Krankina ,1999,yes,1,"Data set. Available on-line [https://doi.org/10.3334/ORNLDAAC/467 ORNL DAAC] from Oak Ridge National Laboratory Distributed Active Archive Center, Oakridge, Tennessee, USA.","NPP Boreal Forest: Siberian Scots Pine Forests, Russia, 1968-1974."
+11494,Li,1995,yes,1,"Researches on Tropical Forest Ecosystems in Jianfengling of China, Chinese Academy of Forestry, International Tropical Timber Organization, Forestry Bureau of Hainan Province, China Forestry Publishing House, Beijing 1995","Study on biomass of tropical mountain rain forest in Jianfengling, Hainan Island"
+11501,Turner,1981,yes,1,Annals of Botany 48:159-169,Nutrient cycling in an age sequence of western Washington Douglas-fir stands
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,

@@ -1,0 +1,2372 @@
+site.id,study.id,site.sitename,site.state,site.country,lat_dec,long_dec,elevation,AMT,AMP,soil.classification
+2112,150,Maquipucuna,,Ecuador,0.083333,-78.616667,1200,18,3198,Andisols
+2150,222,Tonaya/El Temazcal,Jalisco,Mexico,19.7,-103.9,990,NA,650,Regosols/Lithosols
+2405,246,Upland area between Kinabalu/Crocker Range Park,Sabah,Malaysia,5.993611,116.461944,1150,19.5,2250,NA
+3006,270,Siming Mountain,Zhejiang Province,China,29.758333,121.733333,NA,NA,1375,Ferralsols
+2082,390,Mulun National Nature Reserve,Guangxi Zhuang Autonomous Region,China,25.15,107.983333,NA,16.9,1675,lithosols
+319,414,Tomakomai,Hokkaido,Japan,42.733333,141.516667,125,7.6,1198,regosol
+2153,557,Atherton Tablelands,,Australia,-17.425556,145.603611,775,NA,1670,ferrosols/dermosols
+2504,661,Matupi,Chin,Myanmar,21.600833,93.449722,900,21,1454,fluvisol
+3860,851,Lianjiabian F1,Gansu Province,China,36.036389,108.523056,1450,10,587,NA
+3862,851,Lianjiabian F3,Gansu Province,China,36.049444,108.537222,1449,10,587,NA
+3861,851,Lianjiabian F2,Gansu Province,China,36.051389,108.542222,1437,10,587,NA
+3859,851,Lianjiabian S,Gansu Province,China,36.070556,108.533611,1354,10,587,NA
+2079,851,Lianjiabian G1,Gansu Province,China,36.084444,108.526944,1348,10,587,NA
+3858,851,Lianjiabian G2,Gansu Province,China,36.085833,108.5275,1365,10,587,NA
+2332,856,Tapajós National Forest,Para,Brazil,-3.040833,-54.905278,NA,25,1820,Latosols/Red Yellow Podzolic
+3816,995,Lianjiabian Forest Farm chronosequence 3,Gansu Province,China,35.833333,108.733333,1375,7.4,587,NA
+3863,995,Zhifanggou watershed chronosequence 1/2,Shaanxi Province,China,36.775,109.25,1255,9.1,503,NA
+2385,1000,Bibai,Hokkaido,Japan,43.266667,141.866667,210,6.4,1151,NA
+2383,1000,Tohbetsu,Hokkaido,Japan,43.516667,141.633333,370,6.4,1151,NA
+2382,1000,Ashibetsu,Hokkaido,Japan,43.616667,142.083333,550,6.4,1151,NA
+2386,1000,Okoppe 2,Hokkaido,Japan,44.283333,142.95,190,6.4,1151,NA
+2384,1000,Okoppe 1,Hokkaido,Japan,44.35,143.05,200,6.4,1151,NA
+3628,1008,Kakamega Forest,,Kenya,0.258333,34.875,1600,25,1750,NA
+2016,1026,Tapichalaca,NA,Ecuador,-4.5,-79.1,2250,18.7,1250,NA
+2015,1026,Buenaventura,El Oro,Ecuador,-3.7,-79.7,659,22.5,1475,NA
+2354,1031,Barangay Gaas,Leyte Island,Philippines,10.424794,123.752959,550,28,4000,Andisols
+14,1097,Sao Paulo,NA,Brazil,-22.32,-47.57,NA,NA,1367,NA
+15,1097,Serra do Cipo,,Brazil,-19.35,-43.62,NA,NA,1519,NA
+7,1097,Cajueiro,,Brazil,-14.98,-43.9,NA,NA,840,NA
+11,1097,Marques de Comillas,Chiapas,Mexico,16.33,-90.67,NA,NA,2250,NA
+9,1097,Lacandona,,Mexico,16.54,-90.96,NA,NA,2500,NA
+16,1097,Zona Norte,,Mexico,17.27,-91.66,NA,NA,2750,NA
+8,1097,Chinantla,,Mexico,17.75,-96.65,NA,NA,3700,NA
+3821,1222,Kambja,,Estonia,58.233333,26.733333,NA,NA,NA,Glossic-Podzoluviol
+2302,1394,Mulinzi National Nature Reserve,Hubei Province,China,30.041667,110.133333,1598,15.5,1733,Alfisols
+2175,1436,Moungmouay,Luang Prabang Province,Laos,20.271111,103.048611,600,21,1550,Ultisol
+3867,1599,Lianjiabian S4,Gansu Province,China,36.049167,108.528056,1447,7.4,587,NA
+2077,1599,Lianjiabian S0,Gansu Province,China,36.074167,108.418056,1482,7.4,587,NA
+3865,1599,Lianjiabian S2,Gansu Province,China,36.081111,108.530556,1347,7.4,587,NA
+3866,1599,Lianjiabian S3,Gansu Province,China,36.087778,108.529722,1329,7.4,587,NA
+3864,1599,Lianjiabian S1,Gansu Province,China,36.088611,108.526667,1410,7.4,587,NA
+2110,1636,Itatiaia,Rio de Janeiro,Brazil,-22.466944,-44.581111,NA,NA,NA,Ultisols/Oxisols
+2061,1819,Turumã-Mirim 6,Amazonas,Brazil,-2.869266,-60.170369,NA,NA,2200,latosol
+2062,1819,Turumã-Mirim 7,Amazonas,Brazil,-2.834068,-60.159102,NA,NA,2200,latosol
+2060,1819,Turumã-Mirim 5,Amazonas,Brazil,-2.818505,-60.159235,NA,NA,2200,latosol
+2052,1819,Turumã-Mirim 20,Amazonas,Brazil,-2.817045,-60.104481,NA,NA,2200,latosol
+2053,1819,Turumã-Mirim 21,Amazonas,Brazil,-2.816963,-60.104897,NA,NA,2200,latosol
+2049,1819,Turumã-Mirim 12,Amazonas,Brazil,-2.815155,-60.106359,NA,NA,2200,latosol
+2066,1819,Turumã-Mirim 11,Amazonas,Brazil,-2.814336,-60.106469,NA,NA,2200,latosol
+2065,1819,Turumã-Mirim 10,Amazonas,Brazil,-2.81284,-60.105894,NA,NA,2200,latosol
+2059,1819,Turumã-Mirim 4,Amazonas,Brazil,-2.80602,-60.153937,NA,NA,2200,latosol
+2058,1819,Turumã-Mirim 3,Amazonas,Brazil,-2.803794,-60.154151,NA,NA,2200,latosol
+2057,1819,Turumã-Mirim 2,Amazonas,Brazil,-2.801333,-60.153363,NA,NA,2200,latosol
+2050,1819,Turumã-Mirim 18,Amazonas,Brazil,-2.799004,-60.106674,NA,NA,2200,latosol
+2051,1819,Turumã-Mirim 19,Amazonas,Brazil,-2.798581,-60.106514,NA,NA,2200,latosol
+2063,1819,Turumã-Mirim 8,Amazonas,Brazil,-2.798048,-60.104611,NA,NA,2200,latosol
+2056,1819,Turumã-Mirim 24,Amazonas,Brazil,-2.79738,-60.105455,NA,NA,2200,latosol
+2069,1819,Turumã-Mirim 15,Amazonas,Brazil,-2.797307,-60.105431,NA,NA,2200,latosol
+2070,1819,Turumã-Mirim 16,Amazonas,Brazil,-2.797022,-60.105893,NA,NA,2200,latosol
+2048,1819,Turumã-Mirim 1,Amazonas,Brazil,-2.796569,-60.152554,NA,NA,2200,latosol
+2068,1819,Turumã-Mirim 14,Amazonas,Brazil,-2.796306,-60.106016,NA,NA,2200,latosol
+2071,1819,Turumã-Mirim 17,Amazonas,Brazil,-2.796158,-60.10586,NA,NA,2200,latosol
+2067,1819,Turumã-Mirim 13,Amazonas,Brazil,-2.796142,-60.106183,NA,NA,2200,latosol
+2064,1819,Turumã-Mirim 9,Amazonas,Brazil,-2.793297,-60.115588,NA,NA,2200,latosol
+2055,1819,Turumã-Mirim 23,Amazonas,Brazil,-2.790535,-60.124866,NA,NA,2200,latosol
+2054,1819,Turumã-Mirim 22,Amazonas,Brazil,-2.790398,-60.125875,NA,NA,2200,latosol
+385,1879,Guzhou,Guangxi Province,China,24.908333,107.941667,508,19,1380,NA
+13978,1945,Magog,Quebec,Canada,45.255988,-72.152457,220,NA,NA,NA
+3538,1945,Roxton Falls,Quebec,Canada,45.569722,-72.531111,145,NA,NA,NA
+13979,1945,St. Isidore,Quebec,Canada,46.5804,-71.088414,420,NA,NA,NA
+2199,2046,Sungai Wain,East Kalimantan,Indonesia,-1.06,116.49,40,27,2250,Acrisols
+3789,2058,Heshan,Guangdong Province,China,22.566667,112.833333,NA,22.3,1688,ultisol
+3651,2148,Xishuangbanna National Tropical Rain Forest Reserve,Yunnan Province,China,21.85,100.766667,655,21.7,1512,latosol
+13961,2161,Ninos Heroes,,Mexico,17.25,-91.4,NA,26.5,3500,NA
+13959,2161,Rieles de San Jose,,Mexico,17.316667,-91.35,NA,26,3300,NA
+13960,2161,Veteranos de la Revolucion,,Mexico,17.383333,-91.35,NA,26,3300,NA
+2180,2161,Tila,,Mexico,17.45,-92.35,NA,22.1,3450,NA
+2179,2161,La Cuchilla,,Mexico,17.783333,-91.216667,NA,28,1500,NA
+13958,2161,Yumka,,Mexico,18,-92.816667,NA,26.9,2159,NA
+3732,2236,BR-174,Amazonas,Brazil,-2.533333,-60.033333,NA,NA,NA,Oxisols/Ferralsols
+3541,2236,Biological Dynamics of Forest Fragments Project,Amazonas,Brazil,-2.418611,-59.880833,NA,NA,NA,Oxisols/Ferralsols
+441,2244,La Colision,Chubut,Argentina,-42.95,-71.5,990,NA,NA,NA
+442,2244,La Torta,Chubut,Argentina,-42.85,-71.55,1140,NA,NA,NA
+2287,2255,Juuka Mineral,North Carelia,Finland,63.05,29.666667,130,NA,NA,NA
+2286,2255,Muhos Peatland,Ostrobothnia,Finland,64.866667,26.066667,75,NA,NA,NA
+13964,2287,Plantation Forest,US Virgin Islands,United States,17.736983,-64.753539,127,26.4,1060,Mollisols
+3759,2287,Young Pasture,US Virgin Islands,United States,17.739322,-64.784867,45,26.4,1060,Mollisols
+13967,2287,Old Pasture,US Virgin Islands,United States,17.74495,-64.774928,9,26.4,1060,Mollisols
+18,2298,Chamela-Cuixmala,Jalisco,Mexico,19.441667,-105,NA,24.6,788,NA
+3662,2382,Alto Beni,,Bolivia,-15.605278,-67.251389,439,24.7,1402,"cambisols, lixisols, acrisols"
+2161,2416,Tokaj Nagy-Hill,,Hungary,48.1175,21.38,247,8.5,617,cambisols
+3723,2542,Neoboschi,Trentino,Italy,45.94584,11.25148,1150,7.2,1278,cambisols
+3514,2735,Presidente Figueiredo DEGR,Amazonas,Brazil,-1.931111,-59.496389,56,NA,2550,Haplustox
+304,2771,Parque Nacional Palo Verde: area de Conservacion Tempisque,Guanacaste,Costa Rica,10.383618,-85.334663,NA,NA,1444,NA
+2444,2850,Tamanduá,Paraíba,Brazil,-6.995556,-37.323056,NA,28,700,Leptosol
+2242,2963,Huron,Michigan,United States,44.57,-83.98,NA,6.2,7500,Frigid Typic Udipsamments and Frigid Entic Haplorthods
+2243,2963,Ottawa,Michigan,United States,46.63,-89.25,NA,4.5,7700,Frigid Vertic Glossudalfs
+2241,2963,Chippewa,Minnesota,United States,47.32,-94.55,NA,3.8,6400,Frigid Haplic Glossudalfs
+19,3017,Molienda slash-and-burned forest recovery chronosequence,Pando,Bolivia,-11.441111,-69.158333,NA,NA,1800,NA
+434,3037,Bawangling,Hainan Island,China,19.033333,109.108333,519,23.6,1677,NA
+3703,3120,Caijiachuan watershed,Shanxi Province,China,36.266667,110.716667,1125,10,579,Carbonic acid cinnamon type
+13981,3217,Lianjiabian Pas,Gansu Province,China,36.048611,108.529167,1432,10,587,calcareous cinnamon soil
+13980,3217,Lianjiabian Ss,Gansu Province,China,36.082778,108.531389,1346,10,587,calcareous cinnamon soil
+2273,3217,Lianjiabian Afs,Gansu Province,China,36.084722,108.5325,1357,10,587,calcareous cinnamon soil
+2274,3217,Lianjiabian Hs,Gansu Province,China,36.088889,108.526944,1330,10,587,calcareous cinnamon soil
+243,3452,Agua Salud,,Panama,9.216667,-79.783333,NA,NA,2700,oxisol
+3884,3504,Sirchini Arable,,Russia,59.2,50.7,NA,1,550,Albeluvisol
+3885,3504,Sirchini Chronosequence,,Russia,59.216667,50.433333,NA,1,550,Albeluvisol
+2283,3510,Mwekera/Katanino,Copperbelt Province,Zambia,-13.208333,28.533333,1296,NA,1200,NA
+310,3514,Bago Mountain swidden cultivation fallows chronosequence,Bago,Myanmar,18.875,95.875,350,27,1900,Ultisol
+2122,3586,Miel NC2,Caldas,Colombia,5.553889,-74.9275,525,NA,5500,NA
+2125,3586,Miel NC5,Caldas,Colombia,5.554167,-74.893056,530,NA,5500,NA
+2124,3586,Miel NC4,Caldas,Colombia,5.561667,-74.913611,570,NA,5500,NA
+2121,3586,Miel NC1,Caldas,Colombia,5.563333,-74.904167,600,NA,5500,NA
+2123,3586,Miel NC3,Caldas,Colombia,5.565833,-74.9275,652,NA,5500,NA
+2129,3586,San Carlos EA4,Antioquia,Colombia,6.204444,-74.851389,955,NA,3000,NA
+2130,3586,San Carlos EA5,Antioquia,Colombia,6.220833,-74.85,790,NA,3000,NA
+2128,3586,San Rafael EA3,Antioquia,Colombia,6.358889,-75.0075,1330,NA,3540,NA
+2126,3586,San Rafael EA1,Antioquia,Colombia,6.373056,-75.025278,1300,NA,3540,NA
+2127,3586,San Rafael EA2,Antioquia,Colombia,6.391944,-75.038889,1280,NA,3540,NA
+3710,3646,Taihe County,Jiangxi Province,China,26.733333,115.066667,NA,18.6,1363,red clay
+2401,3701,Degu’a Tembien,Tigray,Ethiopia,13.583333,39.1,2450,19,749,NA
+3767,3748,Sobral,Ceara,Brazil,-3.683333,-40.333333,NA,27,821,Luvisol
+22,3773,El Ocote biosphere preserve,Chiapas,Mexico,16.955833,-93.630556,740,NA,2000,"Leptosols, Luvisols, Regosols"
+2229,3871,Xiaolongshan Mountain,Gansu Province,China,33.910556,106.195556,930,12.5,771,NA
+386,3953,Foping,,China,33.558333,107.833333,1207,11.8,1075,yellow brown
+3140,4045,Perloja Experimental Station,,Lithuania,54.166667,24.416667,NA,6.1,640,Arenosol
+13978,4149,Magog,Quebec,Canada,45.255988,-72.152457,220,NA,NA,NA
+3538,4149,Roxton Falls,Quebec,Canada,45.569722,-72.531111,145,NA,NA,NA
+13979,4149,St. Isidore,Quebec,Canada,46.5804,-71.088414,420,NA,NA,NA
+388,4241,Fire Arc,Roraima,Brazil,2.5,-61.375,140,NA,2000,NA
+2116,4262,Andranolav,,Madagascar,-19.966667,44.6,NA,26,791,Luvisol
+3826,4322,Jiuduhe,,China,40.358333,116.425,251,9,600,cinnamon
+2100,4395,Coconino Kaibab 30 burn,Arizona,United States,35.265556,-111.581944,2190,NA,NA,Mollic Eutroboralf
+2094,4395,Coconino Kaibab 7 burn,Arizona,United States,35.274722,-111.813056,2302,NA,NA,Typic Argiboroll
+2092,4395,Coconino Kaibab 6 burn,Arizona,United States,35.295,-111.681111,2590,NA,NA,Eutric Glossoboralf
+2090,4395,Coconino Kaibab 2 burn,Arizona,United States,35.302222,-111.590833,2280,NA,NA,Mollic Eutroboralf
+2098,4395,Coconino Kaibab 23 burn,Arizona,United States,35.350833,-111.934722,2268,NA,NA,Mollic Eutroboralf
+2096,4395,Coconino Kaibab 11 burn,Arizona,United States,35.443611,-111.773889,2314,NA,NA,Mollic Eutroboralf
+13982,4395,Coconino Kaibab 34 burn,Arizona,United States,35.4475,-111.723056,2190,NA,NA,"Agriboroll, Vitrandic Ustochrept"
+397,4404,El Rincon,Oaxaca,Mexico,17.375,-95.333333,1850,21,1719,"Dystrudepts, Udorthents"
+2074,4457,Huanjiang succession,Guangxi Province,China,24.833333,107.916667,460,18.5,1389,Mollic inceptisols
+2292,4476,Yellow Jacket,Arizona,United States,35.038056,-111.311111,1945,NA,461,Ustochrepts/Halplustalfs
+2289,4476,Jacket,Arizona,United States,35.063889,-111.356944,1965,NA,457,Ustochrepts/Halplustalfs
+2291,4476,Lizard,Arizona,United States,35.151111,-111.35,1905,NA,420,Ustochrepts/Halplustalfs
+13984,4476,Arnold,Arizona,United States,35.196944,-111.458056,1955,NA,447,Ustochrepts/Halplustalfs
+13985,4476,Red Butte west,Arizona,United States,35.798056,-112.02,1955,NA,324,Ustochrepts/Halplustalfs
+13983,4476,Dillman,Arizona,United States,35.811944,-112.026944,1947,NA,321,Ustochrepts/Halplustalfs
+2290,4476,Griffin,Arizona,United States,35.991944,-111.23,1940,NA,366,Ustochrepts/Halplustalfs
+3575,4491,Chippewa National Forest chronosequence,Minnesota,United States,47.341,-94.207,NA,3.9,700,Entisols
+7575,4581,Ansai Research Station,Shaanxi Province,China,36.776389,109.247778,1221,8.8,505,loess derived
+2271,4757,Cofre de Perote,Veracruz,Mexico,19.5,-97.125,3075,9.6,913,Andisols
+3572,4772,West Bengal,,India,26.716667,89,NA,NA,NA,"Inceptisols, Entisols"
+2505,4810,Hinewai Reserve,,New Zealand,-43.833333,173.066667,135,NA,NA,NA
+2506,4810,Queen Charlotte Wilderness/Cape Lambert,,New Zealand,-41.033333,174.266667,135,NA,NA,NA
+3677,4833,Dormaa District,,Ghana,7.5,-3.5,665,NA,1450,"Ferralsols, Acrisols"
+3901,4839,Sarapiqui,Heredia,Costa Rica,10.433333,-86.983333,NA,NA,NA,NA
+3529,4869,Abandoned cropland,,Spain,40.05,-4.4,450,15,480,luvisols
+2330,4923,Zafferana Etnea,Catania,Italy,37.684444,15.054444,750,14,1100,Volcanic
+2325,4923,Santa Ninfa,Trapani,Italy,37.769167,12.875556,450,17,654,Clay
+2329,4923,Maletto,Catania,Italy,37.827222,14.860833,1000,12.5,900,Volcanic
+2328,4923,Giacalone,Palermo,Italy,38.033889,13.23,750,14.5,750,Limestone
+13989,4923,Misilmeri,Palermo,Italy,38.04459,13.453355,250,18,700,Clay
+2324,4923,Trappeto,Palermo,Italy,38.066389,13.045556,150,17.5,650,Sandstone/limestone
+2327,4923,San Martino,Palermo,Italy,38.207222,15.391944,750,14.5,750,Limestone
+2319,4923,Chiusa Pesio,Cuneo,Italy,44.187222,7.705833,900,12,1430,Sandstone/limestone
+13987,4923,Faedis,Udine,Italy,46.151432,13.336507,800,13,2265,Sandstone/limestone
+2320,4923,Forgaria del Friuli,Udine,Italy,46.222222,12.976389,800,13,2055,Sandstone/limestone
+13988,4923,Taipana,Udine,Italy,46.250725,13.339259,600,8,2415,Sandstone/limestone
+13986,4923,Trasaghis,Udine,Italy,46.287503,13.078102,1000,13,2130,Sandstone/limestone
+3508,5152,Wanglang Nature Reserve,,China,32.925,104.041667,2678,2.2,813,brown soil
+435,5196,Barito Ulu,Central Kalimantan,Indonesia,-1.1,114,150,NA,3800,ultisol
+2154,5252,Zamtang,Sichuan Province,China,32.35,100.733333,3583,4.9,750,luvisols
+2164,5278,Agua Salud,,Panama,9.207778,-79.748056,330,27,2300,NA
+13971,5307,Caiabai Farm,Mato Grosso,Brazil,-9.944444,-53.336111,NA,24.5,2000,Latosols
+13991,5317,Alekhin Central-Chernozem Biosphere 59,,Russia,51.5384,36.305483,NA,5.4,460,silty loamy loess
+2254,5317,Alekhin Central-Chernozem Biosphere 8,,Russia,51.539167,36.075833,NA,5.4,460,silty loamy loess
+2256,5317,Alekhin Central-Chernozem Biosphere Arable,,Russia,51.539167,36.073611,NA,5.4,460,silty loamy loess
+2255,5317,Alekhin Central-Chernozem Biosphere 19,,Russia,51.550556,36.133889,NA,5.4,460,silty loamy loess
+13990,5317,Alekhin Central-Chernozem Biosphere 37,,Russia,51.571517,36.086583,NA,5.4,460,silty loamy loess
+2305,5380,Yucatan,Yucatan Peninsula,Mexico,20.089444,-89.495833,110,26,1100,"luvisols, nitosols, cambisols, lithosols"
+3889,5457,UCI-1981,Manitoba,Canada,55.863056,-98.485,NA,NA,NA,NA
+3886,5457,UCI-2003,Manitoba,Canada,55.898056,-98.216111,NA,NA,NA,NA
+3891,5457,UCI-1930,Manitoba,Canada,55.905833,-98.524722,NA,NA,NA,NA
+3890,5457,UCI-1964,Manitoba,Canada,55.911667,-98.382222,NA,NA,NA,NA
+3888,5457,UCI-1989,Manitoba,Canada,55.916667,-98.964444,NA,NA,NA,NA
+3887,5457,UCI-1998,Manitoba,Canada,56.635833,-99.948333,NA,NA,NA,NA
+2156,5479,Ngogo,,Uganda,0.45,30.425,NA,NA,1707,NA
+2174,5599,Tigray,Tigray,Ethiopia,13.5,38.5,2585,NA,609,"luvisols, regosols, cambisols, calcisols"
+3871,5641,Cofre de Perote,Veracruz,Mexico,19.441111,-97.1225,3250,12.5,600,Andosols
+2230,5747,Hamakua,Hawaii,United States,19.5,-155.25,300,23.3,320,Acrudoxic Hydrudands
+298,5848,Niah Forest Reserve chronosequence 1/2,Sarawak,Malaysia,3.65,113.7,NA,27,2800,Ultisol
+286,5876,Fazenda Vitoria,Para,Brazil,-2.983333,-47.516667,NA,NA,1800,Latosols
+2158,5891,Mt. Norikura,Gifu,Japan,36.116667,137.383333,1160,9.1,2400,NA
+3827,5962,Kuanba forest region,Sichuan Province,China,32.2,104.316667,1400,11,1187,NA
+3681,5997,F1,,China,33.547778,107.818333,1075,11.8,1075,NA
+3876,5997,F2,,China,33.552222,107.820833,1100,11.8,1075,NA
+3500,5997,F3,,China,33.583889,107.843333,1202,11.8,1075,NA
+3785,5997,H1,,China,33.584444,107.844722,1252,11.8,1075,NA
+3516,5997,H2,,China,33.581944,107.841944,1233,11.8,1075,NA
+3814,5997,H3,,China,33.561667,107.825278,1130,11.8,1075,NA
+3791,5997,N1,,China,33.581667,107.841944,1280,11.8,1075,NA
+3616,5997,N2,,China,33.5625,107.825556,1140,11.8,1075,NA
+3799,5997,S1,,China,33.553333,107.8225,1098,11.8,1075,NA
+3633,5997,S2,,China,33.587778,107.850556,1290,11.8,1075,NA
+3745,5997,S3,,China,33.584722,107.844444,1251,11.8,1075,NA
+3600,5997,S4,,China,33.5525,107.820833,1092,11.8,1075,NA
+3577,5997,S5,,China,33.586389,107.849722,1269,11.8,1075,NA
+13992,5997,N3,,China,33.589167,107.853611,1301,11.8,1075,NA
+13993,5997,N4,,China,33.585556,107.85,1298,11.8,1075,NA
+13994,5997,N5,,China,33.588889,107.851944,1276,11.8,1075,NA
+13995,5997,N6,,China,33.589167,107.820556,1257,11.8,1075,NA
+297,6058,Co Ma,Son La Province,Vietnam,21.383333,103.633333,1300,NA,1277,Ferralic Acrilsols
+13972,6214,Ecological Benefits Monitoring Station,Hunan Province,China,29.433333,111.216667,563,16.7,1347,Cambisols
+295,6412,Arroyo Negro,Campeche,Mexico,17.883333,-89.283333,180,25,1400,Lithosol-redzina
+294,6412,Nicolas Bravo,Quintana Roo,Mexico,18.45,-88.933333,120,25,1150,Lithosol-redzina
+293,6412,El Refugio,Campeche,Mexico,18.816667,-89.383333,250,25,890,Lithosol-redzina
+36,6413,Palo Verde,,Costa Rica,10.35,-85.35,NA,25,1492,Ustropepts
+37,6413,Santa Rosa,Guanacaste,Costa Rica,10.84,-85.62,540,25,1575,Ustropepts
+3892,6416,Bonanza Creek Experimental Forest,Alaska,United States,64.8,-148,NA,-2.9,289,NA
+39,6420,Sarapiqui,Heredia,Costa Rica,10.43,-83.98,120,26.5,3900,oxisols
+3894,6450,Valday 20,,Russia,58.078056,33.325556,NA,3.2,714,NA
+3895,6450,Valday 55,,Russia,58.081389,33.319444,NA,3.2,714,NA
+3896,6450,Valday 100,,Russia,58.109167,33.320833,NA,3.2,714,NA
+3893,6450,Valday 3,,Russia,58.273333,33.235556,NA,3.2,714,NA
+2083,6521,Tiantong National Forest Park,Zhejiang Province,China,29.8,121.783333,200,16.2,1375,"red, yellow"
+41,6559,Sierra de Cayey,Puerto Rico,United States,18.016667,-66.083333,640,21.5,2000,Hapludox
+3649,6576,Delta NF,Mississippi,United States,32.880343,-90.787,NA,NA,NA,NA
+2073,6588,El Eden Ecological Reserve,Yucatan Peninsula,Mexico,21.21,-87.182222,NA,24.2,1650,NA
+399,6803,Aspen chronosequence RG,Wisconsin,United States,45.89176,-90.11872,540,3.9,896,spodosols
+3877,6803,Aspen chronosequence YA,Wisconsin,United States,45.83322,-90.147173,540,3.9,896,spodosols
+3878,6803,Aspen chronosequence IA,Wisconsin,United States,45.888083,-90.223483,540,3.9,896,spodosols
+14006,6803,Mature northern hardwood MH,Wisconsin,United States,45.787825,-90.1159,540,3.9,896,spodosols
+2046,6887,Sungai Wain,East Kalimantan,Indonesia,-1.06,116.49,40,NA,2400,NA
+13968,6887,Samboja,East Kalimantan,Indonesia,-0.59,116.56,40,NA,2400,NA
+3572,6952,West Bengal,,India,26.716667,89,NA,NA,NA,"Inceptisol, Entisol"
+41,6996,Sierra de Cayey,Puerto Rico,United States,18.016667,-66.083333,640,21.5,2000,oxisols
+393,7005,Guizhou Academy of Forestry,Guizhou Province,China,26.8,106.75,1167,12.8,1100,Ultisols
+40,7037,Nizanda,Oaxaca,Mexico,16.658333,-95.111111,250,26,900,Lithosols
+2403,7176,Doi Inthanon,Chiang Mai Province,Thailand,18.55,98.516667,1208,21.1,1908,NA
+3570,7212,Ecological Benefit Monitoring Station,Hunan Province,China,27.083333,112.3,117,17.9,1237,Udic Cambisol
+414,7216,C-2.6,Sarapiqui,Costa Rica,10.6,-84.166667,195,26,4000,Ultisol
+415,7216,C-2.8,Sarapiqui,Costa Rica,10.616667,-84.183333,195,26,4000,Ultisol
+425,7216,SF-33,Sarapiqui,Costa Rica,10.65,-84.216667,195,26,4000,Inceptisol
+423,7216,SF-23,Sarapiqui,Costa Rica,10.666667,-84.183333,195,26,4000,Ultisol
+421,7216,SF-20,Sarapiqui,Costa Rica,10.683333,-84.05,195,26,4000,Ultisol
+13969,7216,P1,Sarapiqui,Costa Rica,10.7,-84.166667,195,26,4000,Ultisol
+410,7216,P4,Sarapiqui,Costa Rica,10.716667,-84.1,195,26,4000,Ultisol
+424,7216,SF-28,Sarapiqui,Costa Rica,10.716667,-84.05,195,26,4000,Ultisol
+13970,7216,P2,Sarapiqui,Costa Rica,10.716667,-84.133333,195,26,4000,Ultisol
+420,7216,SF-17,Sarapiqui,Costa Rica,10.75,-84.116667,195,26,4000,Ultisol
+412,7216,SF-11/SF-22/P3,Sarapiqui,Costa Rica,10.766667,-84.1,195,26,4000,Ultisol
+419,7216,SF-15,Sarapiqui,Costa Rica,10.766667,-84.016667,195,26,4000,Ultisol
+416,7216,C-7,Sarapiqui,Costa Rica,10.783333,-84.1,195,26,4000,Ultisol
+417,7216,SF-8,Sarapiqui,Costa Rica,10.783333,-84.083333,195,26,4000,Ultisol
+2086,7276,N'hambita,Sofala Province,Mozambique,-18.978889,34.176944,NA,NA,690,NA
+3741,7280,Acacia mangium plantation,Sumatra,Indonesia,-3.5,103.75,130,29,2520,acrisols
+398,7333,Universidade Federal Rural da Amazonia,Para,Brazil,-1.316667,-47.95,NA,NA,2740,Latosol
+3501,7582,Hallormsstardu,,Iceland,65.083333,-14.733333,NA,3.4,735,Andosols
+314,7614,Manaus BR-174,Amazonas,Brazil,-2.45,-60.05,100,26.7,2200,Ferrasols
+41,7632,Sierra de Cayey,Puerto Rico,United States,18.016667,-66.083333,640,21.5,2000,Oxisols
+238,7698,Ipetí–Emberá,Panama Province,Panama,8.958333,-78.533333,175,25,2250,"Ultisols, Alfisols"
+444,7716,La Palma,Canary Islands,Spain,28.566817,-17.844876,1100,13.6,960,Andisols
+3140,7727,Perloja Experimental Station,NA,Lithuania,54.166667,24.416667,110,6.2,682,arenosols
+2417,7948,El Refugio,Campeche,Mexico,18.816667,-89.45,NA,25,900,Rendzina
+2304,7995,Bukit Soeharto Education Forest,East Kalimantan,Indonesia,-0.866667,117.016667,55,NA,2000,ultisols
+303,8082,Niah River Chronosequence III,Sarawak,Malaysia,3.583333,113.583333,NA,26.57,3749,NA
+3683,8167,Val Canali,Southern Alps,Italy,46.2,11.833333,1325,6.2,1466,Cambisol
+3566,8167,Valsorda,Southern Alps,Italy,46.216667,11.7,1295,5.9,1350,Cambisol
+3686,8167,Kienberg,Central Alps,Italy,46.783333,11.85,1175,5.8,815,Cambisol
+3695,8167,Aiarei,Central Alps,Italy,46.8,11.883333,1737,4.1,970,"Cambisol, Luvisol"
+3784,8167,Vilstal,Northern Alps,Germany,47.583333,10.5,1087,6.8,1370,Cambisol
+3897,8254,eastern Iceland,,Iceland,65.208333,-15.15,75,3.4,738,Andosols
+42,8257,Providencia,,Colombia,13.352785,-81.370759,183,27.6,1584,NA
+3557,8304,Lynes Creek,British Columbia,Canada,52.323056,-122.105,NA,3.4,460,Orthic Dystric Brunisol
+2165,8366,Tapajos National Park,Para,Brazil,-3.19,-54.93,NA,26,1775,NA
+291,8376,Manaus,Amazonas,Brazil,-3,-60,135,26.7,2180,Oxisols
+3570,8429,Ecological Benefit Monitoring Station,Hunan Province,China,27.083333,112.3,117,17.9,1237,cambisols
+2318,8474,Yotao I,Oaxaca,Mexico,17.372112,-96.340678,1850,21,1719,Entisols
+3879,8474,Yotao II,Oaxaca,Mexico,17.372246,-96.346965,1850,21,1719,Inceptisols
+3880,8474,Juquila I,Oaxaca,Mexico,17.343912,-96.293467,1850,21,1719,Entisols
+3881,8474,Juquila II,Oaxaca,Mexico,17.343654,-96.287935,1850,21,1719,Inceptisols
+3882,8474,Tanetze I,Oaxaca,Mexico,17.360589,-96.268276,1850,21,1719,Entisols
+3883,8474,Tanetze II,Oaxaca,Mexico,17.359838,-96.27029,1850,21,1719,Inceptisols
+13996,8474,Yotao III,Oaxaca,Mexico,17.333056,-96.350927,1850,21,1719,Inceptisols
+13997,8474,Yotao VI,Oaxaca,Mexico,17.33577,-96.365886,1850,21,1719,Inceptisols
+13998,8474,Yotao V,Oaxaca,Mexico,17.334252,-96.358124,1850,21,1719,Inceptisols
+13999,8474,Juquila III,Oaxaca,Mexico,17.362985,-96.286695,1850,21,1719,Inceptisols
+14000,8474,Juquila IV,Oaxaca,Mexico,17.364844,-96.287587,1850,21,1719,Inceptisols
+14001,8474,Juquila V,Oaxaca,Mexico,17.369535,-96.287997,1850,21,1719,Inceptisols
+14002,8474,Tanetze III,Oaxaca,Mexico,17.339965,-96.270984,1850,21,1719,Inceptisols
+14003,8474,Tanetze VI,Oaxaca,Mexico,17.333483,-96.275018,1850,21,1719,Inceptisols
+14004,8474,Tanetze V,Oaxaca,Mexico,17.335343,-96.275101,1850,21,1719,Inceptisols
+2414,8553,Luquillo Experimental Forest,Puerto Rico,United States,18.3,-65.833333,400,22.3,3920,ultisols
+13957,8581,Cuicateca,,Mexico,17.016667,-95.9,1950,NA,774,luvisols
+3582,8581,Mixe,,Mexico,17.016667,-95.9,1400,NA,1974,acrisols
+13956,8581,Mazateca,,Mexico,18.15,-96.9,1605,NA,1474,acrisols
+2236,8587,Kembera,West Kalimantan,Indonesia,-0.4,110.1,350,NA,4000,Ultisol/Oxisol
+286,8739,Fazenda Vitoria,Para,Brazil,-2.983333,-47.516667,<200,25.95,1800,Oxisols
+314,8740,Manaus BR-174,Amazonas,Brazil,-2.45,-60.05,100,26.7,2200,Oxisols
+286,8742,Fazenda Vitoria,Para,Brazil,-2.983333,-47.516667,200,NA,1803,Oxisols
+3802,8782,Kellogg Biological Station,Michigan,United States,42.4,-85.4,288,9.7,890,alfisols
+14005,8847,PZ Secfor 12a/18,Acre,Brazil,-9.949722,-67.871667,NA,26,1940,"ultisols, oxisols"
+2002,8847,PZ Secfor 11,Acre,Brazil,-9.875833,-67.071667,NA,26,1940,"ultisols, oxisols"
+2003,8847,Peixoto 1 Secfor 3a,Acre,Brazil,-9.875,-67.074167,NA,26,1940,"ultisols, oxisols"
+2001,8847,PZ Pasture 13,Acre,Brazil,-9.874444,-67.071944,NA,26,1940,"ultisols, oxisols"
+2010,8847,Humaita 1 Secfor 3c,Acre,Brazil,-9.770833,-67.657778,NA,26,1940,"ultisols, oxisols"
+2009,8847,Humaita 2 Pasture 14,Acre,Brazil,-9.770278,-67.658056,NA,26,1940,"ultisols, oxisols"
+3625,8870,University of Michigan Biological Station burn and clearcut experimental plots,Michigan,United States,45.566667,-84.7,NA,6.2,820,NA
+2250,8872,Ponderosa Pine,Oregon,United States,44.433333,-121.566667,1188,7.5,552,Andisols
+2117,8873,Old Mill,Victoria,Australia,-30.033333,146.25,615,NA,1900,alfisols
+426,8882,Dzibilchaltun,Yucatan Peninsula,Mexico,21.1,-89.283333,10,25.8,760,lithic rendolls
+2137,8898,Akok,,Cameroon,2.784167,10.282778,NA,NA,1513,ultisols
+3659,8964,Xishuangbanna Tropical Botanical Garden,NA,China,21.7,101.25,855,22.1,1400,Udic Ferrisols
+3810,8989,Changbai Mountain Natural Reserve,NA,China,42.4,128.083333,1000,-2,1050,NA
+43,8996,El Tigre,,Bolivia,-11.983333,-65.716667,NA,NA,1780,NA
+44,8996,El Turi,,Bolivia,-11.75,-67.333333,NA,NA,1833,NA
+3594,9017,Eucalyptus regnans sites,,Australia,-37.491667,145.483333,710,NA,1210,Ferrosols
+46,9020,Eastern Para 1,Para,Brazil,-4.26,-47.73,NA,26,2200,NA
+47,9020,Eastern Para 2,Para,Brazil,-2.16,-47.38,NA,26,2200,NA
+48,9020,Eastern Para 3,Para,Brazil,-1.17,-47.75,NA,26,2200,NA
+2261,9111,Los Tuxtlas,Veracruz,Mexico,18.583333,-95.083333,NA,27,4000,vitric Andosols
+2259,9199,Bragantina,Para,Brazil,-1.2,-47.258333,NA,25.5,2300,Oxisols
+3812,9210,Jharsuguda,Odisha,India,22,84,165,NA,1956,Ultisols
+2218,9222,Lewis Canyon North/South,Wyoming,United States,44.155556,-110.658889,2368,NA,465,Cryochrept/Cryumbrept
+2220,9222,Pitchstone Plateau,Wyoming,United States,44.253056,-110.772222,2368,NA,465,Cryochrept/Cryumbrept
+2224,9222,Riddle High,Wyoming,United States,44.3525,-110.544444,2417,NA,465,Cryochrept/Cryumbrept
+2221,9222,Riddle Lake,Wyoming,United States,44.356944,-110.541667,2429,NA,465,Cryochrept/Cryumbrept
+2223,9222,Howard Eaton,Wyoming,United States,44.453889,-110.829444,2370,NA,465,Cryochrept/Cryumbrept
+2222,9222,Biscuit Basin,Wyoming,United States,44.485278,-110.8525,2223,NA,465,Cryochrept/Cryumbrept
+2225,9222,Firehole Loop,Wyoming,United States,44.630556,-110.864722,2166,NA,465,Cryochrept/Cryumbrept
+2226,9222,Gibbon Falls,Wyoming,United States,44.654167,-110.771389,2131,NA,465,Cryochrept/Cryumbrept
+2219,9222,Cygnet Lakes,Wyoming,United States,44.662778,-110.616667,2508,NA,465,Cryochrept/Cryumbrept
+2227,9222,7-Mile Bridge,Wyoming,United States,44.669444,-110.970278,2076,NA,465,Cryochrept/Cryumbrept
+2217,9222,Cascade Meadows,Wyoming,United States,44.735556,-110.508333,2486,NA,465,Cryochrept/Cryumbrept
+295,9224,Arroyo Negro,Campeche,Mexico,17.883333,-89.283333,180,25,1418,NA
+294,9224,Nicolas Bravo,Quintana Roo,Mexico,18.45,-88.933333,120,25,1114,NA
+293,9224,El Refugio,Campeche,Mexico,18.816667,-89.383333,250,25,892,NA
+293,9362,southern Yucatan,Campeche,Mexico,18.383333,-89.2,183,25,1141,NA
+2509,9387,Northern Chiloe Island,Chiloe Island,Chile,-41.833333,-73.637681,75,NA,5000,NA
+290,9395,Pifo Polylepis Forest,Pichincha,Ecuador,-0.233,-78.25,3600,6.6,1500,Young volcanic ashes
+289,9395,Oyacachi,Napo,Ecuador,-0.216667,-78.05,3200,10.5,2250,Andosol
+3537,9396,Embrapa Amazonia Ocidental,Amazonas,Brazil,-2.892778,-59.971944,NA,26,2600,Ferralsols
+3661,9458,High Casamance,,Senegal,12.816667,-14.883333,NA,28,960,NA
+3535,9484,Wind River Ranger District chronosequence: clear-cut,Washington,United States,45.816667,-121.966667,560,8.7,2500,Andic Haplumbrept
+49,9525,San Lorenzo,Nuflo de Chavez,Bolivia,-16.75,-61.75,500,24.3,1129,"Inceptisols, Oxisols"
+273,9567,J.M. Tucker Amazonian Brazil chronosequence,Para,Brazil,-1.25,-46.75,NA,NA,2841,Oxisols
+2259,9643,Bragantina,Para,Brazil,-1.2,-47.258333,NA,25,2500,oxisols
+3899,9665,Mathieu,Quebec,Canada,48.841667,-74.708333,NA,0.8,950,Ferro-humic podzols
+3898,9665,St-Pere,Quebec,Canada,48.858333,-76.383333,NA,1.2,840,Brunisols
+3900,9665,Dieppe,Quebec,Canada,49.566667,-79.175,NA,0.6,820,Ferro-humic podzols
+3509,9783,Ciales,Puerto Rico,United States,18.060881,-66.050224,195,NA,2074,NA
+51,9783,El Carite,Puerto Rico,United States,18.08,-66.07,505,NA,2030,NA
+3699,9783,Utuado,Puerto Rico,United States,18.250006,-66.631817,250,NA,3000,NA
+10,9783,Luquillo,Puerto Rico,United States,18.34,-65.76,305,NA,2660,ultisols
+3781,9813,Pen Branch/Fourmile Branch,South Carolina,United States,33.161944,-81.739444,NA,NA,NA,NA
+3781,9814,Pen Branch/Fourmile Branch,South Carolina,United States,33.161944,-81.739444,NA,NA,NA,NA
+54,9825,Surutu,Santa Cruz,Bolivia,-17.5,-63.5,NA,23,1600,"Ultisols, Eutrochrepts"
+55,9825,AM10/Janauaca,Amazonas,Brazil,-3,-60,NA,25.6,2100,"Oxisols, Podsols"
+2145,9835,Tongariro National Park,North Island,New Zealand,-39.083333,175.75,800,11.1,1610,Andisols
+2152,9848,Fazenda Experimental Catuaba,Acre,Brazil,-10.066667,-67.616667,NA,26,1875,"ultisols, oxisols"
+2151,9848,Parque Zoobotânico,Acre,Brazil,-9.95,-67.866667,NA,26,1875,"ultisols, oxisols"
+2112,9892,Maquipucuna,,Ecuador,0.083333,-78.616667,1400,NA,3200,Andic humitropepts
+269,9898,Brazilian Lower Amazon land use and fire recovery age sequence,Para,Brazil,-3.25,-52.25,NA,25,2000,NA
+3774,9956,Igarape-Acu,Para,Brazil,-1.151389,-47.620556,NA,25.5,2050,Ultisols
+2261,10007,Los Tuxtlas,Veracruz,Mexico,18.583333,-95.083333,200,27,4000,Andosol
+286,10030,Fazenda Vitoria,Para,Brazil,-2.983333,-47.516667,NA,NA,1750,Oxisols
+3650,10039,Subtropical broad-leaved evergreen forest chronosequence,Zhejiang,China,29.46,121.66,475,18,1500,Ultisols
+2375,10302,Ebolowa,,Cameroon,2.508333,11.15,613,NA,1820,oxisols
+2377,10302,Mbalmayo,,Cameroon,3.433333,11.708333,675,NA,1750,oxisols
+2379,10302,Yaounde,,Cameroon,4.158333,11.416667,573,NA,1600,oxisols/ultisols
+105,10314,Central Rondonia Chronosequence,Rondonia,Brazil,-10.316667,-62.766667,143,27.6,2290,Ultisols/Troporthent soils
+2113,10323,La Selva,Sarapiqui,Costa Rica,10.433333,-84,120,26,3800,"Inceptisols, Ultisols"
+3623,10506,Sipitang,Sabah,Malaysia,5,115.083333,700,NA,3352,Haplic acrisol
+2257,10508,Ibadan,,Nigeria,7.5,3.9,NA,NA,1350,Alfisols
+3705,10570,Pau Brasil Ecological Station,Bahia,Brazil,-16.383333,-39.183333,NA,23,1696,Oxisols
+284,10589,Rio Sabana abandoned pastures chronosequence,Puerto Rico,United States,18.33,-65.73,125,NA,3162,NA
+285,10589,Rio Mameyes abandoned pastures chronosequence,Puerto Rico,United States,18.334,-65.7553,125,NA,3162,NA
+3765,10656,Natural Pinus sylvestris stand,Qostanay,Kazakhstan,53.5,66,NA,NA,255,NA
+3507,10720,Kings County Hardwood Forest Chronosequence,Nova Scotia,Canada,44.833333,-64.783333,NA,NA,1107,Udifluvents
+3606,10806,Hubbard Brook Experimental Forest,New Hampshire,United States,43.933333,-71.75,617,NA,1350,Spodosol
+2114,10809,Hubbard Brook Experimental Forest,New Hampshire,United States,43.941667,-71.745278,595,NA,1350,Podzols
+2413,10823,Bajo Calima Concession,Chocó,Colombia,3.916667,-77,100,27.3,7000,Entisol
+2260,10851,Bura,Tana River,Kenya,-1.133333,39.75,86,NA,351,Vertic Natrargids
+2081,10854,Cedar Creek,Minnesota,United States,45.400661,-93.196517,NA,NA,NA,Udipsamment
+100,10860,Luquillo Experimental Forest,Puerto Rico,United States,18.3,-65.847222,284,22.3,3523,ultisols/oxisols
+3817,10887,Luquillo Experimental Forest,Puerto Rico,United States,18.316667,-65.816667,350,NA,NA,ultisols
+56,10938,Rio Madeira,Amazonas,Brazil,-5.77,-61.43,NA,27.5,2500,Ferralsols/Oxisols
+58,10939,Patos,Paraíba,Brazil,-7,-37.32,NA,NA,750,NA
+59,10940,Araracuara,,Colombia,-0.616667,-72.45,160,25.7,3059,ultisols
+60,10942,Saldarriaga chronosequence,,Venezuela/Columbia,1.933333,-67.05,119,NA,3500,"Oxisols, Ultisols"
+61,10943,Chajul,Chiapas,Mexico,16.066667,-90.75,207,24,3000,NA
+243,10944,Agua Salud,,Panama,9.216667,-79.783333,330,NA,2700,oxisols
+63,10945,Barro Colorado Island,,Panama,9.15,-79.85,NA,NA,2600,Oxisols/Alfisols
+64,10946,Yucatán,Yucatan,Mexico,20.089444,-89.495833,110,26,1100,"Lithosols, Luvisols, Cambisols"
+140,10949,Serra do Conduru,Bahia,Brazil,-14.416667,-39.083333,210,24,2000,oxisols
+66,10951,Mata Seca,Minas Gerais,Brazil,-14.841667,-43.975,NA,24,818,NA
+2350,10965,Kibale National Park,Kamwenge,Uganda,0.616667,30.425,1500,NA,1700,NA
+3716,10966,Northeast India fallow field chronosequence,Meghalaya,India,26,91.083333,100,NA,2200,oxisols
+274,10968,Rio Negro age sequence,,Venezuela,1.933333,-67.05,119,26.88,3500,oxisols
+277,10969,Paragominas,Para,Brazil,-3,-47.5,NA,25.2,1750,oxisols
+363,10971,El Eden Ecological Reserve fire chronosequence,Quintana Roo,Mexico,21.2,-87.183333,6,24.2,1650,NA
+13945,10972,Palma Real,Puntarenas,Costa Rica,8.3961,-83.3374,10,27.4,4200, Inceptisol  
+13944,10972,Caliente,Puntarenas,Costa Rica,8.4053,-83.3372,74,27,4300, Ultisol  
+13936,10972,TUVA,Puntarenas,Costa Rica,8.4055,-83.3398,46,27.2,4250, Ultisol  
+13941,10972,Piro,Puntarenas,Costa Rica,8.4055,-83.3408,15,27.4,4200, Ultisol  
+13938,10972,La Huerta,Puntarenas,Costa Rica,8.4086,-83.3363,68,27.1,4300, Ultisol  
+13925,10972,Hotel,Puntarenas,Costa Rica,9.7601,-84.6145,38,27.7,2950, Ultisol  
+13926,10972,Luciano,Puntarenas,Costa Rica,9.7713,-84.614,101,27.3,3100, Ultisol  
+13922,10972,Yucal,Puntarenas,Costa Rica,9.7725,-84.6183,244,26.4,3000, Ultisol  
+13923,10972,Chupadero,Puntarenas,Costa Rica,9.7761,-84.618,45,27.6,3000, Ultisol  
+13924,10972,Lapas,Puntarenas,Costa Rica,9.7792,-84.6058,46,27.6,3500, Inceptisol  
+13913,10972,Valle Azul,Puntarenas,Costa Rica,9.7793,-84.9552,37,27.7,2208, Alfisol  
+13920,10972,Santa Teresa,Puntarenas,Costa Rica,9.7855,-84.9498,51,27.6,2308, Alfisol  
+13915,10972,Divino,Puntarenas,Costa Rica,9.7876,-84.9392,43,27.7,2208, Alfisol  
+13919,10972,El Tanque,Puntarenas,Costa Rica,9.7908,-84.9244,43,27.7,2092, Alfisol  
+13917,10972,Quesera,Puntarenas,Costa Rica,9.8019,-84.9051,30,27.7,2042, Alfisol  
+13918,10972,Dubya,San Jose,Costa Rica,9.8397,-84.5478,168,26.9,2925, Alfisol  
+13921,10972,Chonco,San Jose,Costa Rica,9.8401,-84.5403,53,27.6,2900, Alfisol  
+13914,10972,Caballos,San Jose,Costa Rica,9.8446,-84.5281,132,27.1,2900, Alfisol  
+13916,10972,Iguana,San Jose,Costa Rica,9.8451,-84.5292,160,26.9,2900, Alfisol  
+13912,10972,Downey,San Jose,Costa Rica,9.8586,-84.5241,120,27.2,2700, Alfisol  
+13955,10972,Kraven S.A.,Heredia,Costa Rica,10.2652,-84.1565,1047,19.8,4902, Ultisol  
+13946,10972,Volcan,Heredia,Costa Rica,10.2811,-84.1483,937,20.4,5042, Ultisol  
+13947,10972,Virgen Maria,Heredia,Costa Rica,10.2822,-84.1502,992,20.1,5002, Entisol  
+13953,10972,Hondura,Alajuela,Costa Rica,10.2844,-84.1757,863,20.8,5002, Entisol  
+13950,10972,Milpa,Alajuela,Costa Rica,10.2865,-84.1761,937,20.4,5002, Entisol  
+13949,10972,Cornelio,Alajuela,Costa Rica,10.297,-84.7515,1044,21.1,5500, Andisol  
+13951,10972,Dos Ases,Alajuela,Costa Rica,10.2975,-84.7621,1150,20.4,5400, Andisol  
+13954,10972,Vargas,Alajuela,Costa Rica,10.2981,-84.7684,1220,20,5300, Andisol  
+13952,10972,Cambronero,Alajuela,Costa Rica,10.2989,-84.7665,1200,20.1,5300, Andisol  
+13948,10972,Aleman,Alajuela,Costa Rica,10.3019,-84.7408,962,21.6,5800,Andisol  
+13943,10972,4 Rios,Heredia,Costa Rica,10.3888,-84.1327,248,24.2,3967, Inceptisol  
+13932,10972,Cascada,Heredia,Costa Rica,10.3948,-83.9868,92,25.1,3900, Inceptisol  
+13940,10972,Tirimbina,Heredia,Costa Rica,10.4025,-84.1125,261,24.1,4017, Ultisol  
+13933,10972,Sabalo,Heredia,Costa Rica,10.4165,-84.0029,74,25.2,3892, Inceptisol  
+13934,10972,SHO 750,Heredia,Costa Rica,10.417,-84.0036,70,25.2,3892, Inceptisol  
+13927,10972,Cano,Heredia,Costa Rica,10.4214,-84.1618,224,24.3,3900, Inceptisol  
+13937,10972,Culebra,Heredia,Costa Rica,10.4248,-84.0965,158,24.7,3942, Ultisol  
+13935,10972,Terciopelo,Heredia,Costa Rica,10.427,-84.095,140,24.8,3942, Ultisol  
+13931,10972,Pao,Heredia,Costa Rica,10.431,-84.0157,65,25.2,3892, Inceptisol  
+13928,10972,SAT 900,Heredia,Costa Rica,10.4315,-84.0205,74,25.2,3892, Inceptisol  
+13930,10972,SAT 1000,Heredia,Costa Rica,10.4319,-84.0218,76,25.1,3892, Inceptisol  
+13939,10972,Don Juan,Heredia,Costa Rica,10.4553,-84.0665,143,24.8,3967, Ultisol  
+13929,10972,Con Permiso,Alajuela,Costa Rica,10.4556,-84.1763,141,24.8,3800, Inceptisol  
+13942,10972,Pumilio,Heredia,Costa Rica,10.506,-84.0561,79,25.1,4017, Inceptisol  
+13909,10972,Naranjo,Guanacaste,Costa Rica,10.7992,-85.6485,23,27.6,1630, Entisol  
+13906,10972,Deep Throat,Guanacaste,Costa Rica,10.8266,-85.6134,288,25.9,1513, Entisol  
+13911,10972,El Pozo,Guanacaste,Costa Rica,10.8375,-85.6147,340,25.6,1556, Entisol  
+13910,10972,Buen Uso,Guanacaste,Costa Rica,10.8393,-85.6152,321,25.7,1556, Entisol  
+13904,10972,Mal Uso,Guanacaste,Costa Rica,10.847,-85.6143,307,25.8,1530, Entisol  
+13908,10972,Principe,Guanacaste,Costa Rica,10.8533,-85.6081,273,26,1563, Entisol  
+13907,10972,Firebreaks,Guanacaste,Costa Rica,10.8705,-85.5946,148,26.8,1573, Entisol  
+13901,10972,Pitahaya,Guanacaste,Costa Rica,10.8732,-85.5788,243,26.2,1613, Entisol  
+13905,10972,Casita,Guanacaste,Costa Rica,10.8757,-85.5853,300,25.8,1596, Entisol  
+13902,10972,Bebedero,Guanacaste,Costa Rica,10.8883,-85.6,280,25.9,1613, Entisol  
+13903,10972,Pocosol,Guanacaste,Costa Rica,10.8889,-85.6004,278,25.9,1613, Entisol  
+68,11064,Salvatierra,Santa Cruz,Bolivia,-15.502222,-63.025833,250,25,1200,NA
+2362,11079,Smithsonian Environmental Research Center,Maryland,United States,38.883333,-76.55,NA,NA,NA,NA
+2414,11093,Luquillo Experimental Forest,Puerto Rico,United States,18.3,-65.833333,500,22.3,3760,ultisols
+6901,11101,Lake Duparquet chronosequence,Quebec,Canada,48.5,-79.333333,300,0.6,823,Luvisol
+3641,11107,Wave-regenerated Balsam Fir chronosequence,New York,United States,44.366667,-73.9,1200,NA,1250,NA
+6902,11110,Dawson Creek Forest District age sequence,British Columbia,Canada,55.48,-120.18,NA,NA,450,"Luvisol, Brunisol"
+278,11111,Acahual,Veracruz,Mexico,17.291667,-94.583333,150,24,3640,Oxisol; Alfisol
+3800,11120,Sokolov,,Czech Republic,50.236401,12.690561,650,6.8,650,NA
+67,11149,Sarapiqui (Chazdon),,Costa Rica,10.43,-83.98,NA,25.8,3962,Ultisols
+2043,11166,Erastvere,Gulbene,Estonia,57.133333,26.933333,NA,5.4,675,Albeluvisol
+2040,11166,Kooraste 1,Pskov,Estonia,57.983333,29.666667,NA,5.4,675,Haplic Umbrisol
+2039,11166,Kambja,Polva,Estonia,58.05,27.016667,NA,5.4,675,Albeluvisol
+2037,11166,Järvselja,Tartu,Estonia,58.25,27.266667,NA,5.4,675,Umbric Gleysol
+2042,11166,Alatskivi 2,Tartu,Estonia,58.616667,27.033333,NA,5.4,675,Gleyic Umbrisol
+175,11189,Matiguas,,Nicaragua,12.833333,-85.45,316,30,1400,Vertisols
+227,11204,ASB Brazil 2,,Brazil,-10.13,-62.23,NA,NA,NA,NA
+229,11204,ASB Brazil 1,,Brazil,-10.06,-62.11,NA,NA,NA,NA
+226,11204,ASB Brazil 3,,Brazil,-10.01,-67.09,NA,NA,NA,NA
+210,11204,ASB Cameroon 2,,Cameroon,2.42,11.25,NA,NA,NA,NA
+209,11204,ASB Cameroon 1,,Cameroon,2.59,11.03,NA,NA,NA,NA
+3957,11204,ASB Cameroon 6,,Cameroon,3.3,11.79,NA,NA,NA,NA
+3956,11204,ASB Cameroon 5,,Cameroon,3.61,11.61,NA,NA,NA,NA
+211,11204,ASB Cameroon 4,,Cameroon,3.93,11.57,NA,NA,NA,NA
+212,11204,ASB Cameroon 3,,Cameroon,4.24,11.26,NA,NA,NA,NA
+277,11231,Paragominas,Para,Brazil,-3,-47.5,NA,25.2,1750,Oxisol/Ultisols
+255,11253,Yangambi,Orientale,Democratic Republic of Congo,0.77,24.44,NA,25.2,1858,Latosolic
+283,11256,Porce II chronosequence 2,Antioquia,Colombia,6.760278,-75.107778,1050,22.7,2078,Entisol; Inceptisol
+307,11257,Mamiraua Sustainable Development Reserve,Amazonas,Brazil,-2.799934,-64.88,NA,26.9,3000,NA
+309,11258,Leuser Ecosystem chronosequence,North Sumatra,Indonesia,3.789,97.872,1100,26.18,2777,NA
+342,11269,Tiogo T13,Sanguie,Burkina Faso,12.263288,-2.761648,300,NA,785,dystric gleysol
+343,11269,Gonse (G10/G5),Kadiogo,Burkina Faso,12.3994,-1.3,300,NA,735,ferruginous
+344,11269,Sa S14,Mouhoun,Burkina Faso,12.65,-3.28,300,NA,679,gleyic cambisol
+345,11269,Bissiga B12,Oubritenga,Burkina Faso,12.6833,-1.17,300,NA,632,ferric luvisol
+346,11269,Yabo Y13,Sanmatenga,Burkina Faso,13,-1.5,300,NA,629,eutric regosol
+3793,11282,Waldo Lake (cool dry),Oregon,United States,43.5,-122,1770,NA,2200,Entic Cryorthod
+3528,11293,S village Karen area swidden cultivation fallow chronosequence,Bago,Myanmar,18.866667,95.883333,350,NA,1966,Ultisol
+2396,11295,UMBS harvest and fire chronosequence,Michigan,United States,45.591667,-84.716667,NA,5.5,817,Entic Haplothods
+2393,11300,Oregon Cascades 2 (cool temperate montane),Oregon,United States,44,-122.5,1140,5.4,2730,Spodosol
+3903,11302,Mekrijarvi Research Station,North Carelia,Finland,62.783333,30.966667,145,1.4,690,Podzol
+2391,11305,Scituate Watershed,Rhode Island,United States,41.8,-71.62,NA,9.1,1280,Dystrochrepts
+274,11312,San Carlos de Rio Negro abandoned slash-and-burn plots,,Venezuela,1.933333,-67.05,NA,26,3500,Oxisols
+2250,11319,Y site,Oregon,United States,44.433333,-121.566667,1188,7.5,552,Ultic haploxeralfs
+2218,11321,Yellowstone National Park - moderate density young,Wyoming,United States,44.362917,-110.720625,2346,NA,465,Cryochrept or Cryumbrept
+13977,11321,Yellowstone National Park - low density young,Wyoming,United States,44.451736,-110.639028,2434,NA,464,Cryochrept or Cryumbrept
+2219,11321,Yellowstone National Park - high density young,Wyoming,United States,44.576667,-110.787708,2198,NA,465,Cryochrept or Cryumbrept
+2206,11323,Willow Creek,Wisconsin,United States,45.8,-90.116667,480,NA,NA,NA
+3743,11346,Wildfire-regenerating Jack Pine Chronosequence 36,Michigan,United States,44.433333,-84.233333,NA,6.3,690,Entisol
+3733,11346,Wildfire-regenerating Jack Pine Chronosequence 14,Michigan,United States,44.45,-84.266667,NA,6.3,690,Entisol
+3518,11346,Wildfire-regenerating Jack Pine Chronosequence 4,Michigan,United States,44.466667,-84.333333,NA,6.3,690,Entisol
+3772,11346,Wildfire-regenerating Jack Pine Chronosequence 7,Michigan,United States,44.5,-84.3,NA,6.3,690,Entisol
+3604,11346,Wildfire-regenerating Jack Pine Chronosequence 1,Michigan,United States,44.516667,-84.266667,NA,6.3,690,Entisol
+3543,11346,Wildfire-regenerating Jack Pine Chronosequence 52,Michigan,United States,44.55,-84.35,NA,6.3,690,Entisol
+3704,11346,Wildfire-regenerating Jack Pine Chronosequence 72,Michigan,United States,44.566667,-84.4,NA,6.3,690,Entisol
+3624,11346,Wildfire-regenerating Jack Pine Chronosequence 22,Michigan,United States,44.6,-84.05,NA,6.3,690,Entisol
+3815,11346,Wildfire-regenerating Jack Pine Chronosequence 2,Michigan,United States,44.6,-84,NA,6.3,690,Entisol
+3591,11346,Wildfire-regenerating Jack Pine Chronosequence 12,Michigan,United States,44.716667,-84.483333,NA,6.3,690,Entisol
+3825,11346,Wildfire-regenerating Jack Pine Chronosequence 27,Michigan,United States,44.716667,-84.416667,NA,6.3,690,Entisol
+2021,11360,Fazenda Vitoria 2,Para,Brazil,-2.916667,-47.566667,NA,NA,1750,Oxisol
+2025,11366,Yenisei River,Siberia,Russia,60.716667,89.133333,NA,-3.7,493,inceptisol
+2029,11369,Bartlett Forest M6,New Hampshire,United States,43.983333,-71.416667,520,NA,1270,NA
+2031,11369,Bartlett Forest T30,New Hampshire,United States,44.05,-71.233611,550,NA,1270,NA
+2028,11369,Bartlett Forest H6/H4,New Hampshire,United States,44.133333,-71.283333,370,NA,1270,NA
+2030,11369,Bartlett Forest  M5,New Hampshire,United States,44.133333,-71.233333,460,NA,1270,NA
+2032,11369,Bartlett Forest H1,New Hampshire,United States,44.133333,-71.266667,340,NA,1270,NA
+2398,11408,Western Andes,NA,Colombia,5.5199,-76.049433,2004,NA,NA,NA
+5381,11419,Xilin Guangxi 3,,China,23.55,104.63,1280,22.6,1600,NA
+4058,11419,Gangwu Guangxi 1,,China,23.57,111.06,215,NA,NA,NA
+4082,11419,Guiping Guangxi,,China,23.57,110,520,NA,NA,NA
+4423,11419,Mashan Guangxi ,,China,23.57,108.36,700,NA,NA,NA
+8915,11419,Baise Guangxi 1,,China,23.58,106.16,1051,NA,NA,NA
+4062,11419,Gangwu Guangxi 5,,China,23.65,111.41,240,NA,NA,NA
+5280,11419,Teng Guangxi ,,China,23.65,110.59,125,NA,NA,NA
+4225,11419,Jinxiu Guangxi 9,,China,23.72,110.92,975,NA,NA,NA
+5282,11419,Teng Guangxi 2,,China,23.72,110.82,137,NA,NA,NA
+4226,11419,Jinxiu Guangxi 10,,China,23.8,110.92,590,NA,NA,NA
+5281,11419,Teng Guangxi 1,,China,23.8,110.71,500,NA,NA,NA
+8916,11419,Baise Guangxi 2,,China,23.8,106.16,248,NA,NA,NA
+8917,11419,Baise Guangxi 3,,China,23.8,106.22,713,NA,NA,NA
+4060,11419,Gangwu Guangxi 3,,China,23.87,111.18,570,NA,NA,NA
+4219,11419,Jinxiu Guangxi 3,,China,23.87,110.12,1150,NA,NA,NA
+4701,11419,Pingnan Guangxi ,,China,23.87,110.18,734,NA,NA,NA
+8918,11419,Baise Guangxi 4,,China,23.87,106.34,660,NA,NA,NA
+4061,11419,Gangwu Guangxi 4,,China,23.88,111.18,358,NA,NA,NA
+5536,11419,Yunxiao Fujian ,,China,23.9,117.3,80,NA,NA,NA
+4227,11419,Jinxiu Guangxi 11,,China,23.93,115.03,1200,NA,NA,NA
+5537,11419,Yunxiao Fujian 1,,China,24,117.4,120,NA,NA,NA
+4216,11419,Jinxiu Guangxi ,,China,24.02,110.06,680,NA,NA,NA
+4217,11419,Jinxiu Guangxi 1,,China,24.15,110.11,830,NA,NA,NA
+4333,11419,Lingyun Guangdong 1,,China,24.15,106.52,740,NA,NA,NA
+4430,11419,Mengshan Guangxi ,,China,24.15,110.65,375,NA,NA,NA
+5289,11419,Tianlin Guangdong ,,China,24.15,105.63,782,NA,NA,NA
+5545,11419,Zhaoping Guangxi ,,China,24.15,110.88,690,NA,NA,NA
+8936,11419,Changning Yunnan,,China,24.2,99.27,1560,14.9,1260,NA
+4098,11419,He Guangxi ,,China,24.23,111.77,380,NA,NA,NA
+4100,11419,He Guangxi 2,,China,24.23,111.83,572,NA,NA,NA
+4218,11419,Jinxiu Guangxi 2,,China,24.23,110.11,630,NA,NA,NA
+4220,11419,Jinxiu Guangxi 4,,China,24.23,110.23,830,NA,NA,NA
+4222,11419,Jinxiu Guangxi 6,,China,24.23,110.29,620,NA,NA,NA
+4224,11419,Jinxiu Guangxi 8,,China,24.23,110.35,450,NA,NA,NA
+5378,11419,Xilin Guangxi ,,China,24.23,104.41,1100,NA,NA,NA
+5389,11419,Xilin Guangxi 11,,China,24.23,105.33,1141,22.6,1600,NA
+4103,11419,He Guangxi 5,,China,24.3,111.95,940,NA,NA,NA
+4221,11419,Jinxiu Guangxi 5,,China,24.3,110.23,800,NA,NA,NA
+4223,11419,Jinxiu Guangxi 7,,China,24.3,110.29,1015,NA,NA,NA
+4699,11419,Pingle Guangxi ,,China,24.3,110.76,311,NA,NA,NA
+5301,11419,Tianlin Guangdong 12,,China,24.3,106.3,780,21.5,1200,NA
+5303,11419,Tianlin Guangdong 14,,China,24.3,116.2,390,21.5,1200,NA
+5388,11419,Xilin Guangxi 10,,China,24.3,105.28,1093,22.6,1600,NA
+5390,11419,Xilin Guangxi 12,,China,24.3,105.33,930,22.6,1600,NA
+5391,11419,Xilin Guangxi 13,,China,24.3,106.1,640,NA,NA,NA
+5392,11419,Xilin Guangxi 14,,China,24.3,106.22,297,NA,NA,NA
+4099,11419,He Guangxi 1,,China,24.37,111.77,475,NA,NA,NA
+4332,11419,Lingyun Guangdong ,,China,24.37,106.46,1420,NA,NA,NA
+5290,11419,Tianlin Guangdong 1,,China,24.37,105.75,639,NA,NA,NA
+5295,11419,Tianlin Guangdong 6,,China,24.37,105.93,700,NA,NA,NA
+5298,11419,Tianlin Guangdong 9,,China,24.37,105.99,750,NA,NA,NA
+5304,11419,Tianlin Guangdong 15,,China,24.37,116.2,730,21.5,1200,NA
+5306,11419,Tianlin Guangdong 17,,China,24.37,116.34,1340,21.5,1200,NA
+5382,11419,Xilin Guangxi 4,,China,24.37,104.68,1220,22.6,1600,NA
+5386,11419,Xilin Guangxi 8,,China,24.37,105.16,1055,22.6,1600,NA
+5302,11419,Tianlin Guangdong 13,,China,24.4,106.3,1600,21.5,1200,NA
+4373,11419,Lipu Guangxi ,,China,24.45,110.23,460,NA,NA,NA
+4388,11419,Longlin Guangdong 1,,China,24.45,105.28,1028,NA,NA,NA
+4389,11419,Longlin Guangdong 2,,China,24.45,105.39,1124,NA,NA,NA
+5292,11419,Tianlin Guangdong 3,,China,24.45,105.87,708,NA,NA,NA
+5299,11419,Tianlin Guangdong 10,,China,24.45,105.99,577,NA,NA,NA
+5307,11419,Tianlin Guangdong 18,,China,24.45,116.34,1550,21.5,1200,NA
+5385,11419,Xilin Guangxi 7,,China,24.45,105.1,1187,22.6,1600,NA
+5387,11419,Xilin Guangxi 9,,China,24.45,105.16,837,22.6,1600,NA
+5473,11419,Yishan Guangxi ,,China,24.5,108.8,195,NA,NA,NA
+4101,11419,He Guangxi 3,,China,24.52,111.83,305,NA,NA,NA
+4104,11419,He Guangxi 6,,China,24.52,111.95,390,NA,NA,NA
+5291,11419,Tianlin Guangdong 2,,China,24.52,105.81,710,NA,NA,NA
+5293,11419,Tianlin Guangdong 4,,China,24.52,105.87,930,NA,NA,NA
+5296,11419,Tianlin Guangdong 7,,China,24.52,105.93,780,NA,NA,NA
+5308,11419,Tianlin Guangdong 19,,China,24.52,116.4,1978,NA,NA,NA
+4387,11419,Longlin Guangdong ,,China,24.58,104.86,1223,NA,NA,NA
+5300,11419,Tianlin Guangdong 11,,China,24.58,105.99,1030,NA,NA,NA
+5380,11419,Xilin Guangxi 2,,China,24.58,104.62,1042,22.6,1600,NA
+5383,11419,Xilin Guangxi 5,,China,24.58,104.68,1172,22.6,1600,NA
+5384,11419,Xilin Guangxi 6,,China,24.58,104.8,1005,22.6,1600,NA
+4413,11419,Luzhai Guangxi ,,China,24.67,110.11,740,NA,NA,NA
+5294,11419,Tianlin Guangdong 5,,China,24.67,105.87,840,NA,NA,NA
+5379,11419,Xilin Guangxi 1,,China,24.67,104.57,921,NA,NA,NA
+8926,11419,Ceheng Guizhou 2,,China,24.68,106,785,NA,NA,NA
+4127,11419,Huaan Fujian ,,China,24.7,117.2,400,NA,NA,NA
+4182,11419,Jianghua Hunan 1,,China,24.7,111.55,1120,NA,NA,NA
+4069,11419,Gongcheng Guangxi 7,,China,24.73,111,710,NA,NA,NA
+4102,11419,He Guangxi 4,,China,24.73,111.89,470,NA,NA,NA
+4256,11419,Leye Guangxi 4,,China,24.73,106.34,1450,NA,NA,NA
+4390,11419,Longlin Guangdong 3,,China,24.73,105.45,891,NA,NA,NA
+5297,11419,Tianlin Guangdong 8,,China,24.73,105.93,520,NA,NA,NA
+5305,11419,Tianlin Guangdong 16,,China,24.73,116.2,970,21.5,1200,NA
+8927,11419,Ceheng Guizhou 3,,China,24.75,106,965,NA,NA,NA
+8928,11419,Ceheng Guizhou 4,,China,24.75,106.08,855,NA,NA,NA
+4067,11419,Gongcheng Guangxi 5,,China,24.8,110.94,885,NA,NA,NA
+4070,11419,Gongcheng Guangxi 8,,China,24.8,111,1045,NA,NA,NA
+4181,11419,Jianghua Hunan ,,China,24.8,111.5,500,NA,NA,NA
+4252,11419,Leye Guangxi ,,China,24.8,106.23,710,NA,NA,NA
+4254,11419,Leye Guangxi 2,,China,24.8,106.29,1011,NA,NA,NA
+4440,11419,Nandan Guangxi 3,,China,24.8,107.41,407,NA,NA,NA
+4072,11419,Gongcheng Guangxi 10,,China,24.88,111.12,103,NA,NA,NA
+4130,11419,Huangjiang Guangxi 1,,China,24.88,108.09,400,NA,NA,NA
+4136,11419,Huangjiang Guangxi 7,,China,24.88,108.39,730,NA,NA,NA
+4258,11419,Leye Guangxi 6,,China,24.88,106.82,617,NA,NA,NA
+4391,11419,Longlin Guangdong 4,,China,24.88,106.35,1036,NA,NA,NA
+4392,11419,Longlin Guangdong 5,,China,24.88,106.41,980,NA,NA,NA
+4183,11419,Jianghua Hunan 2,,China,24.9,111.7,521,NA,NA,NA
+4185,11419,Jianghua Hunan 4,,China,24.9,112,500,NA,NA,NA
+4418,11419,Mang mountain Hunan ,,China,24.9,112.8,700,20,1500,NA
+5232,11419,Shixing Guangdong ,,China,24.9,114,500,NA,NA,NA
+4051,11419,Fuchuan Guangxi 1,,China,24.95,111.18,1220,NA,NA,NA
+4063,11419,Gongcheng Guangxi 1,,China,24.95,110.7,825,NA,NA,NA
+4068,11419,Gongcheng Guangxi 6,,China,24.95,110.94,750,NA,NA,NA
+4253,11419,Leye Guangxi 1,,China,24.95,106.23,955,NA,NA,NA
+4255,11419,Leye Guangxi 3,,China,24.95,106.29,206,NA,NA,NA
+4257,11419,Leye Guangxi 5,,China,24.95,106.64,952,NA,NA,NA
+5477,11419,Yongfu Guangxi 2,,China,24.95,109.81,360,NA,NA,NA
+5557,11419,Zhuzhou Hunan 2,,China,24.95,112.86,1050,NA,NA,NA
+4184,11419,Jianghua Hunan 3,,China,24.98,111.95,455,NA,NA,NA
+5555,11419,Zhuzhou Hunan ,,China,24.98,112.74,1110,NA,NA,NA
+5556,11419,Zhuzhou Hunan 1,,China,24.98,112.82,910,NA,NA,NA
+5558,11419,Zhuzhou Hunan 3,,China,24.98,112.98,1480,NA,NA,NA
+4784,11419,Shanghang Fujian ,,China,25,116.4,750,NA,NA,NA
+8925,11419,Ceheng Guizhou 1,,China,25,105.8,540,15.7,1300,NA
+4064,11419,Gongcheng Guangxi 2,,China,25.02,110.7,500,NA,NA,NA
+4190,11419,Jiangyong Hunan ,,China,25.02,110.96,910,NA,NA,NA
+4409,11419,Luocheng Guangxi ,,China,25.02,108.62,800,NA,NA,NA
+4410,11419,Luocheng Guangxi 1,,China,25.02,108.68,480,NA,NA,NA
+5480,11419,Yongfu Guangxi 5,,China,25.02,109.97,604,NA,NA,NA
+5327,11419,Wangmo Guizhou ,,China,25.03,106.12,885,NA,NA,NA
+5328,11419,Wangmo Guizhou 1,,China,25.07,106.16,662,NA,NA,NA
+5329,11419,Wangmo Guizhou 2,,China,25.07,106.24,680,NA,NA,NA
+4052,11419,Fuchuan Guangxi 2,,China,25.1,111.3,460,NA,NA,NA
+4065,11419,Gongcheng Guangxi 3,,China,25.1,110.7,600,NA,NA,NA
+4066,11419,Gongcheng Guangxi 4,,China,25.1,110.76,900,NA,NA,NA
+4128,11419,Huaan Fujian 1,,China,25.1,117.5,450,NA,NA,NA
+4133,11419,Huangjiang Guangxi 4,,China,25.1,108.32,585,NA,NA,NA
+4138,11419,Huangjiang Guangxi 9,,China,25.1,108.62,1002,NA,NA,NA
+4240,11419,Lechang Guangdong ,,China,25.1,113.3,700,20.3,1503,NA
+4323,11419,Lingchuan Guangxi 5,,China,25.1,110.58,1180,NA,NA,NA
+4411,11419,Luocheng Guangxi 2,,China,25.1,108.74,740,NA,NA,NA
+4731,11419,Rongan Guangxi ,,China,25.1,109.63,700,NA,NA,NA
+5286,11419,Tiane Guangxi ,,China,25.1,106.59,380,NA,NA,NA
+5330,11419,Wangmo Guizhou 3,,China,25.12,106.36,592,NA,NA,NA
+3980,11419,Dali Yunnan 6,,China,25.15,99.67,2465,15.6,1384,NA
+8912,11419,Anlong Guizhou,,China,25.15,105.29,1252,NA,NA,NA
+4129,11419,Huangjiang Guangxi ,,China,25.17,108.02,680,NA,NA,NA
+4324,11419,Lingchuan Guangxi 6,,China,25.17,110.58,630,NA,NA,NA
+4325,11419,Lingchuan Guangxi 7,,China,25.17,110.64,550,NA,NA,NA
+4750,11419,Rongshui Guangxi 2,,China,25.17,108.8,670,NA,NA,NA
+4753,11419,Rongshui Guangxi 5,,China,25.17,108.92,650,NA,NA,NA
+5475,11419,Yongfu Guangxi ,,China,25.17,109.69,480,NA,NA,NA
+5479,11419,Yongfu Guangxi 4,,China,25.17,109.93,305,NA,NA,NA
+4053,11419,Fumin Yunnan 1,,China,25.19,102.33,2300,NA,NA,NA
+4191,11419,Jiangyong Hunan 1,,China,25.2,111.3,665,17.8,1300,NA
+4194,11419,Jiangyong Hunan 4,,China,25.2,111.95,1332,NA,NA,NA
+5544,11419,Zhangping Fujian ,,China,25.2,117.5,450,NA,NA,NA
+4349,11419,Lipo Guizhou 3,,China,25.21,107.79,800,NA,NA,NA
+4353,11419,Lipo Guizhou 7,,China,25.21,107.91,800,NA,NA,NA
+4356,11419,Lipo Guizhou 10,,China,25.21,107.95,815,NA,NA,NA
+4359,11419,Lipo Guizhou 13,,China,25.21,107.99,750,NA,NA,NA
+5457,11419,Yangbi Yunnan 9,,China,25.22,99.91,1815,NA,NA,NA
+4071,11419,Gongcheng Guangxi 9,,China,25.23,111,1200,NA,NA,NA
+4079,11419,Guangyang Guangxi 2,,China,25.23,110.94,680,NA,NA,NA
+4131,11419,Huangjiang Guangxi 2,,China,25.23,108.2,590,NA,NA,NA
+4132,11419,Huangjiang Guangxi 3,,China,25.23,108.26,585,NA,NA,NA
+4439,11419,Nandan Guangxi 2,,China,25.23,107.3,713,NA,NA,NA
+4754,11419,Rongshui Guangxi 6,,China,25.23,108.92,690,NA,NA,NA
+4755,11419,Rongshui Guangxi 7,,China,25.23,109.03,290,NA,NA,NA
+4757,11419,Rongshui Guangxi 9,,China,25.23,109.09,285,NA,NA,NA
+4348,11419,Lipo Guizhou 2,,China,25.25,107.71,774,NA,NA,NA
+4357,11419,Lipo Guizhou 11,,China,25.25,107.95,790,NA,NA,NA
+4360,11419,Lipo Guizhou 14,,China,25.25,107.99,850,NA,NA,NA
+4362,11419,Lipo Guizhou 16,,China,25.25,108.02,800,NA,NA,NA
+3976,11419,Dali Yunnan 2,,China,25.28,99.5,2257,15.6,1384,NA
+3981,11419,Dali Yunnan 7,,China,25.28,99.68,2394,15.6,1384,NA
+3983,11419,Dali Yunnan 9,,China,25.28,99.73,2488,15.6,1384,NA
+3987,11419,Dali Yunnan 13,,China,25.28,99.79,1950,15.6,1384,NA
+3988,11419,Dali Yunnan 14,,China,25.28,99.85,1951,15.6,1384,NA
+4078,11419,Guangyang Guangxi 1,,China,25.3,110.76,810,NA,NA,NA
+4134,11419,Huangjiang Guangxi 5,,China,25.3,108.32,660,NA,NA,NA
+4192,11419,Jiangyong Hunan 2,,China,25.3,111.3,602,17.8,1300,NA
+4351,11419,Lipo Guizhou 5,,China,25.3,107.87,900,NA,NA,NA
+4437,11419,Nandan Guangxi ,,China,25.3,107.18,739,NA,NA,NA
+4732,11419,Rongan Guangxi 1,,China,25.3,109.69,360,NA,NA,NA
+4751,11419,Rongshui Guangxi 3,,China,25.3,108.86,710,NA,NA,NA
+4756,11419,Rongshui Guangxi 8,,China,25.3,109.03,265,NA,NA,NA
+4354,11419,Lipo Guizhou 8,,China,25.33,107.91,953,NA,NA,NA
+3984,11419,Dali Yunnan 10,,China,25.37,99.74,2092,15.6,1384,NA
+4365,11419,Lipo Guizhou 19,,China,25.37,108.06,600,NA,NA,NA
+4369,11419,Lipo Guizhou 23,,China,25.37,108.14,650,NA,NA,NA
+5458,11419,Yangbi Yunnan 10,,China,25.37,99.91,2200,NA,NA,NA
+4322,11419,Lingchuan Guangxi 4,,China,25.38,110.52,525,NA,NA,NA
+4438,11419,Nandan Guangxi 1,,China,25.38,107.19,941,NA,NA,NA
+4749,11419,Rongshui Guangxi 1,,China,25.38,108.67,950,NA,NA,NA
+4758,11419,Rongshui Guangxi 10,,China,25.38,109.15,1450,NA,NA,NA
+4760,11419,Rongshui Guangxi 12,,China,25.38,109.33,622,NA,NA,NA
+5287,11419,Tiane Guangxi 1,,China,25.38,107.01,530,NA,NA,NA
+5288,11419,Tiane Guangxi 2,,China,25.38,107.13,820,NA,NA,NA
+5476,11419,Yongfu Guangxi 1,,China,25.38,109.75,468,NA,NA,NA
+5478,11419,Yongfu Guangxi 3,,China,25.38,109.87,460,NA,NA,NA
+4361,11419,Lipo Guizhou 15,,China,25.4,107.99,700,NA,NA,NA
+4363,11419,Lipo Guizhou 17,,China,25.4,108.02,760,NA,NA,NA
+5569,11419,Ziyun Guizhou ,,China,25.4,106.36,1160,NA,NA,NA
+3978,11419,Dali Yunnan 4,,China,25.43,99.62,2104,15.6,1384,NA
+3982,11419,Dali Yunnan 8,,China,25.43,99.68,2645,15.6,1384,NA
+3985,11419,Dali Yunnan 11,,China,25.43,99.74,2750,15.6,1384,NA
+4347,11419,Lipo Guizhou 1,,China,25.43,107.67,970,NA,NA,NA
+4370,11419,Lipo Guizhou 24,,China,25.43,108.14,850,NA,NA,NA
+4412,11419,Luodian Guangxi ,,China,25.43,106.96,710,NA,NA,NA
+5459,11419,Yangbi Yunnan 11,,China,25.43,99.91,2050,NA,NA,NA
+4080,11419,Guangyang Guangxi 3,,China,25.45,111.24,960,NA,NA,NA
+4135,11419,Huangjiang Guangxi 6,,China,25.45,108.32,1106,NA,NA,NA
+4137,11419,Huangjiang Guangxi 8,,China,25.45,108.43,390,NA,NA,NA
+4327,11419,Lingui Guangxi ,,China,25.45,109.81,693,NA,NA,NA
+4328,11419,Lingui Guangxi 1,,China,25.45,109.93,1085,NA,NA,NA
+4329,11419,Lingui Guangxi 2,,China,25.45,109.97,820,NA,NA,NA
+4733,11419,Rongan Guangxi 2,,China,25.45,109.75,585,NA,NA,NA
+4748,11419,Rongshui Guangxi ,,China,25.45,108.61,800,NA,NA,NA
+4752,11419,Rongshui Guangxi 4,,China,25.45,108.91,1600,NA,NA,NA
+4759,11419,Rongshui Guangxi 11,,China,25.45,109.27,410,NA,NA,NA
+4776,11419,Sanjiang Guangxi ,,China,25.45,109.51,440,NA,NA,NA
+4350,11419,Lipo Guizhou 4,,China,25.47,107.79,700,NA,NA,NA
+4371,11419,Lipo Guizhou 25,,China,25.47,108.14,750,NA,NA,NA
+3971,11419,Congjiang Guizhou 3,,China,25.5,108.45,750,NA,NA,NA
+3997,11419,Dao Hunan,,China,25.5,111.5,582,NA,NA,NA
+4193,11419,Jiangyong Hunan 3,,China,25.5,111.36,650,NA,NA,NA
+4695,11419,Nvcheng Hunan 1,,China,25.5,113.78,510,NA,NA,NA
+5450,11419,Yangbi Yunnan 2,,China,25.5,99.8,1600,NA,NA,NA
+5455,11419,Yangbi Yunnan 7,,China,25.5,99.86,2300,NA,NA,NA
+5460,11419,Yangbi Yunnan 12,,China,25.5,99.92,1700,NA,NA,NA
+5462,11419,Yangbi Yunnan 14,,China,25.5,99.97,1700,NA,NA,NA
+5514,11419,Yunlong Yunnan 2,,China,25.5,99.08,2957,12.8,1100,NA
+5518,11419,Yunlong Yunnan 6,,China,25.5,99.14,2526,12.8,1100,NA
+4368,11419,Lipo Guizhou 22,,China,25.52,108.1,800,NA,NA,NA
+4372,11419,Lipo Guizhou 26,,China,25.52,108.14,800,NA,NA,NA
+4081,11419,Guangyang Guangxi 4,,China,25.53,111.3,1280,NA,NA,NA
+4319,11419,Lingchuan Guangxi 1,,China,25.53,110.28,190,NA,NA,NA
+4346,11419,Lipo Guizhou ,,China,25.55,107.04,1500,NA,NA,NA
+4352,11419,Lipo Guizhou 6,,China,25.55,107.88,1000,NA,NA,NA
+4355,11419,Lipo Guizhou 9,,China,25.55,107.92,650,NA,NA,NA
+4358,11419,Lipo Guizhou 12,,China,25.55,107.96,540,NA,NA,NA
+4366,11419,Lipo Guizhou 20,,China,25.55,108.09,700,NA,NA,NA
+3970,11419,Congjiang Guizhou 2,,China,25.58,108.33,1200,NA,NA,NA
+3975,11419,Dali Yunnan 1,,China,25.58,99.38,2040,15.6,1384,NA
+3979,11419,Dali Yunnan 5,,China,25.58,99.62,2340,15.6,1384,NA
+3986,11419,Dali Yunnan 12,,China,25.58,99.74,2310,15.6,1384,NA
+4157,11419,Hushui Yunnan ,,China,25.58,98.78,2900,13.1,1100,NA
+4364,11419,Lipo Guizhou 18,,China,25.58,108.05,850,NA,NA,NA
+4367,11419,Lipo Guizhou 21,,China,25.58,108.09,700,NA,NA,NA
+4764,11419,Sandu Shanxi 2,,China,25.58,107.96,536,NA,NA,NA
+5451,11419,Yangbi Yunnan 3,,China,25.58,99.8,1800,NA,NA,NA
+5456,11419,Yangbi Yunnan 8,,China,25.58,99.86,2000,NA,NA,NA
+5461,11419,Yangbi Yunnan 13,,China,25.58,99.92,2850,NA,NA,NA
+4260,11419,Liancheng Fujian ,,China,25.6,116.9,918,NA,NA,NA
+4318,11419,Lingchuan Guangxi ,,China,25.6,110.16,925,NA,NA,NA
+4330,11419,Lingui Guangxi 3,,China,25.6,109.98,1680,NA,NA,NA
+4395,11419,Longsheng Guangxi 2,,China,25.6,109.92,1720,NA,NA,NA
+4725,11419,Quanzhou Guangxi ,,China,25.6,110.94,1256,NA,NA,NA
+5396,11419,Xingan Guangxi 1,,China,25.6,109.87,600,NA,NA,NA
+5399,11419,Xingan Guangxi 4,,China,25.6,110.34,550,NA,NA,NA
+3969,11419,Congjiang Guizhou 1,,China,25.62,108.29,1400,NA,NA,NA
+3989,11419,Dali Yunnan 15,,China,25.65,100.16,2590,15.6,1384,NA
+5449,11419,Yangbi Yunnan 1,,China,25.65,99.74,2380,NA,NA,NA
+5452,11419,Yangbi Yunnan 4,,China,25.65,99.8,1850,NA,NA,NA
+5515,11419,Yunlong Yunnan 3,,China,25.65,99.08,2029,12.8,1100,NA
+5524,11419,Yunlong Yunnan 12,,China,25.65,99.32,2560,12.8,1100,NA
+4320,11419,Lingchuan Guangxi 2,,China,25.67,110.28,835,NA,NA,NA
+4321,11419,Lingchuan Guangxi 3,,China,25.67,110.34,850,NA,NA,NA
+4331,11419,Lingui Guangxi 4,,China,25.67,110.16,1320,NA,NA,NA
+4777,11419,Sanjiang Guangxi 1,,China,25.67,109.57,330,NA,NA,NA
+4778,11419,Sanjiang Guangxi 2,,China,25.67,110.1,390,NA,NA,NA
+5395,11419,Xingan Guangxi ,,China,25.67,109.33,700,NA,NA,NA
+5401,11419,Xingan Guangxi 6,,China,25.67,110.4,940,NA,NA,NA
+4261,11419,Liancheng Fujian 1,,China,25.7,116.9,805,NA,NA,NA
+5560,11419,Zixing Hunan ,,China,25.7,113.3,500,NA,NA,NA
+3977,11419,Dali Yunnan 3,,China,25.72,99.5,2550,15.6,1384,NA
+4024,11419,Dushan Guizhou 1,,China,25.72,107.52,1100,NA,NA,NA
+4704,11419,Pingtang Guizhou 1,,China,25.72,107.2,860,NA,NA,NA
+5448,11419,Yangbi Yunnan ,,China,25.72,99.68,2390,NA,NA,NA
+5525,11419,Yunlong Yunnan 13,,China,25.72,99.32,2880,12.8,1100,NA
+5528,11419,Yunlong Yunnan 16,,China,25.72,99.38,2020,12.8,1100,NA
+5535,11419,Yunlong Yunnan 23,,China,25.72,99.62,2220,12.8,1100,NA
+4736,11419,Rongjiang Guizhou 2,,China,25.73,108.17,600,NA,NA,NA
+4404,11419,Longsheng Guangxi 11,,China,25.75,110.28,580,NA,NA,NA
+4694,11419,Nvcheng Hunan ,,China,25.75,113.75,1139,NA,NA,NA
+4762,11419,Sandu Shanxi ,,China,25.75,107.8,880,NA,NA,NA
+4767,11419,Sandu Shanxi 5,,China,25.75,108.05,754,NA,NA,NA
+4770,11419,Sandu Shanxi 8,,China,25.75,108.09,748,NA,NA,NA
+5397,11419,Xingan Guangxi 2,,China,25.75,109.9,603,NA,NA,NA
+5398,11419,Xingan Guangxi 3,,China,25.75,110,750,NA,NA,NA
+5404,11419,Xingan Guangxi 9,,China,25.75,110.58,670,NA,NA,NA
+5408,11419,Xingyi Guizhou ,,China,25.75,104.61,1186,NA,NA,NA
+5562,11419,Zixing Hunan 2,,China,25.75,113.51,450,NA,NA,NA
+4734,11419,Rongjiang Guizhou ,,China,25.77,108.13,851,NA,NA,NA
+4737,11419,Rongjiang Guizhou 3,,China,25.77,108.17,610,NA,NA,NA
+4005,11419,Datian Fujian,,China,25.8,117.5,490,NA,NA,NA
+4735,11419,Rongjiang Guizhou 1,,China,25.8,108.13,757,NA,NA,NA
+4739,11419,Rongjiang Guizhou 5,,China,25.8,108.29,501,NA,NA,NA
+4768,11419,Sandu Shanxi 6,,China,25.8,108.05,637,NA,NA,NA
+4771,11419,Sandu Shanxi 9,,China,25.8,108.09,618,NA,NA,NA
+5453,11419,Yangbi Yunnan 5,,China,25.8,99.8,2500,NA,NA,NA
+5463,11419,Yangbi Yunnan 15,,China,25.8,99.98,2900,NA,NA,NA
+5516,11419,Yunlong Yunnan 4,,China,25.8,99.08,2790,12.8,1100,NA
+5534,11419,Yunlong Yunnan 22,,China,25.8,99.56,2110,12.8,1100,NA
+8938,11419,Changting Fujian,,China,25.8,116.3,400,NA,NA,NA
+4393,11419,Longsheng Guangxi ,,China,25.82,109.8,450,NA,NA,NA
+4396,11419,Longsheng Guangxi 3,,China,25.82,109.92,480,NA,NA,NA
+5400,11419,Xingan Guangxi 5,,China,25.82,110.34,750,NA,NA,NA
+5402,11419,Xingan Guangxi 7,,China,25.82,110.4,1100,NA,NA,NA
+4705,11419,Pingtang Guizhou 2,,China,25.83,107.32,750,NA,NA,NA
+4738,11419,Rongjiang Guizhou 4,,China,25.83,108.21,612,NA,NA,NA
+4030,11419,Eryuan Yunnan 3,,China,25.87,99.62,2635,12.8,1100,NA
+4032,11419,Eryuan Yunnan 5,,China,25.87,99.74,2400,NA,NA,NA
+5517,11419,Yunlong Yunnan 5,,China,25.87,99.08,2103,12.8,1100,NA
+5519,11419,Yunlong Yunnan 7,,China,25.87,99.14,1782,12.8,1100,NA
+4397,11419,Longsheng Guangxi 4,,China,25.88,109.98,680,NA,NA,NA
+4400,11419,Longsheng Guangxi 7,,China,25.88,110.16,370,NA,NA,NA
+4401,11419,Longsheng Guangxi 8,,China,25.88,110.22,895,NA,NA,NA
+5235,11419,Shuangpai Hunan 1,,China,25.88,111.76,430,NA,NA,NA
+5403,11419,Xingan Guangxi 8,,China,25.88,110.46,840,NA,NA,NA
+5454,11419,Yangbi Yunnan 6,,China,25.88,99.8,2700,NA,NA,NA
+5566,11419,Ziyuan Guangxi 1,,China,25.88,110.4,1347,NA,NA,NA
+3972,11419,Congjiang Guizhou 4,,China,25.9,108.88,456,NA,NA,NA
+4025,11419,Dushan Guizhou 2,,China,25.9,107.68,1340,13.2,600,NA
+4746,11419,Rongjiang Guizhou 12,,China,25.9,108.53,864,NA,NA,NA
+5512,11419,Yunlong Yunnan ,,China,25.93,99.02,2925,12.8,1100,NA
+5521,11419,Yunlong Yunnan 9,,China,25.93,99.26,2476,12.8,1100,NA
+5532,11419,Yunlong Yunnan 20,,China,25.93,99.5,2665,NA,NA,NA
+4335,11419,Liping Guizhou  1,,China,25.95,108.92,490,NA,NA,NA
+4337,11419,Liping Guizhou  3,,China,25.95,108.96,780,NA,NA,NA
+4394,11419,Longsheng Guangxi 1,,China,25.97,109.86,608,NA,NA,NA
+4402,11419,Longsheng Guangxi 9,,China,25.97,110.22,930,NA,NA,NA
+4405,11419,Longsheng Guangxi 12,,China,25.97,110.28,450,NA,NA,NA
+5234,11419,Shuangpai Hunan ,,China,25.97,111.52,430,NA,NA,NA
+5565,11419,Ziyuan Guangxi ,,China,25.97,110.34,410,NA,NA,NA
+4740,11419,Rongjiang Guizhou 6,,China,25.98,108.32,645,NA,NA,NA
+4057,11419,Fuzhou Fujian,,China,26,119.3,438,19.8,1450,NA
+4399,11419,Longsheng Guangxi 6,,China,26,110.1,1020,NA,NA,NA
+5313,11419,Tongdao Hunan 1,,China,26,109.7,500,NA,NA,NA
+5510,11419,Yueliang mountain Guizhou ,,China,26,108,1420,NA,NA,NA
+5567,11419,Ziyuan Guangxi 2,,China,26,110.6,719,NA,NA,NA
+4028,11419,Eryuan Yunnan 1,,China,26.02,99.56,3285,NA,NA,NA
+4033,11419,Eryuan Yunnan 6,,China,26.02,100.28,2206,NA,NA,NA
+4334,11419,Liping Guizhou  ,,China,26.02,108.8,730,NA,NA,NA
+4339,11419,Liping Guizhou  5,,China,26.02,109.24,910,NA,NA,NA
+4344,11419,Liping Guizhou  10,,China,26.02,109.36,800,NA,NA,NA
+4703,11419,Pingtang Guizhou ,,China,26.02,107.13,1090,NA,NA,NA
+4763,11419,Sandu Shanxi 1,,China,26.02,107.93,810,NA,NA,NA
+4772,11419,Sandu Shanxi 10,,China,26.02,108.12,1032,NA,NA,NA
+4773,11419,Sandu Shanxi 11,,China,26.02,108.2,620,NA,NA,NA
+5513,11419,Yunlong Yunnan 1,,China,26.02,99.02,2712,12.8,1100,NA
+5520,11419,Yunlong Yunnan 8,,China,26.02,99.2,2728,12.8,1100,NA
+5529,11419,Yunlong Yunnan 17,,China,26.02,99.38,2715,12.8,1100,NA
+4403,11419,Longsheng Guangxi 10,,China,26.03,110.22,905,NA,NA,NA
+4026,11419,Duyun Guizhou,,China,26.05,107.57,925,NA,NA,NA
+4769,11419,Sandu Shanxi 7,,China,26.05,108.08,650,NA,NA,NA
+4029,11419,Eryuan Yunnan 2,,China,26.08,99.56,3135,NA,NA,NA
+4031,11419,Eryuan Yunnan 4,,China,26.08,99.62,2480,NA,NA,NA
+4345,11419,Liping Guizhou  11,,China,26.08,109.4,780,NA,NA,NA
+4747,11419,Rongjiang Guizhou 13,,China,26.08,108.6,1290,NA,NA,NA
+4765,11419,Sandu Shanxi 3,,China,26.08,108,860,NA,NA,NA
+4766,11419,Sandu Shanxi 4,,China,26.08,108.04,961,NA,NA,NA
+5522,11419,Yunlong Yunnan 10,,China,26.08,99.26,2480,12.8,1100,NA
+5526,11419,Yunlong Yunnan 14,,China,26.08,99.32,2225,12.8,1100,NA
+4149,11419,Huishui Guizhou ,,China,26.1,106.6,1000,NA,NA,NA
+4312,11419,Ling Hunan 3,,China,26.1,113.76,1300,NA,NA,NA
+4398,11419,Longsheng Guangxi 5,,China,26.1,110.04,1144,NA,NA,NA
+5405,11419,Xingkou Fujian ,,China,26.1,117.4,342,NA,NA,NA
+5406,11419,Xingkou Fujian 1,,China,26.1,117.5,220,NA,NA,NA
+5568,11419,Ziyuan Guangxi 3,,China,26.1,110.7,523,NA,NA,NA
+3996,11419,Danzhai Guizhou 6,,China,26.12,108.08,922,NA,NA,NA
+4250,11419,Leishan Guizhou 2,,China,26.12,108.2,570,NA,NA,NA
+4113,11419,Heqing Yunnan 1,,China,26.15,100.16,2570,NA,NA,NA
+4120,11419,Heqing Yunnan 8,,China,26.15,100.34,2284,NA,NA,NA
+4336,11419,Liping Guizhou  2,,China,26.15,108.92,645,NA,NA,NA
+5484,11419,Yongsheng Yunnan 3,,China,26.15,100.7,2329,NA,NA,NA
+5523,11419,Yunlong Yunnan 11,,China,26.15,99.26,2960,12.8,1100,NA
+5527,11419,Yunlong Yunnan 15,,China,26.15,99.32,2595,12.8,1100,NA
+5533,11419,Yunlong Yunnan 21,,China,26.15,99.5,2340,NA,NA,NA
+5561,11419,Zixing Hunan 1,,China,26.15,113.44,800,NA,NA,NA
+4161,11419,Jianchuan Yunnan 3,,China,26.17,99.56,2860,NA,NA,NA
+4164,11419,Jianchuan Yunnan 6,,China,26.17,99.62,3000,NA,NA,NA
+4168,11419,Jianchuan Yunnan 10,,China,26.17,99.74,3146,NA,NA,NA
+4150,11419,Huishui Guizhou 1,,China,26.18,106.65,1150,NA,NA,NA
+5312,11419,Tongdao Hunan ,,China,26.18,109.52,510,NA,NA,NA
+8939,11419,Chengbu Hunan 1,,China,26.18,110.16,1390,NA,NA,NA
+3992,11419,Danzhai Guizhou 2,,China,26.2,107.97,560,NA,NA,NA
+4338,11419,Liping Guizhou  4,,China,26.2,109.1,1100,NA,NA,NA
+4342,11419,Liping Guizhou  8,,China,26.2,109.28,670,NA,NA,NA
+8940,11419,Chengbu Hunan 2,,China,26.2,110.2,500,NA,NA,NA
+3995,11419,Danzhai Guizhou 5,,China,26.23,108,892,NA,NA,NA
+4116,11419,Heqing Yunnan 4,,China,26.23,100.22,2105,NA,NA,NA
+4151,11419,Huishui Guizhou 2,,China,26.23,106.65,1050,NA,NA,NA
+4159,11419,Jianchuan Yunnan 1,,China,26.23,99.5,2260,NA,NA,NA
+4162,11419,Jianchuan Yunnan 4,,China,26.23,99.56,2903,NA,NA,NA
+4343,11419,Liping Guizhou  9,,China,26.23,109.32,750,NA,NA,NA
+5488,11419,Yongsheng Yunnan 7,,China,26.23,100.88,2700,NA,NA,NA
+5530,11419,Yunlong Yunnan 18,,China,26.23,99.38,2240,12.8,1100,NA
+4314,11419,Ling Hunan 5,,China,26.25,113.84,1200,NA,NA,NA
+4726,11419,Quanzhou Guangxi 1,,China,26.25,110.94,1050,NA,NA,NA
+5497,11419,Yongxing Hunan ,,China,26.25,113.36,570,NA,NA,NA
+5564,11419,Zixing Hunan 4,,China,26.25,113.68,633,NA,NA,NA
+3991,11419,Danzhai Guizhou 1,,China,26.27,107.93,1080,NA,NA,NA
+3993,11419,Danzhai Guizhou 3,,China,26.27,107.97,960,NA,NA,NA
+4251,11419,Leishan Guizhou 3,,China,26.27,108.24,1070,NA,NA,NA
+4742,11419,Rongjiang Guizhou 8,,China,26.27,108.36,1030,NA,NA,NA
+4310,11419,Ling Hunan 1,,China,26.28,113.72,400,NA,NA,NA
+5563,11419,Zixing Hunan 3,,China,26.28,113.64,550,NA,NA,NA
+3994,11419,Danzhai Guizhou 4,,China,26.3,107.97,900,NA,NA,NA
+4114,11419,Heqing Yunnan 2,,China,26.3,100.16,2312,NA,NA,NA
+4173,11419,Jianchuan Yunnan 15,,China,26.3,99.86,2194,NA,NA,NA
+4174,11419,Jianchuan Yunnan 16,,China,26.3,99.92,2866,NA,NA,NA
+4248,11419,Leishan Guizhou ,,China,26.3,108,1785,NA,NA,NA
+4340,11419,Liping Guizhou  6,,China,26.3,109.24,680,NA,NA,NA
+4432,11419,Minqing Fujian 1,,China,26.3,118.7,650,NA,NA,NA
+4741,11419,Rongjiang Guizhou 7,,China,26.3,108.32,980,NA,NA,NA
+4745,11419,Rongjiang Guizhou 11,,China,26.3,108.48,600,NA,NA,NA
+5531,11419,Yunlong Yunnan 19,,China,26.3,99.44,2610,12.8,1100,NA
+8943,11419,Chengbu Hunan 5,,China,26.3,110.3,1730,NA,NA,NA
+4727,11419,Quanzhou Guangxi 2,,China,26.32,111,1102,NA,NA,NA
+4243,11419,Leigong mountain Guizhou ,,China,26.33,108.16,1600,NA,NA,NA
+4249,11419,Leishan Guizhou 1,,China,26.33,108,700,NA,NA,NA
+4341,11419,Liping Guizhou  7,,China,26.33,109.24,700,NA,NA,NA
+4743,11419,Rongjiang Guizhou 9,,China,26.33,108.4,830,NA,NA,NA
+4211,11419,Jingzhou Hunan 2,,China,26.35,109.52,550,NA,NA,NA
+4309,11419,Ling Hunan ,,China,26.35,113.64,680,NA,NA,NA
+5315,11419,Tongdao Hunan 3,,China,26.35,109.84,580,NA,NA,NA
+8941,11419,Chengbu Hunan 3,,China,26.35,110.2,650,NA,NA,NA
+4112,11419,Heqing Yunnan ,,China,26.37,100.1,3450,12.8,1100,NA
+4115,11419,Heqing Yunnan 3,,China,26.37,100.16,2251,NA,NA,NA
+4121,11419,Heqing Yunnan 9,,China,26.37,100.34,2210,NA,NA,NA
+4160,11419,Jianchuan Yunnan 2,,China,26.37,99.5,3066,NA,NA,NA
+4165,11419,Jianchuan Yunnan 7,,China,26.37,99.62,2887,NA,NA,NA
+4166,11419,Jianchuan Yunnan 8,,China,26.37,99.68,2540,NA,NA,NA
+4175,11419,Jianchuan Yunnan 17,,China,26.37,99.92,2415,NA,NA,NA
+4180,11419,Jianchuan Yunnan 22,,China,26.37,109.94,2988,NA,NA,NA
+4246,11419,Leigong mountain Guizhou 3,,China,26.37,108.27,930,NA,NA,NA
+4386,11419,Longli Guizhou ,,China,26.37,106.97,1462,NA,NA,NA
+5485,11419,Yongsheng Yunnan 4,,China,26.37,100.7,2580,NA,NA,NA
+5486,11419,Yongsheng Yunnan 5,,China,26.37,100.76,3000,NA,NA,NA
+5492,11419,Yongsheng Yunnan 11,,China,26.37,100.94,2900,12.9,1010,NA
+4084,11419,Guiyang Guizhou 2,,China,26.4,106.7,1214,15.6,1214,NA
+4186,11419,Jiangkou Guizhou ,,China,26.4,108.2,986,NA,NA,NA
+4315,11419,Ling Hunan 6,,China,26.4,114.01,1312,NA,NA,NA
+5316,11419,Tongdao Hunan 4,,China,26.4,109.84,500,NA,NA,NA
+4244,11419,Leigong mountain Guizhou 1,,China,26.42,108.23,1390,NA,NA,NA
+4247,11419,Leigong mountain Guizhou 4,,China,26.42,108.27,1430,NA,NA,NA
+4744,11419,Rongjiang Guizhou 10,,China,26.42,108.47,710,NA,NA,NA
+4208,11419,Jingchuan Hunan ,,China,26.43,109.4,610,NA,NA,NA
+4311,11419,Ling Hunan 2,,China,26.43,113.73,575,NA,NA,NA
+5247,11419,Suining Hunan 2,,China,26.43,110.04,500,NA,NA,NA
+5250,11419,Suining Hunan 5,,China,26.43,110.12,870,NA,NA,NA
+5314,11419,Tongdao Hunan 2,,China,26.43,109.8,500,NA,NA,NA
+4117,11419,Heqing Yunnan 5,,China,26.45,100.22,2595,NA,NA,NA
+4118,11419,Heqing Yunnan 6,,China,26.45,100.28,2317,NA,NA,NA
+4145,11419,Huaping Yunnan 3,,China,26.45,101.19,2040,NA,NA,NA
+4167,11419,Jianchuan Yunnan 9,,China,26.45,99.68,2760,NA,NA,NA
+4169,11419,Jianchuan Yunnan 11,,China,26.45,99.74,2885,NA,NA,NA
+4176,11419,Jianchuan Yunnan 18,,China,26.45,99.98,2376,NA,NA,NA
+4196,11419,Jianhe Guizhou  1,,China,26.45,108.55,870,NA,NA,NA
+5487,11419,Yongsheng Yunnan 6,,China,26.45,100.76,2735,NA,NA,NA
+5489,11419,Yongsheng Yunnan 8,,China,26.45,100.89,2850,NA,NA,NA
+4083,11419,Guiyang Guizhou 1,,China,26.48,106.65,1130,15.6,1214,NA
+4054,11419,Fumin Yunnan 3,,China,26.5,113.7,940,17.8,1480,NA
+4090,11419,Gutian Fujian,,China,26.5,118.7,650,NA,NA,NA
+4316,11419,Ling Hunan 7,,China,26.5,114.05,250,NA,NA,NA
+4445,11419,Nanping Fujian 2,,China,26.5,118.6,450,19.6,1790,NA
+4718,11419,Qingzhen Guizhou 1,,China,26.5,106.4,1210,NA,NA,NA
+5245,11419,Suining Hunan ,,China,26.5,109.88,570,NA,NA,NA
+5249,11419,Suining Hunan 4,,China,26.5,110.1,407,NA,NA,NA
+8942,11419,Chengbu Hunan 4,,China,26.5,110.2,900,NA,NA,NA
+8944,11419,Chengbu Hunan 6,,China,26.5,110.44,660,NA,NA,NA
+4085,11419,Guiyang Guizhou 3,,China,26.52,106.82,1150,15.6,1214,NA
+4119,11419,Heqing Yunnan 7,,China,26.52,100.28,2990,NA,NA,NA
+4122,11419,Heqing Yunnan 10,,China,26.52,100.34,2783,NA,NA,NA
+4158,11419,Jianchuan Yunnan ,,China,26.52,96.61,2480,NA,NA,NA
+4163,11419,Jianchuan Yunnan 5,,China,26.52,99.56,2558,NA,NA,NA
+4170,11419,Jianchuan Yunnan 12,,China,26.52,99.74,2680,NA,NA,NA
+4171,11419,Jianchuan Yunnan 13,,China,26.52,99.8,2564,NA,NA,NA
+4177,11419,Jianchuan Yunnan 19,,China,26.52,99.98,2600,NA,NA,NA
+4178,11419,Jianchuan Yunnan 20,,China,26.52,100.04,3180,NA,NA,NA
+4195,11419,Jianhe Guizhou  ,,China,26.52,108.51,800,NA,NA,NA
+4197,11419,Jianhe Guizhou  2,,China,26.52,108.59,520,NA,NA,NA
+4199,11419,Jianhe Guizhou  4,,China,26.52,108.83,700,NA,NA,NA
+4230,11419,Kaili Guizhou ,,China,26.52,107.98,950,NA,NA,NA
+4245,11419,Leigong mountain Guizhou 2,,China,26.52,108.23,1865,NA,NA,NA
+5272,11419,Taijiang Guizhou ,,China,26.52,108.27,1800,NA,NA,NA
+5273,11419,Taijiang Guizhou 1,,China,26.52,108.31,1027,NA,NA,NA
+5490,11419,Yongsheng Yunnan 9,,China,26.52,100.89,2220,NA,NA,NA
+8945,11419,Chengbu Hunan 7,,China,26.53,110.56,870,NA,NA,NA
+4213,11419,Jinping Guizhou  ,,China,26.55,109.23,517,NA,NA,NA
+4214,11419,Jinping Guizhou  1,,China,26.55,109.39,860,NA,NA,NA
+4416,11419,Majiang Guizhou ,,China,26.55,107.74,759,NA,NA,NA
+5274,11419,Taijiang Guizhou 2,,China,26.55,108.31,1619,NA,NA,NA
+5337,11419,Weining Guizhou 3,,China,26.55,104.05,2250,7.8,600,NA
+4317,11419,Ling Hunan 8,,China,26.57,114.05,900,NA,NA,NA
+4123,11419,Heqing Yunnan 11,,China,26.58,100.35,2663,NA,NA,NA
+4172,11419,Jianchuan Yunnan 14,,China,26.58,99.8,2884,NA,NA,NA
+4179,11419,Jianchuan Yunnan 21,,China,26.58,100.04,2969,NA,NA,NA
+4444,11419,Nanping Fujian 1,,China,26.6,118.1,750,19.6,1800,NA
+5275,11419,Taijiang Guizhou 3,,China,26.6,108.43,1040,NA,NA,NA
+4210,11419,Jingzhou Hunan 1,,China,26.62,109.51,500,NA,NA,NA
+4200,11419,Jianhe Guizhou  5,,China,26.63,109.35,500,NA,NA,NA
+4283,11419,Lijiang Yunnan 20,,China,26.67,99.8,3060,12.8,1100,NA
+4286,11419,Lijiang Yunnan 23,,China,26.67,99.92,2600,12.8,1100,NA
+4293,11419,Lijiang Yunnan 30,,China,26.67,100.11,3450,12.8,1100,NA
+5338,11419,Weining Guizhou 4,,China,26.67,104.13,2122,7.8,600,NA
+5481,11419,Yongsheng Yunnan ,,China,26.67,100.53,2800,NA,NA,NA
+5491,11419,Yongsheng Yunnan 10,,China,26.67,100.89,2748,NA,NA,NA
+4209,11419,Jingzhou Hunan ,,China,26.68,109.43,580,NA,NA,NA
+4153,11419,Huitong Hunan 1,,China,26.7,109.6,400,NA,NA,NA
+4443,11419,Nanping Fujian ,,China,26.7,118,513,19.6,1800,NA
+4581,11419,Nayong Guizhou ,,China,26.7,105.9,1800,NA,NA,NA
+5334,11419,Weining Guizhou ,,China,26.7,103.84,2200,7.8,600,NA
+5370,11419,Wugangyun mountain Hunan ,,China,26.7,110.6,1260,NA,NA,NA
+5251,11419,Suining Hunan 6,,China,26.72,110.12,740,NA,NA,NA
+5256,11419,Suining Hunan 11,,China,26.72,110.36,768,NA,NA,NA
+4088,11419,Guiyang Guizhou 6,,China,26.73,106.97,1350,15.6,1214,NA
+4143,11419,Huaping Yunnan 1,,China,26.73,101.07,2070,NA,NA,NA
+4144,11419,Huaping Yunnan 2,,China,26.73,101.13,2298,NA,NA,NA
+4146,11419,Huaping Yunnan 4,,China,26.73,101.31,2178,NA,NA,NA
+4147,11419,Huaping Yunnan 5,,China,26.73,101.37,1900,NA,NA,NA
+4198,11419,Jianhe Guizhou  3,,China,26.73,108.71,700,NA,NA,NA
+4275,11419,Lijiang Yunnan 12,,China,26.73,99.62,3120,12.8,1100,NA
+4280,11419,Lijiang Yunnan 17,,China,26.73,99.74,2600,12.8,1100,NA
+4284,11419,Lijiang Yunnan 21,,China,26.73,99.86,2860,12.8,1100,NA
+4287,11419,Lijiang Yunnan 24,,China,26.73,99.92,2800,12.8,1100,NA
+4296,11419,Lijiang Yunnan 33,,China,26.73,100.17,3100,12.8,1100,NA
+4300,11419,Lijiang Yunnan 37,,China,26.73,100.35,2500,12.8,1100,NA
+4606,11419,Ninglang Yunnan 24,,China,26.73,100.89,3300,12.9,1010,NA
+5311,11419,Tianzhu Guizhou  2,,China,26.73,109.35,500,NA,NA,NA
+5342,11419,Weining Guizhou 8,,China,26.73,104.41,1697,12,857,NA
+5482,11419,Yongsheng Yunnan 1,,China,26.73,100.59,2350,NA,NA,NA
+5483,11419,Yongsheng Yunnan 2,,China,26.73,100.69,1760,NA,NA,NA
+5248,11419,Suining Hunan 3,,China,26.75,110.08,485,NA,NA,NA
+5253,11419,Suining Hunan 8,,China,26.75,110.16,800,NA,NA,NA
+5339,11419,Weining Guizhou 5,,China,26.77,104.13,2344,7.8,600,NA
+4152,11419,Huitong Hunan ,,China,26.78,109.55,410,NA,NA,NA
+5252,11419,Suining Hunan 7,,China,26.78,110.12,860,NA,NA,NA
+4086,11419,Guiyang Guizhou 4,,China,26.8,106.86,1300,15.6,1214,NA
+4087,11419,Guiyang Guizhou 5,,China,26.8,106.94,1400,15.6,1214,NA
+4278,11419,Lijiang Yunnan 15,,China,26.8,99.68,3120,12.8,1100,NA
+4288,11419,Lijiang Yunnan 25,,China,26.8,99.93,2610,12.8,1100,NA
+4290,11419,Lijiang Yunnan 27,,China,26.8,99.99,2490,NA,NA,NA
+4291,11419,Lijiang Yunnan 28,,China,26.8,100.05,2920,12.8,1100,NA
+4294,11419,Lijiang Yunnan 31,,China,26.8,100.11,2830,12.8,1100,NA
+4599,11419,Ninglang Yunnan 17,,China,26.8,100.77,2930,12.9,1010,NA
+4602,11419,Ninglang Yunnan 20,,China,26.8,100.83,2750,12.9,1010,NA
+4610,11419,Ninglang Yunnan 28,,China,26.8,100.95,3300,12.9,1010,NA
+4615,11419,Ninglang Yunnan 33,,China,26.8,101.07,2120,NA,NA,NA
+5341,11419,Weining Guizhou 7,,China,26.8,104.2,2220,12,857,NA
+4713,11419,Qidong Hunan ,,China,26.87,109.63,270,NA,NA,NA
+5254,11419,Suining Hunan 9,,China,26.87,110.19,760,NA,NA,NA
+5257,11419,Suining Hunan 12,,China,26.87,110.36,490,NA,NA,NA
+4089,11419,Guiyang Guizhou 7,,China,26.88,106.98,1400,15.6,1214,NA
+4126,11419,Hezhang Guizhou 1,,China,26.88,104.73,1988,NA,NA,NA
+4141,11419,Huangping Guizhou 1,,China,26.88,107.83,920,NA,NA,NA
+4285,11419,Lijiang Yunnan 22,,China,26.88,99.87,2260,12.8,1100,NA
+4292,11419,Lijiang Yunnan 29,,China,26.88,100.05,2510,12.8,1100,NA
+4297,11419,Lijiang Yunnan 34,,China,26.88,100.17,2500,12.8,1100,NA
+4305,11419,Lijiang Yunnan 42,,China,26.88,100.41,3175,12.8,1100,NA
+4607,11419,Ninglang Yunnan 25,,China,26.88,100.89,2720,12.9,1010,NA
+4611,11419,Ninglang Yunnan 29,,China,26.88,100.95,2800,12.9,1010,NA
+4614,11419,Ninglang Yunnan 32,,China,26.88,101.01,2900,12.9,1010,NA
+4717,11419,Qingzhen Guizhou ,,China,26.88,106.38,1217,NA,NA,NA
+4700,11419,Pingnan Fujian ,,China,26.9,118.8,950,NA,NA,NA
+5246,11419,Suining Hunan 1,,China,26.9,109.91,560,NA,NA,NA
+4779,11419,Sanshui Guizhou ,,China,26.92,108.58,780,NA,NA,NA
+4781,11419,Sanshui Guizhou 2,,China,26.92,108.83,700,NA,NA,NA
+5255,11419,Suining Hunan 10,,China,26.93,110.19,880,NA,NA,NA
+4140,11419,Huangping Guizhou ,,China,26.95,107.63,1190,NA,NA,NA
+4142,11419,Huaping Yunnan ,,China,26.95,101.01,2640,NA,NA,NA
+4267,11419,Lijiang Yunnan 4,,China,26.95,99.5,3720,12.8,1100,NA
+4281,11419,Lijiang Yunnan 18,,China,26.95,99.75,2780,12.8,1100,NA
+4289,11419,Lijiang Yunnan 26,,China,26.95,99.93,2760,12.8,1100,NA
+4301,11419,Lijiang Yunnan 38,,China,26.95,100.35,2520,12.8,1100,NA
+5309,11419,Tianzhu Guizhou  ,,China,26.95,109.11,650,NA,NA,NA
+5355,11419,Weixi Yunnan 12,,China,26.95,99.38,2900,13.4,1200,NA
+3974,11419,Dafang Guizhou,,China,26.98,105.29,1440,NA,NA,NA
+4780,11419,Sanshui Guizhou 1,,China,26.98,108.74,610,NA,NA,NA
+5443,11419,Xiuwen Guizhou ,,China,26.98,106.42,1247,NA,NA,NA
+4201,11419,Jianou Fujian ,,China,27,118.1,870,NA,NA,NA
+5221,11419,Shaowu Fujian 4,,China,27,117.6,415,NA,NA,NA
+5276,11419,Taining Fujian ,,China,27,117.2,380,NA,NA,NA
+4154,11419,Huitong Hunan 2,,China,27.02,110.03,440,NA,NA,NA
+4276,11419,Lijiang Yunnan 13,,China,27.02,99.62,3220,12.8,1100,NA
+4295,11419,Lijiang Yunnan 32,,China,27.02,100.11,2680,12.8,1100,NA
+4585,11419,Ninglang Yunnan 3,,China,27.02,100.53,2920,12.9,1010,NA
+4591,11419,Ninglang Yunnan 9,,China,27.02,100.65,2580,12.9,1010,NA
+4594,11419,Ninglang Yunnan 12,,China,27.02,100.71,2790,12.9,1010,NA
+4603,11419,Ninglang Yunnan 21,,China,27.02,100.83,2940,12.9,1010,NA
+4612,11419,Ninglang Yunnan 30,,China,27.02,100.95,3080,12.9,1010,NA
+5361,11419,Wengan Guizhou 1,,China,27.02,107.23,740,NA,NA,NA
+5365,11419,Wengan Guizhou 5,,China,27.02,107.63,1030,NA,NA,NA
+5310,11419,Tianzhu Guizhou  1,,China,27.03,109.13,500,NA,NA,NA
+5340,11419,Weining Guizhou 6,,China,27.05,104.16,2200,12,857,NA
+5364,11419,Wengan Guizhou 4,,China,27.05,107.59,1210,NA,NA,NA
+4202,11419,Jianou Fujian 1,,China,27.1,118.5,150,NA,NA,NA
+4268,11419,Lijiang Yunnan 5,,China,27.1,99.5,3000,12.8,1100,NA
+4277,11419,Lijiang Yunnan 14,,China,27.1,99.63,2680,12.8,1100,NA
+4279,11419,Lijiang Yunnan 16,,China,27.1,99.69,2540,12.8,1100,NA
+4298,11419,Lijiang Yunnan 35,,China,27.1,100.29,3490,12.8,1100,NA
+4302,11419,Lijiang Yunnan 39,,China,27.1,100.35,3350,12.8,1100,NA
+4306,11419,Lijiang Yunnan 43,,China,27.1,100.41,2710,12.8,1100,NA
+4436,11419,Nakou Fujian ,,China,27.1,117.6,793,NA,NA,NA
+4592,11419,Ninglang Yunnan 10,,China,27.1,100.65,2730,12.9,1010,NA
+5218,11419,Shaowu Fujian 1,,China,27.1,117.3,1330,NA,NA,NA
+5377,11419,Xifeng Guizhou 1,,China,27.1,106.7,1500,NA,NA,NA
+4023,11419,Dongkou Hunan,,China,27.12,110.23,700,NA,NA,NA
+4125,11419,Hezhang Guizhou ,,China,27.13,104.57,1900,NA,NA,NA
+5366,11419,Wengan Guizhou 6,,China,27.13,107.67,1030,NA,NA,NA
+4232,11419,Kaiyang Guizhou 1,,China,27.17,107.11,1110,NA,NA,NA
+4263,11419,Lijiang Yunnan ,,China,27.17,99.44,2860,12.8,1100,NA
+4269,11419,Lijiang Yunnan 6,,China,27.17,99.5,2980,12.8,1100,NA
+4273,11419,Lijiang Yunnan 10,,China,27.17,99.57,3120,12.8,1100,NA
+4282,11419,Lijiang Yunnan 19,,China,27.17,99.75,2780,12.8,1100,NA
+4595,11419,Ninglang Yunnan 13,,China,27.17,100.72,2920,12.9,1010,NA
+4604,11419,Ninglang Yunnan 22,,China,27.17,100.84,2980,12.9,1010,NA
+5222,11419,Shibing Guizhou ,,China,27.17,108.05,950,NA,NA,NA
+5223,11419,Shibing Guizhou 1,,China,27.17,108.09,600,NA,NA,NA
+5362,11419,Wengan Guizhou 2,,China,27.17,107.23,1005,NA,NA,NA
+5552,11419,Zhenyuan Guizhou ,,China,27.17,108.3,1010,NA,NA,NA
+5217,11419,Shaowu Fujian ,,China,27.2,117.1,892,NA,NA,NA
+5553,11419,Zhenyuan Guizhou 1,,China,27.2,108.58,720,NA,NA,NA
+4233,11419,Kaiyang Guizhou 2,,China,27.23,107.11,958,NA,NA,NA
+4264,11419,Lijiang Yunnan 1,,China,27.23,99.44,2940,12.8,1100,NA
+4274,11419,Lijiang Yunnan 11,,China,27.23,99.57,2540,12.8,1100,NA
+4596,11419,Ninglang Yunnan 14,,China,27.23,100.72,2830,12.9,1010,NA
+4600,11419,Ninglang Yunnan 18,,China,27.23,100.78,2460,12.9,1010,NA
+4605,11419,Ninglang Yunnan 23,,China,27.23,100.84,2500,12.9,1010,NA
+4613,11419,Ninglang Yunnan 31,,China,27.23,100.96,3220,12.9,1010,NA
+5352,11419,Weixi Yunnan 9,,China,27.23,99.32,2780,13.4,1200,NA
+5376,11419,Xifeng Guizhou ,,China,27.23,106.63,900,NA,NA,NA
+5336,11419,Weining Guizhou 2,,China,27.27,104.04,1880,7.8,600,NA
+5360,11419,Wengan Guizhou ,,China,27.27,107.19,950,NA,NA,NA
+4313,11419,Ling Hunan 4,,China,27.3,113.8,950,17.8,1480,NA
+5219,11419,Shaowu Fujian 2,,China,27.3,117.3,470,NA,NA,NA
+5220,11419,Shaowu Fujian 3,,China,27.3,117.4,610,NA,NA,NA
+4265,11419,Lijiang Yunnan 2,,China,27.32,99.44,2940,12.8,1100,NA
+4270,11419,Lijiang Yunnan 7,,China,27.32,99.51,3400,12.8,1100,NA
+4597,11419,Ninglang Yunnan 15,,China,27.32,100.72,3110,12.9,1010,NA
+4608,11419,Ninglang Yunnan 26,,China,27.32,100.9,2570,12.9,1010,NA
+5349,11419,Weixi Yunnan 6,,China,27.32,99.14,2660,13.4,1200,NA
+5373,11419,Wuyi mountain Fujian ,,China,27.33,117.27,450,13.3,1750,NA
+4231,11419,Kaiyang Guizhou ,,China,27.35,107.03,895,NA,NA,NA
+4266,11419,Lijiang Yunnan 3,,China,27.38,99.44,2900,12.8,1100,NA
+4307,11419,Lijiang Yunnan 44,,China,27.38,100.42,3160,12.8,1100,NA
+4308,11419,Lijiang Yunnan 45,,China,27.38,100.48,3152,12.8,1100,NA
+4586,11419,Ninglang Yunnan 4,,China,27.38,100.54,2300,12.9,1010,NA
+5227,11419,Shiqian Guizhou ,,China,27.38,107.92,1030,NA,NA,NA
+5228,11419,Shiqian Guizhou 1,,China,27.38,108.05,1220,NA,NA,NA
+5350,11419,Weixi Yunnan 7,,China,27.38,99.2,3320,13.4,1200,NA
+5353,11419,Weixi Yunnan 10,,China,27.38,99.32,3320,13.4,1200,NA
+5363,11419,Wengan Guizhou 3,,China,27.38,107.32,950,NA,NA,NA
+5538,11419,Yuqing Guizhou ,,China,27.38,107.52,889,NA,NA,NA
+4215,11419,Jinsha Guizhou ,,China,27.4,106.2,1336,NA,NA,NA
+5335,11419,Weining Guizhou 1,,China,27.42,104,1850,7.8,600,NA
+4272,11419,Lijiang Yunnan 9,,China,27.45,99.55,2400,12.8,1100,NA
+4299,11419,Lijiang Yunnan 36,,China,27.45,100.29,3960,12.8,1100,NA
+4583,11419,Ninglang Yunnan 1,,China,27.45,100.48,3060,NA,NA,NA
+4598,11419,Ninglang Yunnan 16,,China,27.45,100.72,3136,12.9,1010,NA
+4609,11419,Ninglang Yunnan 27,,China,27.45,100.9,2580,12.9,1010,NA
+5344,11419,Weixi Yunnan 1,,China,27.45,98.96,3390,13.4,1200,NA
+5347,11419,Weixi Yunnan 4,,China,27.45,99.08,2690,13.4,1200,NA
+5539,11419,Yuqing Guizhou 1,,China,27.45,107.52,792,NA,NA,NA
+5229,11419,Shiqian Guizhou 2,,China,27.48,108.37,880,NA,NA,NA
+4139,11419,Huangkeng Fujian ,,China,27.5,117.6,690,17.8,2120,NA
+4708,11419,Pucheng Fujian 1,,China,27.5,118.4,600,NA,NA,NA
+5542,11419,Zangjiang Hunan 1,,China,27.52,109.62,640,NA,NA,NA
+4271,11419,Lijiang Yunnan 8,,China,27.53,99.51,3300,12.8,1100,NA
+4425,11419,Meitan Guizhou ,,China,27.53,107.32,1180,NA,NA,NA
+4587,11419,Ninglang Yunnan 5,,China,27.53,100.54,3100,12.9,1010,NA
+5230,11419,Shiqian Guizhou 3,,China,27.53,108.45,980,NA,NA,NA
+5345,11419,Weixi Yunnan 2,,China,27.53,98.96,2810,13.4,1200,NA
+5354,11419,Weixi Yunnan 11,,China,27.53,99.32,2790,13.4,1200,NA
+5356,11419,Weixi Yunnan 13,,China,27.53,99.38,2840,13.4,1200,NA
+5357,11419,Weixi Yunnan. ,,China,27.53,99.2,3590,13.4,1200,NA
+5540,11419,Yuqing Guizhou 2,,China,27.55,107.72,913,NA,NA,NA
+5541,11419,Zangjiang Hunan ,,China,27.55,109.58,550,NA,NA,NA
+5543,11419,Zangjiang Hunan 2,,China,27.55,109.66,710,NA,NA,NA
+4303,11419,Lijiang Yunnan 40,,China,27.6,100.36,3200,12.8,1100,NA
+4582,11419,Ninglang Yunnan ,,China,27.6,100.3,2908,NA,NA,NA
+4709,11419,Pucheng Fujian 2,,China,27.6,118.5,571,18,2200,NA
+5233,11419,Shouning Fujian ,,China,27.6,119.5,1040,NA,NA,NA
+5351,11419,Weixi Yunnan 8,,China,27.6,99.28,3130,13.4,1200,NA
+4424,11419,Mayang Hunan ,,China,27.62,109.58,615,NA,NA,NA
+4304,11419,Lijiang Yunnan 41,,China,27.67,100.36,2570,12.8,1100,NA
+4584,11419,Ninglang Yunnan 2,,China,27.67,100.48,2560,NA,NA,NA
+4588,11419,Ninglang Yunnan 6,,China,27.67,100.54,3280,12.9,1010,NA
+4589,11419,Ninglang Yunnan 7,,China,27.67,100.6,4100,12.9,1010,NA
+4593,11419,Ninglang Yunnan 11,,China,27.67,100.66,3278,12.9,1010,NA
+4601,11419,Ninglang Yunnan 19,,China,27.67,100.78,2940,12.9,1010,NA
+4427,11419,Meitan Guizhou 2,,China,27.7,107.52,909,NA,NA,NA
+4428,11419,Meitan Guizhou 3,,China,27.7,107.57,870,NA,NA,NA
+4429,11419,Meitan Guizhou 4,,China,27.7,107.61,1012,NA,NA,NA
+4729,11419,Renhuai Guizhou ,,China,27.7,106.31,1020,NA,NA,NA
+5317,11419,Tongjiang Guizhou  ,,China,27.7,109.34,420,NA,NA,NA
+5559,11419,Zhuzhou Hunan 4,,China,27.7,113.1,500,NA,NA,NA
+4019,11419,Deqin Yunnan 10,,China,27.75,99.32,2946,12.8,1100,NA
+4021,11419,Deqin Yunnan 12,,China,27.75,99.39,3160,12.8,1100,NA
+4188,11419,Jiangkou Guizhou 2,,China,27.75,108.73,897,NA,NA,NA
+4590,11419,Ninglang Yunnan 8,,China,27.75,100.6,2940,12.9,1010,NA
+4730,11419,Renhuai Guizhou 1,,China,27.75,106.39,880,NA,NA,NA
+4049,11419,Fenggang Guizhou,,China,27.78,107.85,680,NA,NA,NA
+4020,11419,Deqin Yunnan 11,,China,27.82,99.32,3050,12.8,1100,NA
+4022,11419,Deqin Yunnan 13,,China,27.82,99.45,2350,12.8,1100,NA
+4426,11419,Meitan Guizhou 1,,China,27.82,107.41,1070,NA,NA,NA
+5343,11419,Weixi Yunnan ,,China,27.82,98.9,3030,13.4,1200,NA
+4037,11419,Fanjing mountain Guizhou 2,,China,27.85,108.64,1000,16.2,1370,NA
+4187,11419,Jiangkou Guizhou 1,,China,27.85,108.56,740,NA,NA,NA
+4189,11419,Jiangkou Guizhou 3,,China,27.85,108.73,778,NA,NA,NA
+4045,11419,Fanjing mountain Guizhou 10,,China,27.88,108.73,1287,NA,NA,NA
+4047,11419,Fanjing mountain Guizhou 12,,China,27.88,108.77,910,NA,NA,NA
+5348,11419,Weixi Yunnan 5,,China,27.88,99.08,2810,13.4,1200,NA
+4036,11419,Fanjing mountain Guizhou 1,,China,27.9,108.6,1658,16.2,1370,NA
+4710,11419,Pucheng Fujian 3,,China,27.9,118.5,700,18,2200,NA
+5446,11419,Xupu Hunan ,,China,27.9,110.5,500,NA,NA,NA
+4038,11419,Fanjing mountain Guizhou 3,,China,27.92,108.64,1470,16.2,1370,NA
+4040,11419,Fanjing mountain Guizhou 5,,China,27.92,108.68,2110,NA,NA,NA
+4042,11419,Fanjing mountain Guizhou 7,,China,27.92,108.72,825,NA,NA,NA
+5409,11419,Xinhua Hunan ,,China,27.92,110.96,640,NA,NA,NA
+4041,11419,Fanjing mountain Guizhou 6,,China,27.97,108.68,1910,NA,NA,NA
+4043,11419,Fanjing mountain Guizhou 8,,China,27.97,108.72,2104,NA,NA,NA
+4046,11419,Fanjing mountain Guizhou 11,,China,27.97,108.76,825,NA,NA,NA
+5346,11419,Weixi Yunnan 3,,China,27.97,98.96,3385,13.4,1200,NA
+5472,11419,Yinjiang Guizhou ,,China,27.97,108.6,1030,NA,NA,NA
+4039,11419,Fanjing mountain Guizhou 4,,China,28,108.64,1492,16.2,1370,NA
+4044,11419,Fanjing mountain Guizhou 9,,China,28,108.72,1810,NA,NA,NA
+4707,11419,Pucheng Fujian ,,China,28,118.3,800,NA,NA,NA
+4711,11419,Pucheng Fujian 4,,China,28,118.5,600,18,2200,NA
+5264,11419,Suiyang Guizhou 6,,China,28,107.37,1200,NA,NA,NA
+5570,11419,Zunyi Guangxi ,,China,28,106.6,760,NA,NA,NA
+5571,11419,Zunyi Guangxi 1,,China,28,106.92,1020,NA,NA,NA
+8948,11419,Chenxi Hunan,,China,28.02,110.43,400,NA,NA,NA
+5240,11419,Sinan Guizhou ,,China,28.03,108.11,900,NA,NA,NA
+5319,11419,Tongzi Guizhou 1,,China,28.03,106.8,1200,NA,NA,NA
+5321,11419,Tongzi Guizhou 3,,China,28.07,106.84,1280,NA,NA,NA
+4010,11419,Deqin Yunnan 1,,China,28.1,98.78,3460,12.8,1100,NA
+4012,11419,Deqin Yunnan 3,,China,28.1,98.96,2480,12.8,1100,NA
+4229,11419,Jiyang Hunan ,,China,28.1,113.6,550,NA,NA,NA
+5260,11419,Suiyang Guizhou 2,,China,28.1,107.09,1114,NA,NA,NA
+5320,11419,Tongzi Guizhou 2,,China,28.1,106.8,1873,NA,NA,NA
+8908,11419,Anhua Hunan 1,,China,28.1,110.92,360,NA,NA,NA
+8909,11419,Anhua Hunan 2,,China,28.1,111,220,NA,NA,NA
+5242,11419,Songtao Guizhou ,,China,28.13,109.25,850,NA,NA,NA
+5318,11419,Tongzi Guizhou ,,China,28.13,106.6,1150,NA,NA,NA
+5502,11419,Yuanling Hunan 3,,China,28.13,110.47,700,NA,NA,NA
+5410,11419,Xinhua Hunan 1,,China,28.17,111.33,470,NA,NA,NA
+4009,11419,Dejiang Guizhou,,China,28.18,108.31,890,NA,NA,NA
+4018,11419,Deqin Yunnan 9,,China,28.18,99.26,3680,12.8,1100,NA
+5241,11419,Sinan Guizhou 1,,China,28.18,108.19,760,NA,NA,NA
+5263,11419,Suiyang Guizhou 5,,China,28.18,107.29,802,NA,NA,NA
+5412,11419,Xishui Guizhou 1,,China,28.18,105.91,1100,NA,NA,NA
+5259,11419,Suiyang Guizhou 1,,China,28.2,107,1580,NA,NA,NA
+8937,11419,Changsha Hunan,,China,28.2,112.9,400,NA,NA,NA
+5261,11419,Suiyang Guizhou 3,,China,28.22,107.17,1520,NA,NA,NA
+4376,11419,Liuyang Hunan 1,,China,28.23,113.93,540,NA,NA,NA
+4378,11419,Liuyang Hunan 3,,China,28.23,114.02,360,NA,NA,NA
+5503,11419,Yuanling Hunan 4,,China,28.23,110.51,640,NA,NA,NA
+5505,11419,Yuanling Hunan 6,,China,28.23,110.59,740,NA,NA,NA
+4015,11419,Deqin Yunnan 6,,China,28.25,99.2,3360,12.8,1100,NA
+5262,11419,Suiyang Guizhou 4,,China,28.25,107.21,950,NA,NA,NA
+5468,11419,Yanhe Guizhou 4,,China,28.25,108.43,740,NA,NA,NA
+5499,11419,Yuanling Hunan ,,China,28.25,110.06,400,NA,NA,NA
+4377,11419,Liuyang Hunan 2,,China,28.27,113.98,230,NA,NA,NA
+5506,11419,Yuanling Hunan 7,,China,28.27,110.63,670,NA,NA,NA
+5258,11419,Suiyang Guizhou ,,China,28.28,106.11,1200,NA,NA,NA
+5411,11419,Xishui Guizhou ,,China,28.28,105.87,1280,NA,NA,NA
+5413,11419,Xishui Guizhou 2,,China,28.28,106.03,600,NA,NA,NA
+5471,11419,Yifeng Jiangxi ,,China,28.3,114.7,593,17.1,1720,NA
+8910,11419,Anhua Hunan 3,,China,28.3,111.1,500,NA,NA,NA
+4016,11419,Deqin Yunnan 7,,China,28.32,99.2,3430,12.8,1100,NA
+5324,11419,Tongzi Guizhou 6,,China,28.32,106.97,1200,NA,NA,NA
+5435,11419,Xishui Guizhou 24,,China,28.32,106.48,1060,NA,NA,NA
+5439,11419,Xishui Guizhou 28,,China,28.32,106.56,1226,NA,NA,NA
+5441,11419,Xishui Guizhou 30,,China,28.32,106.64,900,NA,NA,NA
+5550,11419,Zhengan Guizhou 3,,China,28.32,107.29,1185,NA,NA,NA
+8950,11419,Chishui Guizhou 1,,China,28.32,105.7,1400,15.6,1000,NA
+8951,11419,Chishui Guizhou 2,,China,28.32,105.74,1060,15.6,1000,NA
+8954,11419,Chishui Guizhou 5,,China,28.32,105.87,1543,15.6,1000,NA
+8956,11419,Chishui Guizhou 7,,China,28.32,105.91,900,NA,NA,NA
+5414,11419,Xishui Guizhou 3,,China,28.35,106.03,1120,NA,NA,NA
+5430,11419,Xishui Guizhou 19,,China,28.35,106.36,1230,NA,NA,NA
+5507,11419,Yuanling Hunan 8,,China,28.35,110.71,630,NA,NA,NA
+5551,11419,Zhengan Guizhou 4,,China,28.35,107.29,1120,NA,NA,NA
+8952,11419,Chishui Guizhou 3,,China,28.35,105.74,920,15.6,1000,NA
+8953,11419,Chishui Guizhou 4,,China,28.35,105.83,1073,NA,NA,NA
+5509,11419,Yuanling Hunan 10,,China,28.38,113.69,410,NA,NA,NA
+5415,11419,Xishui Guizhou 4,,China,28.4,106.03,1180,NA,NA,NA
+5416,11419,Xishui Guizhou 5,,China,28.4,106.07,1320,NA,NA,NA
+5422,11419,Xishui Guizhou 11,,China,28.4,106.19,1160,NA,NA,NA
+5425,11419,Xishui Guizhou 14,,China,28.4,106.23,1180,NA,NA,NA
+5442,11419,Xishui Guizhou 31,,China,28.4,106.68,1100,NA,NA,NA
+5467,11419,Yanhe Guizhou 3,,China,28.4,108.31,490,NA,NA,NA
+8911,11419,Anhua Hunan 4,,China,28.4,111.2,500,NA,NA,NA
+4379,11419,Liuyang Hunan 4,,China,28.42,114.06,410,NA,NA,NA
+4381,11419,Liuyang Hunan 6,,China,28.42,114.23,425,22,2100,NA
+3961,11419,Chishui Guizhou 12,,China,28.43,106.03,1170,NA,NA,NA
+5322,11419,Tongzi Guizhou 4,,China,28.43,106.85,820,NA,NA,NA
+5323,11419,Tongzi Guizhou 5,,China,28.43,106.93,1310,NA,NA,NA
+5417,11419,Xishui Guizhou 6,,China,28.43,106.07,1100,NA,NA,NA
+5418,11419,Xishui Guizhou 7,,China,28.43,106.11,1280,15.6,1000,NA
+5420,11419,Xishui Guizhou 9,,China,28.43,106.15,1540,15.6,1000,NA
+5423,11419,Xishui Guizhou 12,,China,28.43,106.19,1380,NA,NA,NA
+5436,11419,Xishui Guizhou 25,,China,28.43,106.48,1180,NA,NA,NA
+5548,11419,Zhengan Guizhou 1,,China,28.43,107.22,984,NA,NA,NA
+8955,11419,Chishui Guizhou 6,,China,28.43,105.87,700,15.6,1000,NA
+5325,11419,Tongzi Guizhou 7,,China,28.47,106.97,1330,NA,NA,NA
+5419,11419,Xishui Guizhou 8,,China,28.47,106.11,1180,15.6,1000,NA
+5421,11419,Xishui Guizhou 10,,China,28.47,106.15,1120,15.6,1000,NA
+5424,11419,Xishui Guizhou 13,,China,28.47,106.19,1320,NA,NA,NA
+5426,11419,Xishui Guizhou 15,,China,28.47,106.24,1100,15.6,1000,NA
+4380,11419,Liuyang Hunan 5,,China,28.48,114.15,1040,NA,NA,NA
+4242,11419,Leibo Sichuan ,,China,28.5,103.6,1820,NA,NA,NA
+5429,11419,Xishui Guizhou 18,,China,28.5,106.32,1360,NA,NA,NA
+5431,11419,Xishui Guizhou 20,,China,28.5,106.4,1400,NA,NA,NA
+3965,11419,Chishui Guizhou 16,,China,28.53,106.2,800,15.6,1000,NA
+5427,11419,Xishui Guizhou 16,,China,28.53,106.24,990,15.6,1000,NA
+5428,11419,Xishui Guizhou 17,,China,28.53,106.28,1120,15.6,1000,NA
+5432,11419,Xishui Guizhou 21,,China,28.53,106.4,1200,NA,NA,NA
+5434,11419,Xishui Guizhou 23,,China,28.53,106.44,1300,NA,NA,NA
+3962,11419,Chishui Guizhou 13,,China,28.57,106.15,1040,15.6,1000,NA
+3966,11419,Chishui Guizhou 17,,China,28.57,106.2,900,15.6,1000,NA
+4375,11419,Liuyang Hunan ,,China,28.57,113.9,700,NA,NA,NA
+5433,11419,Xishui Guizhou 22,,China,28.57,106.4,1210,NA,NA,NA
+5437,11419,Xishui Guizhou 26,,China,28.57,106.48,1460,NA,NA,NA
+5549,11419,Zhengan Guizhou 2,,China,28.57,107.26,1230,NA,NA,NA
+4091,11419,Guzhang Hunan,,China,28.6,109.9,800,NA,NA,NA
+3959,11419,Chishui Guizhou 10,,China,28.62,105.99,920,NA,NA,NA
+3963,11419,Chishui Guizhou 14,,China,28.62,106.16,940,NA,NA,NA
+4011,11419,Deqin Yunnan 2,,China,28.62,98.9,3540,12.8,1100,NA
+4017,11419,Deqin Yunnan 8,,China,28.62,99.22,4240,12.8,1100,NA
+5547,11419,Zhengan Guizhou ,,China,28.62,107.1,1500,NA,NA,NA
+5500,11419,Yuanling Hunan 1,,China,28.63,110.3,300,NA,NA,NA
+5501,11419,Yuanling Hunan 2,,China,28.63,110.39,400,NA,NA,NA
+3964,11419,Chishui Guizhou 15,,China,28.65,106.16,840,NA,NA,NA
+5469,11419,Yanhe Guizhou 5,,China,28.65,108.59,500,NA,NA,NA
+4092,11419,Guzhang Hunan 1,,China,28.67,110.1,860,NA,NA,NA
+4004,11419,Daozhi Guizhou,,China,28.68,107.71,1280,NA,NA,NA
+5440,11419,Xishui Guizhou 29,,China,28.68,106.61,960,NA,NA,NA
+5465,11419,Yanhe Guizhou 1,,China,28.68,108.14,727,NA,NA,NA
+8957,11419,Chishui Guizhou 8,,China,28.68,105.91,350,NA,NA,NA
+3958,11419,Chishui Guizhou 9,,China,28.7,105.95,880,NA,NA,NA
+3960,11419,Chishui Guizhou 11,,China,28.7,105.99,1250,15.6,1000,NA
+4093,11419,Guzhang Hunan 2,,China,28.7,110.14,750,NA,NA,NA
+5508,11419,Yuanling Hunan 9,,China,28.7,110.88,520,NA,NA,NA
+8921,11419,Baojing Huayuan Baiyunyan Hunan,,China,28.7,109.6,400,NA,NA,NA
+8922,11419,Baojing Hunan 1,,China,28.7,109.4,730,NA,NA,NA
+5326,11419,Tongzi Guizhou 8,,China,28.72,107.1,1100,NA,NA,NA
+5494,11419,Yongshun Hunan 1,,China,28.73,110.18,380,NA,NA,NA
+5495,11419,Yongshun Hunan 2,,China,28.73,110.26,600,NA,NA,NA
+4013,11419,Deqin Yunnan 4,,China,28.75,99.02,4160,12.8,1100,NA
+4698,11419,Pingjiang Hunan 1,,China,28.78,114.07,230,NA,NA,NA
+5438,11419,Xishui Guizhou 27,,China,28.78,106.53,840,NA,NA,NA
+8923,11419,Baojing Hunan 2,,China,28.78,109.4,420,NA,NA,NA
+4027,11419,Ebian Sichuan,,China,28.8,103,2500,NA,NA,NA
+4414,11419,Mabian Sichuan ,,China,28.8,103.5,1520,NA,NA,NA
+5498,11419,Yuanjiang Hunan ,,China,28.8,112.3,500,17.2,1379,NA
+5496,11419,Yongshun Hunan 3,,China,28.82,110.26,570,NA,NA,NA
+5504,11419,Yuanling Hunan 5,,China,28.82,110.51,580,NA,NA,NA
+5367,11419,Wuchuan Guizhou ,,China,28.87,107.96,1030,NA,NA,NA
+5368,11419,Wuchuan Guizhou 1,,China,28.87,108.01,780,NA,NA,NA
+4002,11419,Daozhen Guizhou 5,,China,28.9,107.76,1080,NA,NA,NA
+4014,11419,Deqin Yunnan 5,,China,28.9,99.02,4200,12.8,1100,NA
+4697,11419,Pingjiang Hunan ,,China,28.9,113.8,1455,16.8,1450,NA
+5464,11419,Yanhe Guizhou ,,China,28.93,108.13,800,NA,NA,NA
+3999,11419,Daozhen Guizhou 2,,China,28.97,107.55,920,NA,NA,NA
+4003,11419,Daozhen Guizhou 6,,China,28.97,107.8,520,NA,NA,NA
+5466,11419,Yanhe Guizhou 2,,China,29,108.25,720,NA,NA,NA
+5493,11419,Yongshun Hunan ,,China,29,109.8,632,NA,NA,NA
+4006,11419,Dayong Hunan,,China,29.1,110.4,500,16.6,1400,NA
+5278,11419,Taoyuan Hunan ,,China,29.1,110.9,415,16.5,1437,NA
+4000,11419,Daozhen Guizhou 3,,China,29.15,107.56,1350,NA,NA,NA
+4001,11419,Daozhen Guizhou 4,,China,29.18,107.56,1660,NA,NA,NA
+3998,11419,Daozhen Guizhou 1,,China,29.22,107.44,1415,NA,NA,NA
+4774,11419,Sangzhi Hunan ,,China,29.3,110.1,1413,17.2,1500,NA
+5226,11419,Shimen Hunan 2,,China,29.68,111.41,315,NA,NA,NA
+4259,11419,Li Hunan ,,China,29.78,111.46,255,NA,NA,NA
+4775,11419,Sangzhi Hunan 1,,China,29.78,110.13,1440,NA,NA,NA
+5447,11419,Yajiang Sichuan ,,China,30,101,3100,17.1,1800,NA
+5224,11419,Shimen Hunan ,,China,30.03,111,840,NA,NA,NA
+5225,11419,Shimen Hunan 1,,China,30.03,111.08,930,NA,NA,NA
+4262,11419,Lichuan Hubei ,,China,30.3,108.9,1140,17.5,1130,NA
+3990,11419,Dangyang Hubei,,China,30.8,111.7,1190,17.5,1130,NA
+5511,11419,Yuexi Anhui ,,China,30.8,116.3,1050,NA,NA,NA
+5374,11419,Xiaojin Sichuan ,,China,30.9,102.3,3152,12.8,708,NA
+3973,11419,Dabie mountain Anhui,,China,31,116.1,1700,NA,NA,NA
+8920,11419,Baiyu Sichuan,,China,31.2,98.8,3440,6.6,670,NA
+4207,11419,Jinchuan Sichuan ,,China,31.4,102,2800,NA,NA,NA
+4624,11419,north-east Sichuan ,,China,31.4,103.5,1680,8.6,919,NA
+4782,11419,Shangcheng Henan ,,China,31.5,115,800,NA,NA,NA
+4783,11419,Shangcheng Henan 1,,China,31.5,115.5,810,NA,NA,NA
+4415,11419,Maerkangli Sichuan ,,China,31.6,102.8,3183,12.8,708,NA
+5393,11419,Xin Henan ,,China,31.6,114.8,311,15,822,NA
+4097,11419,Hanzhong Shanxi ,,China,32.3,109.3,688,15.3,690,NA
+4441,11419,Nanjiang Sichuan ,,China,32.3,106.8,1712,NA,NA,NA
+5546,11419,Zheng Shanxi ,,China,32.4,105.36,1400,14.3,905,NA
+8919,11419,Baishui river Gansu,,China,32.56,104.45,946,14.9,500,NA
+4206,11419,Jiashan Anhui ,,China,32.6,118,400,NA,NA,NA
+4499,11419,Nanping Sichuan 53,,China,32.6,103.76,3200,7.8,600,NA
+5238,11419,Sichuan 1,,China,32.98,104.19,3200,NA,NA,NA
+4525,11419,Nanping Sichuan 79,,China,33,103.93,3200,7.8,600,NA
+4564,11419,Nanping Sichuan 118,,China,33,104.32,3200,7.8,600,NA
+5231,11419,Shiquan Shanxi ,,China,33,108.2,1800,NA,NA,NA
+4545,11419,Nanping Sichuan 99,,China,33.02,104.07,3200,7.8,600,NA
+4551,11419,Nanping Sichuan 105,,China,33.02,104.1,3200,7.8,600,NA
+4555,11419,Nanping Sichuan 109,,China,33.03,104.14,3200,7.8,600,NA
+5239,11419,Sichuan 2,,China,33.03,104.31,3200,7.8,600,NA
+4552,11419,Nanping Sichuan 106,,China,33.07,104.1,3200,7.8,600,NA
+4520,11419,Nanping Sichuan 74,,China,33.13,103.89,3200,7.8,600,NA
+4526,11419,Nanping Sichuan 80,,China,33.13,103.93,3200,7.8,600,NA
+4553,11419,Nanping Sichuan 107,,China,33.13,104.1,3200,7.8,600,NA
+4556,11419,Nanping Sichuan 110,,China,33.13,104.14,3200,7.8,600,NA
+4534,11419,Nanping Sichuan 88,,China,33.15,104.01,3200,7.8,600,NA
+4546,11419,Nanping Sichuan 100,,China,33.15,104.07,3200,7.8,600,NA
+4527,11419,Nanping Sichuan 81,,China,33.17,103.93,3200,7.8,600,NA
+4452,11419,Nanping Sichuan 6,,China,33.18,103.58,3200,7.8,600,NA
+4477,11419,Nanping Sichuan 31,,China,33.18,103.71,3200,7.8,600,NA
+4509,11419,Nanping Sichuan 63,,China,33.18,103.84,3200,7.8,600,NA
+4535,11419,Nanping Sichuan 89,,China,33.18,104.01,3200,7.8,600,NA
+4540,11419,Nanping Sichuan 94,,China,33.18,104.06,3200,7.8,600,NA
+4478,11419,Nanping Sichuan 32,,China,33.2,103.71,3200,7.8,600,NA
+4560,11419,Nanping Sichuan 114,,China,33.2,104.2,2280,7.8,600,NA
+4617,11419,Ningshan Shanxi ,,China,33.2,108.2,1800,9,1100,NA
+4510,11419,Nanping Sichuan 64,,China,33.22,103.84,3200,7.8,600,NA
+4447,11419,Nanping Sichuan 1,,China,33.23,103.5,3200,7.8,600,NA
+4479,11419,Nanping Sichuan 33,,China,33.23,103.71,3200,7.8,600,NA
+4528,11419,Nanping Sichuan 82,,China,33.23,103.97,3200,7.8,600,NA
+4453,11419,Nanping Sichuan 7,,China,33.25,103.58,3200,7.8,600,NA
+4463,11419,Nanping Sichuan 17,,China,33.25,103.63,3200,7.8,600,NA
+4500,11419,Nanping Sichuan 54,,China,33.25,103.76,3200,7.8,600,NA
+4516,11419,Nanping Sichuan 70,,China,33.25,103.88,3200,7.8,600,NA
+4541,11419,Nanping Sichuan 95,,China,33.25,104.06,3200,7.8,600,NA
+4448,11419,Nanping Sichuan 2,,China,33.27,103.54,3200,7.8,600,NA
+4454,11419,Nanping Sichuan 8,,China,33.27,103.58,3200,7.8,600,NA
+4542,11419,Nanping Sichuan 96,,China,33.27,104.06,3200,7.8,600,NA
+4547,11419,Nanping Sichuan 101,,China,33.27,104.07,3200,7.8,600,NA
+4570,11419,Nanping Sichuan 124,,China,33.27,104.91,3200,7.8,600,NA
+4455,11419,Nanping Sichuan 9,,China,33.28,103.58,3200,7.8,600,NA
+4464,11419,Nanping Sichuan 18,,China,33.28,103.63,3200,7.8,600,NA
+4504,11419,Nanping Sichuan 58,,China,33.28,103.77,3200,7.8,600,NA
+4511,11419,Nanping Sichuan 65,,China,33.28,103.84,3200,7.8,600,NA
+4529,11419,Nanping Sichuan 83,,China,33.28,103.97,3200,7.8,600,NA
+4456,11419,Nanping Sichuan 10,,China,33.3,103.58,3200,7.8,600,NA
+4465,11419,Nanping Sichuan 19,,China,33.3,103.63,3200,7.8,600,NA
+4480,11419,Nanping Sichuan 34,,China,33.3,103.71,3200,7.8,600,NA
+4491,11419,Nanping Sichuan 45,,China,33.3,103.75,3200,7.8,600,NA
+4530,11419,Nanping Sichuan 84,,China,33.3,103.97,3200,7.8,600,NA
+4492,11419,Nanping Sichuan 46,,China,33.32,103.75,3200,7.8,600,NA
+4505,11419,Nanping Sichuan 59,,China,33.32,103.77,3200,7.8,600,NA
+4508,11419,Nanping Sichuan 62,,China,33.32,103.8,3200,7.8,600,NA
+4531,11419,Nanping Sichuan 85,,China,33.32,103.97,3200,7.8,600,NA
+4673,11419,Nuoergai Sichuan 48,,China,33.32,103.37,3500,6.8,728,NA
+4684,11419,Nuoergai Sichuan 59,,China,33.32,103.45,3500,6.8,728,NA
+4449,11419,Nanping Sichuan 3,,China,33.33,103.54,3200,7.8,600,NA
+4472,11419,Nanping Sichuan 26,,China,33.33,103.67,3200,7.8,600,NA
+4501,11419,Nanping Sichuan 55,,China,33.33,103.76,3200,7.8,600,NA
+4538,11419,Nanping Sichuan 92,,China,33.33,104.05,3200,7.8,600,NA
+4548,11419,Nanping Sichuan 102,,China,33.33,104.07,3200,7.8,600,NA
+4554,11419,Nanping Sichuan 108,,China,33.33,104.1,3200,7.8,600,NA
+4562,11419,Nanping Sichuan 116,,China,33.33,104.27,3200,7.8,600,NA
+4563,11419,Nanping Sichuan 117,,China,33.33,104.31,3200,7.8,600,NA
+4549,11419,Nanping Sichuan 103,,China,33.35,104.08,3200,7.8,600,NA
+4536,11419,Nanping Sichuan 90,,China,33.38,104.01,3200,7.8,600,NA
+4550,11419,Nanping Sichuan 104,,China,33.38,104.08,3200,7.8,600,NA
+4561,11419,Nanping Sichuan 115,,China,33.38,104.2,3200,7.8,600,NA
+4674,11419,Nuoergai Sichuan 49,,China,33.38,103.37,3500,6.8,728,NA
+4679,11419,Nuoergai Sichuan 54,,China,33.4,103.41,3500,6.8,728,NA
+4457,11419,Nanping Sichuan 11,,China,33.42,103.58,3200,7.8,600,NA
+4558,11419,Nanping Sichuan 112,,China,33.42,104.18,3200,7.8,600,NA
+4559,11419,Nanping Sichuan 113,,China,33.43,104.18,3200,7.8,600,NA
+4676,11419,Nuoergai Sichuan 51,,China,33.43,103.39,3500,6.8,728,NA
+4680,11419,Nuoergai Sichuan 55,,China,33.43,103.41,3500,6.8,728,NA
+4466,11419,Nanping Sichuan 20,,China,33.45,103.63,3200,7.8,600,NA
+4648,11419,Nuoergai Sichuan 23,,China,33.45,103.24,3500,6.8,728,NA
+4661,11419,Nuoergai Sichuan 36,,China,33.45,103.34,3500,6.8,728,NA
+4670,11419,Nuoergai Sichuan 45,,China,33.45,103.35,3500,6.8,728,NA
+4677,11419,Nuoergai Sichuan 52,,China,33.45,103.39,3500,6.8,728,NA
+4659,11419,Nuoergai Sichuan 34,,China,33.47,103.32,3500,6.8,728,NA
+4662,11419,Nuoergai Sichuan 37,,China,33.47,103.34,3500,6.8,728,NA
+4691,11419,Nuoergai Sichuan 66,,China,33.47,103.56,3500,6.8,728,NA
+5237,11419,Sichuan ,,China,33.47,103.84,3200,7.8,600,NA
+4506,11419,Nanping Sichuan 60,,China,33.48,103.79,3200,7.8,600,NA
+4532,11419,Nanping Sichuan 86,,China,33.48,103.97,3200,7.8,600,NA
+4663,11419,Nuoergai Sichuan 38,,China,33.48,103.34,3500,6.8,728,NA
+4681,11419,Nuoergai Sichuan 56,,China,33.48,103.41,3500,6.8,728,NA
+4685,11419,Nuoergai Sichuan 60,,China,33.48,103.47,3500,6.8,728,NA
+4406,11419,Luanchuan Henan ,,China,33.5,111.7,1144,12.1,862,NA
+4473,11419,Nanping Sichuan 27,,China,33.5,103.67,3200,7.8,600,NA
+4481,11419,Nanping Sichuan 35,,China,33.5,103.71,3200,7.8,600,NA
+4565,11419,Nanping Sichuan 119,,China,33.5,104.83,3200,7.8,600,NA
+4621,11419,Noergai Sichuan 2,,China,33.5,103.58,3500,6.8,728,NA
+4623,11419,Noergai Sichuan 4,,China,33.5,103.6,3500,6.8,728,NA
+4678,11419,Nuoergai Sichuan 53,,China,33.5,103.39,3500,6.8,728,NA
+4686,11419,Nuoergai Sichuan 61,,China,33.5,103.47,3500,6.8,728,NA
+4719,11419,Qinling mountains Shanxi 2,,China,33.5,108,1610,13.2,600,NA
+4474,11419,Nanping Sichuan 28,,China,33.52,103.67,3200,7.8,600,NA
+4482,11419,Nanping Sichuan 36,,China,33.52,103.71,3200,7.8,600,NA
+4512,11419,Nanping Sichuan 66,,China,33.52,103.84,3200,7.8,600,NA
+4517,11419,Nanping Sichuan 71,,China,33.52,103.88,3200,7.8,600,NA
+4575,11419,Nanping Sichuan 129,,China,33.52,104.96,3200,7.8,600,NA
+4619,11419,Noergai Sichuan ,,China,33.52,103.21,3500,6.8,728,NA
+4664,11419,Nuoergai Sichuan 39,,China,33.52,103.34,3500,6.8,728,NA
+4671,11419,Nuoergai Sichuan 46,,China,33.52,103.36,3500,6.8,728,NA
+4688,11419,Nuoergai Sichuan 63,,China,33.52,103.51,3500,6.8,728,NA
+4690,11419,Nuoergai Sichuan 65,,China,33.52,103.54,3500,6.8,728,NA
+4692,11419,Nuoergai Sichuan 67,,China,33.52,105.39,3500,6.8,728,NA
+4693,11419,Nuoergai Sichuan 68,,China,33.52,105.41,3500,6.8,728,NA
+4475,11419,Nanping Sichuan 29,,China,33.53,103.67,3200,7.8,600,NA
+4483,11419,Nanping Sichuan 37,,China,33.53,103.71,3200,7.8,600,NA
+4513,11419,Nanping Sichuan 67,,China,33.53,103.84,3200,7.8,600,NA
+4566,11419,Nanping Sichuan 120,,China,33.53,104.87,3200,7.8,600,NA
+4571,11419,Nanping Sichuan 125,,China,33.53,104.91,3200,7.8,600,NA
+4620,11419,Noergai Sichuan 1,,China,33.53,103.5,3500,6.8,728,NA
+4622,11419,Noergai Sichuan 3,,China,33.53,103.59,3500,6.8,728,NA
+4649,11419,Nuoergai Sichuan 24,,China,33.53,103.25,3500,6.8,728,NA
+4653,11419,Nuoergai Sichuan 28,,China,33.53,103.28,3500,6.8,728,NA
+4450,11419,Nanping Sichuan 4,,China,33.55,103.54,3200,7.8,600,NA
+4458,11419,Nanping Sichuan 12,,China,33.55,103.58,3200,7.8,600,NA
+4467,11419,Nanping Sichuan 21,,China,33.55,103.66,3200,7.8,600,NA
+4484,11419,Nanping Sichuan 38,,China,33.55,103.71,3200,7.8,600,NA
+4502,11419,Nanping Sichuan 56,,China,33.55,103.76,3200,7.8,600,NA
+4537,11419,Nanping Sichuan 91,,China,33.55,104.01,3200,7.8,600,NA
+4576,11419,Nanping Sichuan 130,,China,33.55,104.96,3200,7.8,600,NA
+4646,11419,Nuoergai Sichuan 21,,China,33.55,103.21,3500,6.8,728,NA
+4654,11419,Nuoergai Sichuan 29,,China,33.55,103.28,3500,6.8,728,NA
+4657,11419,Nuoergai Sichuan 32,,China,33.55,103.3,3500,6.8,728,NA
+4665,11419,Nuoergai Sichuan 40,,China,33.55,103.34,3500,6.8,728,NA
+4689,11419,Nuoergai Sichuan 64,,China,33.55,103.51,3500,6.8,728,NA
+4451,11419,Nanping Sichuan 5,,China,33.57,103.54,3292,7.8,600,NA
+4459,11419,Nanping Sichuan 13,,China,33.57,103.58,3184,7.8,600,NA
+4468,11419,Nanping Sichuan 22,,China,33.57,103.66,3180,7.8,600,NA
+4476,11419,Nanping Sichuan 30,,China,33.57,103.69,3180,7.8,600,NA
+4485,11419,Nanping Sichuan 39,,China,33.57,103.71,3180,7.8,600,NA
+4493,11419,Nanping Sichuan 47,,China,33.57,103.75,3180,7.8,600,NA
+4557,11419,Nanping Sichuan 111,,China,33.57,104.14,3200,7.8,600,NA
+4567,11419,Nanping Sichuan 121,,China,33.57,104.87,3180,7.8,600,NA
+4572,11419,Nanping Sichuan 126,,China,33.57,104.91,3180,7.8,600,NA
+4577,11419,Nanping Sichuan 131,,China,33.57,104.96,3180,7.8,600,NA
+4643,11419,Nuoergai Sichuan 18,,China,33.57,103.17,3500,6.8,728,NA
+4647,11419,Nuoergai Sichuan 22,,China,33.57,103.21,3500,6.8,728,NA
+4651,11419,Nuoergai Sichuan 26,,China,33.57,103.26,3500,6.8,728,NA
+4666,11419,Nuoergai Sichuan 41,,China,33.57,103.34,3500,6.8,728,NA
+4460,11419,Nanping Sichuan 14,,China,33.58,103.58,3200,7.8,600,NA
+4486,11419,Nanping Sichuan 40,,China,33.58,103.71,3200,7.8,600,NA
+4494,11419,Nanping Sichuan 48,,China,33.58,103.75,3200,7.8,600,NA
+4521,11419,Nanping Sichuan 75,,China,33.58,103.92,3200,7.8,600,NA
+4568,11419,Nanping Sichuan 122,,China,33.58,104.87,3200,7.8,600,NA
+4573,11419,Nanping Sichuan 127,,China,33.58,104.91,3200,7.8,600,NA
+4650,11419,Nuoergai Sichuan 25,,China,33.58,103.25,3500,6.8,728,NA
+4667,11419,Nuoergai Sichuan 42,,China,33.58,103.34,3500,6.8,728,NA
+4446,11419,Nanping Sichuan ,,China,33.6,103.49,3200,7.8,600,NA
+4461,11419,Nanping Sichuan 15,,China,33.6,103.58,3200,7.8,600,NA
+4487,11419,Nanping Sichuan 41,,China,33.6,103.71,3200,7.8,600,NA
+4495,11419,Nanping Sichuan 49,,China,33.6,103.75,3200,7.8,600,NA
+4503,11419,Nanping Sichuan 57,,China,33.6,103.76,3200,7.8,600,NA
+4522,11419,Nanping Sichuan 76,,China,33.6,103.92,3200,7.8,600,NA
+4543,11419,Nanping Sichuan 97,,China,33.6,104.06,3200,7.8,600,NA
+4569,11419,Nanping Sichuan 123,,China,33.6,104.87,3200,7.8,600,NA
+4574,11419,Nanping Sichuan 128,,China,33.6,104.91,3200,7.8,600,NA
+4642,11419,Nuoergai Sichuan 17,,China,33.6,103.15,3500,6.8,728,NA
+4644,11419,Nuoergai Sichuan 19,,China,33.6,103.17,3500,6.8,728,NA
+4645,11419,Nuoergai Sichuan 20,,China,33.6,103.19,3500,6.8,728,NA
+4668,11419,Nuoergai Sichuan 43,,China,33.6,103.34,3500,6.8,728,NA
+4682,11419,Nuoergai Sichuan 57,,China,33.6,103.41,3500,6.8,728,NA
+5444,11419,Xixia Henan ,,China,33.6,111.3,1091,15.1,830,NA
+5445,11419,Xixia Henan 1,,China,33.6,111.6,1297,15.1,830,NA
+4469,11419,Nanping Sichuan 23,,China,33.62,103.66,3200,7.8,600,NA
+4488,11419,Nanping Sichuan 42,,China,33.62,103.71,3200,7.8,600,NA
+4496,11419,Nanping Sichuan 50,,China,33.62,103.75,3200,7.8,600,NA
+4523,11419,Nanping Sichuan 77,,China,33.62,103.92,3288,7.8,600,NA
+4533,11419,Nanping Sichuan 87,,China,33.62,103.97,3421,7.8,600,NA
+4660,11419,Nuoergai Sichuan 35,,China,33.62,103.33,3500,6.8,728,NA
+4672,11419,Nuoergai Sichuan 47,,China,33.62,103.36,3500,6.8,728,NA
+4470,11419,Nanping Sichuan 24,,China,33.63,103.66,3200,7.8,600,NA
+4539,11419,Nanping Sichuan 93,,China,33.63,104.05,3200,7.8,600,NA
+4497,11419,Nanping Sichuan 51,,China,33.65,103.75,3142,7.8,600,NA
+4507,11419,Nanping Sichuan 61,,China,33.65,103.79,3000,7.8,600,NA
+4514,11419,Nanping Sichuan 68,,China,33.65,103.84,3095,7.8,600,NA
+4518,11419,Nanping Sichuan 72,,China,33.65,103.88,3002,7.8,600,NA
+4462,11419,Nanping Sichuan 16,,China,33.67,103.62,3200,7.8,600,NA
+4471,11419,Nanping Sichuan 25,,China,33.67,103.66,3200,7.8,600,NA
+4489,11419,Nanping Sichuan 43,,China,33.67,103.71,3200,7.8,600,NA
+4498,11419,Nanping Sichuan 52,,China,33.67,103.75,3200,7.8,600,NA
+4515,11419,Nanping Sichuan 69,,China,33.67,103.84,3210,7.8,600,NA
+4519,11419,Nanping Sichuan 73,,China,33.67,103.88,3291,7.8,600,NA
+4524,11419,Nanping Sichuan 78,,China,33.67,103.92,3230,7.8,600,NA
+4544,11419,Nanping Sichuan 98,,China,33.67,104.06,3200,7.8,600,NA
+4490,11419,Nanping Sichuan 44,,China,33.68,103.71,3500,7.8,600,NA
+4641,11419,Nuoergai Sichuan 16,,China,33.73,103.12,3500,6.8,728,NA
+4658,11419,Nuoergai Sichuan 33,,China,33.73,103.3,3500,6.8,728,NA
+4652,11419,Nuoergai Sichuan 27,,China,33.75,103.27,3500,6.8,728,NA
+4655,11419,Nuoergai Sichuan 30,,China,33.75,103.29,3500,6.8,728,NA
+4656,11419,Nuoergai Sichuan 31,,China,33.82,103.29,3500,6.8,728,NA
+4669,11419,Nuoergai Sichuan 44,,China,33.82,103.34,3500,6.8,728,NA
+4675,11419,Nuoergai Sichuan 50,,China,33.82,103.38,3500,6.8,728,NA
+4683,11419,Nuoergai Sichuan 58,,China,33.82,103.42,3500,6.8,728,NA
+4687,11419,Nuoergai Sichuan 62,,China,33.82,103.47,3500,6.8,728,NA
+4640,11419,Nuoergai Sichuan 15,,China,33.88,103.1,3500,6.8,728,NA
+4625,11419,Nuoergai Sichuan ,,China,34.17,102.77,3500,NA,NA,NA
+4626,11419,Nuoergai Sichuan 1,,China,34.17,102.83,3500,6.8,728,NA
+4628,11419,Nuoergai Sichuan 3,,China,34.17,102.85,3500,6.8,728,NA
+4630,11419,Nuoergai Sichuan 5,,China,34.17,102.87,3500,6.8,728,NA
+4627,11419,Nuoergai Sichuan 2,,China,34.2,102.83,3500,6.8,728,NA
+4634,11419,Nuoergai Sichuan 9,,China,34.2,102.92,3500,6.8,728,NA
+4636,11419,Nuoergai Sichuan 11,,China,34.2,102.96,3500,6.8,728,NA
+4639,11419,Nuoergai Sichuan 14,,China,34.2,103,3500,6.8,728,NA
+5375,11419,Xiaolong mountain Gansu ,,China,34.2,105.3,800,7.8,750,NA
+4635,11419,Nuoergai Sichuan 10,,China,34.22,102.94,3500,6.8,728,NA
+4637,11419,Nuoergai Sichuan 12,,China,34.22,102.96,3500,6.8,728,NA
+4631,11419,Nuoergai Sichuan 6,,China,34.23,102.89,3500,6.8,728,NA
+4638,11419,Nuoergai Sichuan 13,,China,34.23,102.96,3500,6.8,728,NA
+4629,11419,Nuoergai Sichuan 4,,China,34.25,102.85,3500,6.8,728,NA
+4633,11419,Nuoergai Sichuan 8,,China,34.25,102.9,3500,6.8,728,NA
+4632,11419,Nuoergai Sichuan 7,,China,34.27,102.89,3500,6.8,728,NA
+4869,11419,Shanxi 80,,China,34.97,111.37,1290,NA,NA,NA
+4885,11419,Shanxi 96,,China,34.97,111.42,1350,NA,NA,NA
+4892,11419,Shanxi 103,,China,34.97,111.44,1110,NA,NA,NA
+4863,11419,Shanxi 74,,China,34.98,111.35,1150,NA,NA,NA
+4901,11419,Shanxi 112,,China,34.98,111.48,1050,NA,NA,NA
+4907,11419,Shanxi 118,,China,35.03,111.5,880,NA,NA,NA
+4928,11419,Shanxi 139,,China,35.03,111.59,992,NA,NA,NA
+4935,11419,Shanxi 146,,China,35.05,111.6,800,NA,NA,NA
+4898,11419,Shanxi 109,,China,35.07,111.46,920,NA,NA,NA
+4902,11419,Shanxi 113,,China,35.07,111.48,1335,NA,NA,NA
+4943,11419,Shanxi 154,,China,35.13,111.66,830,NA,NA,NA
+4919,11419,Shanxi 130,,China,35.15,111.57,1100,NA,NA,NA
+4920,11419,Shanxi 131,,China,35.2,111.57,1050,NA,NA,NA
+5137,11419,Shanxi 348,,China,35.23,112.32,1490,NA,NA,NA
+5131,11419,Shanxi 342,,China,35.25,112.3,1350,NA,NA,NA
+5151,11419,Shanxi 362,,China,35.25,112.38,1145,10,395,NA
+5165,11419,Shanxi 376,,China,35.27,112.45,1500,10,395,NA
+4977,11419,Shanxi 188,,China,35.3,111.79,800,NA,NA,NA
+5120,11419,Shanxi 331,,China,35.3,112.19,1422,10,395,NA
+4941,11419,Shanxi 152,,China,35.32,111.64,733,NA,NA,NA
+5058,11419,Shanxi 269,,China,35.32,111.99,850,NA,NA,NA
+5115,11419,Shanxi 326,,China,35.32,112.17,1600,10,395,NA
+4893,11419,Shanxi 104,,China,35.33,111.44,1180,NA,NA,NA
+4966,11419,Shanxi 177,,China,35.35,111.73,850,NA,NA,NA
+5041,11419,Shanxi 252,,China,35.35,111.95,1750,NA,NA,NA
+5059,11419,Shanxi 270,,China,35.35,111.99,1200,NA,NA,NA
+4978,11419,Shanxi 189,,China,35.37,111.79,1220,NA,NA,NA
+4990,11419,Shanxi 201,,China,35.37,111.84,1085,NA,NA,NA
+4950,11419,Shanxi 161,,China,35.38,111.68,1380,NA,NA,NA
+5042,11419,Shanxi 253,,China,35.38,111.95,1550,NA,NA,NA
+5074,11419,Shanxi 285,,China,35.38,112.03,1520,10,395,NA
+5066,11419,Shanxi 277,,China,35.4,112.01,1675,10,395,NA
+5051,11419,Shanxi 262,,China,35.43,111.98,1838,NA,NA,NA
+5101,11419,Shanxi 312,,China,35.43,112.12,1589,10,395,NA
+4979,11419,Shanxi 190,,China,35.45,111.79,1500,NA,NA,NA
+5060,11419,Shanxi 271,,China,35.47,111.99,1675,NA,NA,NA
+5091,11419,Shanxi 302,,China,35.47,112.08,1214,10,395,NA
+4991,11419,Shanxi 202,,China,35.48,111.84,1300,NA,NA,NA
+4706,11419,Pingyi Shandong ,,China,35.5,117.9,800,NA,NA,NA
+5067,11419,Shanxi 278,,China,35.52,112.01,1175,10,395,NA
+5177,11419,Shanxi 388,,China,35.52,113.16,1280,NA,NA,NA
+5181,11419,Shanxi 392,,China,35.52,113.29,1280,14,570,NA
+4992,11419,Shanxi 203,,China,35.55,111.84,1500,NA,NA,NA
+5073,11419,Shanxi 284,,China,35.58,112.02,1242,10,395,NA
+5092,11419,Shanxi 303,,China,35.6,112.08,1150,10,395,NA
+5109,11419,Shanxi 320,,China,35.63,112.15,1250,10,395,NA
+5110,11419,Shanxi 321,,China,35.67,112.15,1300,10,395,NA
+5202,11419,Shanxi 413,,China,35.67,113.52,1385,NA,NA,NA
+5095,11419,Shanxi 306,,China,35.68,112.1,1180,10,395,NA
+5104,11419,Shanxi 315,,China,35.68,112.13,1240,10,395,NA
+4431,11419,Mengyang Shandong ,,China,35.7,117.9,400,14.6,803,NA
+5075,11419,Shanxi 286,,China,35.72,112.04,1400,10,395,NA
+5121,11419,Shanxi 332,,China,35.72,112.22,990,NA,NA,NA
+5116,11419,Shanxi 327,,China,35.75,112.17,1120,10,395,NA
+5126,11419,Shanxi 337,,China,35.77,112.28,980,NA,NA,NA
+5172,11419,Shanxi 383,,China,35.77,112.73,1100,10,395,NA
+4800,11419,Shanxi 11,,China,35.82,110.98,1500,NA,NA,NA
+5176,11419,Shanxi 387,,China,35.95,113.11,1350,NA,NA,NA
+4789,11419,Shanxi ,,China,35.97,110,1247,NA,NA,NA
+5081,11419,Shanxi 292,,China,35.98,112.06,1300,10,395,NA
+5154,11419,Shanxi 365,,China,36,112.4,1200,10,395,NA
+4794,11419,Shanxi 5,,China,36.03,110.8,1300,NA,NA,NA
+4802,11419,Shanxi 13,,China,36.03,111.02,1330,NA,NA,NA
+4805,11419,Shanxi 16,,China,36.05,111.04,1370,NA,NA,NA
+5085,11419,Shanxi 296,,China,36.05,112.07,1330,10,395,NA
+4807,11419,Shanxi 18,,China,36.08,111.07,1380,NA,NA,NA
+4798,11419,Shanxi 9,,China,36.1,110.96,1440,NA,NA,NA
+4808,11419,Shanxi 19,,China,36.12,111.07,1300,NA,NA,NA
+4796,11419,Shanxi 7,,China,36.13,110.91,1630,NA,NA,NA
+4797,11419,Shanxi 8,,China,36.15,110.93,1440,NA,NA,NA
+4803,11419,Shanxi 14,,China,36.15,111.02,1490,NA,NA,NA
+5122,11419,Shanxi 333,,China,36.15,112.22,950,NA,NA,NA
+4806,11419,Shanxi 17,,China,36.17,111.04,1620,NA,NA,NA
+5129,11419,Shanxi 340,,China,36.17,112.29,1100,NA,NA,NA
+5167,11419,Shanxi 378,,China,36.17,112.47,1250,10,395,NA
+4804,11419,Shanxi 15,,China,36.18,111.02,1590,NA,NA,NA
+5270,11419,Taian Shandong ,,China,36.2,117.1,400,NA,NA,NA
+4792,11419,Shanxi 3,,China,36.27,110.64,1510,NA,NA,NA
+4799,11419,Shanxi 10,,China,36.27,110.96,1410,NA,NA,NA
+4801,11419,Shanxi 12,,China,36.27,111,1700,NA,NA,NA
+4949,11419,Shanxi 160,,China,36.3,111.67,1270,NA,NA,NA
+5114,11419,Shanxi 325,,China,36.32,112.16,1150,10,395,NA
+4845,11419,Shanxi 56,,China,36.33,111.29,1400,NA,NA,NA
+4835,11419,Shanxi 46,,China,36.37,111.25,1350,NA,NA,NA
+5007,11419,Shanxi 218,,China,36.37,111.87,1450,NA,NA,NA
+4791,11419,Shanxi 2,,China,36.38,110.6,1400,NA,NA,NA
+4790,11419,Shanxi 1,,China,36.4,110.55,1150,NA,NA,NA
+5020,11419,Shanxi 231,,China,36.4,111.91,1430,NA,NA,NA
+5271,11419,Taian Shandong 1,,China,36.4,117.2,712,14.8,631,NA
+4846,11419,Shanxi 57,,China,36.42,111.29,1900,NA,NA,NA
+5015,11419,Shanxi 226,,China,36.42,111.89,1280,NA,NA,NA
+5031,11419,Shanxi 242,,China,36.42,111.94,1281,NA,NA,NA
+5124,11419,Shanxi 335,,China,36.42,112.25,1065,NA,NA,NA
+5168,11419,Shanxi 379,,China,36.42,112.47,1332,10,395,NA
+4836,11419,Shanxi 47,,China,36.43,111.25,1540,NA,NA,NA
+5008,11419,Shanxi 219,,China,36.43,111.87,1900,NA,NA,NA
+4829,11419,Shanxi 40,,China,36.45,111.22,1550,NA,NA,NA
+4864,11419,Shanxi 75,,China,36.45,111.36,1440,NA,NA,NA
+5032,11419,Shanxi 243,,China,36.45,111.94,1015,NA,NA,NA
+5130,11419,Shanxi 341,,China,36.45,112.29,1135,NA,NA,NA
+5021,11419,Shanxi 232,,China,36.47,111.91,1450,NA,NA,NA
+5156,11419,Shanxi 367,,China,36.47,112.41,1130,10,395,NA
+4850,11419,Shanxi 61,,China,36.48,111.31,1500,NA,NA,NA
+4998,11419,Shanxi 209,,China,36.48,111.85,1633,NA,NA,NA
+5033,11419,Shanxi 244,,China,36.48,111.94,1350,NA,NA,NA
+5052,11419,Shanxi 263,,China,36.48,111.98,1250,NA,NA,NA
+5163,11419,Shanxi 374,,China,36.48,112.43,1210,10,395,NA
+5166,11419,Shanxi 377,,China,36.48,112.45,1250,10,395,NA
+4720,11419,Qinyuan Shanxi ,,China,36.5,112.3,1810,NA,NA,NA
+5474,11419,Yiyuan Shandong ,,China,36.5,118.2,760,NA,NA,NA
+4821,11419,Shanxi 32,,China,36.52,111.2,1500,NA,NA,NA
+5009,11419,Shanxi 220,,China,36.52,111.87,1220,NA,NA,NA
+5024,11419,Shanxi 235,,China,36.52,111.92,1500,NA,NA,NA
+5065,11419,Shanxi 276,,China,36.52,112,1380,NA,NA,NA
+5119,11419,Shanxi 330,,China,36.52,112.18,1197,10,395,NA
+5157,11419,Shanxi 368,,China,36.52,112.41,1350,10,395,NA
+5171,11419,Shanxi 382,,China,36.52,112.54,1300,10,395,NA
+5016,11419,Shanxi 227,,China,36.53,111.89,1420,NA,NA,NA
+5053,11419,Shanxi 264,,China,36.53,111.98,1460,NA,NA,NA
+5132,11419,Shanxi 343,,China,36.53,112.3,1260,NA,NA,NA
+5164,11419,Shanxi 375,,China,36.53,112.43,1345,10,395,NA
+5025,11419,Shanxi 236,,China,36.55,111.92,1400,NA,NA,NA
+5045,11419,Shanxi 256,,China,36.55,111.96,1490,NA,NA,NA
+5158,11419,Shanxi 369,,China,36.55,112.41,1290,10,395,NA
+5034,11419,Shanxi 245,,China,36.57,111.94,1460,NA,NA,NA
+4822,11419,Shanxi 33,,China,36.58,111.2,1650,NA,NA,NA
+5068,11419,Shanxi 279,,China,36.58,112.01,1780,10,395,NA
+5096,11419,Shanxi 307,,China,36.58,112.1,1450,10,395,NA
+4830,11419,Shanxi 41,,China,36.6,111.22,1580,NA,NA,NA
+5035,11419,Shanxi 246,,China,36.6,111.94,1450,NA,NA,NA
+5086,11419,Shanxi 297,,China,36.6,112.07,1550,10,395,NA
+5140,11419,Shanxi 351,,China,36.6,112.34,1207,NA,NA,NA
+5046,11419,Shanxi 257,,China,36.62,111.96,1552,NA,NA,NA
+5069,11419,Shanxi 280,,China,36.62,112.01,1630,10,395,NA
+4831,11419,Shanxi 42,,China,36.63,111.22,1580,NA,NA,NA
+5036,11419,Shanxi 247,,China,36.63,111.94,1450,NA,NA,NA
+5087,11419,Shanxi 298,,China,36.63,112.07,1680,10,395,NA
+5141,11419,Shanxi 352,,China,36.63,112.34,1251,NA,NA,NA
+5185,11419,Shanxi 396,,China,36.63,113.33,1670,14,570,NA
+5026,11419,Shanxi 237,,China,36.65,111.92,1930,NA,NA,NA
+5078,11419,Shanxi 289,,China,36.65,112.05,1980,10,395,NA
+5097,11419,Shanxi 308,,China,36.65,112.1,1800,10,395,NA
+5125,11419,Shanxi 336,,China,36.65,112.27,1210,NA,NA,NA
+5182,11419,Shanxi 393,,China,36.65,113.3,1480,14,570,NA
+4843,11419,Shanxi 54,,China,36.67,111.27,1650,NA,NA,NA
+5037,11419,Shanxi 248,,China,36.67,111.94,1650,NA,NA,NA
+5088,11419,Shanxi 299,,China,36.67,112.07,1765,10,395,NA
+5098,11419,Shanxi 309,,China,36.68,112.1,1700,10,395,NA
+5183,11419,Shanxi 394,,China,36.68,113.3,1630,14,570,NA
+4096,11419,Haiyang Shandong ,,China,36.7,121.1,250,NA,NA,NA
+4761,11419,Sandaochuan Shanxi ,,China,36.7,112,1260,NA,NA,NA
+4817,11419,Shanxi 28,,China,36.7,111.18,1630,NA,NA,NA
+5054,11419,Shanxi 265,,China,36.7,111.98,2040,NA,NA,NA
+5089,11419,Shanxi 300,,China,36.7,112.07,1790,10,395,NA
+5102,11419,Shanxi 313,,China,36.7,112.12,1804,10,395,NA
+5179,11419,Shanxi 390,,China,36.7,113.28,1740,14,570,NA
+4847,11419,Shanxi 58,,China,36.73,111.29,1290,NA,NA,NA
+5099,11419,Shanxi 310,,China,36.73,112.1,1761,10,395,NA
+5123,11419,Shanxi 334,,China,36.73,112.23,1352,NA,NA,NA
+5061,11419,Shanxi 272,,China,36.75,111.99,1699,NA,NA,NA
+5090,11419,Shanxi 301,,China,36.75,112.07,1810,10,395,NA
+5169,11419,Shanxi 380,,China,36.75,112.48,1579,10,395,NA
+4823,11419,Shanxi 34,,China,36.77,111.2,1650,NA,NA,NA
+5047,11419,Shanxi 258,,China,36.77,111.96,2011,NA,NA,NA
+5079,11419,Shanxi 290,,China,36.77,112.05,1811,10,395,NA
+5108,11419,Shanxi 319,,China,36.77,112.14,1608,10,395,NA
+5142,11419,Shanxi 353,,China,36.77,112.34,1352,NA,NA,NA
+5147,11419,Shanxi 358,,China,36.77,112.37,1322,10,395,NA
+4814,11419,Shanxi 25,,China,36.78,111.13,1870,NA,NA,NA
+5103,11419,Shanxi 314,,China,36.78,112.12,1810,10,395,NA
+5117,11419,Shanxi 328,,China,36.78,112.17,1605,10,395,NA
+4824,11419,Shanxi 35,,China,36.8,111.2,1550,NA,NA,NA
+5027,11419,Shanxi 238,,China,36.8,111.92,1703,NA,NA,NA
+5080,11419,Shanxi 291,,China,36.8,112.05,1900,10,395,NA
+4815,11419,Shanxi 26,,China,36.82,111.13,1490,NA,NA,NA
+5118,11419,Shanxi 329,,China,36.82,112.17,1600,10,395,NA
+5143,11419,Shanxi 354,,China,36.82,112.34,1527,NA,NA,NA
+5186,11419,Shanxi 397,,China,36.82,113.33,1640,14,570,NA
+4825,11419,Shanxi 36,,China,36.83,111.2,1470,NA,NA,NA
+5159,11419,Shanxi 370,,China,36.83,112.41,1421,10,395,NA
+5062,11419,Shanxi 273,,China,36.85,111.99,2300,NA,NA,NA
+5070,11419,Shanxi 281,,China,36.85,112.01,2240,10,395,NA
+5175,11419,Shanxi 386,,China,36.85,113.04,1610,NA,NA,NA
+5189,11419,Shanxi 400,,China,36.85,113.35,1540,14,570,NA
+4793,11419,Shanxi 4,,China,36.87,110.71,1200,NA,NA,NA
+5071,11419,Shanxi 282,,China,36.87,112.01,2300,10,395,NA
+5100,11419,Shanxi 311,,China,36.87,112.1,2000,10,395,NA
+5193,11419,Shanxi 404,,China,36.87,113.36,1550,14,570,NA
+4809,11419,Shanxi 20,,China,36.9,111.11,1640,NA,NA,NA
+5063,11419,Shanxi 274,,China,36.9,111.99,1750,NA,NA,NA
+5148,11419,Shanxi 359,,China,36.9,112.37,1583,10,395,NA
+5160,11419,Shanxi 371,,China,36.9,112.41,1470,10,395,NA
+5076,11419,Shanxi 287,,China,36.92,112.04,1820,10,395,NA
+5133,11419,Shanxi 344,,China,36.92,112.3,1600,NA,NA,NA
+5152,11419,Shanxi 363,,China,36.92,112.39,1680,10,395,NA
+4810,11419,Shanxi 21,,China,36.93,111.11,1550,NA,NA,NA
+5144,11419,Shanxi 355,,China,36.93,112.35,1720,10,395,NA
+5093,11419,Shanxi 304,,China,36.97,112.08,1950,10,395,NA
+5134,11419,Shanxi 345,,China,36.97,112.3,1819,NA,NA,NA
+5145,11419,Shanxi 356,,China,36.97,112.35,1781,10,395,NA
+5127,11419,Shanxi 338,,China,36.98,112.28,1850,NA,NA,NA
+5149,11419,Shanxi 360,,China,36.98,112.37,1813,10,395,NA
+4696,11419,Pingdu Shandong ,,China,37,120,240,NA,NA,NA
+5135,11419,Shanxi 346,,China,37,112.3,1820,NA,NA,NA
+5146,11419,Shanxi 357,,China,37,112.35,1670,10,395,NA
+5139,11419,Shanxi 350,,China,37.02,112.33,1690,NA,NA,NA
+5150,11419,Shanxi 361,,China,37.02,112.37,1865,10,395,NA
+5162,11419,Shanxi 373,,China,37.02,112.42,1630,10,395,NA
+4811,11419,Shanxi 22,,China,37.03,111.11,1555,NA,NA,NA
+4812,11419,Shanxi 23,,China,37.05,111.11,1690,NA,NA,NA
+4826,11419,Shanxi 37,,China,37.05,111.2,1780,NA,NA,NA
+4837,11419,Shanxi 48,,China,37.05,111.25,1803,NA,NA,NA
+4848,11419,Shanxi 59,,China,37.05,111.29,1150,NA,NA,NA
+5199,11419,Shanxi 410,,China,37.05,113.5,1556,14,570,NA
+4844,11419,Shanxi 55,,China,37.07,111.27,1480,NA,NA,NA
+4851,11419,Shanxi 62,,China,37.07,111.31,1430,NA,NA,NA
+5203,11419,Shanxi 414,,China,37.07,113.52,1798,NA,NA,NA
+4827,11419,Shanxi 38,,China,37.08,111.2,1970,NA,NA,NA
+4838,11419,Shanxi 49,,China,37.08,111.25,1850,NA,NA,NA
+4849,11419,Shanxi 60,,China,37.08,111.29,1244,NA,NA,NA
+4852,11419,Shanxi 63,,China,37.1,111.31,1630,NA,NA,NA
+4813,11419,Shanxi 24,,China,37.12,111.11,1820,NA,NA,NA
+4828,11419,Shanxi 39,,China,37.12,111.2,1750,NA,NA,NA
+4832,11419,Shanxi 43,,China,37.12,111.23,1700,NA,NA,NA
+4839,11419,Shanxi 50,,China,37.12,111.25,1720,NA,NA,NA
+4874,11419,Shanxi 85,,China,37.12,111.38,1340,NA,NA,NA
+5195,11419,Shanxi 406,,China,37.12,113.45,1600,14,570,NA
+5200,11419,Shanxi 411,,China,37.12,113.5,1845,14,570,NA
+4818,11419,Shanxi 29,,China,37.13,111.18,1530,NA,NA,NA
+5204,11419,Shanxi 415,,China,37.18,113.52,1856,NA,NA,NA
+4434,11419,Mouping Shandong ,,China,37.2,121.7,275,NA,NA,NA
+4875,11419,Shanxi 86,,China,37.2,111.38,1482,NA,NA,NA
+5206,11419,Shanxi 417,,China,37.2,113.55,2000,NA,NA,NA
+4816,11419,Shanxi 27,,China,37.22,111.14,1680,NA,NA,NA
+4819,11419,Shanxi 30,,China,37.22,111.18,1640,NA,NA,NA
+4840,11419,Shanxi 51,,China,37.22,111.25,1500,NA,NA,NA
+5170,11419,Shanxi 381,,China,37.23,112.51,1320,10,395,NA
+4833,11419,Shanxi 44,,China,37.25,111.23,1500,NA,NA,NA
+4841,11419,Shanxi 52,,China,37.27,111.25,1589,NA,NA,NA
+5207,11419,Shanxi 418,,China,37.27,113.59,1700,NA,NA,NA
+4820,11419,Shanxi 31,,China,37.28,111.18,1530,NA,NA,NA
+4834,11419,Shanxi 45,,China,37.3,111.23,1395,NA,NA,NA
+4876,11419,Shanxi 87,,China,37.3,111.38,1520,NA,NA,NA
+5197,11419,Shanxi 408,,China,37.32,113.48,1551,14,570,NA
+5194,11419,Shanxi 405,,China,37.33,113.37,1520,14,570,NA
+4853,11419,Shanxi 64,,China,37.35,111.32,1550,NA,NA,NA
+4877,11419,Shanxi 88,,China,37.37,111.38,1780,NA,NA,NA
+4908,11419,Shanxi 119,,China,37.37,111.5,1533,NA,NA,NA
+4854,11419,Shanxi 65,,China,37.4,111.32,1800,NA,NA,NA
+4860,11419,Shanxi 71,,China,37.4,111.34,1840,NA,NA,NA
+4865,11419,Shanxi 76,,China,37.4,111.36,1825,NA,NA,NA
+5198,11419,Shanxi 409,,China,37.4,113.48,1445,14,570,NA
+4883,11419,Shanxi 94,,China,37.42,111.41,1659,NA,NA,NA
+4955,11419,Shanxi 166,,China,37.42,111.7,1590,NA,NA,NA
+5196,11419,Shanxi 407,,China,37.42,113.46,1490,14,570,NA
+5190,11419,Shanxi 401,,China,37.43,113.35,1500,14,570,NA
+4929,11419,Shanxi 140,,China,37.47,111.59,2020,NA,NA,NA
+4956,11419,Shanxi 167,,China,37.47,111.7,1595,NA,NA,NA
+4964,11419,Shanxi 175,,China,37.47,111.72,1690,NA,NA,NA
+4969,11419,Shanxi 180,,China,37.47,111.75,1620,NA,NA,NA
+4974,11419,Shanxi 185,,China,37.47,111.77,1575,NA,NA,NA
+4983,11419,Shanxi 194,,China,37.47,111.81,1650,NA,NA,NA
+5178,11419,Shanxi 389,,China,37.47,113.27,1600,14,570,NA
+5180,11419,Shanxi 391,,China,37.47,113.28,1641,14,570,NA
+5184,11419,Shanxi 395,,China,37.47,113.31,1430,14,570,NA
+5187,11419,Shanxi 398,,China,37.47,113.33,1582,14,570,NA
+5191,11419,Shanxi 402,,China,37.47,113.35,1590,14,570,NA
+4878,11419,Shanxi 89,,China,37.48,111.38,1480,NA,NA,NA
+4886,11419,Shanxi 97,,China,37.48,111.43,1712,NA,NA,NA
+4921,11419,Shanxi 132,,China,37.48,111.57,1880,NA,NA,NA
+4951,11419,Shanxi 162,,China,37.48,111.68,1810,NA,NA,NA
+4970,11419,Shanxi 181,,China,37.48,111.75,1620,NA,NA,NA
+4980,11419,Shanxi 191,,China,37.48,111.79,1620,NA,NA,NA
+4993,11419,Shanxi 204,,China,37.48,111.84,1490,NA,NA,NA
+5017,11419,Shanxi 228,,China,37.48,111.9,1550,NA,NA,NA
+4204,11419,Jiaocheng Shanxi ,,China,37.5,112.1,1800,NA,NA,NA
+4205,11419,Jiaokou Shanxi ,,China,37.5,111.1,1785,NA,NA,NA
+4930,11419,Shanxi 141,,China,37.5,111.59,1750,NA,NA,NA
+4965,11419,Shanxi 176,,China,37.5,111.72,1680,NA,NA,NA
+5003,11419,Shanxi 214,,China,37.5,111.86,1460,NA,NA,NA
+5192,11419,Shanxi 403,,China,37.5,113.35,1575,NA,NA,NA
+4922,11419,Shanxi 133,,China,37.52,111.57,1772,NA,NA,NA
+4936,11419,Shanxi 147,,China,37.52,111.61,1740,NA,NA,NA
+4957,11419,Shanxi 168,,China,37.52,111.7,1580,NA,NA,NA
+4981,11419,Shanxi 192,,China,37.52,111.79,1484,NA,NA,NA
+5012,11419,Shanxi 223,,China,37.52,111.88,1420,NA,NA,NA
+4952,11419,Shanxi 163,,China,37.53,111.68,1615,NA,NA,NA
+4944,11419,Shanxi 155,,China,37.55,111.66,1750,NA,NA,NA
+4958,11419,Shanxi 169,,China,37.55,111.7,1650,NA,NA,NA
+4911,11419,Shanxi 122,,China,37.57,111.52,1760,NA,NA,NA
+4939,11419,Shanxi 150,,China,37.57,111.63,1925,NA,NA,NA
+4953,11419,Shanxi 164,,China,37.57,111.68,1670,NA,NA,NA
+4959,11419,Shanxi 170,,China,37.58,111.7,1452,NA,NA,NA
+4971,11419,Shanxi 182,,China,37.58,111.75,1450,NA,NA,NA
+4945,11419,Shanxi 156,,China,37.63,111.66,1820,NA,NA,NA
+4960,11419,Shanxi 171,,China,37.63,111.7,1680,NA,NA,NA
+4972,11419,Shanxi 183,,China,37.63,111.75,1424,NA,NA,NA
+4994,11419,Shanxi 205,,China,37.63,111.84,1300,NA,NA,NA
+5013,11419,Shanxi 224,,China,37.63,111.88,1650,NA,NA,NA
+4931,11419,Shanxi 142,,China,37.65,111.59,1750,NA,NA,NA
+4940,11419,Shanxi 151,,China,37.65,111.63,1575,NA,NA,NA
+4967,11419,Shanxi 178,,China,37.65,111.73,1300,NA,NA,NA
+4984,11419,Shanxi 195,,China,37.65,111.82,1450,NA,NA,NA
+4879,11419,Shanxi 90,,China,37.67,111.39,1550,NA,NA,NA
+4894,11419,Shanxi 105,,China,37.67,111.45,1810,NA,NA,NA
+4912,11419,Shanxi 123,,China,37.67,111.52,2230,NA,NA,NA
+4923,11419,Shanxi 134,,China,37.67,111.57,1800,NA,NA,NA
+5014,11419,Shanxi 225,,China,37.67,111.88,1500,NA,NA,NA
+5048,11419,Shanxi 259,,China,37.67,111.97,1230,NA,NA,NA
+4895,11419,Shanxi 106,,China,37.68,111.45,2010,NA,NA,NA
+4909,11419,Shanxi 120,,China,37.68,111.5,1730,NA,NA,NA
+4985,11419,Shanxi 196,,China,37.68,111.82,1360,NA,NA,NA
+5004,11419,Shanxi 215,,China,37.68,111.86,1805,NA,NA,NA
+4887,11419,Shanxi 98,,China,37.7,111.43,1985,NA,NA,NA
+4903,11419,Shanxi 114,,China,37.7,111.48,1022,NA,NA,NA
+4913,11419,Shanxi 124,,China,37.7,111.52,1447,NA,NA,NA
+4946,11419,Shanxi 157,,China,37.7,111.66,1550,NA,NA,NA
+4961,11419,Shanxi 172,,China,37.7,111.7,1420,NA,NA,NA
+4995,11419,Shanxi 206,,China,37.7,111.84,1691,NA,NA,NA
+4896,11419,Shanxi 107,,China,37.72,111.45,2100,NA,NA,NA
+4910,11419,Shanxi 121,,China,37.72,111.5,1670,NA,NA,NA
+4915,11419,Shanxi 126,,China,37.72,111.54,1570,NA,NA,NA
+4954,11419,Shanxi 165,,China,37.72,111.68,1595,NA,NA,NA
+5005,11419,Shanxi 216,,China,37.72,111.86,1600,NA,NA,NA
+5208,11419,Shanxi 419,,China,37.72,113.59,1100,NA,NA,NA
+4904,11419,Shanxi 115,,China,37.73,111.48,1670,NA,NA,NA
+4937,11419,Shanxi 148,,China,37.73,111.61,1600,NA,NA,NA
+4947,11419,Shanxi 158,,China,37.73,111.66,1650,NA,NA,NA
+4962,11419,Shanxi 173,,China,37.73,111.7,1410,NA,NA,NA
+4996,11419,Shanxi 207,,China,37.73,111.84,1700,NA,NA,NA
+4897,11419,Shanxi 108,,China,37.75,111.45,1952,NA,NA,NA
+4924,11419,Shanxi 135,,China,37.75,111.57,1965,NA,NA,NA
+4942,11419,Shanxi 153,,China,37.75,111.64,1940,NA,NA,NA
+4982,11419,Shanxi 193,,China,37.75,111.79,1560,NA,NA,NA
+4986,11419,Shanxi 197,,China,37.75,111.82,1400,NA,NA,NA
+5006,11419,Shanxi 217,,China,37.75,111.86,1550,NA,NA,NA
+5022,11419,Shanxi 233,,China,37.75,111.91,1555,NA,NA,NA
+4905,11419,Shanxi 116,,China,37.77,111.48,1798,NA,NA,NA
+4925,11419,Shanxi 136,,China,37.77,111.57,2060,NA,NA,NA
+4948,11419,Shanxi 159,,China,37.77,111.66,1630,NA,NA,NA
+4973,11419,Shanxi 184,,China,37.77,111.75,2020,NA,NA,NA
+4997,11419,Shanxi 208,,China,37.77,111.84,1900,NA,NA,NA
+4932,11419,Shanxi 143,,China,37.78,111.59,2050,NA,NA,NA
+5023,11419,Shanxi 234,,China,37.78,111.91,1880,NA,NA,NA
+5043,11419,Shanxi 254,,China,37.78,111.95,1750,NA,NA,NA
+4963,11419,Shanxi 174,,China,37.8,111.7,1740,NA,NA,NA
+5055,11419,Shanxi 266,,China,37.8,111.98,1580,NA,NA,NA
+5138,11419,Shanxi 349,,China,37.82,112.32,1475,NA,NA,NA
+4880,11419,Shanxi 91,,China,37.85,111.39,1810,NA,NA,NA
+4926,11419,Shanxi 137,,China,37.85,111.57,2440,NA,NA,NA
+4916,11419,Shanxi 127,,China,37.87,111.55,2200,NA,NA,NA
+4933,11419,Shanxi 144,,China,37.87,111.59,1997,NA,NA,NA
+5056,11419,Shanxi 267,,China,37.88,111.98,1520,NA,NA,NA
+4077,11419,Guandi mountain Shanxi,,China,37.9,111.5,2005,NA,NA,NA
+4855,11419,Shanxi 66,,China,37.9,111.32,1621,NA,NA,NA
+4866,11419,Shanxi 77,,China,37.9,111.36,1711,NA,NA,NA
+4917,11419,Shanxi 128,,China,37.9,111.55,2370,NA,NA,NA
+4914,11419,Shanxi 125,,China,37.92,111.52,2151,NA,NA,NA
+5057,11419,Shanxi 268,,China,37.92,111.98,1497,NA,NA,NA
+4867,11419,Shanxi 78,,China,37.93,111.36,1850,NA,NA,NA
+4927,11419,Shanxi 138,,China,37.93,111.57,2000,NA,NA,NA
+4934,11419,Shanxi 145,,China,37.93,111.59,1947,NA,NA,NA
+4899,11419,Shanxi 110,,China,37.97,111.46,1801,NA,NA,NA
+4918,11419,Shanxi 129,,China,37.97,111.55,1799,NA,NA,NA
+4888,11419,Shanxi 99,,China,37.98,111.43,1680,NA,NA,NA
+5174,11419,Shanxi 385,,China,38.02,112.98,1400,NA,NA,NA
+4906,11419,Shanxi 117,,China,38.07,111.48,2120,NA,NA,NA
+4856,11419,Shanxi 67,,China,38.08,111.32,1780,NA,NA,NA
+4868,11419,Shanxi 79,,China,38.08,111.36,1690,NA,NA,NA
+4842,11419,Shanxi 53,,China,38.1,111.25,1680,NA,NA,NA
+5136,11419,Shanxi 347,,China,38.1,112.3,1630,NA,NA,NA
+5161,11419,Shanxi 372,,China,38.12,112.41,1410,10,395,NA
+4795,11419,Shanxi 6,,China,38.13,110.89,1588,NA,NA,NA
+4861,11419,Shanxi 72,,China,38.13,111.34,1724,NA,NA,NA
+5153,11419,Shanxi 364,,China,38.13,112.39,1390,10,395,NA
+4857,11419,Shanxi 68,,China,38.18,111.32,1710,NA,NA,NA
+5128,11419,Shanxi 339,,China,38.18,112.28,1700,NA,NA,NA
+4862,11419,Shanxi 73,,China,38.2,111.34,1990,NA,NA,NA
+4858,11419,Shanxi 69,,China,38.22,111.32,1667,NA,NA,NA
+4859,11419,Shanxi 70,,China,38.25,111.32,1751,NA,NA,NA
+4870,11419,Shanxi 81,,China,38.25,111.37,1750,NA,NA,NA
+4889,11419,Shanxi 100,,China,38.32,111.43,2078,NA,NA,NA
+4881,11419,Shanxi 92,,China,38.35,111.39,1990,NA,NA,NA
+4890,11419,Shanxi 101,,China,38.35,111.43,1888,NA,NA,NA
+4871,11419,Shanxi 82,,China,38.37,111.37,1714,NA,NA,NA
+4891,11419,Shanxi 102,,China,38.38,111.43,1940,NA,NA,NA
+4900,11419,Shanxi 111,,China,38.38,111.46,1780,NA,NA,NA
+4124,11419,Hetian river Xinjiang ,,China,38.4,80.8,900,11.5,56,NA
+4884,11419,Shanxi 95,,China,38.4,111.41,1850,NA,NA,NA
+5155,11419,Shanxi 366,,China,38.42,112.4,1200,10,395,NA
+4872,11419,Shanxi 83,,China,38.43,111.37,1620,NA,NA,NA
+4882,11419,Shanxi 93,,China,38.45,111.39,1650,NA,NA,NA
+4873,11419,Shanxi 84,,China,38.47,111.37,1580,NA,NA,NA
+4938,11419,Shanxi 149,,China,38.52,111.62,1970,NA,NA,NA
+4968,11419,Shanxi 179,,China,38.62,111.73,1690,NA,NA,NA
+4999,11419,Shanxi 210,,China,38.63,111.85,2000,NA,NA,NA
+4975,11419,Shanxi 186,,China,38.65,111.78,2020,NA,NA,NA
+4987,11419,Shanxi 198,,China,38.65,111.83,2150,NA,NA,NA
+5010,11419,Shanxi 221,,China,38.65,111.87,1890,NA,NA,NA
+5028,11419,Shanxi 239,,China,38.65,111.92,1890,NA,NA,NA
+4988,11419,Shanxi 199,,China,38.68,111.83,2310,NA,NA,NA
+5038,11419,Shanxi 249,,China,38.68,111.94,1700,NA,NA,NA
+5049,11419,Shanxi 260,,China,38.68,111.97,1700,NA,NA,NA
+5000,11419,Shanxi 211,,China,38.7,111.85,2500,NA,NA,NA
+5018,11419,Shanxi 229,,China,38.7,111.9,2100,NA,NA,NA
+4976,11419,Shanxi 187,,China,38.73,111.78,2270,NA,NA,NA
+5011,11419,Shanxi 222,,China,38.73,111.87,2560,NA,NA,NA
+5001,11419,Shanxi 212,,China,38.75,111.85,2500,NA,NA,NA
+5019,11419,Shanxi 230,,China,38.75,111.9,2450,NA,NA,NA
+4989,11419,Shanxi 200,,China,38.77,111.83,2200,NA,NA,NA
+5029,11419,Shanxi 240,,China,38.77,111.92,2454,NA,NA,NA
+5072,11419,Shanxi 283,,China,38.77,112.01,2200,10,395,NA
+5002,11419,Shanxi 213,,China,38.78,111.85,2304,NA,NA,NA
+5039,11419,Shanxi 250,,China,38.78,111.94,2520,NA,NA,NA
+5064,11419,Shanxi 275,,China,38.78,111.99,2080,NA,NA,NA
+5030,11419,Shanxi 241,,China,38.8,111.92,2200,NA,NA,NA
+5050,11419,Shanxi 261,,China,38.8,111.97,2445,NA,NA,NA
+5082,11419,Shanxi 293,,China,38.8,112.06,2117,10,395,NA
+5040,11419,Shanxi 251,,China,38.82,111.94,2462,NA,NA,NA
+5210,11419,Shanxi 421,,China,38.83,113.63,1600,NA,NA,NA
+5044,11419,Shanxi 255,,China,38.88,111.95,2321,NA,NA,NA
+5105,11419,Shanxi 316,,China,38.88,112.13,2250,10,395,NA
+5083,11419,Shanxi 294,,China,38.9,112.06,2300,10,395,NA
+5077,11419,Shanxi 288,,China,38.92,112.04,2450,10,395,NA
+5094,11419,Shanxi 305,,China,38.92,112.08,2030,10,395,NA
+5106,11419,Shanxi 317,,China,38.92,112.13,2160,10,395,NA
+5111,11419,Shanxi 322,,China,38.92,112.15,2370,10,395,NA
+5188,11419,Shanxi 399,,China,38.92,113.33,1522,14,570,NA
+5107,11419,Shanxi 318,,China,38.97,112.13,2160,10,395,NA
+5084,11419,Shanxi 295,,China,38.98,112.06,2950,10,395,NA
+5112,11419,Shanxi 323,,China,38.98,112.15,2130,10,395,NA
+4618,11419,Ningwu Shanxi ,,China,39,112.2,2300,NA,NA,NA
+5113,11419,Shanxi 324,,China,39.02,112.15,2210,10,395,NA
+5211,11419,Shanxi 422,,China,39.1,113.66,2300,NA,NA,NA
+5201,11419,Shanxi 412,,China,39.12,113.5,2188,14,570,NA
+5205,11419,Shanxi 416,,China,39.12,113.54,2480,NA,NA,NA
+5209,11419,Shanxi 420,,China,39.12,113.59,2500,NA,NA,NA
+5216,11419,Shanxi 427,,China,39.13,114.15,2581,NA,NA,NA
+5212,11419,Shanxi 423,,China,39.18,113.71,2490,NA,NA,NA
+4048,11419,Fanzhi Shanxi,,China,39.2,113.2,2210,NA,NA,NA
+4105,11419,Hebei ,,China,39.2,115.2,120,11.6,641,NA
+5173,11419,Shanxi 384,,China,39.3,112.95,2030,NA,NA,NA
+4076,11419,Guancen mountain Shanxi,,China,39.5,112.2,2310,NA,NA,NA
+4239,11419,Laiyuan Hebei ,,China,39.7,115.3,930,NA,NA,NA
+5554,11419,Zhuanghe Liaoning ,,China,39.7,123.1,350,8.6,680,NA
+5213,11419,Shanxi 424,,China,39.73,113.8,1982,NA,NA,NA
+5214,11419,Shanxi 425,,China,39.9,113.83,2075,NA,NA,NA
+5215,11419,Shanxi 426,,China,39.93,113.97,2010,NA,NA,NA
+5279,11419,Tarim river Xinjiang ,,China,40.1,88.1,900,NA,NA,NA
+4716,11419,Qinglong Hebei 1,,China,40.4,118.9,350,9.3,540,NA
+5277,11419,Talimu river Xinjiang ,,China,40.4,80.6,900,7.6,247,NA
+5470,11419,Yeerqiang river and hetian river Xinjiang ,,China,40.4,80.8,900,7.6,247,NA
+4715,11419,Qinglong Hebei ,,China,40.5,118.7,1167,9.3,540,NA
+8913,11419,Anshan Liaoning,,China,40.5,123.2,600,8.5,1000,NA
+4235,11419,Kuancheng Hebei ,,China,40.6,118.4,1300,NA,NA,NA
+5407,11419,Xinglong Hebei ,,China,40.6,117.4,1058,8,370,NA
+4236,11419,Kuandian Liaoning ,,China,40.7,124.7,400,-4,500,NA
+3967,11419,Chongli Hebei,,China,40.9,115.2,1600,NA,NA,NA
+8947,11419,Chengde Hebei 2,,China,40.9,117.9,1203,9.3,539,NA
+4702,11419,Pingquan Hebei ,,China,41,118.6,982,9.3,540,NA
+5283,11419,the east of Liaoning ,,China,41.1,118.5,600,6.2,810,NA
+8946,11419,Chengde Hebei 1,,China,41.1,117.6,1100,9.3,539,NA
+4050,11419,Fengning Hebei,,China,41.2,116.3,1300,NA,NA,NA
+4728,11419,Renao Jilin ,,China,41.4,126,730,7.5,881,NA
+4384,11419,Longhua Hebei ,,China,41.6,117.2,1260,NA,NA,NA
+8949,11419,Chifeng Inner Mongolia,,China,41.6,119.3,1705,6.6,360,NA
+4237,11419,Kuche Xinjiang ,,China,41.7,82.9,900,NA,NA,NA
+4408,11419,Luntai Xinjiang ,,China,41.7,84.3,925,NA,NA,NA
+5394,11419,Xinbin Liaoning ,,China,41.7,125,375,NA,NA,NA
+8933,11419,Changbai mountain Jilin 2,,China,41.8,126.9,845,1.5,910,NA
+4055,11419,Fusong Jilin,,China,41.9,127.6,850,5.7,900,NA
+4148,11419,Huijiang Jilin ,,China,41.9,126.4,550,4.7,831,NA
+4714,11419,Qinghou Liaoning ,,China,41.9,125.1,400,NA,NA,NA
+5333,11419,Weichang Hebei 2,,China,41.9,117.6,1600,NA,NA,NA
+4056,11419,Fuxin Liaoning,,China,42,121.7,350,7.9,545,NA
+4203,11419,Jianping Liaoning ,,China,42,119.4,500,NA,NA,NA
+5332,11419,Weichang Hebei 1,,China,42,117.3,1269,9.3,539,NA
+4374,11419,Liuhe Jilin ,,China,42.2,125.7,600,NA,NA,NA
+5244,11419,south-east Inner Mongolia ,,China,42.2,118.1,100,6.2,800,NA
+5284,11419,the west of Liaoning ,,China,42.4,120.1,500,5.5,450,NA
+5285,11419,the west of Liaoning 1,,China,42.4,122.1,500,5.8,500,NA
+5331,11419,Weichang Hebei ,,China,42.4,117.2,1537,9.3,539,NA
+8935,11419,Changbai mountain Jilin 4,,China,42.4,128.1,1050,5.4,905,NA
+4385,11419,Longjing Jilin ,,China,42.6,129.5,427,5.6,549,NA
+8934,11419,Changbai mountain Jilin 3,,China,42.9,127.1,717,3.6,800,NA
+4073,11419,Gongliu Xinjiang,,China,43.4,82.2,1900,5.8,100,NA
+8932,11419,Changbai mountain Jilin 1,,China,43.5,123.1,900,5.4,430,NA
+4435,11419,Mulei Xinjiang ,,China,43.8,90.3,1900,NA,NA,NA
+5371,11419,Wulumuqi Xinjiang ,,China,43.8,87.6,2135,NA,NA,NA
+4417,11419,Manasi Xinjiang ,,China,44.3,86.2,650,NA,NA,NA
+5236,11419,Shulan Jilin ,,China,44.4,126.9,550,4.3,683,NA
+4421,11419,Maoer mountain Heilongjiang and Liangshui Heilongjiang ,,China,45.2,127.3,300,2.8,723,NA
+4422,11419,Maoershan Heilongjiang ,,China,45.2,127.5,400,2.4,700,NA
+8914,11419,Arshaan Inner Mongolia,,China,47.1,119.9,1280,NA,NA,NA
+4094,11419,Habahe Xinjiang ,,China,48,86.4,500,NA,NA,NA
+3968,11419,Chuoer Inner Mongolia,,China,48.4,121.4,820,NA,NA,NA
+4075,11419,Greater Khingan Mountains Inner Mongolia,,China,49.5,122,150,5,370,NA
+5369,11419,Wuerqihan Inner Mongolia ,,China,49.5,121.3,846,NA,NA,NA
+4238,11419,Kuduer Inner Mongolia ,,China,50,121.6,887,4.9,390,NA
+4074,11419,Greater Higgnan Mountains,,China,50.3,120.3,800,-5.4,510,NA
+4228,11419,Jiwen Heilongjiang ,,China,50.5,123.2,676,-2,480,NA
+4234,11419,Keyihe Inner Mongolia ,,China,50.6,122.4,810,3,400,NA
+4008,11419,Deerbuer Inner Mongolia,,China,50.9,121,812,NA,NA,NA
+4212,11419,Jinhe Inner Mongolia ,,China,51.3,121.5,785,NA,NA,NA
+4433,11419,Moerdaoga Inner Mongolia ,,China,51.3,120.8,737,NA,NA,NA
+4156,11419,Huma Heilongjiang ,,China,51.7,126.6,313,-2.1,400,NA
+4419,11419,Mangui Inner Mongolia ,,China,52,122.2,660,-1.7,280,NA
+4420,11419,Mangui Inner Mongolia 1,,China,52.3,122.2,660,-1.7,280,NA
+5269,11419,Tahe Heilongjiang 4,,China,52.3,124.7,555,-4,500,NA
+5268,11419,Tahe Heilongjiang 3,,China,52.5,124.5,487,-4,500,NA
+5265,11419,Tahe Heilongjiang ,,China,52.6,123.6,670,-4,500,NA
+5267,11419,Tahe Heilongjiang 2,,China,52.6,124.2,891,-4,500,NA
+5266,11419,Tahe Heilongjiang 1,,China,53.2,123.6,510,-4,500,NA
+4241,11419,Ledong Hainan ,,China,18.7,108.8,706,24.1,1517,NA
+5358,11419,Wenchang Hainan ,,China,19.22,110.4,15,24.1,1520,NA
+5359,11419,Wenchang Hainan 1,,China,19.6,110.7,300,24.1,1517,NA
+4095,11419,Haikang Guangdong ,,China,20.7,110,80,NA,NA,NA
+4109,11419,Hepu Guangxi 2,,China,21.4,109.4,10,NA,NA,NA
+4108,11419,Hepu Guangxi 1,,China,21.6,109.2,50,NA,NA,NA
+4034,11419,Fangcheng Guangxi 1,,China,21.7,108.3,10,NA,NA,NA
+4110,11419,Hepu Guangxi 3,,China,21.7,109.6,20,22,1320,NA
+4721,11419,Qinzhou Guangxi ,,China,21.7,108.5,20,21.5,1700,NA
+4723,11419,Qisha Guangxi ,,China,21.7,108.4,10,NA,NA,NA
+4035,11419,Fangcheng Guangxi 2,,China,21.8,108.3,10,NA,NA,NA
+4107,11419,Hepu Guangxi ,,China,21.8,108.9,40,22,1320,NA
+4111,11419,Hepu Guangxi 4,,China,21.8,109.6,68,22,1320,NA
+4724,11419,Qisha Guangxi 1,,China,21.8,108.4,10,NA,NA,NA
+4616,11419,Ningming Guangxi ,,China,21.85,107.24,440,NA,NA,NA
+4786,11419,Shangsi Guangxi 1,,China,21.85,107.71,1160,NA,NA,NA
+4722,11419,Qinzhou Guangxi 1,,China,21.9,108.5,15,21.5,1700,NA
+4785,11419,Shangsi Guangxi ,,China,21.92,107.65,475,NA,NA,NA
+4326,11419,Lingshan Guangxi ,,China,21.98,109.2,60,NA,NA,NA
+4787,11419,Shangsi Guangxi 2,,China,21.98,108.1,575,NA,NA,NA
+4407,11419,Lufeng Guangdong ,,China,22.9,115.6,400,NA,NA,NA
+4106,11419,Heng Guangxi ,,China,22.93,108.84,260,NA,NA,NA
+4382,11419,Longan Guangxi ,,China,22.93,107.55,545,NA,NA,NA
+8929,11419,Cenxi Guangxi 1,,China,22.93,110.77,342,NA,NA,NA
+4155,11419,Huiyang Guangdong ,,China,23,114.3,300,22,2100,NA
+4442,11419,Nanning Guangxi ,,China,23,108.31,297,NA,NA,NA
+4579,11419,Napo Guangxi 1,,China,23,105.86,1099,NA,NA,NA
+8931,11419,Cenxi Guangxi 3,,China,23,111.35,430,NA,NA,NA
+4383,11419,Longan Guangxi 1,,China,23.07,107.79,100,NA,NA,NA
+4580,11419,Napo Guangxi 2,,China,23.07,105.92,524,NA,NA,NA
+8924,11419,Boluo Guangdong,,China,23.1,114.2,389,21.3,1900,NA
+8930,11419,Cenxi Guangxi 2,,China,23.1,111.1,400,NA,NA,NA
+4712,11419,Puer Yunan ,,China,23.12,100.51,900,15.5,1400,NA
+4059,11419,Gangwu Guangxi 2,,China,23.13,111.18,280,NA,NA,NA
+4578,11419,Napo Guangxi ,,China,23.13,105.57,1138,NA,NA,NA
+4007,11419,Debao Guangxi,,China,23.37,106.98,450,NA,NA,NA
+5372,11419,Wuming Guangxi ,,China,23.43,108.48,1270,NA,NA,NA
+2357,11440,Ponta de Pedras,Para,Brazil,-1.396389,-48.867222,NA,NA,NA,Oxisol
+3905,11447,Guanica State Forest,Puerto Rico,United States,17.966667,-66.866667,125,26,750,ustorthent
+3902,11447,Luquillo,Puerto Rico,United States,18.35,-65.916667,325,23,2800,ultisols
+3905,11448,Guanica State Forest,Puerto Rico,United States,17.966667,-66.866667,125,26,750,ustorthent
+3902,11448,Luquillo,Puerto Rico,United States,18.35,-65.916667,625,23,2800,ultisols
+3906,11449,Sabana de Huimanguillo,Tabasco,Mexico,17.826412,-93.670596,NA,26,2410,ultisols
+3907,11450,La Selva,,Costa Rica,10.433333,-83.983333,93,24,3800,andept
+5577,11453,La Selva,Heredia,Costa Rica,10.433333,-83.983333,NA,NA,NA,NA
+5574,11454,SSA (Nippawin),Saskatchewan,Canada,53.883333,-104.883333,NA,0.1,390,NA
+5573,11454,SSA-OA (Prince Albert National Park),Saskatchewan,Canada,55.566667,-106.233333,NA,0.1,390,NA
+5572,11454,NSA (Thompson),Manitoba,Canada,55.883333,-98.333333,NA,-3.9,542,NA
+2304,11465,Bukit Soeharto Education Forest,East Kalimantan,Indonesia,-0.866667,117.016667,55,NA,2000,ultisols
+5579,11475,Sabal Forest Reserve,Sarawak,Malaysia,1.05,100.833333,35,NA,4200,NA
+5574,11480,SSA (Nippawin),Saskatchewan,Canada,53.883333,-104.883333,NA,0.1,405,Eutrocrept
+5573,11480,SSA-OA (Prince Albert National Park),Saskatchewan,Canada,55.566667,-106.233333,NA,0.1,405,Eutrocrept
+5572,11480,NSA (Thompson),Manitoba,Canada,55.883333,-98.333333,NA,-3.9,536,Dystrocrept
+5575,11481,Tomsk,Siberia,Russia,58,83,NA,NA,501,NA
+13973,11494,Jianfengling,Hainan Island,China,18.623056,104.68,900,22.1,2300,Lateritic yellow
+13974,11500,Perloja Experimental Station,,Lithuania,54.166667,24.416667,NA,6.2,680,NA
+13975,11501,Thompson Research Center,Washington,United States,47,-122,NA,9.4,1440,NA
+13976,11503,Craigieburn Range,South Island,New Zealand,-43.25,171.633247,1136,8,1447,Allophanic brown
+2046,6701,Sungai Wain,East Kalimantan,Indonesia,-1.06,116.49,40,NA,2400,NA
+14006,2244,Lago Guacho,Chubut,Argentina,-43.8,-71.45,1270,NA,NA,NA
+14102,12001,JFL01-8901,Hainan,China,18.738117,108.870683,869,19.786,2786.043412,Brick yellow soil
+14103,12001,JFL01-2,Hainan,China,18.73395,108.850583,1031,18.814,3222.440144,Yellow earths
+14104,12001,JFL01-3,Hainan,China,18.743333,108.86935,831,20.014,2692.550741,Brick yellow soil
+14105,12001,JFL01-4,Hainan,China,18.7345,108.869567,913,19.522,2898.361092,Brick yellow soil
+14106,12001,JFL01-5,Hainan,China,18.743667,108.879083,853,19.882,2746.288777,Brick yellow soil
+14107,12001,JFL01-6,Hainan,China,18.743333,108.850817,927,19.438,2935.039554,Brick yellow soil
+14108,12001,JFL01-7,Hainan,China,18.734617,108.860367,943,19.342,2977.526501,Brick yellow soil
+14109,12001,JFL01-8,Hainan,China,18.734533,108.8791,1015,18.91,3176.458474,Yellow earths
+14110,12001,JFL01-9201,Hainan,China,18.729717,108.88995,893,19.642,2846.756984,Brick yellow soil
+14111,12001,JFL01-10,Hainan,China,18.7529,108.897983,820,20.08,2666.077338,Brick yellow soil
+14112,12001,JFL01-11,Hainan,China,18.7525,108.878933,883,19.702,2821.300505,Brick yellow soil
+14113,12001,JFL01-12,Hainan,China,18.761483,108.879017,968,19.192,3045.146954,Brick yellow soil
+14114,12001,JFL01-13,Hainan,China,18.77065,108.87885,973,19.162,3058.854221,Brick yellow soil
+14115,12001,JFL01-14,Hainan,China,18.75245,108.869317,909,19.546,2887.965972,Brick yellow soil
+14116,12001,JFL01-15,Hainan,China,18.752683,108.9072,777,20.338,2565.064182,Brick yellow soil
+14117,12001,JFL01-16,Hainan,China,18.753067,108.916833,722,20.668,2441.419851,Brick yellow soil
+14118,12001,JFL01-17,Hainan,China,18.755983,108.926233,687,20.878,2365.8587,Brick yellow soil
+14119,12001,JFL01-18,Hainan,China,18.74415,108.843333,1113,18.322,3468.753622,Yellow earths
+14120,12001,JFL01-19,Hainan,China,18.725583,108.8887,926,19.444,2932.40434,Brick yellow soil
+14121,12001,JFL01-20,Hainan,China,18.734767,108.888583,940,19.36,2969.513616,Brick yellow soil
+14122,12001,JFL01-21,Hainan,China,18.761417,108.86005,960,19.24,3023.342975,Brick yellow soil
+14123,12001,JFL01-22,Hainan,China,18.752283,108.860033,935,19.39,2956.2067,Brick yellow soil
+14124,12001,JFL01-23,Hainan,China,18.761467,108.868883,1083,18.502,3376.527643,Yellow earths
+14125,12001,JFL01-24,Hainan,China,18.734883,108.898033,881,19.714,2816.236591,Brick yellow soil
+14126,12001,JFL01-25,Hainan,China,18.76165,108.888083,920,19.48,2916.642667,Brick yellow soil
+14127,12001,JFL01-26,Hainan,China,18.725783,108.897883,880,19.72,2813.708044,Brick yellow soil
+14128,12001,JFL01-27,Hainan,China,18.752317,108.85045,973,19.162,3058.854221,Brick yellow soil
+14129,12001,JFL01-28,Hainan,China,18.725633,108.8606,1125,18.25,3506.345535,Yellow earths
+14130,12001,JFL01-29,Hainan,China,18.725183,108.869617,1062,18.628,3313.432352,Yellow earths
+14131,12001,JFL01-30,Hainan,China,18.71775,108.847133,586,21.484,2160.668879,humid-thermo ferrralitic
+14132,12001,JFL01-31,Hainan,China,18.72665,108.84705,710,20.74,2415.245122,Brick yellow soil
+14133,12001,JFL01-32,Hainan,China,18.745583,108.884817,920,19.48,2916.642667,Brick yellow soil
+14134,12001,JFL01-33,Hainan,China,18.745933,108.894367,925,19.45,2929.771492,Brick yellow soil
+14135,12001,JFL01-34,Hainan,China,18.74665,108.922567,711,20.734,2417.41559,Brick yellow soil
+14136,12001,JFL01-35,Hainan,China,18.745667,108.903483,935,19.39,2956.2067,Brick yellow soil
+14137,12001,JFL01-36,Hainan,China,18.745683,108.913183,878,19.732,2808.657758,Brick yellow soil
+14138,12001,JFL01-37,Hainan,China,18.800117,108.893517,841,19.954,2716.845516,Brick yellow soil
+14139,12001,JFL01-38,Hainan,China,18.7912,108.9037,876,19.744,2803.616537,Brick yellow soil
+14140,12001,JFL01-39,Hainan,China,18.790633,108.894067,756,20.464,2517.132257,Brick yellow soil
+14141,12001,JFL01-40,Hainan,China,18.78135,108.884767,952,19.288,3001.695118,Brick yellow soil
+14142,12001,JFL01-41,Hainan,China,18.782317,108.893983,936,19.384,2958.863304,Brick yellow soil
+14143,12001,JFL01-42,Hainan,China,18.800417,108.902983,1031,18.814,3222.440144,Yellow earths
+14144,12001,JFL01-43,Hainan,China,18.799883,108.912683,946,19.324,2985.561007,Brick yellow soil
+14145,12001,JFL01-44,Hainan,China,18.772483,108.885033,1010,18.94,3162.224201,Yellow earths
+14146,12001,JFL01-45,Hainan,China,18.791,108.912833,921,19.474,2919.263717,Brick yellow soil
+14147,12001,JFL01-46,Hainan,China,18.77305,108.8941,983,19.102,3086.454138,Brick yellow soil
+14148,12001,JFL01-47,Hainan,China,18.80025,108.92145,978,19.132,3072.62319,Brick yellow soil
+14149,12001,JFL01-48,Hainan,China,18.790667,108.884517,689,20.866,2370.112783,Brick yellow soil
+14150,12001,JFL01-49,Hainan,China,18.799883,108.883967,506,21.964,2010.850723,humid-thermo ferrralitic
+14151,12001,JFL01-50,Hainan,China,18.76305,108.894117,915,19.51,2903.572675,Brick yellow soil
+14152,12001,JFL01-51,Hainan,China,18.809133,108.893467,627,21.238,2241.725924,humid-thermo ferrralitic
+14153,12001,JFL01-52,Hainan,China,18.7912,108.87605,583,21.502,2154.854258,humid-thermo ferrralitic
+14154,12001,JFL01-53,Hainan,China,18.80885,108.902317,952,19.288,3001.695118,Brick yellow soil
+14155,12001,JFL01-54,Hainan,China,18.73655,108.92345,926,19.444,2932.40434,Brick yellow soil
+14156,12001,JFL01-55,Hainan,China,18.728067,108.923,839,19.966,2711.969087,Brick yellow soil
+14157,12001,JFL01-56,Hainan,China,18.7277,108.8756,1004,18.976,3145.227246,Yellow earths
+14158,12001,JFL01-57,Hainan,China,18.76395,108.9131,838,19.972,2709.534156,Brick yellow soil
+14159,12001,JFL01-58,Hainan,China,18.763833,108.9038,874,19.756,2798.584364,Brick yellow soil
+14160,12001,JFL01-59,Hainan,China,18.73695,108.91315,974,19.156,3061.60307,Brick yellow soil
+14161,12001,JFL01-60,Hainan,China,18.736933,108.9037,981,19.114,3080.914303,Brick yellow soil
+14162,12001,JFL01-61,Hainan,China,18.7278,108.904133,879,19.726,2811.181767,Brick yellow soil
+14163,12001,JFL01-62,Hainan,China,18.7277,108.913617,904,19.576,2875.024485,Brick yellow soil
+14164,12001,JFL01-63,Hainan,China,18.718417,108.894267,1068,18.592,3331.338295,Yellow earths
+14165,12001,JFL01-64,Hainan,China,18.718783,108.903617,1131,18.214,3525.29399,Yellow earths
+14166,12001,JFL01-65,Hainan,China,18.7187,108.885217,1084,18.496,3379.56197,Yellow earths
+14167,12001,JFL01-66,Hainan,China,18.7173,108.8571,638,21.172,2263.985636,humid-thermo ferrralitic
+14168,12001,JFL01-67,Hainan,China,18.70885,108.856133,538,21.772,2069.489302,humid-thermo ferrralitic
+14169,12001,JFL01-68,Hainan,China,18.7086,108.875667,865,19.81,2776.051125,Brick yellow soil
+14170,12001,JFL01-69,Hainan,China,18.70905,108.866083,747,20.518,2496.865174,Brick yellow soil
+14171,12001,JFL01-70,Hainan,China,18.709333,108.894033,1095,18.43,3413.120075,Yellow earths
+14172,12001,JFL01-71,Hainan,China,18.709683,108.903933,862,19.828,2768.580435,Brick yellow soil
+14173,12001,JFL01-72,Hainan,China,18.709633,108.884983,949,19.306,2993.617193,Brick yellow soil
+14174,12001,JFL01-73,Hainan,China,18.70955,108.91345,709,20.746,2413.076604,Brick yellow soil
+14175,12001,JFL01-74,Hainan,China,18.70895,108.847333,427,22.438,1873.102533,humid-thermo ferrralitic
+14176,12001,JFL01-75,Hainan,China,18.716283,108.877367,1265,17.41,3976.210664,Yellow earths
+14177,12001,JFL01-76,Hainan,China,18.718517,108.865367,850,19.9,2738.898182,Brick yellow soil
+14178,12001,JFL01-77,Hainan,China,18.791467,108.949717,796,20.224,2609.21717,Brick yellow soil
+14179,12001,JFL01-78,Hainan,China,18.782317,108.950233,629,21.226,2245.756802,humid-thermo ferrralitic
+14180,12001,JFL01-79,Hainan,China,18.773417,108.949817,418,22.492,1858.020956,humid-thermo ferrralitic
+14181,12001,JFL01-80,Hainan,China,18.782833,108.941417,635,21.19,2257.892977,humid-thermo ferrralitic
+14182,12001,JFL01-81,Hainan,China,18.7733,108.941017,566,21.604,2122.199073,humid-thermo ferrralitic
+14183,12001,JFL01-82,Hainan,China,18.773717,108.921767,624,21.256,2235.693168,humid-thermo ferrralitic
+14184,12001,JFL01-83,Hainan,China,18.782283,108.921967,841,19.954,2716.845516,Brick yellow soil
+14185,12001,JFL01-84,Hainan,China,18.76465,108.969633,371,22.774,1781.212284,humid-thermo ferrralitic
+14186,12001,JFL01-85,Hainan,China,18.7925,108.943183,898,19.612,2859.571229,Brick yellow soil
+14187,12001,JFL01-86,Hainan,China,18.763783,108.921717,772,20.368,2553.569675,Brick yellow soil
+14188,12001,JFL01-87,Hainan,China,18.773817,108.931667,645,21.13,2278.265852,humid-thermo ferrralitic
+14189,12001,JFL01-88,Hainan,China,18.7907,108.921583,855,19.87,2751.226917,Brick yellow soil
+14190,12001,JFL01-89,Hainan,China,18.800783,108.94075,771,20.374,2551.276962,Brick yellow soil
+14191,12001,JFL01-90,Hainan,China,18.78235,108.903583,1032,18.808,3225.335999,Yellow earths
+14192,12001,JFL01-91,Hainan,China,18.773683,108.903133,807,20.158,2635.125968,Brick yellow soil
+14193,12001,JFL01-92,Hainan,China,18.78275,108.931783,608,21.352,2203.791596,humid-thermo ferrralitic
+14194,12001,JFL01-93,Hainan,China,18.7728,108.91245,685,20.89,2361.612253,Brick yellow soil
+14195,12001,JFL01-94,Hainan,China,18.790717,108.932233,896,19.624,2854.438624,Brick yellow soil
+14196,12001,JFL01-95,Hainan,China,18.800217,108.931783,982,19.108,3083.682976,Brick yellow soil
+14197,12001,JFL01-96,Hainan,China,18.7819,108.912617,881,19.714,2816.236591,Brick yellow soil
+14198,12001,JFL01-97,Hainan,China,18.774633,108.9594,490,22.06,1982.157475,humid-thermo ferrralitic
+14199,12001,JFL01-98,Hainan,China,18.764567,108.960583,419,22.486,1859.690672,humid-thermo ferrralitic
+14200,12001,JFL01-99,Hainan,China,18.7729,108.979433,485,22.09,1973.275076,humid-thermo ferrralitic
+14201,12001,JFL01-100,Hainan,China,18.755367,108.980117,315,23.11,1693.829967,humid-thermo ferrralitic
+14202,12001,JFL01-101,Hainan,China,18.746717,108.9889,302,23.188,1674.165737,humid-thermo ferrralitic
+14203,12001,JFL01-102,Hainan,China,18.755317,108.969567,304,23.176,1677.176077,humid-thermo ferrralitic
+14204,12001,JFL01-103,Hainan,China,18.7242,108.927433,918,19.492,2911.407625,Brick yellow soil
+14205,12001,JFL01-104,Hainan,China,18.716917,108.9226,741,20.554,2483.444524,Brick yellow soil
+14206,12001,JFL01-105,Hainan,China,18.720383,108.934367,730,20.62,2459.027072,Brick yellow soil
+14207,12001,JFL01-106,Hainan,China,18.709667,108.924183,686,20.884,2363.734523,Brick yellow soil
+14208,12001,JFL01-107,Hainan,China,18.726317,108.933467,859,19.846,2761.12985,Brick yellow soil
+14209,12001,JFL01-108,Hainan,China,18.709983,108.933083,765,20.41,2537.563849,Brick yellow soil
+14210,12001,JFL01-109,Hainan,China,18.69205,108.933317,531,21.814,2056.517701,humid-thermo ferrralitic
+14211,12001,JFL01-110,Hainan,China,18.700483,108.93305,587,21.478,2162.610571,humid-thermo ferrralitic
+14212,12001,JFL01-111,Hainan,China,18.710167,108.942567,569,21.586,2127.925578,humid-thermo ferrralitic
+14213,12001,JFL01-112,Hainan,China,18.7013,108.94305,448,22.312,1908.770667,humid-thermo ferrralitic
+14214,12001,JFL01-113,Hainan,China,18.71895,108.95115,396,22.624,1821.66411,humid-thermo ferrralitic
+14215,12001,JFL01-114,Hainan,China,18.710083,108.9506,409,22.546,1843.06081,humid-thermo ferrralitic
+14216,12001,JFL01-115,Hainan,China,18.719367,108.94255,568,21.592,2126.015028,humid-thermo ferrralitic
+14217,12001,JFL01-116,Hainan,China,18.692467,108.923333,597,21.418,2182.123718,humid-thermo ferrralitic
+14218,12001,JFL01-117,Hainan,China,18.681617,108.895017,799,20.206,2616.257837,Brick yellow soil
+14219,12001,JFL01-118,Hainan,China,18.68365,108.9034,737,20.578,2474.537523,Brick yellow soil
+14220,12001,JFL01-119,Hainan,China,18.681983,108.913367,643,21.142,2274.176624,humid-thermo ferrralitic
+14221,12001,JFL01-120,Hainan,China,18.683317,108.923317,704,20.776,2402.26318,Brick yellow soil
+14222,12001,JFL01-121,Hainan,China,18.691483,108.878167,713,20.722,2421.762378,Brick yellow soil
+14223,12001,JFL01-122,Hainan,China,18.690683,108.88605,786,20.284,2585.884837,Brick yellow soil
+14224,12001,JFL01-123,Hainan,China,18.689733,108.893817,902,19.588,2869.864143,Brick yellow soil
+14225,12001,JFL01-124,Hainan,China,18.69145,108.904533,862,19.828,2768.580435,Brick yellow soil
+14226,12001,JFL01-125,Hainan,China,18.692117,108.914133,776,20.344,2562.761149,Brick yellow soil
+14227,12001,JFL01-126,Hainan,China,18.700383,108.87575,802,20.188,2623.317501,Brick yellow soil
+14228,12001,JFL01-127,Hainan,China,18.700767,108.894717,840,19.96,2714.406206,Brick yellow soil
+14229,12001,JFL01-128,Hainan,China,18.7016,108.885933,945,19.33,2982.880432,Brick yellow soil
+14230,12001,JFL01-129,Hainan,China,18.700617,108.92245,880,19.72,2813.708044,Brick yellow soil
+14231,12001,JFL01-130,Hainan,China,18.700867,108.913633,977,19.138,3069.864447,Brick yellow soil
+14232,12001,JFL01-131,Hainan,China,18.700617,108.9041,900,19.6,2864.713063,Brick yellow soil
+14233,12001,JFL01-132,Hainan,China,18.700233,108.8665,791,20.254,2597.524806,Brick yellow soil
+14234,12001,JFL01-133,Hainan,China,18.728583,108.942183,797,20.218,2611.561951,Brick yellow soil
+14235,12001,JFL01-134,Hainan,China,18.7373,108.941717,714,20.716,2423.938702,Brick yellow soil
+14236,12001,JFL01-135,Hainan,China,18.746417,108.9418,628,21.232,2243.740458,humid-thermo ferrralitic
+14237,12001,JFL01-136,Hainan,China,18.75525,108.94125,709,20.746,2413.076604,Brick yellow soil
+14238,12001,JFL01-137,Hainan,China,18.736933,108.931567,704,20.776,2402.26318,Brick yellow soil
+14239,12001,JFL01-138,Hainan,China,18.746233,108.931967,648,21.112,2284.413485,humid-thermo ferrralitic
+14240,12001,JFL01-139,Hainan,China,18.7294,108.951767,657,21.058,2302.956096,Brick yellow soil
+14241,12001,JFL01-140,Hainan,China,18.753217,108.889,789,20.266,2592.862544,Brick yellow soil
+14242,12001,JFL01-141,Hainan,China,18.73795,108.95185,753,20.482,2510.35835,Brick yellow soil
+14243,12001,JFL01-142,Hainan,China,18.746233,108.950633,647,21.118,2282.362433,humid-thermo ferrralitic
+14244,12001,JFL01-143,Hainan,China,18.754983,108.931667,714,20.716,2423.938702,Brick yellow soil
+14245,12001,JFL01-144,Hainan,China,18.742883,108.8569,849,19.906,2736.439073,Brick yellow soil
+14246,12001,JFL01-145,Hainan,China,18.762967,108.930483,774,20.356,2558.161284,Brick yellow soil
+14247,12001,JFL01-146,Hainan,China,18.77395,108.882233,999,19.006,3131.132926,Brick yellow soil
+14248,12001,JFL01-147,Hainan,China,18.763717,108.88275,956,19.264,3012.499601,Brick yellow soil
+14249,12001,JFL01-148,Hainan,China,18.7216,108.83315,553,21.682,2097.561765,humid-thermo ferrralitic
+14250,12001,JFL01-149,Hainan,China,18.73165,108.8725,958,19.252,3017.916418,Brick yellow soil
+14251,12001,JFL01-150,Hainan,China,18.733867,108.842233,912,19.528,2895.75881,Brick yellow soil
+14252,12001,JFL01-151,Hainan,China,18.754683,108.977,291,23.254,1657.705187,humid-thermo ferrralitic
+14253,12001,JFL01-152,Hainan,China,18.742483,108.994333,261,23.434,1613.630715,humid-thermo ferrralitic
+14254,12001,JFL01-0501,Hainan,China,18.732067,108.89625,871,19.774,2791.053034,Brick yellow soil
+14255,12001,JFL01-0503,Hainan,China,18.753867,108.891433,781,20.314,2574.29703,Brick yellow soil
+14256,12001,JFL01-0601,Hainan,China,18.743467,108.99255,261,23.434,1613.630715,humid-thermo ferrralitic
+14257,12001,JFL01-0603,Hainan,China,18.738133,108.979017,259,23.446,1610.734432,humid-thermo ferrralitic
+14258,12001,JFL01-8302,Hainan,China,18.729133,108.89375,867,19.798,2781.04278,Brick yellow soil
+14259,12001,JFL01-8401,Hainan,China,18.739467,108.868617,863,19.822,2771.068428,Brick yellow soil
+14260,12001,JFL01-8402,Hainan,China,18.730917,108.88855,881,19.714,2816.236591,Brick yellow soil
+14261,12001,JFL01-0502_1,Hainan,China,18.73945,108.858733,882,19.708,2818.767411,Brick yellow soil
+14262,12001,JFL01-0502_3,Hainan,China,18.73945,108.858733,882,19.708,2818.767411,Brick yellow soil
+14263,12001,JFL01-0502_4,Hainan,China,18.73945,108.858733,882,19.708,2818.767411,Brick yellow soil
+14264,12001,JFL01-0502_7,Hainan,China,18.73945,108.858733,882,19.708,2818.767411,Brick yellow soil
+14265,12001,JFL01-0502_8,Hainan,China,18.73945,108.858733,882,19.708,2818.767411,Brick yellow soil
