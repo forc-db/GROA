@@ -2,7 +2,7 @@ GROA order,GROA table,GROA field,GROA Description,-,ForC order,ForC table,ForC C
 1,MEASUREMENTS,IPCC,?,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
 2,MEASUREMENTS,country,-,-,-,-,-,-,-,-,-,-,-,-,,,-,-,-,-,-
 3,MEASUREMENTS,measurement.id,unique identifier per measurement,-,,,,,,,,,-,,,,-,not the same as ForC,create instructions,,
-4,MEASUREMENTS,plot.id,unique identifier per plot,-,,,,,,,,,-,,,,-,not the same as ForC,create instructions,,
+4,MEASUREMENTS,plot.id,unique identifier per plot,-,3,MEASUREMENTS,3 / C,plot.name,Unique plot identifier name for the plot in which the measurement was made. Links to HISTORY and PLOTS table.,character (string),-,-,-,"""GROA_[value]""",,,-,not the same as ForC,create instructions,,
 5,MEASUREMENTS,site.id,"unique identifier for each site, defined as a unique geolocation. This site.id differs from ForC site.id in that ForC will assign different site.IDs to the same geolocation if edaphic /biophysical condidtions differ.",-,,,,,,,,,-,,,,-,not the same as ForC,create instructions,,
 6,MEASUREMENTS,study.id,unique identifier per publication,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
 7,MEASUREMENTS,citations.title,full title from publication,-,106,CITATIONS,5 / E,citation.title,Title of publication.,character (string),-,-,-,value,,-,-,-,-,-,-
