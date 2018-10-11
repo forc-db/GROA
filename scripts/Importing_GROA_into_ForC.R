@@ -169,7 +169,7 @@ for( i in 1:nrow(GROA_measurements)) {
     cat("Creating new record:",paste(sites.sitename, variable.name), "\n")
     include_record  = TRUE
     
-    # deal with covariates separately here
+    # deal with covariates separately here ####
     if(any(GROA_measurements[, c("covar_1","covar_2", "covar_3")][i,] %in% c("min_dbh"))) {
       idx.min_dbh <- which(GROA_measurements[, c("covar_1","covar_2", "covar_3")][i,] %in% "min_dbh")
       min.dbh = GROA_measurements[, c("coV1_value","coV2_value", "coV3_value")][i,][idx.min_dbh]
@@ -210,12 +210,17 @@ for( i in 1:nrow(GROA_measurements)) {
         
     } # if(!is.na(GROA_component))
     
+    # deal with plot.name separately here ####
+    plot.name = refor.type.to.plot.name.key[GROA_measurements$refor.type[i],]
+    if(grepl("regrowth", plot.name) & !is.na(GROA_measurements$date[i]) & !is.na(GROA_measurements$stand.age[i])) plot.name = paste(plot.name, "established around", GROA_measurements$date[i] - GROA_measurements$stand.age[i])
+    
+    # append to measurements table now ####
     if(include_record) ForC_data$MEASUREMENTS <-  bind_rows( #####
       ForC_data$MEASUREMENTS,
       data.frame( #####
         measurement.ID = c(max(ForC_data$MEASUREMENTS$measurement.ID)+1, max(ForC_data$MEASUREMENTS$measurement.ID) + 2)[c(TRUE, !is.na(GROA_measurements$density[i]))],
         sites.sitename,
-        plot.name = refor.type.to.plot.name.key[GROA_measurements$refor.type[i],],
+        plot.name = plot.name,
         stand.age = as.character(GROA_measurements$stand.age[i]),
         dominant.life.form = ifelse(GROA_measurements$refor.type[i] %in% "PA", "2GW",
                                     ifelse(GROA_measurements$refor.type[i] %in% "C", "NAC", "woody")),
