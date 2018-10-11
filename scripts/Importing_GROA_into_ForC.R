@@ -190,9 +190,9 @@ for( i in 1:nrow(GROA_measurements)) {
     other.cov.values <- unlist(GROA_measurements[, c("coV1_value","coV2_value", "coV3_value")][i,][other.covariates.idx], use.names = F)
     
     component.idx <- GROA_measurements[, c("covar_1","covar_2", "covar_3")][i,] %in% c("component", "components")
-    GROA_component <- unlist(GROA_measurements[, c("coV1_value","coV2_value", "coV3_value")][i,][extra_variable.idx], use.names = F)
+    GROA_component <- unlist(GROA_measurements[, c("coV1_value","coV2_value", "coV3_value")][i,][component.idx], use.names = F)
 
-    if(!is.na(GROA_component)) {
+    if(!is.null(GROA_component)) {
       
       if(variable.name %in% c("total.ecosystem_2_C") & !GROA_component %in% c("forest floor + CWD", "litter + dead woody debris")) include_record = FALSE
       
@@ -212,7 +212,7 @@ for( i in 1:nrow(GROA_measurements)) {
     
     if(include_record) ForC_data$MEASUREMENTS <-  bind_rows( #####
       ForC_data$MEASUREMENTS,
-      data.frame(
+      data.frame( #####
         measurement.ID = c(max(ForC_data$MEASUREMENTS$measurement.ID)+1, max(ForC_data$MEASUREMENTS$measurement.ID) + 2)[c(TRUE, !is.na(GROA_measurements$density[i]))],
         sites.sitename,
         plot.name = refor.type.to.plot.name.key[GROA_measurements$refor.type[i],],
@@ -224,14 +224,14 @@ for( i in 1:nrow(GROA_measurements)) {
         variable.name = c(variable.name, "stand.density")[c(TRUE, !is.na(GROA_measurements$density[i]))],
         date = as.character(ifelse(is.na(GROA_measurements$date[i]), "NI", GROA_measurements$date[i])),
         date.loc = ifelse(is.na(GROA_measurements$date[i]), 9, 8),
-        start.date.loc = "9",
-        end.date.loc = "9",
+        start.date.loc = 9,
+        end.date.loc = 9,
         mean = c(GROA_measurements$mean_ha[i], GROA_measurements$density[i])[c(TRUE, !is.na(GROA_measurements$density[i]))],
         n = as.character(ifelse(is.na(GROA_measurements$n[i]), "NI", GROA_measurements$n[i])),
         area.sampled = as.character(ifelse(is.na(GROA_measurements$n[i] * GROA_measurements$plot.size[i]), "NI", GROA_measurements$n[i] * GROA_measurements$plot.size[i])),
         notes = paste0(ifelse(is.na(GROA_measurements$allometry[i]), "", paste(GROA_measurements$allometry[i], "allometries.")),
                        ifelse(is.na(GROA_measurements$sub_n[i]), "", paste0(" ", GROA_measurements$sub_n[i], " samples per plot.")),
-                       ifelse(is.na(GROA_component), "", paste0(" GROA component: ", GROA_component, "."))),
+                       ifelse(is.null(GROA_component), "", paste0(" GROA component: ", GROA_component, "."))),
         
         allometry_1 = "NAC",
         allometry_2 = NA, #?? ask Krista "NAC"
