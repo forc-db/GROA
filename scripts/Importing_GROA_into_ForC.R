@@ -245,6 +245,8 @@ for( i in 1:nrow(GROA_measurements)) {
         coV_1.value = other.cov.values[2],
      
         citation.ID = GROA_litterature$citation.ID[GROA_litterature$study.id %in% GROA_measurements$study.id[i]],
+        source.notes = paste0("GROA measurement.ID #", GROA_measurements$measurement.id[i]),
+        loaded.from = "[Cook-Patton database citation, in ForC format]",
         loaded.by = paste("R script by Valentine Herrmann"),
         checked.ori.pub = ifelse(grepl("Guo|Krankina", GROA_litterature$citation.ID[GROA_litterature$study.id %in% GROA_measurements$study.id[i]]), 0, 1), # "1" for all studies, except "0" for Guo and Krankina
         ForC.investigator = "Dr. Susan Cook-Patton",
