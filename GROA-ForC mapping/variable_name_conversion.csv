@@ -1,21 +1,28 @@
-GROA_variables.name,GROA_description,ForC_variable.name,units,ForC_description,ForC_notes,Clarifications_needed
-aboveground_biomass,,biomass_ag_OM,Mg ha-1,"Total aboveground live biomass. May include biomass of reproductive structures and understory biomass, if data are available. Dead wood excluded.","notes: ""excludes understory""",
-aboveground_biomass + belowground_biomass,,biomass_OM,Mg ha-1,Total live biomass.,"notes: ""excludes understory""",
-aboveground_biomass + understory_biomass,,biomass_ag_OM,Mg ha-1,"Total aboveground live biomass. May include biomass of reproductive structures and understory biomass, if data are available. Dead wood excluded.","notes: ""includes understory""",
-aboveground_biomass_stem,?,,,,,what exactly is this? Just boles?
-aboveground_biomass_woody,,biomass_ag_woody_OM,Mg ha-1,Total aboveground structural (stem + branch) biomass,-,
-aboveground_carbon,,biomass_ag_C,Mg C ha-1,"Total carbon in aboveground live biomass. May include biomass of reproductive structures and understory biomass, if data are available. Dead wood excluded.","notes: ""excludes understory""",
-aboveground_carbon + belowground_carbon,,biomass_C,Mg C ha-1,Total carbon in live biomass.,"notes: ""excludes understory""",
-aboveground_carbon + belowground_carbon + understory_carbon,,biomass_C,Mg C ha-1,Total carbon in live biomass.,"notes: ""includes understory""",
-aboveground_carbon + litter_carbon,"at present, litter = non-living organic material. May include litter, dead wood, or any combination thereof.",-,,,,
-aboveground_carbon + understory_carbon,,biomass_ag_C,Mg C ha-1,"Total carbon in aboveground live biomass. May include biomass of reproductive structures and understory biomass, if data are available. Dead wood excluded.","notes: ""includes understory""",
-aboveground_carbon + understory_carbon + belowground_carbon + litter_carbon,,total.ecosystem_2_C,Mg C ha-1,"Total ecosystem carbon in organic matter, including total biomass, deadwood, and organic layer but excluding soil organic carbon.","notes: ""includes understory""",
-aboveground_carbon_stem,?,,,,,what exactly is this? Just boles?
-belowground_biomass,,biomass_root_OM,Mg ha-1,Total root biomass,-,
-belowground_biomass_fine,,biomass_root_fine_OM,Mg ha-1,"Total fine root biomass. Typical size cutoff (max.diameter_root) is 1-2 mm diameter, with preference given to max.diameter_root = 1 mm when there is an option.",-,
-belowground_carbon,,biomass_root_C,Mg C ha-1,Total carbon in root biomass,-,
-litter_biomass,"at present, litter = non-living organic material. May include litter, dead wood, or any combination thereof.",-,,,,
-litter_biomass + understory_biomass,,-,,,,
-litter_carbon,"at present, litter = non-living organic material. May include litter, dead wood, or any combination thereof.",-,,,,
-understory_biomass,,biomass_ag_understory_OM,Mg ha-1,"Total understory biomass, where understory is most commonly defined as trees shorter than breast height.",-,
-understory_carbon,,biomass_ag_understory_C,Mg C ha-1,"Total carbon in understory biomass, where understory is most commonly defined as trees shorter than breast height.",-,
+GROA_variables.name,GROA_covariate,GROA_description,ForC_variable.name,units,ForC_description,ForC_notes
+aboveground_biomass,NA,,biomass_ag_OM,Mg ha-1,"Total aboveground live biomass. May include biomass of reproductive structures and understory biomass, if data are available. Dead wood excluded.","notes: ""excludes understory"""
+aboveground_biomass + belowground_biomass,NA,,biomass_OM,Mg ha-1,Total live biomass.,"notes: ""excludes understory"""
+aboveground_biomass + understory_biomass,NA,,biomass_ag_OM,Mg ha-1,"Total aboveground live biomass. May include biomass of reproductive structures and understory biomass, if data are available. Dead wood excluded.","notes: ""includes understory"""
+aboveground_biomass_stem,NA,just boles,NA,,,
+aboveground_biomass_woody,NA,,biomass_ag_woody_OM,Mg ha-1,Total aboveground structural (stem + branch) biomass,-
+aboveground_carbon,NA,,biomass_ag_C,Mg C ha-1,"Total carbon in aboveground live biomass. May include biomass of reproductive structures and understory biomass, if data are available. Dead wood excluded.","notes: ""excludes understory"""
+aboveground_carbon + belowground_carbon,NA,,biomass_C,Mg C ha-1,Total carbon in live biomass.,"notes: ""excludes understory"""
+aboveground_carbon + belowground_carbon + understory_carbon,NA,,biomass_C,Mg C ha-1,Total carbon in live biomass.,"notes: ""includes understory"""
+aboveground_carbon + litter_carbon,"forest floor + CWD, litter + dead woody debris","litter = non-living organic material. May include litter, dead wood, or any combination thereof, as indicated in components covariate",total.ecosystem_2_C,Mg C ha-1,"Total ecosystem carbon in organic matter, including total biomass, deadwood, and organic layer but excluding soil organic carbon.","GROA component ""[component name]"""
+,"litter, forest floor, CWD, FWD + CWD, FWD+CWD","litter = non-living organic material. May include litter, dead wood, or any combination thereof, as indicated in components covariate",NA,,,
+aboveground_carbon + understory_carbon,NA,,biomass_ag_C,Mg C ha-1,"Total carbon in aboveground live biomass. May include biomass of reproductive structures and understory biomass, if data are available. Dead wood excluded.","notes: ""includes understory"""
+aboveground_carbon + understory_carbon + belowground_carbon + litter_carbon,NA,,total.ecosystem_2_C,Mg C ha-1,"Total ecosystem carbon in organic matter, including total biomass, deadwood, and organic layer but excluding soil organic carbon.","notes: ""includes understory"""
+aboveground_carbon_stem,NA,just boles,NA,,,
+belowground_biomass,NA,,biomass_root_OM,Mg ha-1,Total root biomass,-
+belowground_biomass_fine,NA,,biomass_root_fine_OM,Mg ha-1,"Total fine root biomass. Typical size cutoff (max.diameter_root) is 1-2 mm diameter, with preference given to max.diameter_root = 1 mm when there is an option.",-
+belowground_carbon,NA,,biomass_root_C,Mg C ha-1,Total carbon in root biomass,-
+litter_biomass,"litter, forest floor","litter = non-living organic material. May include litter, dead wood, or any combination thereof, as indicated in components covariate",organic.layer_OM,Mg ha-1,Mass of litter/ organic layer/ forest floor,"GROA component ""[component name]"""
+,CWD,"litter = non-living organic material. May include litter, dead wood, or any combination thereof, as indicated in components covariate",deadwood_down_OM,Mg ha-1,Total mass of downed dead wood (coarse and sometimes fine woody debris),"GROA component ""[component name]"""
+,"FWD + CWD, FWD+CWD","litter = non-living organic material. May include litter, dead wood, or any combination thereof, as indicated in components covariate",deadwood_down_OM,Mg ha-1,Total mass of downed dead wood (coarse and sometimes fine woody debris),"GROA component ""[component name]"""
+,"forest floor + CWD, litter + dead woody debris","litter = non-living organic material. May include litter, dead wood, or any combination thereof, as indicated in components covariate",NA,,,
+litter_biomass + understory_biomass,NA,"litter = non-living organic material. May include litter, dead wood, or any combination thereof, as indicated in components covariate",NA,,,
+litter_carbon,"litter, forest floor","litter = non-living organic material. May include litter, dead wood, or any combination thereof, as indicated in components covariate",organic.layer_C,Mg C ha-1,Mass of litter/ organic layer/ forest floor,"GROA component ""[component name]"""
+,CWD,"litter = non-living organic material. May include litter, dead wood, or any combination thereof, as indicated in components covariate",deadwood_down_C,Mg C ha-1,Total carbon in downed dead wood (coarse and sometimes fine woody debris),"GROA component ""[component name]"""
+,"FWD + CWD, FWD+CWD","litter = non-living organic material. May include litter, dead wood, or any combination thereof, as indicated in components covariate",deadwood_down_C,Mg C ha-1,Total carbon in downed dead wood (coarse and sometimes fine woody debris),"GROA component ""[component name]"""
+,"forest floor + CWD, litter + dead woody debris","litter = non-living organic material. May include litter, dead wood, or any combination thereof, as indicated in components covariate",NA,,,
+understory_biomass,NA,,biomass_ag_understory_OM,Mg ha-1,"Total understory biomass, where understory is most commonly defined as trees shorter than breast height.",-
+understory_carbon,NA,,biomass_ag_understory_C,Mg C ha-1,"Total carbon in understory biomass, where understory is most commonly defined as trees shorter than breast height.",-
