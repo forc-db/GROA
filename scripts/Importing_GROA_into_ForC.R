@@ -139,7 +139,7 @@ for(i in 1:nrow(GROA_litterature)) {
     ForC_data$CITATIONS <- bind_rows(
       ForC_data$CITATIONS,
       data.frame(
-        citation.ID = paste(GROA_litterature$citations.author[i], GROA_litterature$citations.year[i],  gsub('\\b(\\pL)\\pL|.','\\U\\1', GROA_litterature$citations.title[i], perl = T), sep = "_"), # create citation ID in the form [last name of first author]_[publication year]_[first letter of first four words of title, when applicable, counting hyphenated words as single words]. 
+        citation.ID = citation.ID_GROA,
         citation.doi = "NAC",
         citation.author = GROA_litterature$citations.author[i],
         citation.year = GROA_litterature$citations.year[i],
@@ -229,12 +229,12 @@ for( i in 1:nrow(GROA_measurements)) {
         mean = c(GROA_measurements$mean_ha[i], GROA_measurements$density[i])[c(TRUE, !is.na(GROA_measurements$density[i]))],
         n = as.character(ifelse(is.na(GROA_measurements$n[i]), "NI", GROA_measurements$n[i])),
         area.sampled = as.character(ifelse(is.na(GROA_measurements$n[i] * GROA_measurements$plot.size[i]), "NI", GROA_measurements$n[i] * GROA_measurements$plot.size[i])),
-        notes = paste0(ifelse(is.na(GROA_measurements$allometry[i]), "", paste(GROA_measurements$allometry[i], "allometries.")),
-                       ifelse(is.na(GROA_measurements$sub_n[i]), "", paste0(" ", GROA_measurements$sub_n[i], " samples per plot.")),
+        notes = paste0(ifelse(is.na(GROA_measurements$allometry[i]), "", paste0("Biomass allometries: ", GROA_measurements$allometry[i], ".")),
+                       ifelse(is.na(GROA_measurements$sub_n[i]), "", paste0(" ", GROA_measurements$sub_n[i], " sample(s) per plot.")),
                        ifelse(is.null(GROA_component), "", paste0(" GROA component: ", GROA_component, "."))),
         
         allometry_1 = "NAC",
-        allometry_2 = NA, #?? ask Krista "NAC"
+        allometry_2 = NA,
         
         min.dbh,
         depth,
