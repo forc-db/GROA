@@ -28,4 +28,4 @@ understory_biomass,NA,,biomass_ag_understory_OM,Mg ha-1,"Total understory biomas
 understory_carbon,NA,,biomass_ag_understory_C,Mg C ha-1,"Total carbon in understory biomass, where understory is most commonly defined as trees shorter than breast height.",-
 SOC,NA,,soil_C,Mg C ha-1,Soil organic carbon to specified depth in mineral soil,-
 soil_perC,NA,,secondary,soil_pC,%,-
-SOM_per,NA,,soil_OM,Mg ha-1,Soil organic matter to specified depth in mineral soil,-
+SOM_per,NA,,NA,,,
