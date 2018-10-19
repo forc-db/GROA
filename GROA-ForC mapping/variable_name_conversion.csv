@@ -26,3 +26,6 @@ litter_carbon,"litter, forest floor","litter = non-living organic material. May 
 ,"forest floor + CWD, litter + dead woody debris","litter = non-living organic material. May include litter, dead wood, or any combination thereof, as indicated in components covariate",NA,,,
 understory_biomass,NA,,biomass_ag_understory_OM,Mg ha-1,"Total understory biomass, where understory is most commonly defined as trees shorter than breast height.",-
 understory_carbon,NA,,biomass_ag_understory_C,Mg C ha-1,"Total carbon in understory biomass, where understory is most commonly defined as trees shorter than breast height.",-
+SOC,NA,,soil_C,Mg C ha-1,Soil organic carbon to specified depth in mineral soil,-
+soil_perC,NA,,secondary,soil_pC,%,-
+SOM_per,NA,,soil_OM,Mg ha-1,Soil organic matter to specified depth in mineral soil,-
