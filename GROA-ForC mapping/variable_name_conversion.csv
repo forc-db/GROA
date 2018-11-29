@@ -29,3 +29,10 @@ understory_carbon,NA,,biomass_ag_understory_C,Mg C ha-1,"Total carbon in underst
 SOC,NA,,soil_C,Mg C ha-1,Soil organic carbon to specified depth in mineral soil,-
 soil_perC,NA,,secondary,soil_pC,%,-
 SOM_per,NA,,NA,,,
+CWD_carbon,NA,,deadwood_down_C,Mg C ha-1,Total carbon in downed dead wood (coarse and sometimes fine woody debris),
+aboveground_carbon + understory_carbon+CWD_carbon+litter_carbon,NA,,total.ecosystem_2_C,Mg C ha-1,"Total ecosystem carbon in organic matter, including total biomass, deadwood, and organic layer but excluding soil organic carbon.",
+aboveground_carbon + CWD_carbon + litter_carbon,NA,,total.ecosystem_2_C,Mg C ha-1,"Total ecosystem carbon in organic matter, including total biomass, deadwood, and organic layer but excluding soil organic carbon.",
+litter_biomass + CWD_biomass,NA,,NA,,,
+CWD_biomass,NA,,deadwood_down_OM,Mg ha-1,Total mass of downed dead wood (coarse and sometimes fine woody debris),
+CWD_carbon + litter_carbon,NA,,NA,,,
+litter_carbon + CWD_carbon,NA,,NA,,,
