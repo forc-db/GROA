@@ -1,195 +1,194 @@
-"citation.ID","citation.doi","citation.author","citation.year","citation.title","NEW_RECORD"
-"Xu_2015_proa","NAC","Xu",2015,"Partial recovery of a tropical rain forest a half-century after clear-cut and selective logging",TRUE
-"Salinas-Melgoza_2017_cefd","NAC","Salinas-Melgoza",2017,"Carbon emissions from dryland shifting cultivation: a case study of Mexican tropical dry forest",TRUE
-"Fujiki_2017_pcae","NAC","Fujiki",2017,"Plant communities and ecosystem processes in a succession-altitude matrix after shifting cultivation in the tropical montane forest zone of northern Borneo",TRUE
-"Yang_2016_soca","NAC","Yang",2016,"Soil organic carbon accumulation during post-agricultural succession in a karst area, southwest China",TRUE
-"Paz_2016_stip","NAC","Paz",2016,"Soil types influence predictions of soil carbon stock recovery in tropical secondary forests",TRUE
-"Zhang_2016_tcio","NAC","Zhang",2016,"The coupling interaction of soil water and organic carbon storage in the long vegetation restoration on the Loess Plateau",TRUE
-"Wang_2016_doec","NAC","Wang",2016,"Dynamics of ecosystem carbon stocks during vegetation restoration on the Loess Plateau of China",TRUE
-"Aosaar_2016_bpan","NAC","Aosaar",2016,"Biomass production and nitrogen balance of naturally afforested silver birch (Betula pendula Roth.) stand in Estonia",TRUE
-"Huang_2015_citd","NAC","Huang",2015,"Changes in the diversity of evergreen and deciduous species during natural recovery following clear-cutting in a subtropical evergreen-deciduous broadleaved mixed forest of central China",TRUE
-"Zhao_2015_socf","NAC","Zhao",2015,"Soil organic carbon fractions and sequestration across a 150-yr secondary forest chronosequence on the Loess Plateau, China",TRUE
-"Robinson_2015_fies","NAC","Robinson",2015,"Factors influencing early secondary succession and ecosystem carbon stocks in Brazilian Atlantic Forest",TRUE
-"Zhang_2015_cina","NAC","Zhang",2015,"Changes in nitrogen and phosphorus limitation during secondary succession in a karst region in southwest China",TRUE
-"Chen_2015_csaa","NAC","Chen",2015,"Carbon Storage and Allocation Pattern in Plant Biomass among Different Forest Plantation Stands in Guangdong, China",TRUE
-"Li_2015_ecis","NAC","Li",2015,"Estimating changes in soil organic carbon storage due to land use changes using a modified calculation method",TRUE
-"Marques_2015_dooc","NAC","Marques",2015,"DISTRIBUTION OF ORGANIC CARBON IN DIFFERENT SOIL FRACTIONS IN ECOSYSTEMS OF CENTRAL AMAZONIA",TRUE
-"Jacobi_2014_cstd","NAC","Jacobi",2014,"Carbon stocks, tree diversity, and the role of organic certification in different cocoa production systems in Alto Beni, Bolivia",TRUE
-"Novak_2014_savt","NAC","Novak",2014,"Soil and vegetation transformation in abandoned vineyards of the Tokaj Nagy-Hill, Hungary",TRUE
-"Guidi_2014_ciso","NAC","Guidi",2014,"Changes in soil organic carbon and nitrogen following forest expansion on grassland in the Southern Alps",TRUE
-"Viana_2014_sqif","NAC","Viana",2014,"Soil quality indicators for different restoration stages on Amazon rainforest",TRUE
-"Kurth_2014_fpos","NAC","Kurth",2014,"Fifteen-Year Patterns of Soil Carbon and Nitrogen Following Biomass Harvesting",TRUE
-"Deng_2014_lnsi","NAC","Deng",2014,"Long-term natural succession improves nitrogen storage capacity of soil on the Loess Plateau, China",TRUE
-"Batterman_2013_kros","NAC","Batterman",2013,"Key role of symbiotic dinitrogen fixation in tropical forest secondary succession",TRUE
-"Kalinina_2013_sopa","NAC","Kalinina",2013,"Self-restoration of post-agrogenic Albeluvisols: Soil development, carbon stocks and dynamics of carbon pools",TRUE
-"Wei_2013_recs","NAC","Wei",2013,"Restoring ecosystem carbon sequestration through afforestation: A sub-tropic restoration case study",TRUE
-"de Aguiar_2013_dbpd","NAC","de Aguiar",2013,"Does biomass production depend on plant community diversity?",TRUE
-"Li_2013_cand","NAC","Li",2013,"Carbon and nitrogen distribution across a chronosequence of secondary lacebark pine in China",TRUE
-"Armolaitis_2013_soso","NAC","Armolaitis",2013,"Stability of soil organic carbon in agro and forest ecosystems on Arenosol",TRUE
-"Fortier_2013_rbas","NAC","Fortier",2013,"Root biomass and soil carbon distribution in hybrid poplar riparian buffers, herbaceous riparian buffers and natural riparian woodlots on farmland",TRUE
-"Cao_2012_poca","NAC","Cao",2012,"Pattern of carbon allocation across three different stages of stand development of a Chinese pine (Pinus tabulaeformis) forest",TRUE
-"Ross_2012_ecrl","NAC","Ross",2012,"Ecosystem Carbon Remains Low for Three Decades Following Fire and Constrains Soil CO2 Responses to Precipitation in Southwestern Ponderosa Pine Forests",TRUE
-"Bautista-Cruz_2012_saio","NAC","Bautista-Cruz",2012,"Selection and interpretation of soil quality indicators for forest recovery after clearing of a tropical montane cloud forest in Mexico",TRUE
-"Zhu_2012_iovs","NAC","Zhu",2012,"Interactions of vegetation succession, soil bio-chemical properties and microbial communities in a Karst ecosystem",TRUE
-"Wang_2012_cisn","NAC","Wang",2012,"Changes in soil nutrient and enzyme activities under different vegetations in the Loess Plateau area, Northwest China",TRUE
-"Gamboa_2012_lcce","NAC","Gamboa",2012,"Land-use/cover change effects and carbon controls on volcanic soil profiles in highland temperate forests",TRUE
-"Koul_2012_scba","NAC","Koul",2012,"Soil carbon buildup and bioeconomics of different lanuduses in humid subtropics of West Bengal, India",TRUE
-"Danquah_2012_eoam","NAC","Danquah",2012,"Effect of African Mahogany Species on Soil Chemical Properties in Degraded Dry Semi-deciduous Forest Ecosystems in Ghana",TRUE
-"Cuesta_2012_scpi","NAC","Cuesta",2012,"Soil chemical properties in abandoned Mediterranean cropland after succession and oak reforestation",TRUE
-"Alberti_2011_iowe","NAC","Alberti",2011,"Impact of woody encroachment on soil organic carbon and nitrogen in abandoned agricultural lands along a rainfall gradient in Italy",TRUE
-"Zhang_2011_lbpd","NAC","Zhang",2011,"Links between plant diversity, carbon stocks and environmental factors along a successional gradient in a subalpine coniferous forest in Southwest China",TRUE
-"Pang_2011_teoc","NAC","Pang",2011,"The effects of clear-felling subalpine coniferous forests on soil physical and chemical properties in the eastern Tibetan Plateau",TRUE
-"Neumann-Cosel_2011_scdu","NAC","Neumann-Cosel",2011,"Soil carbon dynamics under young tropical secondary forests on former pastures-A case study from Panama",TRUE
-"Kalinina_2011_sopc","NAC","Kalinina",2011,"Self-restoration of post-agrogenic chernozems of Russia: Soil development, carbon stocks, and dynamics of carbon pools",TRUE
-"Mekuria_2011_roec","NAC","Mekuria",2011,"Restoration of Ecosystem Carbon Stocks Following Exclosure Establishment in Communal Grazing Lands in Tigray, Ethiopia",TRUE
-"Li_2010_eoco","NAC","Li",2010,"Effect of conversion of sugarcane plantation to forest and pasture on soil carbon in Hawaii",TRUE
-"Luan_2010_aoti","NAC","Luan",2010,"Assessments of the impacts of Chinese fir plantation and natural regenerated forest on soil organic matter quality at Longmen mountain, Sichuan, China",TRUE
-"Zhang_2010_vcas","NAC","Zhang",2010,"Vegetation community and soil characteristics of abandoned agricultural land and pine plantation in the Qinling Mountains, China",TRUE
-"Huang_2010_rora","NAC","Huang",2010,"Response of runoff and soil loss to reforestation and rainfall type in red soil region of southern China",TRUE
-"Eaton_2009_locs","NAC","Eaton",2009,"Loss of carbon sequestration potential after several decades of shifting cultivation in the Southern Yucatan",TRUE
-"Mitchell_2009_nfaa","NAC","Mitchell",2009,"N-2 fixing alder (Alnus viridis spp. fruticosa) effects on soil properties across a secondary successional chronosequence in interior Alaska",TRUE
-"Kalinina_2009_sops","NAC","Kalinina",2009,"Self-restoration of post-agrogenic sandy soils in the southern Taiga of Russia: Soil development, nutrient status, and carbon dynamics",TRUE
-"Yan_2009_tpon","NAC","Yan",2009,"Temporal patterns of net soil N mineralization and nitrification through secondary succession in the subtropical forests of eastern China",TRUE
-"Marin-Spiotta_2009_somd","NAC","Marin-Spiotta",2009,"Soil organic matter dynamics during 80 years of reforestation of tropical pastures",TRUE
-"Vargas_2009_eovt","NAC","Vargas",2009,"Effects of Vegetation Thinning on Above- and Belowground Carbon in a Seasonally Dry Tropical Forest in Mexico",TRUE
-"van der Kamp_2009_sccu","NAC","van der Kamp",2009,"Soil carbon changes upon secondary succession in Imperata grasslands (East Kalimantan, Indonesia)",TRUE
-"Tang_2009_scfa","NAC","Tang",2009,"Soil carbon fluxes and stocks in a Great Lakes forest chronosequence",TRUE
-"Ostertag_2008_ladi","NAC","Ostertag",2008,"Litterfall and decomposition in relation to soil carbon pools along a secondary forest chronosequence in Puerto Rico",TRUE
-"Tian_2008_mbaa","NAC","Tian",2008,"Microbial biomass and activity along a natural pH gradient in forest soils in a karst region of the upper Yangtze River, China",TRUE
-"Zheng_2008_vocs","NAC","Zheng",2008,"Variation of carbon storage by different reforestation types in the hilly red soil region of southern China",TRUE
-"Schedlbauer_2008_scdi","NAC","Schedlbauer",2008,"Soil carbon dynamics in a chronosequence of secondary forests in northeastern Costa Rica",TRUE
-"Williams_2008_csab","NAC","Williams",2008,"Carbon sequestration and biodiversity of re-growing miombo woodlands in Mozambique",TRUE
-"Yamashita_2008_scib","NAC","Yamashita",2008,"Soil changes induced by Acacia mangium plantation establishment: Comparison with secondary forest and Imperata cylindrica grassland soils in South Sumatra, Indonesia",TRUE
-"Vasconcelos_2008_eosl","NAC","Vasconcelos",2008,"Effects of seasonality, litter removal and dry-season irrigation on litterfall quantity and quality in eastern Amazonian forest regrowth, Brazil",TRUE
-"Ritter_2007_cnap","NAC","Ritter",2007,"Carbon, nitrogen and phosphorus in volcanic soils following afforestation with native birch (Betula pubescens) and introduced larch (Larix sibirica) in Iceland",TRUE
-"Feldpausch_2007_sfgd","NAC","Feldpausch",2007,"Secondary forest growth deviation from chronosequence predictions in central Amazonia",TRUE
-"Tschakert_2007_ilsa","NAC","Tschakert",2007,"Indigenous livelihoods, slash-and-burn agriculture, and carbon stocks in Eastern Panama",TRUE
-"Armolaitis_2007_csan","NAC","Armolaitis",2007,"Carbon sequestration and nitrogen status in Arenosols following afforestation or following abandonment of arable land",TRUE
-"Thuille_2006_cdis","NAC","Thuille",2006,"Carbon dynamics in successional and afforested spruce stands in Thuringia and the Alps",TRUE
-"Blouin_2005_mdio","NAC","Blouin",2005,"Mechanical disturbance impacts on soil properties and lodgepole pine growth in British Columbia's central interior",TRUE
-"Zheng_2005_hdra","NAC","Zheng",2005,"How different reforestation approaches affect red soil properties in southern China",TRUE
-"Bautista-Cruz_2005_scds","NAC","Bautista-Cruz",2005,"Soil changes during secondary succession in a tropical montane cloud forest area",TRUE
-"Li_2005_csoc","NAC","Li",2005,"Comparing soil organic carbon dynamics in plantation and secondary forest in wet tropics in Puerto Rico",TRUE
-"Monreal_2005_amfm","NAC","Monreal",2005,"A method for measuring above- and below-ground C stocks in hillside landscapes",TRUE
-"Markewitz_2004_nlar","NAC","Markewitz",2004,"Nutrient loss and redistribution after forest clearing on a highly weathered soil in Amazonia",TRUE
-"DeGryze_2004_socp","NAC","DeGryze",2004,"Soil organic carbon pool changes following land-use conversions",TRUE
-"Salimon_2004_cffs","NAC","Salimon",2004,"CO2 flux from soil in pastures and forests in southwestern Amazonia",TRUE
-"Kelliher_2004_ltcm","NAC","Kelliher",2004,"Limitations to carbon mineralization in litter and mineral soil of young and old ponderosa pine forests",TRUE
-"Rab_2004_rosp","NAC","Rab",2004,"Recovery of soil physical properties from compaction and soil profile disturbance caused by logging of native forest in Victorian Central Highlands, Australia",TRUE
-"Yang_2004_liol","NAC","Yang",2004,"Long-term impacts of land-use change on dynamics of tropical soil carbon and nitrogen pools",TRUE
-"Chen_2003_cisc","NAC","Chen",2003,"Change in soil carbon and nutrient storage after human disturbance of a primary Korean pine forest in Northeast China",TRUE
-"O'Brien_2003_soso","NAC","O'Brien",2003,"Stability of soil organic matter in Eucalyptus regnans forests and Pinus radiata plantations in south eastern Australia",TRUE
-"Frizano_2003_lpis","NAC","Frizano",2003,"Labile phosphorus in soils of forest fallows and primary forest in the Bragantina region, Brazil",TRUE
-"Behera_2003_smba","NAC","Behera",2003,"Soil microbial biomass and activity in response to Eucalyptus plantation and natural regeneration on tropical soil",TRUE
-"Lawrence_2002_cifb","NAC","Lawrence",2002,"Changes in forest biomass, litter dynamics and soils following shifting cultivation in southern Mexico: An overview",TRUE
-"Johnson_2001_cans","NAC","Johnson",2001,"Carbon and nutrient storage in primary and secondary forests in eastern Amazonia",TRUE
-"Giese_2000_satp","NAC","Giese",2000,"Spatial and temporal patterns of carbon storage and species richness in three South Carolina coastal plain riparian forests",TRUE
-"Wigginton_2000_somf","NAC","Wigginton",2000,"Soil organic matter formation and sequestration across a forested floodplain chronosequence",TRUE
-"Scott_2000_cand","NAC","Scott",2000,"Carbon and nitrogen distribution and accumulation in a New Zealand scrubland ecosystem",TRUE
-"Rhoades_2000_scda","NAC","Rhoades",2000,"Soil carbon differences among forest, agriculture, and secondary vegetation in lower montane Ecuador",TRUE
-"Sommer_2000_csar","NAC","Sommer",2000,"Carbon storage and root penetration in deep soils under small-farmer land-use systems in the Eastern Amazon region, Brazil",TRUE
-"de Camargo_1999_scdi","NAC","de Camargo",1999,"Soil carbon dynamics in regrowing forest of eastern Amazonia",TRUE
-"Guariguata_1997_safo","NAC","Guariguata",1997,"Structure and floristics of secondary and old-growth forest stands in lowland Costa Rica",TRUE
-"Juo_1996_spac","NAC","Juo",1996,"Soil properties and crop performance on a kaolinitic Alfisol after 15 years of fallow and continuous cultivation",TRUE
-"Montagnini_1995_tpoi","NAC","Montagnini",1995,"The potentials of 20 indigenous tree species for soil rehabilitation in the Atlantic forest region of Bahia, Brazil",TRUE
-"COOK_1992_doio","NAC","COOK",1992,"DISSOLVED ORGANIC-CARBON IN OLD FIELD SOILS - TOTAL AMOUNTS AS A MEASURE OF AVAILABLE RESOURCES FOR SOIL MINERALIZATION",TRUE
-"LUGO_1992_cott","NAC","LUGO",1992,"COMPARISON OF TROPICAL TREE PLANTATIONS WITH SECONDARY FORESTS OF SIMILAR AGE",TRUE
-"CUEVAS_1991_aabo","NAC","CUEVAS",1991,"ABOVEGROUND AND BELOWGROUND ORGANIC-MATTER STORAGE AND PRODUCTION IN A TROPICAL PINE PLANTATION AND A PAIRED BROADLEAF SECONDARY FOREST",TRUE
-"Vester_1998_taas","NAC","Vester",1998,"Tree architecture and secondary tropical rain forest development - a case study in Araracuara, Colombian Amazoni",TRUE
-"Piotto_2011_sdof","NAC","Piotto",2011,"Spatial Dynamics of Forest Recovery after Swidden Cultivation in the Atlantic Forest of Southern Bahia",TRUE
-"Ibrahim_2006_adce","NAC","Ibrahim",2006,"Almacenamiento de Carbono en el suelo y la biomasa arbórea en sistemas de usos de la tierra en paisajes ganaderos de Colombia, Costa Rica y Nicaragua",TRUE
-"Palm_1999_csat","NAC","Palm",1999,"Carbon sequestration and trace gas emissions in slash-and-burn and alternative land-uses in the humid tropics",TRUE
-"Buschbacher_1988_apie","NAC","Buschbacher",1988,"Abandoned pastures in eastern Amazonia II. Nutrient stocks in the soil and vegetation",TRUE
-"Brown_1990_eofc","NAC","Brown",1990,"Effects of forest clearing and succession on the carbon and nitrogen content of soils in Puerto Rico and US Virgin Islands",TRUE
-"Lugo_1986_luao","NAC","Lugo",1986,"Land use and organic carbon content of some subtropical soils",TRUE
-"Wadsworth_1990_eolo","NAC","Wadsworth",1990,"Effects of length of forest fallow on fertility dynamics in a Mexican ultisol",TRUE
-"Werner_1984_cisp","NAC","Werner",1984,"Changes in soil properties during tropical wet forest succession in Costa Rica",TRUE
-"Armolaitis_2011_roai","NAC","Armolaitis",2011,"Renaturalization of Arenosols in the land afforested with Scots pine (Pinus sylvestris L.) and abandoned arable land",TRUE
-"Myster_2017_gevd","NAC","Myster",2017,"Gradient (elevation) vs. disturbance (agriculture) effects on primary cloud forest in Ecuador: floristics and physical structure",TRUE
-"Ali_2017_cmol","NAC","Ali",2017,"Community-weighted mean of leaf traits and divergence of wood traits predict aboveground biomass in secondary subtropical forests",TRUE
-"Yazaki_2016_baan","NAC","Yazaki",2016,"Biomass Accumulation and Net Primary Production during the Early Stage of Secondary Succession after a Severe Forest Disturbance in Northern Japan",TRUE
-"Chan_2016_ttaf","NAC","Chan",2016,"The Transition Away From Swidden Agriculture and Trends in Biomass Accumulation in Fallow Forests",TRUE
-"Silva_2016_faso","NAC","Silva",2016,"Floristic and structure of an Amazonian primary forest and a chronosequence of secondary succession",TRUE
-"Ishihara_2016_anmf","NAC","Ishihara",2016,"A New Model for Size-Dependent Tree Growth in Forests",TRUE
-"Otuoma_2016_doac","NAC","Otuoma",2016,"Determinants of aboveground carbon offset additionality in plantation forests in a moist tropical forest in western Kenya",TRUE
-"Spracklen_2016_csas","NAC","Spracklen",2016,"Carbon storage and sequestration of re-growing montane forests in southern Ecuador",TRUE
-"Mukul_2016_tsfr","NAC","Mukul",2016,"Tropical secondary forests regenerating after shifting cultivation in the Philippines uplands are important carbon sinks",TRUE
-"Poorter_2016_bron","NAC","Poorter",2016,"Biomass resilience of Neotropical secondary forests",TRUE
-"McNicol_2015_doam","NAC","McNicol",2015,"Development of allometric models for above and belowground biomass in swidden cultivation fallows of Northern Laos",TRUE
-"Wandelli_2015_svic","NAC","Wandelli",2015,"Secondary vegetation in central Amazonia: Land-use history effects on aboveground biomass",TRUE
-"Fortier_2015_bcna","NAC","Fortier",2015,"Biomass carbon, nitrogen and phosphorus stocks in hybrid poplar buffers, herbaceous buffers and natural woodlots in the riparian zone on agricultural land",TRUE
-"Martinez-Sanchez_2015_rbsd","NAC","Martinez-Sanchez",2015,"Relationship between structural diversity and carbon stocks in humid and sub-humid tropical forest of Mexico",TRUE
-"Bertolin_2015_feac","NAC","Bertolin",2015,"FIRE EMISSIONS AND CARBON UPTAKE IN SEVERELY BURNED LENGA BEECH (NOTHOFAGUS PUMILIO) FORESTS OF PATAGONIA, ARGENTINA",TRUE
-"Hytonen_2015_bpoc","NAC","Hytonen",2015,"Biomass production of coppiced grey alder and the effect of fertilization",TRUE
-"Atkinson_2015_lule","NAC","Atkinson",2015,"Land use legacy effects on structure and composition of subtropical dry forests in St. Croix, US Virgin Islands",TRUE
-"Mora_2014_tctd","NAC","Mora",2014,"Testing Chronosequences through Dynamic Approaches: Time and Site Effects on Tropical Dry Forest Succession",TRUE
-"Costa_2014_rasb","NAC","Costa",2014,"Root and shoot biomasses in the tropical dry forest of semi-arid Northeast Brazil",TRUE
-"Bu_2014_forb","NAC","Bu",2014,"Field observed relationships between biodiversity and ecosystem functioning during secondary succession in a tropical lowland rainforest",TRUE
-"Wei_2014_tnap","NAC","Wei",2014,"The nutrient accumulation pattern and cycling in natural secondary forests in North China. A case study from the Caijiachuan watershed, Shanxi Province",TRUE
-"Kalaba_2013_fcsd","NAC","Kalaba",2013,"Floristic composition, species diversity and carbon storage in charcoal and agriculture fallows and management implications in Miombo woodlands of Zambia",TRUE
-"Pena_2013_poso","NAC","Pena",2013,"Patterns of stocks of aboveground tree biomass, dynamics, and their determinants in secondary Andean forests",TRUE
-"Giday_2013_wbff","NAC","Giday",2013,"Wood biomass functions for Acacia abyssinica trees and shrubs and implications for provision of ecosystem services in a community managed exclosure in Tigray, Ethiopia",TRUE
-"Zhang_2013_llpq","NAC","Zhang",2013,"Linking litter production, quality and decomposition to vegetation succession following agricultural abandonment",TRUE
-"Martins_2012_eofo","NAC","Martins",2012,"Effects of fire on above-ground forest biomass in the northern Brazilian Amazon",TRUE
-"Raharimalala_2012_qbos","NAC","Raharimalala",2012,"QUANTIFYING BIOMASS OF SECONDARY FOREST AFTER SLASH-AND-BURN CULTIVATION IN CENTRAL MENABE, MADAGASCAR",TRUE
-"Huffman_2012_iots","NAC","Huffman",2012,"Influence of time since fire on pinyon-juniper woodland structure",TRUE
-"Carswell_2012_capd","NAC","Carswell",2012,"Carbon and plant diversity gain during 200 years of woody succession in lowland New Zealand",TRUE
-"Hilje_2012_caot","NAC","Hilje",2012,"Calling activity of the common tink frog (Diasporus diastema) (Eleutherodactylidae) in secondary forests of the Caribbean of Costa Rica",TRUE
-"Brearley_2011_bssi","NAC","Brearley",2011,"Below-ground secondary succession in tropical forests of Borneo",TRUE
-"d'Oliveira_2011_fnra","NAC","d'Oliveira",2011,"Forest natural regeneration and biomass production after slash and burn in a seasonally dry forest in the Southern Brazilian Amazon",TRUE
-"Hernandez-Stefanoni_2011_iols","NAC","Hernandez-Stefanoni",2011,"Influence of landscape structure and stand age on species density and biomass of a tropical dry forest across spatial scales",TRUE
-"Omeja_2011_fcaa","NAC","Omeja",2011,"Fire control as a simple means of promoting tropical forest restoration",TRUE
-"Mendoza-Ponce_2010_aabb","NAC","Mendoza-Ponce",2010,"Aboveground and belowground biomass and carbon pools in highland temperate forest landscape in Central Mexico",TRUE
-"Siddique_2010_napa","NAC","Siddique",2010,"Nitrogen and phosphorus additions negatively affect tree species diversity in tropical forest regrowth trajectories",TRUE
-"Ohtsuka_2010_ccan","NAC","Ohtsuka",2010,"Carbon cycling and net ecosystem production at an early stage of secondary succession in an abandoned coppice forest",TRUE
-"Powers_2009_daso","NAC","Powers",2009,"Diversity and structure of regenerating tropical dry forests in Costa Rica: Geographic patterns and environmental drivers",TRUE
-"Shoch_2009_csob","NAC","Shoch",2009,"CARBON STORAGE OF BOTTOMLAND HARDWOOD AFFORESTATION IN THE LOWER MISSISSIPPI VALLEY, USA",TRUE
-"Slik_2008_tdcf","NAC","Slik",2008,"Tree diversity, composition, forest structure and aboveground biomass dynamics after single and repeated fire in a Bornean rain forest",TRUE
-"Koul_2008_plof","NAC","Koul",2008,"Prioritizing land-management options for carbon sequestration potential",TRUE
-"Lebrija-Trejos_2008_scar","NAC","Lebrija-Trejos",2008,"Successional change and resilience of a very dry tropical deciduous forest following shifting agriculture",TRUE
-"Bermudez_2007_fasr","NAC","Bermudez",2007,"Floristic and structural recovery of a laurel forest community after clear-cutting: A 60 years chronosequence on La Palma (Canary Islands)",TRUE
-"Eaton_2006_wdsa","NAC","Eaton",2006,"Woody debris stocks and fluxes during succession",TRUE
-"Hiratsuka_2006_bron","NAC","Hiratsuka",2006,"Biomass recovery of naturally regenerated vegetation after the 1998 forest fire in East Kalimantan, Indonesia",TRUE
-"Sigurdsson_2005_baco","NAC","Sigurdsson",2005,"Biomass and composition of understory vegetation and the forest floor carbon stock across Siberian larch and mountain birch chronosequences in Iceland",TRUE
-"Ruiz_2005_vsca","NAC","Ruiz",2005,"Vegetation structure, composition, and species richness across a 56-year chronosequence of dry tropical forest on Providencia island, Colombia",TRUE
-"Neeff_2005_agmf","NAC","Neeff",2005,"A growth model for secondary forest in Central Amazonia",TRUE
-"Campo_2004_eonl","NAC","Campo",2004,"Effects of nutrient limitation on aboveground carbon dynamics during tropical dry forest regeneration in Yucatan, Mexico",TRUE
-"Thenkabail_2004_hiaa","NAC","Thenkabail",2004,"Hyperion, IKONOS, ALI, and ETM plus sensors in the study of African rainforests",TRUE
-"Pena-Claros_2003_cifs","NAC","Pena-Claros",2003,"Changes in forest structure and species composition during secondary forest succession in the Bolivian Amazon",TRUE
-"Vieira_2003_csfu","NAC","Vieira",2003,"Classifying successional forests using Landsat spectral properties and ecological characteristics in eastern Amazonia",TRUE
-"Jaramillo_2003_rbac","NAC","Jaramillo",2003,"Root biomass and carbon in a tropical evergreen forest of Mexico: changes with secondary succession and forest conversion to pasture",TRUE
-"Litton_2003_baab","NAC","Litton",2003,"Belowground and aboveground biomass in young postfire lodgepole pine forests of contrasting tree density",TRUE
-"Schroth_2002_cosf","NAC","Schroth",2002,"Conversion of secondary forest into agroforestry and monoculture plantations in Amazonia: consequences for biomass, litter and soil carbon stocks after 7 years",TRUE
-"Manlay_2002_cnap","NAC","Manlay",2002,"Carbon, nitrogen and phosphorus allocation in agro-ecosystems of a West African savanna I. The plant component under semi-permanent cultivation",TRUE
-"Kennard_2002_sfsi","NAC","Kennard",2002,"Secondary forest succession in a tropical dry forest: patterns of development across a 50-year chronosequence in lowland Bolivia",TRUE
-"Simard_2001_ioch","NAC","Simard",2001,"Impacts of clearcut harvesting and wildfire on soil nutrient status in the Quebec boreal forest",TRUE
-"Aide_2000_fria","NAC","Aide",2000,"Forest regeneration in a chronosequence of tropical abandoned pastures: Implications for restoration ecology",TRUE
-"Salimon_2000_sfiw","NAC","Salimon",2000,"Secondary forests in western Amazonia: Significant sinks for carbon released from deforestation?",TRUE
-"Kotto-Same_1997_cdis","NAC","Kotto-Same",1997,"Carbon dynamics in slash-and-burn agriculture and land use alternatives of the humid forest zone in Cameroon",TRUE
-"AIDE_1995_fria","NAC","AIDE",1995,"FOREST RECOVERY IN ABANDONED TROPICAL PASTURES IN PUERTO-RICO",TRUE
-"USOLTSEV_1995_sbdo","NAC","USOLTSEV",1995,"STAND BIOMASS DYNAMICS OF PINE PLANTATIONS AND NATURAL FORESTS ON DRY STEPPE IN KAZAKHSTAN",TRUE
-"CROWELL_1994_vdia","NAC","CROWELL",1994,"VEGETATION DEVELOPMENT IN A HARDWOOD-FOREST CHRONOSEQUENCE IN NOVA-SCOTIA",TRUE
-"MOU_1993_eosd","NAC","MOU",1993,"EFFECTS OF SOIL DISTURBANCE ON VEGETATION RECOVERY AND NUTRIENT ACCUMULATION FOLLOWING WHOLE-TREE HARVEST OF A NORTHERN HARDWOOD ECOSYSTEM",TRUE
-"REINERS_1992_yoer","NAC","REINERS",1992,"20 YEARS OF ECOSYSTEM REORGANIZATION FOLLOWING EXPERIMENTAL DEFORESTATION AND REGROWTH SUPPRESSION",TRUE
-"JOHANSSON_1992_roca","NAC","JOHANSSON",1992,"REGENERATION OF CLEARED ACACIA-ZANZIBARICA BUSHLAND IN KENYA",TRUE
-"Junqueira_2010_sfoa","NAC","Junqueira",2010,"Secondary forests on anthropogenic soils conserve agrobiodiversity",TRUE
-"Cabral_2013_eeeb","NAC","Cabral",2013,"Estrutura espacial e biomassa da parte aérea em diferentes estádios successionais de caatinga, em Santa Terezinha, Paraíba.",TRUE
-"van Breugel_2006_cdde","NAC","van Breugel",2006,"Community dynamics during early secondary succession in Mexican tropical rain forests",TRUE
-"van Breugel_2013_soes","NAC","van Breugel",2013,"Succession of ephemeral secondary forests and their limited role for the conservation of floristic diversity in a human-modified tropical landscape",TRUE
-"Denslow_2000_viss","NAC","Denslow",2000,"Variation in stand structure, light and seedling abundance across a tropical moist forest chronosequence, Panama",TRUE
-"Dupuy_2012_paco","NAC","Dupuy",2012,"Patterns and correlates of tropical dry forest structure and composition in a highly replicated chronosequence in Yucatan, Mexico",TRUE
-"Madeira_2009_cita","NAC","Madeira",2009,"Changes in tree and liana communities along a successional gradient in a tropical dry forest in south-eastern Brazil",TRUE
-"Naughton-Treves_2001_fraf","NAC","Naughton-Treves",2001,"Fuelwood resources and forest regeneration on Fallow Land in Uganda",TRUE
-"Toledo_2006_ssai","NAC","Toledo",2006,"Secondary succession and indigenous management in semideciduous forest fallows of the Amazon basin",TRUE
-"McMahon_2010_efar","NAC","McMahon",2010,"Evidence for a recent increase in forest growth",TRUE
-"Frouz_2008_ibsd","NAC","Frouz",2008,"Interactions between soil development, vegetation and soil fauna during spontaneous succession in post mining sites",TRUE
-"Chazdon_2005_eoca","NAC","Chazdon",2005,"Effects of climate and stand age on annual tree dynamics in tropical second growth rain forests",TRUE
-"Bartholomew_1953_mniu","NAC","Bartholomew",1953,"Mineral nutrient immobilization under forest and grass fallow in the Yangambi (Belgian Congo) region with some preliminary results on the decomposition of plant material on the forest floor",TRUE
-"Gilroy_2014_ccab","NAC","Gilroy",2014,"Cheap carbon and biodiversity co-benefits from forest regeneration in a hotspot of endemism",TRUE
-"Guo_2014_part","NAC","Guo",2014,"Productivity as related to diversity and age in planted versus natural forests",TRUE
-"Moran_2000_eosf","NAC","Moran",2000,"Effects of soil fertility and land-use on forest succession in Amazonia",TRUE
-"Roth_1994_laop","NAC","Roth",1994,"Large-vertebrate assemblages of primary and secondary forests in the Brazilian Amazon",TRUE
-"Toma_2005_lmop","NAC","Toma",2005,"Long-term monitoring of post-fire aboveground biomass recovery in a lowland dipterocarp forest in East Kalimantan, Indonesia",TRUE
-"Ewel_1983_bafo","NAC","Ewel",1983,"Biomass and floristics of three young second-growth forests in Sarawak.",TRUE
-"Krankina _1999_nbfs","NAC","Krankina ",1999,"NPP Boreal Forest: Siberian Scots Pine Forests, Russia, 1968-1974.",TRUE
-"Li_1995_sobo","NAC","Li",1995,"Study on biomass of tropical mountain rain forest in Jianfengling, Hainan Island",TRUE
+"citation.ID","citation.doi","citation.author","citation.year","citation.title","X","X.1","NEW_RECORD"
+"Xu_2015_proa","NAC","Xu",2015,"Partial recovery of a tropical rain forest a half-century after clear-cut and selective logging",NA,NA,TRUE
+"Salinas-Melgoza_2017_cefd","NAC","Salinas-Melgoza",2017,"Carbon emissions from dryland shifting cultivation: a case study of Mexican tropical dry forest",NA,NA,TRUE
+"Fujiki_2017_pcae","NAC","Fujiki",2017,"Plant communities and ecosystem processes in a succession-altitude matrix after shifting cultivation in the tropical montane forest zone of northern Borneo",NA,NA,TRUE
+"Yang_2016_soca","NAC","Yang",2016,"Soil organic carbon accumulation during post-agricultural succession in a karst area, southwest China",NA,NA,TRUE
+"Paz_2016_stip","NAC","Paz",2016,"Soil types influence predictions of soil carbon stock recovery in tropical secondary forests",NA,NA,TRUE
+"Zhang_2016_tcio","NAC","Zhang",2016,"The coupling interaction of soil water and organic carbon storage in the long vegetation restoration on the Loess Plateau",NA,NA,TRUE
+"Wang_2016_doec","NAC","Wang",2016,"Dynamics of ecosystem carbon stocks during vegetation restoration on the Loess Plateau of China",NA,NA,TRUE
+"Aosaar_2016_bpan","NAC","Aosaar",2016,"Biomass production and nitrogen balance of naturally afforested silver birch (Betula pendula Roth.) stand in Estonia",NA,NA,TRUE
+"Huang_2015_citd","NAC","Huang",2015,"Changes in the diversity of evergreen and deciduous species during natural recovery following clear-cutting in a subtropical evergreen-deciduous broadleaved mixed forest of central China",NA,NA,TRUE
+"Zhao_2015_socf","NAC","Zhao",2015,"Soil organic carbon fractions and sequestration across a 150-yr secondary forest chronosequence on the Loess Plateau, China",NA,NA,TRUE
+"Robinson_2015_fies","NAC","Robinson",2015,"Factors influencing early secondary succession and ecosystem carbon stocks in Brazilian Atlantic Forest",NA,NA,TRUE
+"Zhang_2015_cina","NAC","Zhang",2015,"Changes in nitrogen and phosphorus limitation during secondary succession in a karst region in southwest China",NA,NA,TRUE
+"Chen_2015_csaa","NAC","Chen",2015,"Carbon Storage and Allocation Pattern in Plant Biomass among Different Forest Plantation Stands in Guangdong, China",NA,NA,TRUE
+"Li_2015_ecis","NAC","Li",2015,"Estimating changes in soil organic carbon storage due to land use changes using a modified calculation method",NA,NA,TRUE
+"Marques_2015_dooc","NAC","Marques",2015,"DISTRIBUTION OF ORGANIC CARBON IN DIFFERENT SOIL FRACTIONS IN ECOSYSTEMS OF CENTRAL AMAZONIA",NA,NA,TRUE
+"Jacobi_2014_cstd","NAC","Jacobi",2014,"Carbon stocks, tree diversity, and the role of organic certification in different cocoa production systems in Alto Beni, Bolivia",NA,NA,TRUE
+"Novak_2014_savt","NAC","Novak",2014,"Soil and vegetation transformation in abandoned vineyards of the Tokaj Nagy-Hill, Hungary",NA,NA,TRUE
+"Guidi_2014_ciso","NAC","Guidi",2014,"Changes in soil organic carbon and nitrogen following forest expansion on grassland in the Southern Alps",NA,NA,TRUE
+"Viana_2014_sqif","NAC","Viana",2014,"Soil quality indicators for different restoration stages on Amazon rainforest",NA,NA,TRUE
+"Kurth_2014_fpos","NAC","Kurth",2014,"Fifteen-Year Patterns of Soil Carbon and Nitrogen Following Biomass Harvesting",NA,NA,TRUE
+"Deng_2014_lnsi","NAC","Deng",2014,"Long-term natural succession improves nitrogen storage capacity of soil on the Loess Plateau, China",NA,NA,TRUE
+"Batterman_2013_kros","NAC","Batterman",2013,"Key role of symbiotic dinitrogen fixation in tropical forest secondary succession",NA,NA,TRUE
+"Kalinina_2013_sopa","NAC","Kalinina",2013,"Self-restoration of post-agrogenic Albeluvisols: Soil development, carbon stocks and dynamics of carbon pools",NA,NA,TRUE
+"Wei_2013_recs","NAC","Wei",2013,"Restoring ecosystem carbon sequestration through afforestation: A sub-tropic restoration case study",NA,NA,TRUE
+"de Aguiar_2013_dbpd","NAC","de Aguiar",2013,"Does biomass production depend on plant community diversity?",NA,NA,TRUE
+"Li_2013_cand","NAC","Li",2013,"Carbon and nitrogen distribution across a chronosequence of secondary lacebark pine in China",NA,NA,TRUE
+"Armolaitis_2013_soso","NAC","Armolaitis",2013,"Stability of soil organic carbon in agro and forest ecosystems on Arenosol",NA,NA,TRUE
+"Fortier_2013_rbas","NAC","Fortier",2013,"Root biomass and soil carbon distribution in hybrid poplar riparian buffers, herbaceous riparian buffers and natural riparian woodlots on farmland",NA,NA,TRUE
+"Cao_2012_poca","NAC","Cao",2012,"Pattern of carbon allocation across three different stages of stand development of a Chinese pine (Pinus tabulaeformis) forest",NA,NA,TRUE
+"Ross_2012_ecrl","NAC","Ross",2012,"Ecosystem Carbon Remains Low for Three Decades Following Fire and Constrains Soil CO2 Responses to Precipitation in Southwestern Ponderosa Pine Forests",NA,NA,TRUE
+"Bautista-Cruz_2012_saio","NAC","Bautista-Cruz",2012,"Selection and interpretation of soil quality indicators for forest recovery after clearing of a tropical montane cloud forest in Mexico",NA,NA,TRUE
+"Zhu_2012_iovs","NAC","Zhu",2012,"Interactions of vegetation succession, soil bio-chemical properties and microbial communities in a Karst ecosystem",NA,NA,TRUE
+"Wang_2012_cisn","NAC","Wang",2012,"Changes in soil nutrient and enzyme activities under different vegetations in the Loess Plateau area, Northwest China",NA,NA,TRUE
+"Gamboa_2012_lcce","NAC","Gamboa",2012,"Land-use/cover change effects and carbon controls on volcanic soil profiles in highland temperate forests",NA,NA,TRUE
+"Koul_2012_scba","NAC","Koul",2012,"Soil carbon buildup and bioeconomics of different lanuduses in humid subtropics of West Bengal, India",NA,NA,TRUE
+"Danquah_2012_eoam","NAC","Danquah",2012,"Effect of African Mahogany Species on Soil Chemical Properties in Degraded Dry Semi-deciduous Forest Ecosystems in Ghana",NA,NA,TRUE
+"Cuesta_2012_scpi","NAC","Cuesta",2012,"Soil chemical properties in abandoned Mediterranean cropland after succession and oak reforestation",NA,NA,TRUE
+"Alberti_2011_iowe","NAC","Alberti",2011,"Impact of woody encroachment on soil organic carbon and nitrogen in abandoned agricultural lands along a rainfall gradient in Italy",NA,NA,TRUE
+"Zhang_2011_lbpd","NAC","Zhang",2011,"Links between plant diversity, carbon stocks and environmental factors along a successional gradient in a subalpine coniferous forest in Southwest China",NA,NA,TRUE
+"Pang_2011_teoc","NAC","Pang",2011,"The effects of clear-felling subalpine coniferous forests on soil physical and chemical properties in the eastern Tibetan Plateau",NA,NA,TRUE
+"Neumann-Cosel_2011_scdu","NAC","Neumann-Cosel",2011,"Soil carbon dynamics under young tropical secondary forests on former pastures-A case study from Panama",NA,NA,TRUE
+"Kalinina_2011_sopc","NAC","Kalinina",2011,"Self-restoration of post-agrogenic chernozems of Russia: Soil development, carbon stocks, and dynamics of carbon pools",NA,NA,TRUE
+"Mekuria_2011_roec","NAC","Mekuria",2011,"Restoration of Ecosystem Carbon Stocks Following Exclosure Establishment in Communal Grazing Lands in Tigray, Ethiopia",NA,NA,TRUE
+"Li_2010_eoco","NAC","Li",2010,"Effect of conversion of sugarcane plantation to forest and pasture on soil carbon in Hawaii",NA,NA,TRUE
+"Luan_2010_aoti","NAC","Luan",2010,"Assessments of the impacts of Chinese fir plantation and natural regenerated forest on soil organic matter quality at Longmen mountain, Sichuan, China",NA,NA,TRUE
+"Zhang_2010_vcas","NAC","Zhang",2010,"Vegetation community and soil characteristics of abandoned agricultural land and pine plantation in the Qinling Mountains, China",NA,NA,TRUE
+"Huang_2010_rora","NAC","Huang",2010,"Response of runoff and soil loss to reforestation and rainfall type in red soil region of southern China",NA,NA,TRUE
+"Eaton_2009_locs","NAC","Eaton",2009,"Loss of carbon sequestration potential after several decades of shifting cultivation in the Southern Yucatan",NA,NA,TRUE
+"Mitchell_2009_nfaa","NAC","Mitchell",2009,"N-2 fixing alder (Alnus viridis spp. fruticosa) effects on soil properties across a secondary successional chronosequence in interior Alaska",NA,NA,TRUE
+"Kalinina_2009_sops","NAC","Kalinina",2009,"Self-restoration of post-agrogenic sandy soils in the southern Taiga of Russia: Soil development, nutrient status, and carbon dynamics",NA,NA,TRUE
+"Yan_2009_tpon","NAC","Yan",2009,"Temporal patterns of net soil N mineralization and nitrification through secondary succession in the subtropical forests of eastern China",NA,NA,TRUE
+"Marin-Spiotta_2009_somd","NAC","Marin-Spiotta",2009,"Soil organic matter dynamics during 80 years of reforestation of tropical pastures",NA,NA,TRUE
+"Vargas_2009_eovt","NAC","Vargas",2009,"Effects of Vegetation Thinning on Above- and Belowground Carbon in a Seasonally Dry Tropical Forest in Mexico",NA,NA,TRUE
+"van der Kamp_2009_sccu","NAC","van der Kamp",2009,"Soil carbon changes upon secondary succession in Imperata grasslands (East Kalimantan, Indonesia)",NA,NA,TRUE
+"Tang_2009_scfa","NAC","Tang",2009,"Soil carbon fluxes and stocks in a Great Lakes forest chronosequence",NA,NA,TRUE
+"Tian_2008_mbaa","NAC","Tian",2008,"Microbial biomass and activity along a natural pH gradient in forest soils in a karst region of the upper Yangtze River, China",NA,NA,TRUE
+"Zheng_2008_vocs","NAC","Zheng",2008,"Variation of carbon storage by different reforestation types in the hilly red soil region of southern China",NA,NA,TRUE
+"Schedlbauer_2008_scdi","NAC","Schedlbauer",2008,"Soil carbon dynamics in a chronosequence of secondary forests in northeastern Costa Rica",NA,NA,TRUE
+"Williams_2008_csab","NAC","Williams",2008,"Carbon sequestration and biodiversity of re-growing miombo woodlands in Mozambique",NA,NA,TRUE
+"Yamashita_2008_scib","NAC","Yamashita",2008,"Soil changes induced by Acacia mangium plantation establishment: Comparison with secondary forest and Imperata cylindrica grassland soils in South Sumatra, Indonesia",NA,NA,TRUE
+"Vasconcelos_2008_eosl","NAC","Vasconcelos",2008,"Effects of seasonality, litter removal and dry-season irrigation on litterfall quantity and quality in eastern Amazonian forest regrowth, Brazil",NA,NA,TRUE
+"Ritter_2007_cnap","NAC","Ritter",2007,"Carbon, nitrogen and phosphorus in volcanic soils following afforestation with native birch (Betula pubescens) and introduced larch (Larix sibirica) in Iceland",NA,NA,TRUE
+"Feldpausch_2007_sfgd","NAC","Feldpausch",2007,"Secondary forest growth deviation from chronosequence predictions in central Amazonia",NA,NA,TRUE
+"Tschakert_2007_ilsa","NAC","Tschakert",2007,"Indigenous livelihoods, slash-and-burn agriculture, and carbon stocks in Eastern Panama",NA,NA,TRUE
+"Armolaitis_2007_csan","NAC","Armolaitis",2007,"Carbon sequestration and nitrogen status in Arenosols following afforestation or following abandonment of arable land",NA,NA,TRUE
+"Thuille_2006_cdis","NAC","Thuille",2006,"Carbon dynamics in successional and afforested spruce stands in Thuringia and the Alps",NA,NA,TRUE
+"Blouin_2005_mdio","NAC","Blouin",2005,"Mechanical disturbance impacts on soil properties and lodgepole pine growth in British Columbia's central interior",NA,NA,TRUE
+"Zheng_2005_hdra","NAC","Zheng",2005,"How different reforestation approaches affect red soil properties in southern China",NA,NA,TRUE
+"Bautista-Cruz_2005_scds","NAC","Bautista-Cruz",2005,"Soil changes during secondary succession in a tropical montane cloud forest area",NA,NA,TRUE
+"Li_2005_csoc","NAC","Li",2005,"Comparing soil organic carbon dynamics in plantation and secondary forest in wet tropics in Puerto Rico",NA,NA,TRUE
+"Monreal_2005_amfm","NAC","Monreal",2005,"A method for measuring above- and below-ground C stocks in hillside landscapes",NA,NA,TRUE
+"Markewitz_2004_nlar","NAC","Markewitz",2004,"Nutrient loss and redistribution after forest clearing on a highly weathered soil in Amazonia",NA,NA,TRUE
+"DeGryze_2004_socp","NAC","DeGryze",2004,"Soil organic carbon pool changes following land-use conversions",NA,NA,TRUE
+"Salimon_2004_cffs","NAC","Salimon",2004,"CO2 flux from soil in pastures and forests in southwestern Amazonia",NA,NA,TRUE
+"Kelliher_2004_ltcm","NAC","Kelliher",2004,"Limitations to carbon mineralization in litter and mineral soil of young and old ponderosa pine forests",NA,NA,TRUE
+"Rab_2004_rosp","NAC","Rab",2004,"Recovery of soil physical properties from compaction and soil profile disturbance caused by logging of native forest in Victorian Central Highlands, Australia",NA,NA,TRUE
+"Yang_2004_liol","NAC","Yang",2004,"Long-term impacts of land-use change on dynamics of tropical soil carbon and nitrogen pools",NA,NA,TRUE
+"Chen_2003_cisc","NAC","Chen",2003,"Change in soil carbon and nutrient storage after human disturbance of a primary Korean pine forest in Northeast China",NA,NA,TRUE
+"O'Brien_2003_soso","NAC","O'Brien",2003,"Stability of soil organic matter in Eucalyptus regnans forests and Pinus radiata plantations in south eastern Australia",NA,NA,TRUE
+"Frizano_2003_lpis","NAC","Frizano",2003,"Labile phosphorus in soils of forest fallows and primary forest in the Bragantina region, Brazil",NA,NA,TRUE
+"Behera_2003_smba","NAC","Behera",2003,"Soil microbial biomass and activity in response to Eucalyptus plantation and natural regeneration on tropical soil",NA,NA,TRUE
+"Lawrence_2002_cifb","NAC","Lawrence",2002,"Changes in forest biomass, litter dynamics and soils following shifting cultivation in southern Mexico: An overview",NA,NA,TRUE
+"Johnson_2001_cans","NAC","Johnson",2001,"Carbon and nutrient storage in primary and secondary forests in eastern Amazonia",NA,NA,TRUE
+"Giese_2000_satp","NAC","Giese",2000,"Spatial and temporal patterns of carbon storage and species richness in three South Carolina coastal plain riparian forests",NA,NA,TRUE
+"Wigginton_2000_somf","NAC","Wigginton",2000,"Soil organic matter formation and sequestration across a forested floodplain chronosequence",NA,NA,TRUE
+"Scott_2000_cand","NAC","Scott",2000,"Carbon and nitrogen distribution and accumulation in a New Zealand scrubland ecosystem",NA,NA,TRUE
+"Rhoades_2000_scda","NAC","Rhoades",2000,"Soil carbon differences among forest, agriculture, and secondary vegetation in lower montane Ecuador",NA,NA,TRUE
+"Sommer_2000_csar","NAC","Sommer",2000,"Carbon storage and root penetration in deep soils under small-farmer land-use systems in the Eastern Amazon region, Brazil",NA,NA,TRUE
+"de Camargo_1999_scdi","NAC","de Camargo",1999,"Soil carbon dynamics in regrowing forest of eastern Amazonia",NA,NA,TRUE
+"Guariguata_1997_safo","NAC","Guariguata",1997,"Structure and floristics of secondary and old-growth forest stands in lowland Costa Rica",NA,NA,TRUE
+"Juo_1996_spac","NAC","Juo",1996,"Soil properties and crop performance on a kaolinitic Alfisol after 15 years of fallow and continuous cultivation",NA,NA,TRUE
+"Montagnini_1995_tpoi","NAC","Montagnini",1995,"The potentials of 20 indigenous tree species for soil rehabilitation in the Atlantic forest region of Bahia, Brazil",NA,NA,TRUE
+"COOK_1992_doio","NAC","COOK",1992,"DISSOLVED ORGANIC-CARBON IN OLD FIELD SOILS - TOTAL AMOUNTS AS A MEASURE OF AVAILABLE RESOURCES FOR SOIL MINERALIZATION",NA,NA,TRUE
+"LUGO_1992_cott","NAC","LUGO",1992,"COMPARISON OF TROPICAL TREE PLANTATIONS WITH SECONDARY FORESTS OF SIMILAR AGE",NA,NA,TRUE
+"CUEVAS_1991_aabo","NAC","CUEVAS",1991,"ABOVEGROUND AND BELOWGROUND ORGANIC-MATTER STORAGE AND PRODUCTION IN A TROPICAL PINE PLANTATION AND A PAIRED BROADLEAF SECONDARY FOREST",NA,NA,TRUE
+"Vester_1998_taas","NAC","Vester",1998,"Tree architecture and secondary tropical rain forest development - a case study in Araracuara, Colombian Amazoni",NA,NA,TRUE
+"Piotto_2011_sdof","NAC","Piotto",2011,"Spatial Dynamics of Forest Recovery after Swidden Cultivation in the Atlantic Forest of Southern Bahia",NA,NA,TRUE
+"Ibrahim_2006_adce","NAC","Ibrahim",2006,"Almacenamiento de Carbono en el suelo y la biomasa arbórea en sistemas de usos de la tierra en paisajes ganaderos de Colombia, Costa Rica y Nicaragua",NA,NA,TRUE
+"Palm_1999_csat","NAC","Palm",1999,"Carbon sequestration and trace gas emissions in slash-and-burn and alternative land-uses in the humid tropics",NA,NA,TRUE
+"Buschbacher_1988_apie","NAC","Buschbacher",1988,"Abandoned pastures in eastern Amazonia II. Nutrient stocks in the soil and vegetation",NA,NA,TRUE
+"Brown_1990_eofc","NAC","Brown",1990,"Effects of forest clearing and succession on the carbon and nitrogen content of soils in Puerto Rico and US Virgin Islands",NA,NA,TRUE
+"Lugo_1986_luao","NAC","Lugo",1986,"Land use and organic carbon content of some subtropical soils",NA,NA,TRUE
+"Wadsworth_1990_eolo","NAC","Wadsworth",1990,"Effects of length of forest fallow on fertility dynamics in a Mexican ultisol",NA,NA,TRUE
+"Werner_1984_cisp","NAC","Werner",1984,"Changes in soil properties during tropical wet forest succession in Costa Rica",NA,NA,TRUE
+"Armolaitis_2011_roai","NAC","Armolaitis",2011,"Renaturalization of Arenosols in the land afforested with Scots pine (Pinus sylvestris L.) and abandoned arable land",NA,NA,TRUE
+"Myster_2017_gevd","NAC","Myster",2017,"Gradient (elevation) vs. disturbance (agriculture) effects on primary cloud forest in Ecuador: floristics and physical structure",NA,NA,TRUE
+"Ali_2017_cmol","NAC","Ali",2017,"Community-weighted mean of leaf traits and divergence of wood traits predict aboveground biomass in secondary subtropical forests",NA,NA,TRUE
+"Yazaki_2016_baan","NAC","Yazaki",2016,"Biomass Accumulation and Net Primary Production during the Early Stage of Secondary Succession after a Severe Forest Disturbance in Northern Japan",NA,NA,TRUE
+"Chan_2016_ttaf","NAC","Chan",2016,"The Transition Away From Swidden Agriculture and Trends in Biomass Accumulation in Fallow Forests",NA,NA,TRUE
+"Silva_2016_faso","NAC","Silva",2016,"Floristic and structure of an Amazonian primary forest and a chronosequence of secondary succession",NA,NA,TRUE
+"Ishihara_2016_anmf","NAC","Ishihara",2016,"A New Model for Size-Dependent Tree Growth in Forests",NA,NA,TRUE
+"Otuoma_2016_doac","NAC","Otuoma",2016,"Determinants of aboveground carbon offset additionality in plantation forests in a moist tropical forest in western Kenya",NA,NA,TRUE
+"Spracklen_2016_csas","NAC","Spracklen",2016,"Carbon storage and sequestration of re-growing montane forests in southern Ecuador",NA,NA,TRUE
+"Mukul_2016_tsfr","NAC","Mukul",2016,"Tropical secondary forests regenerating after shifting cultivation in the Philippines uplands are important carbon sinks",NA,NA,TRUE
+"Poorter_2016_bron","NAC","Poorter",2016,"Biomass resilience of Neotropical secondary forests",NA,NA,TRUE
+"McNicol_2015_doam","NAC","McNicol",2015,"Development of allometric models for above and belowground biomass in swidden cultivation fallows of Northern Laos",NA,NA,TRUE
+"Wandelli_2015_svic","NAC","Wandelli",2015,"Secondary vegetation in central Amazonia: Land-use history effects on aboveground biomass",NA,NA,TRUE
+"Fortier_2015_bcna","NAC","Fortier",2015,"Biomass carbon, nitrogen and phosphorus stocks in hybrid poplar buffers, herbaceous buffers and natural woodlots in the riparian zone on agricultural land",NA,NA,TRUE
+"Martinez-Sanchez_2015_rbsd","NAC","Martinez-Sanchez",2015,"Relationship between structural diversity and carbon stocks in humid and sub-humid tropical forest of Mexico",NA,NA,TRUE
+"Bertolin_2015_feac","NAC","Bertolin",2015,"FIRE EMISSIONS AND CARBON UPTAKE IN SEVERELY BURNED LENGA BEECH (NOTHOFAGUS PUMILIO) FORESTS OF PATAGONIA, ARGENTINA",NA,NA,TRUE
+"Hytonen_2015_bpoc","NAC","Hytonen",2015,"Biomass production of coppiced grey alder and the effect of fertilization",NA,NA,TRUE
+"Atkinson_2015_lule","NAC","Atkinson",2015,"Land use legacy effects on structure and composition of subtropical dry forests in St. Croix, US Virgin Islands",NA,NA,TRUE
+"Mora_2014_tctd","NAC","Mora",2014,"Testing Chronosequences through Dynamic Approaches: Time and Site Effects on Tropical Dry Forest Succession",NA,NA,TRUE
+"Costa_2014_rasb","NAC","Costa",2014,"Root and shoot biomasses in the tropical dry forest of semi-arid Northeast Brazil",NA,NA,TRUE
+"Bu_2014_forb","NAC","Bu",2014,"Field observed relationships between biodiversity and ecosystem functioning during secondary succession in a tropical lowland rainforest",NA,NA,TRUE
+"Wei_2014_tnap","NAC","Wei",2014,"The nutrient accumulation pattern and cycling in natural secondary forests in North China. A case study from the Caijiachuan watershed, Shanxi Province",NA,NA,TRUE
+"Kalaba_2013_fcsd","NAC","Kalaba",2013,"Floristic composition, species diversity and carbon storage in charcoal and agriculture fallows and management implications in Miombo woodlands of Zambia",NA,NA,TRUE
+"Pena_2013_poso","NAC","Pena",2013,"Patterns of stocks of aboveground tree biomass, dynamics, and their determinants in secondary Andean forests",NA,NA,TRUE
+"Giday_2013_wbff","NAC","Giday",2013,"Wood biomass functions for Acacia abyssinica trees and shrubs and implications for provision of ecosystem services in a community managed exclosure in Tigray, Ethiopia",NA,NA,TRUE
+"Zhang_2013_llpq","NAC","Zhang",2013,"Linking litter production, quality and decomposition to vegetation succession following agricultural abandonment",NA,NA,TRUE
+"Martins_2012_eofo","NAC","Martins",2012,"Effects of fire on above-ground forest biomass in the northern Brazilian Amazon",NA,NA,TRUE
+"Raharimalala_2012_qbos","NAC","Raharimalala",2012,"QUANTIFYING BIOMASS OF SECONDARY FOREST AFTER SLASH-AND-BURN CULTIVATION IN CENTRAL MENABE, MADAGASCAR",NA,NA,TRUE
+"Huffman_2012_iots","NAC","Huffman",2012,"Influence of time since fire on pinyon-juniper woodland structure",NA,NA,TRUE
+"Carswell_2012_capd","NAC","Carswell",2012,"Carbon and plant diversity gain during 200 years of woody succession in lowland New Zealand",NA,NA,TRUE
+"Hilje_2012_caot","NAC","Hilje",2012,"Calling activity of the common tink frog (Diasporus diastema) (Eleutherodactylidae) in secondary forests of the Caribbean of Costa Rica",NA,NA,TRUE
+"Brearley_2011_bssi","NAC","Brearley",2011,"Below-ground secondary succession in tropical forests of Borneo",NA,NA,TRUE
+"d'Oliveira_2011_fnra","NAC","d'Oliveira",2011,"Forest natural regeneration and biomass production after slash and burn in a seasonally dry forest in the Southern Brazilian Amazon",NA,NA,TRUE
+"Hernandez-Stefanoni_2011_iols","NAC","Hernandez-Stefanoni",2011,"Influence of landscape structure and stand age on species density and biomass of a tropical dry forest across spatial scales",NA,NA,TRUE
+"Omeja_2011_fcaa","NAC","Omeja",2011,"Fire control as a simple means of promoting tropical forest restoration",NA,NA,TRUE
+"Mendoza-Ponce_2010_aabb","NAC","Mendoza-Ponce",2010,"Aboveground and belowground biomass and carbon pools in highland temperate forest landscape in Central Mexico",NA,NA,TRUE
+"Siddique_2010_napa","NAC","Siddique",2010,"Nitrogen and phosphorus additions negatively affect tree species diversity in tropical forest regrowth trajectories",NA,NA,TRUE
+"Ohtsuka_2010_ccan","NAC","Ohtsuka",2010,"Carbon cycling and net ecosystem production at an early stage of secondary succession in an abandoned coppice forest",NA,NA,TRUE
+"Powers_2009_daso","NAC","Powers",2009,"Diversity and structure of regenerating tropical dry forests in Costa Rica: Geographic patterns and environmental drivers",NA,NA,TRUE
+"Shoch_2009_csob","NAC","Shoch",2009,"CARBON STORAGE OF BOTTOMLAND HARDWOOD AFFORESTATION IN THE LOWER MISSISSIPPI VALLEY, USA",NA,NA,TRUE
+"Slik_2008_tdcf","NAC","Slik",2008,"Tree diversity, composition, forest structure and aboveground biomass dynamics after single and repeated fire in a Bornean rain forest",NA,NA,TRUE
+"Koul_2008_plof","NAC","Koul",2008,"Prioritizing land-management options for carbon sequestration potential",NA,NA,TRUE
+"Lebrija-Trejos_2008_scar","NAC","Lebrija-Trejos",2008,"Successional change and resilience of a very dry tropical deciduous forest following shifting agriculture",NA,NA,TRUE
+"Bermudez_2007_fasr","NAC","Bermudez",2007,"Floristic and structural recovery of a laurel forest community after clear-cutting: A 60 years chronosequence on La Palma (Canary Islands)",NA,NA,TRUE
+"Eaton_2006_wdsa","NAC","Eaton",2006,"Woody debris stocks and fluxes during succession",NA,NA,TRUE
+"Hiratsuka_2006_bron","NAC","Hiratsuka",2006,"Biomass recovery of naturally regenerated vegetation after the 1998 forest fire in East Kalimantan, Indonesia",NA,NA,TRUE
+"Sigurdsson_2005_baco","NAC","Sigurdsson",2005,"Biomass and composition of understory vegetation and the forest floor carbon stock across Siberian larch and mountain birch chronosequences in Iceland",NA,NA,TRUE
+"Ruiz_2005_vsca","NAC","Ruiz",2005,"Vegetation structure, composition, and species richness across a 56-year chronosequence of dry tropical forest on Providencia island, Colombia",NA,NA,TRUE
+"Neeff_2005_agmf","NAC","Neeff",2005,"A growth model for secondary forest in Central Amazonia",NA,NA,TRUE
+"Campo_2004_eonl","NAC","Campo",2004,"Effects of nutrient limitation on aboveground carbon dynamics during tropical dry forest regeneration in Yucatan, Mexico",NA,NA,TRUE
+"Thenkabail_2004_hiaa","NAC","Thenkabail",2004,"Hyperion, IKONOS, ALI, and ETM plus sensors in the study of African rainforests",NA,NA,TRUE
+"Pena-Claros_2003_cifs","NAC","Pena-Claros",2003,"Changes in forest structure and species composition during secondary forest succession in the Bolivian Amazon",NA,NA,TRUE
+"Vieira_2003_csfu","NAC","Vieira",2003,"Classifying successional forests using Landsat spectral properties and ecological characteristics in eastern Amazonia",NA,NA,TRUE
+"Jaramillo_2003_rbac","NAC","Jaramillo",2003,"Root biomass and carbon in a tropical evergreen forest of Mexico: changes with secondary succession and forest conversion to pasture",NA,NA,TRUE
+"Litton_2003_baab","NAC","Litton",2003,"Belowground and aboveground biomass in young postfire lodgepole pine forests of contrasting tree density",NA,NA,TRUE
+"Schroth_2002_cosf","NAC","Schroth",2002,"Conversion of secondary forest into agroforestry and monoculture plantations in Amazonia: consequences for biomass, litter and soil carbon stocks after 7 years",NA,NA,TRUE
+"Manlay_2002_cnap","NAC","Manlay",2002,"Carbon, nitrogen and phosphorus allocation in agro-ecosystems of a West African savanna I. The plant component under semi-permanent cultivation",NA,NA,TRUE
+"Kennard_2002_sfsi","NAC","Kennard",2002,"Secondary forest succession in a tropical dry forest: patterns of development across a 50-year chronosequence in lowland Bolivia",NA,NA,TRUE
+"Simard_2001_ioch","NAC","Simard",2001,"Impacts of clearcut harvesting and wildfire on soil nutrient status in the Quebec boreal forest",NA,NA,TRUE
+"Aide_2000_fria","NAC","Aide",2000,"Forest regeneration in a chronosequence of tropical abandoned pastures: Implications for restoration ecology",NA,NA,TRUE
+"Salimon_2000_sfiw","NAC","Salimon",2000,"Secondary forests in western Amazonia: Significant sinks for carbon released from deforestation?",NA,NA,TRUE
+"Kotto-Same_1997_cdis","NAC","Kotto-Same",1997,"Carbon dynamics in slash-and-burn agriculture and land use alternatives of the humid forest zone in Cameroon",NA,NA,TRUE
+"AIDE_1995_fria","NAC","AIDE",1995,"FOREST RECOVERY IN ABANDONED TROPICAL PASTURES IN PUERTO-RICO",NA,NA,TRUE
+"USOLTSEV_1995_sbdo","NAC","USOLTSEV",1995,"STAND BIOMASS DYNAMICS OF PINE PLANTATIONS AND NATURAL FORESTS ON DRY STEPPE IN KAZAKHSTAN",NA,NA,TRUE
+"CROWELL_1994_vdia","NAC","CROWELL",1994,"VEGETATION DEVELOPMENT IN A HARDWOOD-FOREST CHRONOSEQUENCE IN NOVA-SCOTIA",NA,NA,TRUE
+"MOU_1993_eosd","NAC","MOU",1993,"EFFECTS OF SOIL DISTURBANCE ON VEGETATION RECOVERY AND NUTRIENT ACCUMULATION FOLLOWING WHOLE-TREE HARVEST OF A NORTHERN HARDWOOD ECOSYSTEM",NA,NA,TRUE
+"REINERS_1992_yoer","NAC","REINERS",1992,"20 YEARS OF ECOSYSTEM REORGANIZATION FOLLOWING EXPERIMENTAL DEFORESTATION AND REGROWTH SUPPRESSION",NA,NA,TRUE
+"JOHANSSON_1992_roca","NAC","JOHANSSON",1992,"REGENERATION OF CLEARED ACACIA-ZANZIBARICA BUSHLAND IN KENYA",NA,NA,TRUE
+"Junqueira_2010_sfoa","NAC","Junqueira",2010,"Secondary forests on anthropogenic soils conserve agrobiodiversity",NA,NA,TRUE
+"Cabral_2013_eeeb","NAC","Cabral",2013,"Estrutura espacial e biomassa da parte aérea em diferentes estádios successionais de caatinga, em Santa Terezinha, Paraíba.",NA,NA,TRUE
+"van Breugel_2006_cdde","NAC","van Breugel",2006,"Community dynamics during early secondary succession in Mexican tropical rain forests",NA,NA,TRUE
+"van Breugel_2013_soes","NAC","van Breugel",2013,"Succession of ephemeral secondary forests and their limited role for the conservation of floristic diversity in a human-modified tropical landscape",NA,NA,TRUE
+"Denslow_2000_viss","NAC","Denslow",2000,"Variation in stand structure, light and seedling abundance across a tropical moist forest chronosequence, Panama",NA,NA,TRUE
+"Dupuy_2012_paco","NAC","Dupuy",2012,"Patterns and correlates of tropical dry forest structure and composition in a highly replicated chronosequence in Yucatan, Mexico",NA,NA,TRUE
+"Madeira_2009_cita","NAC","Madeira",2009,"Changes in tree and liana communities along a successional gradient in a tropical dry forest in south-eastern Brazil",NA,NA,TRUE
+"Naughton-Treves_2001_fraf","NAC","Naughton-Treves",2001,"Fuelwood resources and forest regeneration on Fallow Land in Uganda",NA,NA,TRUE
+"Toledo_2006_ssai","NAC","Toledo",2006,"Secondary succession and indigenous management in semideciduous forest fallows of the Amazon basin",NA,NA,TRUE
+"McMahon_2010_efar","NAC","McMahon",2010,"Evidence for a recent increase in forest growth",NA,NA,TRUE
+"Frouz_2008_ibsd","NAC","Frouz",2008,"Interactions between soil development, vegetation and soil fauna during spontaneous succession in post mining sites",NA,NA,TRUE
+"Chazdon_2005_eoca","NAC","Chazdon",2005,"Effects of climate and stand age on annual tree dynamics in tropical second growth rain forests",NA,NA,TRUE
+"Bartholomew_1953_mniu","NAC","Bartholomew",1953,"Mineral nutrient immobilization under forest and grass fallow in the Yangambi (Belgian Congo) region with some preliminary results on the decomposition of plant material on the forest floor",NA,NA,TRUE
+"Gilroy_2014_ccab","NAC","Gilroy",2014,"Cheap carbon and biodiversity co-benefits from forest regeneration in a hotspot of endemism",NA,NA,TRUE
+"Guo_2014_part","NAC","Guo",2014,"Productivity as related to diversity and age in planted versus natural forests",NA,NA,TRUE
+"Moran_2000_eosf","NAC","Moran",2000,"Effects of soil fertility and land-use on forest succession in Amazonia",NA,NA,TRUE
+"Roth_1994_laop","NAC","Roth",1994,"Large-vertebrate assemblages of primary and secondary forests in the Brazilian Amazon",NA,NA,TRUE
+"Toma_2005_lmop","NAC","Toma",2005,"Long-term monitoring of post-fire aboveground biomass recovery in a lowland dipterocarp forest in East Kalimantan, Indonesia",NA,NA,TRUE
+"Ewel_1983_bafo","NAC","Ewel",1983,"Biomass and floristics of three young second-growth forests in Sarawak.",NA,NA,TRUE
+"Krankina _1999_nbfs","NAC","Krankina ",1999,"NPP Boreal Forest: Siberian Scots Pine Forests, Russia, 1968-1974.",NA,NA,TRUE
+"Li_1995_sobo","NAC","Li",1995,"Study on biomass of tropical mountain rain forest in Jianfengling, Hainan Island",NA,NA,TRUE

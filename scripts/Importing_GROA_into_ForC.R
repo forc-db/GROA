@@ -20,7 +20,8 @@ library(dplyr)
 # GROA_sites <-  read.csv("example data/GROA_sites.csv", stringsAsFactors = F)
 # GROA_litterature <-  read.csv("example data/GROA_litterature.csv", stringsAsFactors = F)
 
-GROA_measurements <-  read.csv("data/non_soil_data.csv", stringsAsFactors = F)
+GROA_measurements <-  read.csv("data/nonsoil_litter_CWD.csv", stringsAsFactors = F)
+GROA_measurements_soil <-  read.csv("data/soil.csv", stringsAsFactors = F)
 GROA_sites <-  read.csv("data/sitesf.csv", stringsAsFactors = F)
 GROA_litterature <-  read.csv("data/GROA literature.csv", stringsAsFactors = F)
 
@@ -43,6 +44,7 @@ for(f in ForC_files) {
   ForC_data[[name]] <- read.csv(text=getURL(paste0("https://raw.githubusercontent.com/forc-db/ForC/master/data/", f)), header=T, stringsAsFactors = F)
   
   ForC_data[[name]]$NEW_RECORD <- FALSE
+  ForC_data[[name]]$OLD_RECORD = FALSE
 } # for(f in forC_files)
 
 ## variable_name_conversion table ####
@@ -50,11 +52,41 @@ variable_name_conversion <- read.csv("GROA-ForC mapping/variable_name_conversion
 
 # Settings ####
 ## set refor.type to plot.name key
-refor.type.to.plot.name.key <-  data.frame(plot.name = c("regrowth stand regenerating via spontaneous natural regeneration","regrowth stand regenerating via assisted natural regeneration","regrowth stand regenerating via initial tree planting", "diverse species plantation", "monoculture plantation", "intensive tree monocrop", "multistrata stand", "stand with tree intercropping", "silvopastoral system", "transitional ecosystem", "cropland", "pasture", "intact/ old growth stand", "Fire", "Harvest", "shifting cultivation"), row.names = c("SNR", "ANR", "ITP", "DP", "MP", "TMC", "MS", "TI", "SP", "TR", "C", "PA", "OG", "F", "H", "SC"), stringsAsFactors = F)
+refor.type.to.plot.name.key <-  data.frame(plot.name = c("regrowth stand regenerating via spontaneous natural regeneration","regrowth stand regenerating via assisted natural regeneration","regrowth stand regenerating via initial tree planting", "diverse species plantation", "monoculture plantation", "intensive tree monocrop", "multistrata stand", "stand with tree intercropping", "silvopastoral system", "transitional ecosystem", "cropland", "pasture", "intact/ old growth stand", "fire", "harvest", "shifting cultivation"), row.names = c("SNR", "ANR", "ITP", "DP", "MP", "TMC", "MS", "TI", "SP", "TR", "C", "PA", "OG", "F", "H", "SC"), stringsAsFactors = F)
 
 # pre-fixes and preparations ####
+
+## merge non soil and soil tables
+names(GROA_measurements)[!names(GROA_measurements) %in% names(GROA_measurements_soil)]
+
+GROA_measurements_soil$sites.sitename <- GROA_sites$site.sitename[match(GROA_measurements_soil$site.id, GROA_sites$site.id)]
+GROA_measurements_soil$country <- GROA_sites$site.country[match(GROA_measurements_soil$site.id, GROA_sites$site.id)]
+GROA_measurements_soil$citations.title <- GROA_litterature$study.id[match(GROA_measurements_soil$study.id, GROA_litterature$study.id)]
+
+
+
 ## create citation.ID
 GROA_litterature$citation.ID <- paste(GROA_litterature$citations.author, GROA_litterature$citations.year,  substr(gsub('(?<!-)(?<!\')\\b(\\pL)|.','\\L\\1', GROA_litterature$citations.title, perl = T), 1, 4), sep = "_") # create citation ID in the form [last name of first author]_[publication year]_[first letter of first four words of title, when applicable, counting hyphenated words as single words].
+
+
+## Create measurement.refs ####
+# (Find all measurements of each site and append "loaded_from' to SITE table if it is unique in the measurement table)
+GROA_sites$measurement.refs <- NULL
+
+for(site in GROA_measurements$site.id) {
+  print(site)
+  
+  meas_study.ids <- GROA_measurements$study.id[GROA_measurements$site.id %in% site]
+  litt_Citation.IDs <- GROA_litterature$citation.ID[GROA_litterature$study.id %in% meas_study.ids]
+  GROA_sites$measurement.refs[GROA_sites$site.id %in% site] <- paste(unique(litt_Citation.IDs), collapse = "; ")
+  
+} 
+
+
+## Create plot.name ####
+GROA_measurements$plot.name <-  refor.type.to.plot.name.key[GROA_measurements$refor.type,]
+GROA_measurements$plot.name <- ifelse(grepl("regrowth", GROA_measurements$plot.name) & !is.na(GROA_measurements$date) & !is.na(GROA_measurements$stand.age), paste(GROA_measurements$plot.name, "established around", GROA_measurements$date[i] - GROA_measurements$stand.age[i]),GROA_measurements$plot.name )
+
 
 
 # Create a new record in SITES if one does not already exist ####
@@ -66,6 +98,61 @@ for( i in 1:nrow(GROA_sites)) {
   sites.sitename <- GROA_sites$site.sitename[i]
   if(sites.sitename %in% ForC_data$SITES$sites.sitename) {
     cat("Found site", sites.sitename, "\n")
+    
+    # deal wit soil texture separately here
+    sand.silt.clay <- GROA_measurements[GROA_measurements$sites.sitename %in% sites.sitename, "sand.silt.clay"]
+    
+    if(!all(is.na(sand.silt.clay))) {
+      ## get character sctring describing soil texture and keeping longest if there is more than one value
+      soil.texture <- sand.silt.clay[!grepl(":", sand.silt.clay)]
+      soil.texture <- soil.texture[which.max(nchar(soil.texture))]
+      soil.texture <- ifelse(length(soil.texture) > 0, soil.texture, "NAC")
+      
+      ## average numerical values accross plot.id
+      sand.silt.clay <- sand.silt.clay[grepl(":", sand.silt.clay)]
+      sand.silt.clay <- strsplit(sand.silt.clay, ":")
+      sand <- mean(as.numeric(sapply(sand.silt.clay, "[[", 1)))
+      silt <- mean(as.numeric(sapply(sand.silt.clay, "[[", 2)))
+      clay <- mean(as.numeric(sapply(sand.silt.clay, "[[", 3)))
+    } else {
+      soil.texture <- "NAC"
+      sand <- "NAC"
+      silt <- "NAC"
+      clay <- "NAC"
+    }
+    
+    # deal with the easier stuff here
+    ForC_data$SITES <- bind_rows(
+      ForC_data$SITES ,
+      data.frame(
+        site.ID = max(ForC_data$SITES$site.ID) + 1,
+        sites.sitename = sites.sitename,
+        city = "NAC",
+        state = ifelse(is.na(GROA_sites$site.state[i]), "NAC", GROA_sites$site.state[i]),
+        country =  ifelse(is.na(GROA_sites$site.country[i]), "NAC", GROA_sites$site.country[i]),
+        lat =  ifelse(is.na(GROA_sites$lat_dec[i]), "NAC", GROA_sites$lat_dec[i]),
+        lon =  ifelse(is.na(GROA_sites$long_dec[i]), "NAC", GROA_sites$long_dec[i]),
+        masl =  ifelse(is.na(GROA_sites$elevation[i]), "NAC", GROA_sites$elevation[i]),
+        mat =  ifelse(is.na(GROA_sites$AMT[i]), "NAC", as.character(GROA_sites$AMT[i])),
+        min.temp = "NAC",
+        max.temp = "NAC",
+        map =  ifelse(is.na(GROA_sites$AMP[i]), "NAC", as.character(GROA_sites$AMP[i])),
+        soil.texture = soil.texture,
+        sand = as.character(sand),
+        silt = as.character(silt),
+        clay = as.character(clay),
+        soil.classification =  ifelse(is.na(GROA_sites$soil.classification[i]), "NAC", GROA_sites$soil.classification[i]),
+        measurement.ref = GROA_sites$measurement.ref[i],
+        ref.notes = paste("GROA site.ID =", GROA_sites$site.id[i]),
+        lacks.info.from.ori.pub = 0,
+        loaded.from = "[Cook-Patton database citation, in ForC format]",
+        loaded.by = "R script by Valentine Herrmann",
+        NEW_RECORD = FALSE,
+        OLD_RECORD = TRUE
+        # tropical.extratropical = 
+      )
+    )
+   
   } else {
     cat("Creating new site:", sites.sitename, "\n")
     
@@ -95,25 +182,29 @@ for( i in 1:nrow(GROA_sites)) {
     ForC_data$SITES <- bind_rows(
       ForC_data$SITES ,
       data.frame(
-        sites.sitename = sites.sitename,
         site.ID = max(ForC_data$SITES$site.ID) + 1,
-        state = GROA_sites$site.state[i],
-        country = GROA_sites$site.country[i],
-        lat = GROA_sites$lat_dec[i],
-        lon = GROA_sites$long_dec[i],
-        masl = as.character(GROA_sites$elevation[i]),
-        mat = as.character(GROA_sites$AMT[i]),
-        map = as.character(GROA_sites$AMP[i]),
+        sites.sitename = sites.sitename,
+        city = "NAC",
+        state = ifelse(is.na(GROA_sites$site.state[i]), "NAC", GROA_sites$site.state[i]),
+        country =  ifelse(is.na(GROA_sites$site.country[i]), "NAC", GROA_sites$site.country[i]),
+        lat =  ifelse(is.na(GROA_sites$lat_dec[i]), "NAC", GROA_sites$lat_dec[i]),
+        lon =  ifelse(is.na(GROA_sites$long_dec[i]), "NAC", GROA_sites$long_dec[i]),
+        masl =  ifelse(is.na(GROA_sites$elevation[i]), "NAC", GROA_sites$elevation[i]),
+        mat =  ifelse(is.na(GROA_sites$AMT[i]), "NAC", as.character(GROA_sites$AMT[i])),
+        min.temp = "NAC",
+        max.temp = "NAC",
+        map =  ifelse(is.na(GROA_sites$AMP[i]), "NAC", as.character(GROA_sites$AMP[i])),
         soil.texture = soil.texture,
         sand = as.character(sand),
         silt = as.character(silt),
         clay = as.character(clay),
-        soil.classification = GROA_sites$soil.classification[i],
-        # site.notes = GROA_sites$site.notes[i],
-        ref.notes = as.character(GROA_sites$site.id[i]),
+        soil.classification =  ifelse(is.na(GROA_sites$soil.classification[i]), "NAC", GROA_sites$soil.classification[i]),
+        ref.notes = paste("GROA site.ID =", GROA_sites$site.id[i]),
+        lacks.info.from.ori.pub = 0,
         loaded.from = "[Cook-Patton database citation, in ForC format]",
         loaded.by = "R script by Valentine Herrmann",
-        NEW_RECORD = TRUE
+        NEW_RECORD = TRUE,
+        OLD_RECORD = FALSE
         # tropical.extratropical = 
       )
     )
@@ -150,7 +241,7 @@ for(i in 1:nrow(GROA_litterature)) {
   }
 }
 
-## from GROA_measurements (if citation.title comes back)
+## from GROA_measurements --> non need to do it because all(GROA_measurements$citations.title %in% GROA_litterature$citations.title) is TRUE.
 
 # Create a new record in MEASUREMENTS if one does not already exist ####
 for( i in 1:nrow(GROA_measurements)) {
@@ -209,18 +300,14 @@ for( i in 1:nrow(GROA_measurements)) {
       }
         
     } # if(!is.na(GROA_component))
-    
-    # deal with plot.name separately here ####
-    plot.name = refor.type.to.plot.name.key[GROA_measurements$refor.type[i],]
-    if(grepl("regrowth", plot.name) & !is.na(GROA_measurements$date[i]) & !is.na(GROA_measurements$stand.age[i])) plot.name = paste(plot.name, "established around", GROA_measurements$date[i] - GROA_measurements$stand.age[i])
-    
+
     # append to measurements table now ####
     if(include_record) ForC_data$MEASUREMENTS <-  bind_rows( #####
       ForC_data$MEASUREMENTS,
       data.frame( #####
         measurement.ID = c(max(ForC_data$MEASUREMENTS$measurement.ID)+1, max(ForC_data$MEASUREMENTS$measurement.ID) + 2)[c(TRUE, !is.na(GROA_measurements$density[i]))],
         sites.sitename,
-        plot.name = plot.name,
+        plot.name = GROA_measurements$plot.name[i],
         stand.age = as.character(GROA_measurements$stand.age[i]),
         dominant.life.form = ifelse(GROA_measurements$refor.type[i] %in% "PA", "2GW",
                                     ifelse(GROA_measurements$refor.type[i] %in% "C", "NAC", "woody")),
@@ -245,9 +332,9 @@ for( i in 1:nrow(GROA_measurements)) {
         depth,
         
         covariate_1 = other.covariates[1],
-        coV_1.value = other.cov.values[1],
+        coV_1.value = as.character(other.cov.values[1]),
         covariate_2 = other.covariates[2],
-        coV_1.value = other.cov.values[2],
+        coV_2.value = as.character(other.cov.values[2]),
      
         citation.ID = GROA_litterature$citation.ID[GROA_litterature$study.id %in% GROA_measurements$study.id[i]],
         source.notes = paste0("GROA measurement.ID #", GROA_measurements$measurement.id[i]),
@@ -264,9 +351,129 @@ for( i in 1:nrow(GROA_measurements)) {
 }
 
 
-# Create a new record in METHODOLOGY if one does not already exist
+# Create a new record in HISTORY if one does not already exist ####
+site_plots <- unique(paste(ForC_data$MEASUREMENTS[ForC_data$MEASUREMENTS$NEW_RECORD == 1,]$sites.sitename, ForC_data$MEASUREMENTS[ForC_data$MEASUREMENTS$NEW_RECORD == 1,]$plot.name))
 
-# Create a new record in HISTORY if one does not already exist
+s_p.with.age.date.discrepancy <- NULL
+s_p.with.chronosequence.to.fix <- NULL
+s_p.with.other.date.age.issues.to.fix <- NULL
+
+for(s_p in site_plots) {
+  cat(paste("creating HISTORY for", s_p, "\n"))
+  
+  groa_sub <- GROA_measurements[paste(GROA_measurements$sites.sitename, GROA_measurements$plot.name) %in% s_p, ]
+  sites.sitename <- unique(groa_sub$sites.sitename)
+  plot.name <- unique(groa_sub$plot.name)
+  plot.area <- ifelse(is.na(unique(groa_sub$n * groa_sub$plot.size)), "NAC", unique(groa_sub$n * groa_sub$plot.size))
+  refor.type <- unique(groa_sub$refor.type)
+
+  if(s_p %in% paste(forc_data$HISTORY$sites.sitename, forc_data$HISTORY$plot.name)) {
+    cat("Found site", sites.sitename, "\n")
+  } else {
+    
+    if(length(refor.type) > 1) stop("there is more than 1 refor.type for this site")
+    
+    if(length(refor.type) == 1) {
+      
+    
+      date <- unique(groa_sub$date)
+      stand.age <- unique(groa_sub$stand.age)
+
+      ## date age discrepancy
+      if(length(date) > 1 & any(!is.na(stand.age) & length(stand.age) == 1)) { # Here lets assume that the age applies to the first year of measurements
+        s_p.with.age.date.discrepancy <- c(s_p.with.age.date.discrepancy, s_p)
+        Study_midyear <- Study_midyear[1]
+      }
+      
+      ## chronosequence issue
+      if(length(date) == 1 & (length(stand.age) > 1) ) { 
+        s_p.with.chronosequence.to.fix <- c(s_p.with.chronosequence.to.fix, s_p)
+        warning("chronosequence issue")
+        stand.age <- stand.age[1]
+      }
+      
+      
+      ## other issues
+      if((length(date) > 1 & any(is.na(date))) | (length(stand.age) > 1 & any(is.na(stand.age)))) { 
+        s_p.with.other.date.age.issues.to.fix <- c(s_p.with.other.date.age.issues.to.fix, s_p)
+        warning("chronosequence issue")
+        date <- date[!is.na(date)][1]
+        stand.age <- stand.age[!is.na(stand.age)][1]
+      }
+      
+      
+      
+      
+      if(refor.type %in% "SNR") {
+        
+        event.sequence <- 1:3
+        hist.cat <- c("Disturbance", "Establishment", "Regrowth")
+        hist.type <- c(ifelse(refor.type %in% "C", 'Cultivation', 
+                              ifelse(refor.type %in% "SC", "Shifting cultivation",
+                                     ifelse(refor.type %in% "H", "Harvest",
+                                            ifelse(refor.type %in% "F", "Burned",
+                                                   ifelse(refor.type %in% "D", "NAC",
+                                                          ifelse(refor.type %in% "PA", "Grazed",
+                                                                 ifelse(refor.type %in% "OG", "No severe disturbance", NA))))))))
+      } # if(refor.type %in% "SNR"
+      
+      if(refor.type %in% "OG") {
+        
+      } # if(refor.type %in% "OG")
+      
+      hist.cat = c("Establishement", "Regrowth", manip_conversion[, c("Hist.cat", "Hist.cat2", "Hist.cat3")])
+      hist.type = c("Establishment of oldest trees", "Initiation of post-disturbance cohort (planted or natural)", manip_conversion[, c("Hist.type", "Hist.type2", "Hist.type3")])
+      
+      event.sequence = seq(hist.cat)
+      
+      date = unique(ifelse(!is.na(Study_midyear - Age_disturbance), floor(Study_midyear - Age_disturbance),
+                           ifelse(!is.na(Study_midyear - Age_ecosystem), floor((Study_midyear - Age_ecosystem)), "NAC")))
+      
+      date = c(rep(date, 2), rep("NAC", length(hist.cat) - 2))
+      
+      date.loc = "NAC"
+      
+      est.regrowth.assumed.same.year = c(1, 1, rep(NA, length(hist.cat) - 2))
+      
+      level = c(NA, NA, rep("NAC", length(hist.cat) - 2))
+      units = NA
+      
+      percent.mortality = c(NA, NA, manip_conversion[, c("percent.mortality", "percent.mortality2", "percent.mortality3")])
+      hist.notes = c(NA, NA, rep(unique(paste(groa_sub$Manipulation, groa_sub$Manipulation_level)), length(hist.cat) -2))
+  
+
+      rows.to.add <- data.frame( #####
+                                 history.ID = ceiling(max(forc_data$HISTORY$history.ID)) + seq(event.sequence) / 100,
+                                 sites.sitename,
+                                 plot.name,
+                                 plot.area,
+                                 event.sequence = as.character(event.sequence),
+                                 date,
+                                 date.loc,
+                                 hist.cat = unlist(hist.cat),
+                                 hist.type = unlist(hist.type),
+                                 est.regrowth.assumed.same.year,
+                                 level,
+                                 units,
+                                 percent.mortality = unlist(percent.mortality),
+                                 hist.notes,
+                                 NEW_RECORD = TRUE,
+                                 stringsAsFactors = F
+      )
+      
+      rows.to.add <- rows.to.add[!is.na(rows.to.add$hist.cat),]
+      
+      
+      forc_data$HISTORY <-  bind_rows(forc_data$HISTORY, rows.to.add)
+    } # if(length(manip) == 1)
+  } #  if(sites.sitename %in% forc_data$HISTORY$sites.sitename)
+  
+} # for(s_p in site_plots) {
+
+
+
+
+
 
 cat("All done.\n")
 
@@ -277,9 +484,19 @@ cat("All done.\n")
 
 sum(ForC_data$CITATIONS$NEW_RECORD)
 sum(ForC_data$MEASUREMENTS$NEW_RECORD)
-sum(ForC_data$METHODOLOGY$NEW_RECORD)
 sum(ForC_data$SITES$NEW_RECORD)
+sum(ForC_data$SITES$OLD_RECORD)
 
 write.csv(filter(ForC_data$SITES, NEW_RECORD==TRUE), "new_data/new_SITES.csv", row.names = F)
 write.csv(filter(ForC_data$CITATIONS, NEW_RECORD==TRUE), "new_data/new_CITATIONS.csv", row.names = F)
 write.csv(filter(ForC_data$MEASUREMENTS, NEW_RECORD==TRUE), "new_data/new_MEASUREMENTS.csv", row.names = F)
+
+old_sites <-  data.frame(FROM = "GROA", filter(ForC_data$SITES, OLD_RECORD==TRUE))
+
+old_SITES_from_ForC <- data.frame(FROM = "ForC", ForC_data$SITES[ForC_data$SITES$sites.sitename %in% old_sites$sites.sitename & ForC_data$SITES$OLD_RECORD %in% F,])
+
+old_sites <- rbind(old_SITES_from_ForC, old_sites)
+old_sites <- old_sites[order(old_sites$sites.sitename),]
+old_sites
+write.csv(old_sites, "new_data/old_SITES.csv", row.names = F)
+
