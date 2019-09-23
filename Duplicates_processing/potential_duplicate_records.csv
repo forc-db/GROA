@@ -1,0 +1,345 @@
+﻿From,measurement.ID,sites.sitename,plot.name,stand.age,citation.ID,variable.name,mean,GROA.measurement.ID,Notes,corrected.in.ForC,for.list,entered.list,double.checked.in.list
+ForC,15920,Virgen Maria,Premontane Rain Forest recovery following pasture abandonment,10,Cifuentes-Jara_2008_abae,biomass_ag_OM,50.6,NA,incorrect math; stnd dev. used instead of mean of trees under <10cm DBH; trees only,1,duplicate of 4816,1,1
+ForC,15921,Virgen Maria,Premontane Rain Forest recovery following pasture abandonment,10,Cifuentes-Jara_2008_abae,biomass_ag_OM,54.7,NA,incorrect math; stnd dev. used instead of mean of trees under <10cm DBH; palms+lianas+herbaceous+trees,1,NA,1,1
+GROA,4816,Virgen Maria,3330,10,Cifuentes-Jara_2008_abae,biomass_ag_OM,65,4816,trees only,0,duplicate of 15920,1,1
+ForC,7542,Kembera,Forest recovery following long-fallow (20-yr) shifting cultivation.10 cycles.Kemaong Bawas,10,Lawrence_2005_baay,biomass_ag_OM,76,NA,site= Kemaong Bawas,0,NA,1,1
+ForC,7543,Kembera,Forest recovery following long-fallow (20-yr) shifting cultivation.10 cycles.Kumai,10,Lawrence_2005_baay,biomass_ag_OM,70,NA,site= Kumai,0,NA,1,1
+ForC,7546,Kembera,Forest recovery following long-fallow (20-yr) shifting cultivation.4 cycles.Yayau 3,10,Lawrence_2005_baay,biomass_ag_OM,73.6,NA,site= Yayau 3,1,duplicate of 3003,1,1
+ForC,7549,Kembera,Forest recovery following long-fallow (20-yr) shifting cultivation.6 cycles.Diadn Tongang,10,Lawrence_2005_baay,biomass_ag_OM,57,NA,site=Diadh Tongang,0,NA,1,1
+GROA,3003,Kembera,2483,10,Lawrence_2005_baay,biomass_ag_OM,73,3003,site= Yayau 3,0,duplicate of 7546,1,1
+ForC,7543,Kembera,Forest recovery following long-fallow (20-yr) shifting cultivation.10 cycles.Kumai,10,Lawrence_2005_baay,biomass_ag_OM,70,NA,site= Kumai,1,duplicate of 3008,1,1
+ForC,7546,Kembera,Forest recovery following long-fallow (20-yr) shifting cultivation.4 cycles.Yayau 3,10,Lawrence_2005_baay,biomass_ag_OM,73.6,NA,site= Yayau 3,0,NA,1,1
+ForC,7549,Kembera,Forest recovery following long-fallow (20-yr) shifting cultivation.6 cycles.Diadn Tongang,10,Lawrence_2005_baay,biomass_ag_OM,57,NA,site= Diadh Tongang,0,NA,1,1
+GROA,3008,Kembera,2488,10,Lawrence_2005_baay,biomass_ag_OM,71,3008,site= Kembera Kumai,0,duplicate of 7543,1,1
+ForC,11579,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,biomass_ag_OM,142,NA,ForC measurements incorrect,1,duplicate of 5366,1,1
+ForC,11580,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,biomass_ag_OM,101.8,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11581,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,biomass_ag_OM,135.3,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11582,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,biomass_ag_OM,101.8,NA,ForC measurements incorrect,1,NA,1,1
+GROA,5366,Porce II chronosequence 2,3662,19,Sierra_2012_tcai,biomass_ag_OM,141.3,5366,NA,0,duplicate of 11579,1,1
+ForC,11579,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,biomass_ag_OM,142,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11580,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,biomass_ag_OM,101.8,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11581,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,biomass_ag_OM,135.3,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11582,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,biomass_ag_OM,101.8,NA,ForC measurements incorrect,1,duplicate of 5372,1,1
+GROA,5372,Porce II chronosequence 2,3663,19,Sierra_2012_tcai,biomass_ag_OM,100.7,5372,NA,0,duplicate of 11579,1,1
+ForC,11563,Porce II chronosequence 2,Forest recovery following agricultural abandonment.18y,18,Sierra_2012_tcai,biomass_ag_OM,75.8,NA,ForC measurements incorrect,1,duplicate of 5378,1,1
+ForC,11564,Porce II chronosequence 2,Forest recovery following agricultural abandonment.18y,18,Sierra_2012_tcai,biomass_ag_OM,62.1,NA,ForC measurements incorrect,1,NA,1,1
+GROA,5378,Porce II chronosequence 2,3664,18,Sierra_2012_tcai,biomass_ag_OM,75,5378,NA,0,duplicate of 11563,1,1
+ForC,11598,Porce II chronosequence 2,Forest recovery following agricultural abandonment.27y,27,Sierra_2012_tcai,biomass_ag_OM,216.2,NA,ForC measurements incorrect,1,duplicate of 5384,1,1
+ForC,11599,Porce II chronosequence 2,Forest recovery following agricultural abandonment.27y,27,Sierra_2012_tcai,biomass_ag_OM,105.6,NA,ForC measurements incorrect,1,NA,1,1
+GROA,5384,Porce II chronosequence 2,3665,27,Sierra_2012_tcai,biomass_ag_OM,215.4,5384,NA,0,duplicate of 11598,1,1
+ForC,11650,Porce II chronosequence 2,Forest recovery following agricultural abandonment.7y,7,Sierra_2012_tcai,biomass_ag_OM,71.9,NA,ForC measurements incorrect,1,duplicate of 5390,1,1
+ForC,11651,Porce II chronosequence 2,Forest recovery following agricultural abandonment.7y,7,Sierra_2012_tcai,biomass_ag_OM,48.6,NA,ForC measurements incorrect,1,NA,1,1
+GROA,5390,Porce II chronosequence 2,3666,7,Sierra_2012_tcai,biomass_ag_OM,70.5,5390,NA,0,duplicate of 11650,1,1
+ForC,11623,Porce II chronosequence 2,Forest recovery following agricultural abandonment.36y,36,Sierra_2012_tcai,biomass_ag_OM,401.4,NA,ForC measurements incorrect,1,duplicate of 5396,1,1
+GROA,5396,Porce II chronosequence 2,3667,36,Sierra_2012_tcai,biomass_ag_OM,400.5,5396,should be 400.4,0,duplicate of 11623,1,1
+ForC,11554,Porce II chronosequence 2,Forest recovery following agricultural abandonment.17y,17,Sierra_2012_tcai,biomass_ag_OM,202.6,NA,ForC measurements incorrect,1,duplicate of 5402,1,1
+GROA,5402,Porce II chronosequence 2,3668,17,Sierra_2012_tcai,biomass_ag_OM,202,5402,NA,0,duplicate of 11554,1,1
+ForC,11617,Porce II chronosequence 2,Forest recovery following agricultural abandonment.30y,30,Sierra_2012_tcai,biomass_ag_OM,189.5,NA,ForC measurements incorrect,1,duplicate of 5408,1,1
+GROA,5408,Porce II chronosequence 2,3669,30,Sierra_2012_tcai,biomass_ag_OM,188.8,5408,NA,0,duplicate of 11617,1,1
+ForC,11527,Porce II chronosequence 2,Forest recovery following agricultural abandonment.14y,14,Sierra_2012_tcai,biomass_ag_OM,128.1,NA,ForC measurements incorrect,1,duplicate of 5414,1,1
+ForC,11528,Porce II chronosequence 2,Forest recovery following agricultural abandonment.14y,14,Sierra_2012_tcai,biomass_ag_OM,70.8,NA,ForC measurements incorrect,1,NA,1,1
+GROA,5414,Porce II chronosequence 2,3670,14,Sierra_2012_tcai,biomass_ag_OM,127.2,5414,NA,0,duplicate of 11527,1,1
+ForC,11607,Porce II chronosequence 2,Forest recovery following agricultural abandonment.29y,29,Sierra_2012_tcai,biomass_ag_OM,179.3,NA,ForC measurements incorrect,1,duplicate of 5420,1,1
+GROA,5420,Porce II chronosequence 2,3671,29,Sierra_2012_tcai,biomass_ag_OM,178.7,5420,NA,0,duplicate of 11607,1,1
+ForC,11512,Porce II chronosequence 2,Forest recovery following agricultural abandonment.10y,10,Sierra_2012_tcai,biomass_ag_OM,79.8,NA,ForC measurements incorrect,1,duplicate of 5426,1,1
+GROA,5426,Porce II chronosequence 2,3672,10,Sierra_2012_tcai,biomass_ag_OM,79,5426,NA,0,duplicate of 11512,1,1
+ForC,11590,Porce II chronosequence 2,Forest recovery following agricultural abandonment.21y,21,Sierra_2012_tcai,biomass_ag_OM,77,NA,ForC measurements incorrect,1,duplicate of 5432,1,1
+GROA,5432,Porce II chronosequence 2,3673,21,Sierra_2012_tcai,biomass_ag_OM,76.2,5432,NA,0,duplicate of 11590,1,1
+ForC,11563,Porce II chronosequence 2,Forest recovery following agricultural abandonment.18y,18,Sierra_2012_tcai,biomass_ag_OM,75.8,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11564,Porce II chronosequence 2,Forest recovery following agricultural abandonment.18y,18,Sierra_2012_tcai,biomass_ag_OM,62.1,NA,ForC measurements incorrect,1,duplicate of 5438,1,1
+GROA,5438,Porce II chronosequence 2,3674,18,Sierra_2012_tcai,biomass_ag_OM,61.3,5438,NA,0,duplicate of 11564,1,1
+ForC,11650,Porce II chronosequence 2,Forest recovery following agricultural abandonment.7y,7,Sierra_2012_tcai,biomass_ag_OM,71.9,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11651,Porce II chronosequence 2,Forest recovery following agricultural abandonment.7y,7,Sierra_2012_tcai,biomass_ag_OM,48.6,NA,ForC measurements incorrect,1,duplicate of 5444,1,1
+GROA,5444,Porce II chronosequence 2,3675,7,Sierra_2012_tcai,biomass_ag_OM,47.8,5444,NA,0,duplicate of 11651,1,1
+ForC,11545,Porce II chronosequence 2,Forest recovery following agricultural abandonment.15y,15,Sierra_2012_tcai,biomass_ag_OM,50.4,NA,ForC measurements incorrect,1,duplicate of 5450,1,1
+ForC,11546,Porce II chronosequence 2,Forest recovery following agricultural abandonment.15y,15,Sierra_2012_tcai,biomass_ag_OM,112.2,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11547,Porce II chronosequence 2,Forest recovery following agricultural abandonment.15y,15,Sierra_2012_tcai,biomass_ag_OM,84.3,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11548,Porce II chronosequence 2,Forest recovery following agricultural abandonment.15y,15,Sierra_2012_tcai,biomass_ag_OM,79.7,NA,ForC measurements incorrect,1,NA,1,1
+GROA,5450,Porce II chronosequence 2,3676,15,Sierra_2012_tcai,biomass_ag_OM,49.6,5450,NA,0,duplicate of 11545,1,1
+ForC,11579,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,biomass_ag_OM,142,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11580,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,biomass_ag_OM,101.8,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11581,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,biomass_ag_OM,135.3,NA,ForC measurements incorrect,1,duplicate of 5456,1,1
+ForC,11582,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,biomass_ag_OM,101.8,NA,ForC measurements incorrect,1,NA,1,1
+GROA,5456,Porce II chronosequence 2,3677,19,Sierra_2012_tcai,biomass_ag_OM,133.5,5456,NA,0,duplicate of 11581,1,1
+ForC,11579,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,biomass_ag_OM,142,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11580,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,biomass_ag_OM,101.8,NA,ForC measurements incorrect,1,duplicate of 5462,1,1
+ForC,11581,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,biomass_ag_OM,135.3,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11582,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,biomass_ag_OM,101.8,NA,ForC measurements incorrect,1,NA,1,1
+GROA,5462,Porce II chronosequence 2,3678,19,Sierra_2012_tcai,biomass_ag_OM,100.9,5462,NA,0,duplicate of 11580,1,1
+ForC,11545,Porce II chronosequence 2,Forest recovery following agricultural abandonment.15y,15,Sierra_2012_tcai,biomass_ag_OM,50.4,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11546,Porce II chronosequence 2,Forest recovery following agricultural abandonment.15y,15,Sierra_2012_tcai,biomass_ag_OM,112.2,NA,ForC measurements incorrect,1,duplicate of 5468,1,1
+ForC,11547,Porce II chronosequence 2,Forest recovery following agricultural abandonment.15y,15,Sierra_2012_tcai,biomass_ag_OM,84.3,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11548,Porce II chronosequence 2,Forest recovery following agricultural abandonment.15y,15,Sierra_2012_tcai,biomass_ag_OM,79.7,NA,ForC measurements incorrect,1,NA,1,1
+GROA,5468,Porce II chronosequence 2,3679,15,Sierra_2012_tcai,biomass_ag_OM,111,5468,NA,0,duplicate of 11546,1,1
+ForC,11593,Porce II chronosequence 2,Forest recovery following agricultural abandonment.24y,24,Sierra_2012_tcai,biomass_ag_OM,97.4,NA,ForC measurements incorrect,1,duplicate of 5474,1,1
+GROA,5474,Porce II chronosequence 2,3680,24,Sierra_2012_tcai,biomass_ag_OM,96.7,5474,NA,1,duplicate of 11593,1,1
+ForC,11658,Porce II chronosequence 2,Forest recovery following agricultural abandonment.9y,9,Sierra_2012_tcai,biomass_ag_OM,51,NA,ForC measurements incorrect,1,duplicate of 5480,1,1
+ForC,11659,Porce II chronosequence 2,Forest recovery following agricultural abandonment.9y,9,Sierra_2012_tcai,biomass_ag_OM,57.7,NA,ForC measurements incorrect,1,NA,1,1
+GROA,5480,Porce II chronosequence 2,3681,9,Sierra_2012_tcai,biomass_ag_OM,50.2,5480,NA,0,duplicate of 11658,1,1
+ForC,11598,Porce II chronosequence 2,Forest recovery following agricultural abandonment.27y,27,Sierra_2012_tcai,biomass_ag_OM,216.2,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11599,Porce II chronosequence 2,Forest recovery following agricultural abandonment.27y,27,Sierra_2012_tcai,biomass_ag_OM,105.6,NA,ForC measurements incorrect,1,duplicate of 5486,1,1
+GROA,5486,Porce II chronosequence 2,3682,27,Sierra_2012_tcai,biomass_ag_OM,104.9,5486,NA,0,duplicate of 11599,1,1
+ForC,11545,Porce II chronosequence 2,Forest recovery following agricultural abandonment.15y,15,Sierra_2012_tcai,biomass_ag_OM,50.4,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11546,Porce II chronosequence 2,Forest recovery following agricultural abandonment.15y,15,Sierra_2012_tcai,biomass_ag_OM,112.2,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11547,Porce II chronosequence 2,Forest recovery following agricultural abandonment.15y,15,Sierra_2012_tcai,biomass_ag_OM,84.3,NA,ForC measurements incorrect,1,duplicate of 5492,1,1
+ForC,11548,Porce II chronosequence 2,Forest recovery following agricultural abandonment.15y,15,Sierra_2012_tcai,biomass_ag_OM,79.7,NA,ForC measurements incorrect,1,NA,1,1
+GROA,5492,Porce II chronosequence 2,3683,15,Sierra_2012_tcai,biomass_ag_OM,83.6,5492,NA,0,duplicate of 11547,1,1
+ForC,11545,Porce II chronosequence 2,Forest recovery following agricultural abandonment.15y,15,Sierra_2012_tcai,biomass_ag_OM,50.4,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11546,Porce II chronosequence 2,Forest recovery following agricultural abandonment.15y,15,Sierra_2012_tcai,biomass_ag_OM,112.2,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11547,Porce II chronosequence 2,Forest recovery following agricultural abandonment.15y,15,Sierra_2012_tcai,biomass_ag_OM,84.3,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11548,Porce II chronosequence 2,Forest recovery following agricultural abandonment.15y,15,Sierra_2012_tcai,biomass_ag_OM,79.7,NA,ForC measurements incorrect,1,duplicate of 5498,1,1
+GROA,5498,Porce II chronosequence 2,3684,15,Sierra_2012_tcai,biomass_ag_OM,78.8,5498,NA,0,duplicate of 11548,1,1
+ForC,11517,Porce II chronosequence 2,Forest recovery following agricultural abandonment.13y,13,Sierra_2012_tcai,biomass_ag_OM,51.1,NA,ForC measurements incorrect,1,duplicate of 5504,1,1
+GROA,5504,Porce II chronosequence 2,3685,13,Sierra_2012_tcai,biomass_ag_OM,50.3,5504,NA,0,duplicate of 11517,1,1
+ForC,11658,Porce II chronosequence 2,Forest recovery following agricultural abandonment.9y,9,Sierra_2012_tcai,biomass_ag_OM,51,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11659,Porce II chronosequence 2,Forest recovery following agricultural abandonment.9y,9,Sierra_2012_tcai,biomass_ag_OM,57.7,NA,ForC measurements incorrect,1,duplicate of 5510,1,1
+GROA,5510,Porce II chronosequence 2,3686,9,Sierra_2012_tcai,biomass_ag_OM,56.9,5510,NA,0,duplicate of 11659,1,1
+ForC,11527,Porce II chronosequence 2,Forest recovery following agricultural abandonment.14y,14,Sierra_2012_tcai,biomass_ag_OM,128.1,NA,ForC measurements incorrect,1,NA,1,1
+ForC,11528,Porce II chronosequence 2,Forest recovery following agricultural abandonment.14y,14,Sierra_2012_tcai,biomass_ag_OM,70.8,NA,ForC measurements incorrect,1,duplicate of 5516,1,1
+GROA,5516,Porce II chronosequence 2,3687,14,Sierra_2012_tcai,biomass_ag_OM,70.1,5516,NA,0,duplicate of 11528,1,1
+ForC,12583,S village Karen area swidden cultivation fallow chronosequence,Forest recovery following shifting cultivation.1-y,1,Fukushima_2007_rpof,biomass_ag_OM,6.6,NA,NA,0,NA,1,1
+ForC,12584,S village Karen area swidden cultivation fallow chronosequence,Forest recovery following shifting cultivation.1-y,1,Fukushima_2007_rpof,biomass_ag_OM,0.1,NA,ForC measurement correct,0,duplicate of 5599,1,1
+GROA,5599,S village Karen area swidden cultivation fallow chronosequence,9152,1,Fukushima_2007_rpof,biomass_ag_OM,42.7,5599,should be 0.1,0,duplicate of 12584,1,1
+ForC,16960,Y site,natural regeneration of ponderosa pine forest 21 years since clearcut,21,Law_2001_csaf,organic.layer_C,7.08,NA,ForC measurement correct,0,NA,1,1
+GROA,5730,Y site,3730,21,Law_2001_csaf,organic.layer_C,41.65,5730,Sum of various debris; litter pools,0,NA,1,1
+ForC,4699,El Eden Ecological Reserve fire chronosequence,Forest recovery following fire.4-y,4,Vargas_2008_baca,biomass_ag_OM,20.6,NA,total AGB-dead wood,0,NA,1,1
+GROA,4424,El Eden Ecological Reserve fire chronosequence,3280,4,Vargas_2008_baca,biomass_ag_OM,9.8,4424,took greater than 10 DBH,0,NA,1,1
+ForC,4700,El Eden Ecological Reserve fire chronosequence,Forest recovery following fire.4-y,5,Vargas_2008_baca,biomass_ag_OM,19.8,NA,total AGB-dead wood,0,NA,1,1
+GROA,4425,El Eden Ecological Reserve fire chronosequence,3280,5,Vargas_2008_baca,biomass_ag_OM,10.8,4425,took greater than 10 DBH,0,NA,1,1
+ForC,4707,El Eden Ecological Reserve fire chronosequence,Forest recovery following fire.8-y,8,Vargas_2008_baca,biomass_ag_OM,33.7,NA,total AGB-dead wood,0,NA,1,1
+GROA,4432,El Eden Ecological Reserve fire chronosequence,3281,8,Vargas_2008_baca,biomass_ag_OM,30,4432,took greater than 10 DBH,0,NA,1,1
+ForC,4708,El Eden Ecological Reserve fire chronosequence,Forest recovery following fire.8-y,9,Vargas_2008_baca,biomass_ag_OM,36.9,NA,total AGB-dead wood,0,NA,1,1
+GROA,4433,El Eden Ecological Reserve fire chronosequence,3281,9,Vargas_2008_baca,biomass_ag_OM,31.2,4433,took greater than 10 DBH,0,NA,1,1
+ForC,4683,El Eden Ecological Reserve fire chronosequence,Forest recovery following fire.14-y,14,Vargas_2008_baca,biomass_ag_OM,51.9,NA,total AGB-dead wood,0,NA,1,1
+GROA,4440,El Eden Ecological Reserve fire chronosequence,3282,14,Vargas_2008_baca,biomass_ag_OM,45.8,4440,took greater than 10 DBH,0,NA,1,1
+ForC,4684,El Eden Ecological Reserve fire chronosequence,Forest recovery following fire.14-y,15,Vargas_2008_baca,biomass_ag_OM,61.9,NA,total AGB-dead wood,0,NA,1,1
+GROA,4441,El Eden Ecological Reserve fire chronosequence,3282,15,Vargas_2008_baca,biomass_ag_OM,55.1,4441,took greater than 10 DBH,0,NA,1,1
+ForC,4691,El Eden Ecological Reserve fire chronosequence,Forest recovery following fire.28-y,28,Vargas_2008_baca,biomass_ag_OM,77.7,NA,total AGB-dead wood,0,NA,1,1
+GROA,4448,El Eden Ecological Reserve fire chronosequence,3283,28,Vargas_2008_baca,biomass_ag_OM,76.9,4448,took greater than 10 DBH,0,NA,1,1
+ForC,4692,El Eden Ecological Reserve fire chronosequence,Forest recovery following fire.28-y,29,Vargas_2008_baca,biomass_ag_OM,75.4,NA,total AGB-dead wood,0,NA,1,1
+GROA,4449,El Eden Ecological Reserve fire chronosequence,3283,29,Vargas_2008_baca,biomass_ag_OM,72.9,4449,took greater than 10 DBH,0,NA,1,1
+ForC,10830,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,10,Becknell_2014_saas,biomass_ag_OM,50.8,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1148,Parque Nacional Palo Verde: area de Conservacion Tempisque,1793,10,Becknell_2014_saas,biomass_ag_OM,1.7,1148,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10831,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,12,Becknell_2014_saas,biomass_ag_OM,64.8,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1150,Parque Nacional Palo Verde: area de Conservacion Tempisque,1795,12,Becknell_2014_saas,biomass_ag_OM,97.9,1150,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10834,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,15,Becknell_2014_saas,biomass_ag_OM,104.4,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1151,Parque Nacional Palo Verde: area de Conservacion Tempisque,1796,15,Becknell_2014_saas,biomass_ag_OM,95.4,1151,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10837,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,21,Becknell_2014_saas,biomass_ag_OM,132.7,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1154,Parque Nacional Palo Verde: area de Conservacion Tempisque,1799,21,Becknell_2014_saas,biomass_ag_OM,133.6,1154,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10839,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,25,Becknell_2014_saas,biomass_ag_OM,126.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1155,Parque Nacional Palo Verde: area de Conservacion Tempisque,1800,25,Becknell_2014_saas,biomass_ag_OM,100.3,1155,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10839,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,25,Becknell_2014_saas,biomass_ag_OM,126.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1156,Parque Nacional Palo Verde: area de Conservacion Tempisque,1801,25,Becknell_2014_saas,biomass_ag_OM,164.8,1156,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10839,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,25,Becknell_2014_saas,biomass_ag_OM,126.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1157,Parque Nacional Palo Verde: area de Conservacion Tempisque,1802,25,Becknell_2014_saas,biomass_ag_OM,90.3,1157,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10839,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,25,Becknell_2014_saas,biomass_ag_OM,126.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1158,Parque Nacional Palo Verde: area de Conservacion Tempisque,1803,25,Becknell_2014_saas,biomass_ag_OM,65.7,1158,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10840,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,30,Becknell_2014_saas,biomass_ag_OM,114,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1159,Parque Nacional Palo Verde: area de Conservacion Tempisque,1804,30,Becknell_2014_saas,biomass_ag_OM,200.4,1159,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10840,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,30,Becknell_2014_saas,biomass_ag_OM,114,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1160,Parque Nacional Palo Verde: area de Conservacion Tempisque,1805,30,Becknell_2014_saas,biomass_ag_OM,128.5,1160,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10829,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,8,Becknell_2014_saas,biomass_ag_OM,75,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1166,Parque Nacional Palo Verde: area de Conservacion Tempisque,1811,8,Becknell_2014_saas,biomass_ag_OM,52.3,1166,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10831,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,12,Becknell_2014_saas,biomass_ag_OM,64.8,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1168,Parque Nacional Palo Verde: area de Conservacion Tempisque,1813,12,Becknell_2014_saas,biomass_ag_OM,91.5,1168,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10832,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,13,Becknell_2014_saas,biomass_ag_OM,61.7,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1169,Parque Nacional Palo Verde: area de Conservacion Tempisque,1814,13,Becknell_2014_saas,biomass_ag_OM,50.2,1169,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10834,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,15,Becknell_2014_saas,biomass_ag_OM,104.4,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1170,Parque Nacional Palo Verde: area de Conservacion Tempisque,1815,15,Becknell_2014_saas,biomass_ag_OM,88.1,1170,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10834,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,15,Becknell_2014_saas,biomass_ag_OM,104.4,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1171,Parque Nacional Palo Verde: area de Conservacion Tempisque,1816,15,Becknell_2014_saas,biomass_ag_OM,39.2,1171,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10835,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,17,Becknell_2014_saas,biomass_ag_OM,149.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1172,Parque Nacional Palo Verde: area de Conservacion Tempisque,1817,17,Becknell_2014_saas,biomass_ag_OM,79.8,1172,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10839,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,25,Becknell_2014_saas,biomass_ag_OM,126.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1177,Parque Nacional Palo Verde: area de Conservacion Tempisque,1822,25,Becknell_2014_saas,biomass_ag_OM,172,1177,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10839,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,25,Becknell_2014_saas,biomass_ag_OM,126.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1178,Parque Nacional Palo Verde: area de Conservacion Tempisque,1823,25,Becknell_2014_saas,biomass_ag_OM,175.9,1178,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10839,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,25,Becknell_2014_saas,biomass_ag_OM,126.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1179,Parque Nacional Palo Verde: area de Conservacion Tempisque,1824,25,Becknell_2014_saas,biomass_ag_OM,176.1,1179,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10839,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,25,Becknell_2014_saas,biomass_ag_OM,126.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1180,Parque Nacional Palo Verde: area de Conservacion Tempisque,1825,25,Becknell_2014_saas,biomass_ag_OM,89.3,1180,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10842,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,35,Becknell_2014_saas,biomass_ag_OM,148.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1181,Parque Nacional Palo Verde: area de Conservacion Tempisque,1826,35,Becknell_2014_saas,biomass_ag_OM,177.1,1181,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10842,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,35,Becknell_2014_saas,biomass_ag_OM,148.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1182,Parque Nacional Palo Verde: area de Conservacion Tempisque,1827,35,Becknell_2014_saas,biomass_ag_OM,370.9,1182,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10842,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,35,Becknell_2014_saas,biomass_ag_OM,148.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1183,Parque Nacional Palo Verde: area de Conservacion Tempisque,1828,35,Becknell_2014_saas,biomass_ag_OM,85.8,1183,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10842,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,35,Becknell_2014_saas,biomass_ag_OM,148.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1184,Parque Nacional Palo Verde: area de Conservacion Tempisque,1829,35,Becknell_2014_saas,biomass_ag_OM,174.5,1184,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10842,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,35,Becknell_2014_saas,biomass_ag_OM,148.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1185,Parque Nacional Palo Verde: area de Conservacion Tempisque,1830,35,Becknell_2014_saas,biomass_ag_OM,161.4,1185,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10842,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,35,Becknell_2014_saas,biomass_ag_OM,148.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1186,Parque Nacional Palo Verde: area de Conservacion Tempisque,1831,35,Becknell_2014_saas,biomass_ag_OM,88.8,1186,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10843,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,50,Becknell_2014_saas,biomass_ag_OM,153.4,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1197,Parque Nacional Palo Verde: area de Conservacion Tempisque,1842,50,Becknell_2014_saas,biomass_ag_OM,162.9,1197,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10843,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,50,Becknell_2014_saas,biomass_ag_OM,153.4,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1198,Parque Nacional Palo Verde: area de Conservacion Tempisque,1843,50,Becknell_2014_saas,biomass_ag_OM,341.8,1198,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10843,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,50,Becknell_2014_saas,biomass_ag_OM,153.4,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1199,Parque Nacional Palo Verde: area de Conservacion Tempisque,1844,50,Becknell_2014_saas,biomass_ag_OM,124.7,1199,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10844,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,60,Becknell_2014_saas,biomass_ag_OM,101.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10845,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,60,Becknell_2014_saas,biomass_ag_OM,204.3,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1200,Parque Nacional Palo Verde: area de Conservacion Tempisque,1845,60,Becknell_2014_saas,biomass_ag_OM,161.6,1200,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10844,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,60,Becknell_2014_saas,biomass_ag_OM,101.2,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,10845,Parque Nacional Palo Verde: area de Conservacion Tempisque,Forest recovery following pasture and agricultural abandonment,60,Becknell_2014_saas,biomass_ag_OM,204.3,NA,different stand ages; correct in both sets; naming error,0,NA,1,1
+GROA,1201,Parque Nacional Palo Verde: area de Conservacion Tempisque,1846,60,Becknell_2014_saas,biomass_ag_OM,103.1,1201,different stand ages; correct in both sets; naming error,0,NA,1,1
+ForC,15564,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.18-y,18,White_2004_baas,biomass_ag_OM,12.0469,NA,min. dbh 9.5,0,NA,1,1
+GROA,3088,University of Michigan Biological Station burn and clearcut experimental plots,2505,18,White_2004_baas,biomass_ag_OM,18,3088,"Correct Total Aboveground Biomass,  min dbh 1.5",0,NA,1,1
+ForC,15566,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.44-y,44,White_2004_baas,biomass_ag_OM,52.5225,NA,min. dbh 9.5,0,NA,1,1
+GROA,13641,University of Michigan Biological Station burn and clearcut experimental plots,9731,44,White_2004_baas,biomass_ag_OM,70.3,13641,"Correct Total Aboveground Biomass,  min dbh 1.5",0,NA,1,1
+ForC,15568,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.50-y,50,White_2004_baas,biomass_ag_OM,67.7028,NA,min. dbh 9.5,0,NA,1,1
+GROA,13642,University of Michigan Biological Station burn and clearcut experimental plots,9732,50,White_2004_baas,biomass_ag_OM,87.9,13642,"Correct Total Aboveground Biomass,  min dbh 1.5",0,NA,1,1
+ForC,15570,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.62-y,62,White_2004_baas,biomass_ag_OM,44.7507,NA,min. dbh 9.5,0,NA,1,1
+GROA,13643,University of Michigan Biological Station burn and clearcut experimental plots,9733,62,White_2004_baas,biomass_ag_OM,69.2,13643,"Correct Total Aboveground Biomass, min. dbh 1.5",0,NA,1,1
+ForC,15572,University of Michigan Biological Station burn and clearcut experimental plots,Forest recovery following 1911 wildfire and subequent small-prescribed burns and clearcuts.87-y,87,White_2004_baas,biomass_ag_OM,106.106,NA,min. dbh 9.5,0,NA,1,1
+GROA,13644,University of Michigan Biological Station burn and clearcut experimental plots,9734,87,White_2004_baas,biomass_ag_OM,139.4,13644,"Correct Total Aboveground Biomass, min dbh 1.5",0,NA,1,1
+ForC,5112,Fazenda Vitoria,Forest recovery following 1984 pasture abandonment,6,Davidson_2004_napl,biomass_ag_OM,6,NA,"1999; ""36% of 13.4?""",0,NA,,
+GROA,3012,Fazenda Vitoria,1266,6,Davidson_2004_napl,biomass_ag_OM,7.5,3012,all biomass >2cm; 1999,0,NA,,
+ForC,5113,Fazenda Vitoria,Forest recovery following 1984 pasture abandonment,7,Davidson_2004_napl,biomass_ag_OM,8,NA,2000,0,NA,,
+GROA,3013,Fazenda Vitoria,1266,7,Davidson_2004_napl,biomass_ag_OM,10.5,3013,all biomass >2cm; 2000,0,NA,,
+ForC,5114,Fazenda Vitoria,Forest recovery following 1984 pasture abandonment,8,Davidson_2004_napl,biomass_ag_OM,9.6,NA,2001,0,NA,,
+GROA,3014,Fazenda Vitoria,1266,8,Davidson_2004_napl,biomass_ag_OM,12.6,3014,all biomass >2cm; 2001,0,NA,,
+ForC,3354,Chippewa National Forest chronosequence,37 years,37,Powers_2012_csaa,biomass_C,100.72,NA,Potential addition error from either database; no access to raw data,0,duplicate of 13273,1,1
+GROA,13273,Chippewa National Forest chronosequence,9289,37,Powers_2012_csaa,biomass_C,100.3,13273,aboveground_carbon + belowground_carbon; min dbh of 2.5,0,duplicate of 3354,1,1
+ForC,3399,Chippewa National Forest chronosequence,83 years,83,Powers_2012_csaa,biomass_C,109.71,NA,Potential addition error from either database; no access to raw data,0,duplicate of 13281,1,1
+GROA,13281,Chippewa National Forest chronosequence,9297,83,Powers_2012_csaa,biomass_C,109.3,13281,aboveground_carbon + belowground_carbon; min dbh of 2.5,0,duplicate of 3399,1,1
+ForC,3409,Chippewa National Forest chronosequence,94 years,94,Powers_2012_csaa,biomass_C,134.89,NA,Potential addition error from either database; no access to raw data,0,duplicate of 13283,1,1
+GROA,13283,Chippewa National Forest chronosequence,9299,94,Powers_2012_csaa,biomass_C,136.3,13283,aboveground_carbon + belowground_carbon; min dbh of 2.5,0,duplicate of 3409,1,1
+ForC,11017,Pifo Polylepis Forest,Forest recovery following pasture abandonment,15,Fehse_2002_hats,biomass_ag_OM,79.7,NA,trees and understory,0,NA,1,1
+GROA,3283,Pifo Polylepis Forest,2600,15,Fehse_2002_hats,biomass_ag_OM,77.2,3283,just trees,0,NA,1,1
+ForC,14044,Subtropical broad-leaved evergreen forest chronosequence,Forest recovery following clear-cut.2y,2,Li_1999_ssit,biomass_ag_OM,20.0612,NA,NA,0,NA,,
+GROA,3663,Subtropical broad-leaved evergreen forest chronosequence,2757,2,Li_1999_ssit,biomass_ag_OM,4.5,3663,,0,NA,,
+ForC,14042,Subtropical broad-leaved evergreen forest chronosequence,Forest recovery following clear-cut.10y,10,Li_1999_ssit,biomass_ag_OM,47.806,NA,NA,0,NA,,
+GROA,3665,Subtropical broad-leaved evergreen forest chronosequence,2758,10,Li_1999_ssit,biomass_ag_OM,15.3,3665,,0,NA,,
+ForC,14043,Subtropical broad-leaved evergreen forest chronosequence,Forest recovery following clear-cut.25y,25,Li_1999_ssit,biomass_ag_OM,117.839,NA,NA,0,NA,,
+GROA,3667,Subtropical broad-leaved evergreen forest chronosequence,2759,25,Li_1999_ssit,biomass_ag_OM,89.3,3667,,0,NA,,
+ForC,14045,Subtropical broad-leaved evergreen forest chronosequence,Forest recovery following clear-cut.40y,40,Li_1999_ssit,biomass_ag_OM,85.0696,NA,NA,0,NA,,
+GROA,13692,Subtropical broad-leaved evergreen forest chronosequence,9782,40,Li_1999_ssit,biomass_ag_OM,70.8,13692,,0,NA,,
+ForC,14046,Subtropical broad-leaved evergreen forest chronosequence,Forest recovery following clear-cut.60y,60,Li_1999_ssit,biomass_ag_OM,95.7493,NA,NA,0,NA,,
+GROA,13694,Subtropical broad-leaved evergreen forest chronosequence,9784,60,Li_1999_ssit,biomass_ag_OM,83.6,13694,,0,NA,,
+ForC,8804,Luquillo Experimental Forest,1932 hurricane recovery,11,Crow_1980_arca,biomass_ag_OM,159.2819444,NA,Measurements are between aboveground biomass and total biomass based on figures; ForC did not specify what manipulations occurred; pulled from Betydb,0,NA,1,1
+GROA,5013,Luquillo Experimental Forest,3399,11,Crow_1980_arca,biomass_ag_OM,117.1,5013,min. dbh 4; includes palms; most similar to aboveground biomass; most reliable,0,NA,1,1
+ForC,8805,Luquillo Experimental Forest,1932 hurricane recovery,14,Crow_1980_arca,biomass_ag_OM,178.0763889,NA,Measurements are between aboveground biomass and total biomass based on figures; ForC did not specify what manipulations occurred; pulled from Betydb,0,NA,1,1
+GROA,5015,Luquillo Experimental Forest,3399,14,Crow_1980_arca,biomass_ag_OM,133,5015,min. dbh 4; includes palms; most similar to aboveground biomass; most reliable,0,NA,1,1
+ForC,8806,Luquillo Experimental Forest,1932 hurricane recovery,19,Crow_1980_arca,biomass_ag_OM,222.9958333,NA,Measurements are between aboveground biomass and total biomass based on figures; ForC did not specify what manipulations occurred; pulled from Betydb,0,NA,1,1
+GROA,5017,Luquillo Experimental Forest,3399,19,Crow_1980_arca,biomass_ag_OM,166.4,5017,min. dbh 4; includes palms; most similar to aboveground biomass; most reliable,0,NA,1,1
+ForC,8807,Luquillo Experimental Forest,1932 hurricane recovery,44,Crow_1980_arca,biomass_ag_OM,222.2847222,NA,Measurements are between aboveground biomass and total biomass based on figures; ForC did not specify what manipulations occurred; pulled from Betydb,0,NA,1,1
+GROA,5019,Luquillo Experimental Forest,3399,44,Crow_1980_arca,biomass_ag_OM,172.1,5019,min. dbh 4; includes palms; most similar to aboveground biomass; most reliable,0,NA,1,1
+ForC,9659,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,4,Broadbent_2014_isas,biomass_ag_OM,27.3,NA,Biomass pulled directly from data (no manipulation),0,NA,1,1
+GROA,1225,Molienda slash-and-burned forest recovery chronosequence,108,4,Broadbent_2014_isas,biomass_ag_OM,15.46533034,1225,Data manipulated and pulled from different source; min. DBH of 5,0,NA,1,1
+ForC,9660,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,5,Broadbent_2014_isas,biomass_ag_OM,36.1,NA,Biomass pulled directly from data (no manipulation),0,NA,1,1
+GROA,1226,Molienda slash-and-burned forest recovery chronosequence,109,5,Broadbent_2014_isas,biomass_ag_OM,42.12827719,1226,Data manipulated and pulled from different source; min. DBH of 5,0,NA,1,1
+ForC,9661,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,7,Broadbent_2014_isas,biomass_ag_OM,158.3,NA,Biomass pulled directly from data (no manipulation),0,NA,1,1
+GROA,1227,Molienda slash-and-burned forest recovery chronosequence,110,7,Broadbent_2014_isas,biomass_ag_OM,156.5558421,1227,Data manipulated and pulled from different source; min. DBH of 5,0,NA,1,1
+ForC,9662,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,10,Broadbent_2014_isas,biomass_ag_OM,101.8,NA,Biomass pulled directly from data (no manipulation),0,NA,1,1
+GROA,1228,Molienda slash-and-burned forest recovery chronosequence,111,10,Broadbent_2014_isas,biomass_ag_OM,114.8240074,1228,Data manipulated and pulled from different source; min. DBH of 5,0,NA,1,1
+ForC,9663,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,14,Broadbent_2014_isas,biomass_ag_OM,152,NA,Biomass pulled directly from data (no manipulation),0,NA,1,1
+GROA,1229,Molienda slash-and-burned forest recovery chronosequence,112,14,Broadbent_2014_isas,biomass_ag_OM,121.1347125,1229,Data manipulated and pulled from different source; min. DBH of 5,0,NA,1,1
+ForC,9664,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,18,Broadbent_2014_isas,biomass_ag_OM,118.2,NA,Biomass pulled directly from data (no manipulation),0,NA,1,1
+GROA,1230,Molienda slash-and-burned forest recovery chronosequence,113,18,Broadbent_2014_isas,biomass_ag_OM,150.3143031,1230,Data manipulated and pulled from different source; min. DBH of 5,0,NA,1,1
+ForC,9665,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,21,Broadbent_2014_isas,biomass_ag_OM,196.6,NA,Biomass pulled directly from data (no manipulation),0,NA,1,1
+GROA,1231,Molienda slash-and-burned forest recovery chronosequence,114,21,Broadbent_2014_isas,biomass_ag_OM,180.6036323,1231,Data manipulated and pulled from different source; min. DBH of 5,0,NA,1,1
+ForC,9666,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,25,Broadbent_2014_isas,biomass_ag_OM,133.4,NA,Biomass pulled directly from data (no manipulation),0,NA,1,1
+GROA,1232,Molienda slash-and-burned forest recovery chronosequence,115,25,Broadbent_2014_isas,biomass_ag_OM,151.0042257,1232,Data manipulated and pulled from different source; min. DBH of 5,0,NA,1,1
+ForC,9667,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,32,Broadbent_2014_isas,biomass_ag_OM,304.9,NA,Biomass pulled directly from data (no manipulation),0,NA,1,1
+GROA,1233,Molienda slash-and-burned forest recovery chronosequence,116,32,Broadbent_2014_isas,biomass_ag_OM,371.9346425,1233,Data manipulated and pulled from different source; min. DBH of 5,0,NA,1,1
+ForC,9668,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,33,Broadbent_2014_isas,biomass_ag_OM,243.7,NA,Biomass pulled directly from data (no manipulation),0,NA,1,1
+GROA,1234,Molienda slash-and-burned forest recovery chronosequence,117,33,Broadbent_2014_isas,biomass_ag_OM,238.4698393,1234,Data manipulated and pulled from different source; min. DBH of 5,0,NA,1,1
+ForC,9670,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,37,Broadbent_2014_isas,biomass_ag_OM,114.3,NA,Biomass pulled directly from data (no manipulation),0,NA,1,1
+GROA,1236,Molienda slash-and-burned forest recovery chronosequence,119,37,Broadbent_2014_isas,biomass_ag_OM,128.1943048,1236,Data manipulated and pulled from different source; min. DBH of 5,0,NA,1,1
+ForC,9671,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,38,Broadbent_2014_isas,biomass_ag_OM,204.9,NA,Biomass pulled directly from data (no manipulation),0,NA,1,1
+GROA,1237,Molienda slash-and-burned forest recovery chronosequence,120,38,Broadbent_2014_isas,biomass_ag_OM,197.4331157,1237,Data manipulated and pulled from different source; min. DBH of 5,0,NA,1,1
+ForC,9672,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,43,Broadbent_2014_isas,biomass_ag_OM,269.8,NA,Biomass pulled directly from data (no manipulation),0,NA,1,1
+GROA,1238,Molienda slash-and-burned forest recovery chronosequence,121,43,Broadbent_2014_isas,biomass_ag_OM,329.7293272,1238,Data manipulated and pulled from different source; min. DBH of 5,0,NA,1,1
+ForC,9673,Molienda slash-and-burned forest recovery chronosequence,Forest recovery following slash-and-burn agriculture,47,Broadbent_2014_isas,biomass_ag_OM,460.5,NA,Biomass pulled directly from data (no manipulation),0,NA,1,1
+GROA,1239,Molienda slash-and-burned forest recovery chronosequence,122,47,Broadbent_2014_isas,biomass_ag_OM,484.4025554,1239,Data manipulated and pulled from different source; min. DBH of 5,0,NA,1,1
+ForC,7547,Kembera,Forest recovery following long-fallow (20-yr) shifting cultivation.5 cycles.Diadn Munggoh,11,Lawrence_2005_baay,biomass_ag_OM,60,NA,Potential rounding error; raw data unaccessible,0,duplicate of 3004,1,NA
+GROA,3004,Kembera,2484,11,Lawrence_2005_baay,biomass_ag_OM,61,3004,Potential rounding error; raw data unaccessible,0,duplicate of 7547,1,NA
+ForC,16962,Y site,natural regeneration of ponderosa pine forest 21 years since clearcut,21,Law_2001_csaf,biomass_ag_C,9.01,NA,Total above‐ground living mass,0,NA,1,1
+GROA,5724,Y site,3730,21,Law_2001_csaf,biomass_ag_C,5.79,5724,Above‐ground tree mass,0,NA,1,1
+ForC,13431,Sipitang,Forest recovery following drought and wildfire.2-y,2,Nykvist_1996_rosv,biomass_ag_OM,4.708,NA,Total above-ground standing crop for 1985,0,NA,1,1
+GROA,3689,Sipitang,2769,2,Nykvist_1996_rosv,biomass_ag_OM,0,3689,No record for tree and shrubs 1985,0,NA,1,1
+ForC,13432,Sipitang,Forest recovery following drought and wildfire.2-y,5,Nykvist_1996_rosv,biomass_ag_OM,26.64,NA,Total above-ground standing crop for 1988,0,NA,1,1
+GROA,3691,Sipitang,2770,5,Nykvist_1996_rosv,biomass_ag_OM,0,3691,No record for tree and shrubs 1988,0,NA,1,1
+ForC,13433,Sipitang,Forest recovery following drought and wildfire.2-y,8,Nykvist_1996_rosv,biomass_ag_OM,61.971,NA,Total above-ground standing crop for 1991,0,NA,1,1
+ForC,13436,Sipitang,Forest recovery following drought and wildfire.2-y,8,Nykvist_1996_rosv,biomass_ag_OM,57.359,NA,Total above-ground standing crop for 1991-nonwoody secondary vegetation 1991,0,NA,1,1
+GROA,3693,Sipitang,2771,8,Nykvist_1996_rosv,biomass_ag_OM,53.824,3693,Total tree and shrub AGB 1991,0,NA,1,1
+ForC,9115,Mekrijarvi Research Station,naturally regenerated Pinus sylvestris stands-sapling,15,Helmisaari_1995_ncip,biomass_ag_OM,16.22,NA,Trees+Ground & Field Veg.,0,NA,1,1
+GROA,5663,Mekrijarvi Research Station,3702,15,Helmisaari_1995_ncip,biomass_ag_OM,11,5663,Trees only,0,NA,1,1
+ForC,9112,Mekrijarvi Research Station,naturally regenerated Pinus sylvestris stands-pole,35,Helmisaari_1995_ncip,biomass_ag_OM,44.7,NA,Trees+Ground & Field Veg.,0,NA,1,1
+GROA,5666,Mekrijarvi Research Station,3703,35,Helmisaari_1995_ncip,biomass_ag_OM,41.51,5666,Trees only,0,NA,1,1
+ForC,9109,Mekrijarvi Research Station,naturally regenerated Pinus sylvestris stands-mature,100,Helmisaari_1995_ncip,biomass_ag_OM,125.16,NA,Trees+Ground & Field Veg.,0,NA,1,1
+GROA,5669,Mekrijarvi Research Station,3704,100,Helmisaari_1995_ncip,biomass_ag_OM,121.33,5669,Trees only,0,NA,1,1
+ForC,11663,Porce II chronosequence 2,Forest recovery following agricultural abandonment.9y,9,Sierra_2012_tcai,organic.layer_OM,1.24,NA,Removed from ForC,1,duplicate of 5513,NA,NA
+GROA,5513,Porce II chronosequence 2,3686,9,Sierra_2012_tcai,organic.layer_OM,6.3,5513,should be 5.1,0,duplicate of 11663,NA,NA
+ForC,11652,Porce II chronosequence 2,Forest recovery following agricultural abandonment.7y,7,Sierra_2012_tcai,organic.layer_OM,0.77,NA,Removed from ForC,1,duplicate of 14017,NA,NA
+GROA,14017,Porce II chronosequence 2,3675,7,Sierra_2012_tcai,organic.layer_OM,5.1,14017,Should use GROA data,0,duplicate of 11652,NA,NA
+ForC,11663,Porce II chronosequence 2,Forest recovery following agricultural abandonment.9y,9,Sierra_2012_tcai,organic.layer_OM,1.24,NA,Removed from ForC,1,duplicate of 14018,NA,NA
+GROA,14018,Porce II chronosequence 2,3681,9,Sierra_2012_tcai,organic.layer_OM,5.1,14018,Should use GROA data,0,duplicate of 11663,NA,NA
+ForC,11574,Porce II chronosequence 2,Forest recovery following agricultural abandonment.18y,18,Sierra_2012_tcai,organic.layer_OM,2.74,NA,Removed from ForC,1,NA,NA,NA
+ForC,11575,Porce II chronosequence 2,Forest recovery following agricultural abandonment.18y,18,Sierra_2012_tcai,organic.layer_OM,3.25,NA,Removed from ForC,1,duplicate of 14028,NA,NA
+ForC,11576,Porce II chronosequence 2,Forest recovery following agricultural abandonment.18y,18,Sierra_2012_tcai,organic.layer_OM,4.7,NA,Removed from ForC,1,NA,NA,NA
+GROA,14028,Porce II chronosequence 2,3664,18,Sierra_2012_tcai,organic.layer_OM,5.2,14028,Should use GROA data,0,duplicate of 11575,NA,NA
+ForC,11574,Porce II chronosequence 2,Forest recovery following agricultural abandonment.18y,18,Sierra_2012_tcai,organic.layer_OM,2.74,NA,Removed from ForC,1,duplicate of 14027,NA,NA
+ForC,11575,Porce II chronosequence 2,Forest recovery following agricultural abandonment.18y,18,Sierra_2012_tcai,organic.layer_OM,3.25,NA,Removed from ForC,1,NA,NA,NA
+ForC,11576,Porce II chronosequence 2,Forest recovery following agricultural abandonment.18y,18,Sierra_2012_tcai,organic.layer_OM,4.7,NA,Removed from ForC,1,NA,NA,NA
+GROA,14027,Porce II chronosequence 2,3674,18,Sierra_2012_tcai,organic.layer_OM,5.2,14027,should be 5.3,0,duplicate of 11574,NA,NA
+ForC,11524,Porce II chronosequence 2,Forest recovery following agricultural abandonment.13y,13,Sierra_2012_tcai,organic.layer_OM,3.25,NA,Removed from ForC,1,,NA,NA
+ForC,11525,Porce II chronosequence 2,Forest recovery following agricultural abandonment.13y,13,Sierra_2012_tcai,organic.layer_OM,2.22,NA,Removed from ForC,1,,NA,NA
+GROA,14020,Porce II chronosequence 2,3685,13,Sierra_2012_tcai,organic.layer_OM,5.2,14020,Should use GROA data,0,,,
+ForC,11541,Porce II chronosequence 2,Forest recovery following agricultural abandonment.14y,14,Sierra_2012_tcai,organic.layer_OM,0.26,NA,Removed from ForC,1,duplicate of 14021,NA,NA
+ForC,11542,Porce II chronosequence 2,Forest recovery following agricultural abandonment.14y,14,Sierra_2012_tcai,organic.layer_OM,2.22,NA,Removed from ForC,1,NA,NA,NA
+ForC,11543,Porce II chronosequence 2,Forest recovery following agricultural abandonment.14y,14,Sierra_2012_tcai,organic.layer_OM,3.76,NA,Removed from ForC,1,NA,NA,NA
+GROA,14021,Porce II chronosequence 2,3670,14,Sierra_2012_tcai,organic.layer_OM,5.4,14021,Should use GROA data,0,duplicate of 11541,NA,NA
+ForC,11595,Porce II chronosequence 2,Forest recovery following agricultural abandonment.24y,24,Sierra_2012_tcai,organic.layer_OM,2.74,NA,Removed from ForC,1,duplicate of 14033,NA,NA
+GROA,14033,Porce II chronosequence 2,3680,24,Sierra_2012_tcai,organic.layer_OM,5.5,14033,Should use GROA data,0,duplicate of 11595,NA,NA
+ForC,11621,Porce II chronosequence 2,Forest recovery following agricultural abandonment.30y,30,Sierra_2012_tcai,organic.layer_OM,3.21,NA,Removed from ForC,1,duplicate of 14037,NA,NA
+GROA,14037,Porce II chronosequence 2,3669,30,Sierra_2012_tcai,organic.layer_OM,5.6,14037,Should use GROA data,0,duplicate of 11621,NA,NA
+ForC,11541,Porce II chronosequence 2,Forest recovery following agricultural abandonment.14y,14,Sierra_2012_tcai,organic.layer_OM,0.26,NA,Removed from ForC,1,NA,NA,NA
+ForC,11542,Porce II chronosequence 2,Forest recovery following agricultural abandonment.14y,14,Sierra_2012_tcai,organic.layer_OM,2.22,NA,Removed from ForC,1,duplicate of 14022,NA,NA
+ForC,11543,Porce II chronosequence 2,Forest recovery following agricultural abandonment.14y,14,Sierra_2012_tcai,organic.layer_OM,3.76,NA,Removed from ForC,1,NA,NA,NA
+GROA,14022,Porce II chronosequence 2,3687,14,Sierra_2012_tcai,organic.layer_OM,5.6,14022,Should use GROA data,0,duplicate of 11545,NA,NA
+ForC,11560,Porce II chronosequence 2,Forest recovery following agricultural abandonment.17y,17,Sierra_2012_tcai,organic.layer_OM,1.24,NA,Removed from ForC,1,NA,NA,NA
+ForC,11561,Porce II chronosequence 2,Forest recovery following agricultural abandonment.17y,17,Sierra_2012_tcai,organic.layer_OM,1.75,NA,Removed from ForC,1,duplicate of 14026,NA,NA
+GROA,14026,Porce II chronosequence 2,3668,17,Sierra_2012_tcai,organic.layer_OM,5.8,14026,Should use GROA data,0,duplicate of 11561,NA,NA
+ForC,11611,Porce II chronosequence 2,Forest recovery following agricultural abandonment.29y,29,Sierra_2012_tcai,organic.layer_OM,4.23,NA,Removed from ForC,1,duplicate of 14036,NA,NA
+GROA,14036,Porce II chronosequence 2,3671,29,Sierra_2012_tcai,organic.layer_OM,5.8,14036,Should use GROA data,0,duplicate of 11611,NA,NA
+ForC,14065,Surutu,Forest recovery following slash and burn agriculture.10y S3 or S14,10,Steininger_2000_sfsa,biomass_ag_OM,48.7,NA,NA,0,NA,1,1
+ForC,14066,Surutu,Forest recovery following slash and burn agriculture.10y S3 or S14,10,Steininger_2000_sfsa,biomass_ag_OM,53.3,NA,same measurement different units,0,duplicate of 3452,1,1
+GROA,3452,Surutu,2684,10,Steininger_2000_sfsa,biomass_ag_OM,5.4,3452,same measurement different units,0,duplicate of 14066,1,1
+ForC,14068,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,15,Steininger_2000_sfsa,biomass_ag_OM,75.4,NA,same measurement different units,0,duplicate of 3453,1,1
+ForC,14069,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,15,Steininger_2000_sfsa,biomass_ag_OM,117.3,NA,NA,0,NA,1,1
+ForC,14070,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,15,Steininger_2000_sfsa,biomass_ag_OM,124.9,NA,NA,0,NA,1,1
+GROA,3453,Surutu,2685,15,Steininger_2000_sfsa,biomass_ag_OM,7.7,3453,same measurement different units,0,duplicate of 14068,1,1
+ForC,14071,Surutu,Forest recovery following slash and burn agriculture.20y,20,Steininger_2000_sfsa,biomass_ag_OM,84.5,NA,same measurement different units,0,duplicate of 3454,1,1
+GROA,3454,Surutu,2686,20,Steininger_2000_sfsa,biomass_ag_OM,8.5,3454,same measurement different units,0,duplicate of 14071,1,1
+ForC,14073,Surutu,Forest recovery following slash and burn agriculture.4y,4,Steininger_2000_sfsa,biomass_ag_OM,23.6,NA,same measurement different units,0,duplicate of 3455,1,1
+GROA,3455,Surutu,2687,4,Steininger_2000_sfsa,biomass_ag_OM,2.3,3455,same measurement different units,0,duplicate of 14073,1,1
+ForC,14065,Surutu,Forest recovery following slash and burn agriculture.10y S3 or S14,10,Steininger_2000_sfsa,biomass_ag_OM,48.7,NA,same measurement different units,0,duplicate of 3456,1,1
+ForC,14066,Surutu,Forest recovery following slash and burn agriculture.10y S3 or S14,10,Steininger_2000_sfsa,biomass_ag_OM,53.3,NA,NA,0,NA,1,1
+GROA,3456,Surutu,2688,10,Steininger_2000_sfsa,biomass_ag_OM,5,3456,same measurement different units,0,duplicate of 14065,1,1
+ForC,14067,Surutu,Forest recovery following slash and burn agriculture.12y,12,Steininger_2000_sfsa,biomass_ag_OM,53.3,NA,same measurement different units,0,duplicate of 3457,1,1
+GROA,3457,Surutu,2689,12,Steininger_2000_sfsa,biomass_ag_OM,5.5,3457,same measurement different units,0,duplicate of 14067,1,1
+ForC,14072,Surutu,Forest recovery following slash and burn agriculture.25y,25,Steininger_2000_sfsa,biomass_ag_OM,132.5,NA,same measurement different units,0,duplicate of 3458,1,1
+GROA,3458,Surutu,2690,25,Steininger_2000_sfsa,biomass_ag_OM,13.4,3458,same measurement different units,0,duplicate of 14072,1,1
+ForC,14068,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,15,Steininger_2000_sfsa,biomass_ag_OM,75.4,NA,NA,0,NA,1,1
+ForC,14069,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,15,Steininger_2000_sfsa,biomass_ag_OM,117.3,NA,same measurement different units,0,duplicate of 3459,1,1
+ForC,14070,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,15,Steininger_2000_sfsa,biomass_ag_OM,124.9,NA,NA,0,NA,1,1
+GROA,3459,Surutu,2691,15,Steininger_2000_sfsa,biomass_ag_OM,11.8,3459,same measurement different units,0,duplicate of 14069,1,1
+ForC,14074,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,5,Steininger_2000_sfsa,biomass_ag_OM,31.2,NA,same measurement different units,0,duplicate of 3460,1,1
+ForC,14075,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,5,Steininger_2000_sfsa,biomass_ag_OM,44.9,NA,NA,0,NA,1,1
+GROA,3460,Surutu,2692,5,Steininger_2000_sfsa,biomass_ag_OM,3.1,3460,same measurement different units,0,duplicate of 14074,1,1
+ForC,14076,Surutu,Forest recovery following slash and burn agriculture.6y,6,Steininger_2000_sfsa,biomass_ag_OM,26.6,NA,same measurement different units,0,duplicate 3461,1,1
+GROA,3461,Surutu,2693,6,Steininger_2000_sfsa,biomass_ag_OM,2.8,3461,same measurement different units,0,duplicate of 14076,1,1
+ForC,14077,Surutu,Forest recovery following slash and burn agriculture.8y S10 or S16,8,Steininger_2000_sfsa,biomass_ag_OM,28.2,NA,same measurement different units,0,duplicate of 3462,1,1
+ForC,14078,Surutu,Forest recovery following slash and burn agriculture.8y S10 or S16,8,Steininger_2000_sfsa,biomass_ag_OM,32,NA,NA,0,NA,1,1
+GROA,3462,Surutu,2694,8,Steininger_2000_sfsa,biomass_ag_OM,3,3462,same measurement different units,0,duplicate of 14077,1,1
+ForC,14077,Surutu,Forest recovery following slash and burn agriculture.8y S10 or S16,8,Steininger_2000_sfsa,biomass_ag_OM,28.2,NA,NA,0,NA,1,1
+ForC,14078,Surutu,Forest recovery following slash and burn agriculture.8y S10 or S16,8,Steininger_2000_sfsa,biomass_ag_OM,32,NA,same measurement different units,0,duplicate of 3463,1,1
+GROA,3463,Surutu,2695,8,Steininger_2000_sfsa,biomass_ag_OM,3.3,3463,same measurement different units,0,duplicate of 14078,1,1
+ForC,14068,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,15,Steininger_2000_sfsa,biomass_ag_OM,75.4,NA,NA,0,NA,1,1
+ForC,14069,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,15,Steininger_2000_sfsa,biomass_ag_OM,117.3,NA,NA,0,NA,1,1
+ForC,14070,Surutu,Forest recovery following slash and burn agriculture.15y S4 or S6 or S17,15,Steininger_2000_sfsa,biomass_ag_OM,124.9,NA,same measurement different units,0,duplicate of 3464,1,1
+GROA,3464,Surutu,2696,15,Steininger_2000_sfsa,biomass_ag_OM,12.5,3464,same measurement different units,0,duplicate of 14070,1,1
+ForC,14074,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,5,Steininger_2000_sfsa,biomass_ag_OM,31.2,NA,NA,0,NA,1,1
+ForC,14075,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,5,Steininger_2000_sfsa,biomass_ag_OM,44.9,NA,same measurement different units,0,duplicate of 3465,1,1
+GROA,3465,Surutu,2697,5,Steininger_2000_sfsa,biomass_ag_OM,4.7,3465,same measurement different units,0,duplicate of 14075,1,1
