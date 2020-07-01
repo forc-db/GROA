@@ -893,7 +893,7 @@ for(s_p in site_plots) {
   plot.area <- as.character(ifelse(is.na(unique(groa_sub$n * groa_sub$plot.size)), "NAC", unique(groa_sub$n * groa_sub$plot.size)))
   refor.type <- unique(groa_sub$refor.type)
   prior <- unique(groa_sub$prior)
-  prior.duration <- unique(groa_sub$prior.duration)
+  prior.duration <- unique(groa_sub$prior.disturbance.notes)
   
   if(s_p %in% paste(ForC_data$HISTORY$sites.sitename, ForC_data$HISTORY$plot.name)) {
     cat("Found site", sites.sitename, "\n")
