@@ -1,4 +1,4 @@
-,measurement.id,plot.id,site.id,study.id,refor.type,species,prior,prior.duration,stand.age,date,n,sub_n,plot.size,variables.name,mean_ha,covar_1,coV1_value,covar_2,coV2_value,covar_3,coV3_value,density,allometry
+,measurement.id,plot.id,site.id,study.id,refor.type,species,prior,prior.disturbance.notes,stand.age,date,n,sub_n,plot.size,variables.name,mean_ha,covar_1,coV1_value,covar_2,coV2_value,covar_3,coV3_value,density,allometry
 1,561,8878,7,1097,SNR,,PA,,15,NA,1,NA,0.0947,aboveground_biomass,41.36214602,min_dbh,5,,NA,,,NA,biome-specific
 2,562,8879,7,1097,SNR,,PA,,15,NA,1,NA,0.0947,aboveground_biomass,32.58729761,min_dbh,5,,NA,,,NA,biome-specific
 3,563,8880,7,1097,SNR,,PA,,20,NA,1,NA,0.0947,aboveground_biomass,42.46318368,min_dbh,5,,NA,,,NA,biome-specific
