@@ -4,6 +4,8 @@ These data were assembled by the Nature Conservancy and a team of scientists fro
 
 We encourage the research community to collaborate in updating, correcting, expanding, and utilizing this database through the GitHub platform. 
 
+### Relationship to ForC
+WE SHOULD ADD SOMETHING HERE.
 
 ## Data Use Policy and Guidelines
 
