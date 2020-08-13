@@ -5,7 +5,7 @@ These data were assembled by the Nature Conservancy and a team of scientists fro
 We encourage the research community to collaborate in updating, correcting, expanding, and utilizing this database through the GitHub platform. 
 
 ### Relationship to ForC
-GROA drew data from the Global Forest Carbon database, [ForC](https://forc-db.github.io/), and is now hosted by the [ForC-db organization on GitHub](https://github.com/forc-db). This repository also contains [code and data files for integration of GROA into ForC](https://github.com/forc-db/GROA/tree/master/GROA-ForC_integration).
+GROA identified relevant studies within the Global Forest Carbon database, [ForC](https://forc-db.github.io/), and tracked down the original studies to confirm or update the data. It is now hosted by the [ForC-db organization on GitHub](https://github.com/forc-db). This repository also contains [code and data files for integration of GROA into ForC](https://github.com/forc-db/GROA/tree/master/GROA-ForC_integration).
 
 ## Data Use Policy and Guidelines
 
