@@ -29,4 +29,5 @@ Cook-Patton, S.C., S.M. Leavitt, D. Gibbs, N.L. Harris, K. Lister, K.J. Anderson
 
 ## Contacts
 Susan Cook-Patton, The Nature Conservancy
+
 Kristina Anderson-Teixeira, Smithsonian
