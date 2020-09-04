@@ -207,15 +207,15 @@ GROA,13283,Chippewa National Forest chronosequence,9299,94,Powers_2012_csaa,biom
 ForC,11017,Pifo Polylepis Forest,Forest recovery following pasture abandonment,15,Fehse_2002_hats,biomass_ag_OM,79.7,NA,trees and understory,0,NA,1,1
 GROA,3283,Pifo Polylepis Forest,2600,15,Fehse_2002_hats,biomass_ag_OM,77.2,3283,just trees,0,NA,1,1
 ForC,14044,Subtropical broad-leaved evergreen forest chronosequence,Forest recovery following clear-cut.2y,2,Li_1999_ssit,biomass_ag_OM,20.0612,NA,NA,0,NA,,
-GROA,3663,Subtropical broad-leaved evergreen forest chronosequence,2757,2,Li_1999_ssit,biomass_ag_OM,4.5,3663,,0,NA,,
+GROA,3663,Subtropical broad-leaved evergreen forest chronosequence,2757,2,Li_1999_ssit,biomass_ag_OM,4.5,3663,trees only; ForC contains trees+understory,0,NA,,
 ForC,14042,Subtropical broad-leaved evergreen forest chronosequence,Forest recovery following clear-cut.10y,10,Li_1999_ssit,biomass_ag_OM,47.806,NA,NA,0,NA,,
-GROA,3665,Subtropical broad-leaved evergreen forest chronosequence,2758,10,Li_1999_ssit,biomass_ag_OM,15.3,3665,,0,NA,,
+GROA,3665,Subtropical broad-leaved evergreen forest chronosequence,2758,10,Li_1999_ssit,biomass_ag_OM,15.3,3665,trees only; ForC contains trees+understory,0,NA,,
 ForC,14043,Subtropical broad-leaved evergreen forest chronosequence,Forest recovery following clear-cut.25y,25,Li_1999_ssit,biomass_ag_OM,117.839,NA,NA,0,NA,,
-GROA,3667,Subtropical broad-leaved evergreen forest chronosequence,2759,25,Li_1999_ssit,biomass_ag_OM,89.3,3667,,0,NA,,
+GROA,3667,Subtropical broad-leaved evergreen forest chronosequence,2759,25,Li_1999_ssit,biomass_ag_OM,89.3,3667,trees only; ForC contains trees+understory,0,NA,,
 ForC,14045,Subtropical broad-leaved evergreen forest chronosequence,Forest recovery following clear-cut.40y,40,Li_1999_ssit,biomass_ag_OM,85.0696,NA,NA,0,NA,,
-GROA,13692,Subtropical broad-leaved evergreen forest chronosequence,9782,40,Li_1999_ssit,biomass_ag_OM,70.8,13692,,0,NA,,
+GROA,13692,Subtropical broad-leaved evergreen forest chronosequence,9782,40,Li_1999_ssit,biomass_ag_OM,70.8,13692,trees only; ForC contains trees+understory,0,NA,,
 ForC,14046,Subtropical broad-leaved evergreen forest chronosequence,Forest recovery following clear-cut.60y,60,Li_1999_ssit,biomass_ag_OM,95.7493,NA,NA,0,NA,,
-GROA,13694,Subtropical broad-leaved evergreen forest chronosequence,9784,60,Li_1999_ssit,biomass_ag_OM,83.6,13694,,0,NA,,
+GROA,13694,Subtropical broad-leaved evergreen forest chronosequence,9784,60,Li_1999_ssit,biomass_ag_OM,83.6,13694,trees only; ForC contains trees+understory,0,NA,,
 ForC,8804,Luquillo Experimental Forest,1932 hurricane recovery,11,Crow_1980_arca,biomass_ag_OM,159.2819444,NA,Measurements are between aboveground biomass and total biomass based on figures; ForC did not specify what manipulations occurred; pulled from Betydb,0,NA,1,1
 GROA,5013,Luquillo Experimental Forest,3399,11,Crow_1980_arca,biomass_ag_OM,117.1,5013,min. dbh 4; includes palms; most similar to aboveground biomass; most reliable,0,NA,1,1
 ForC,8805,Luquillo Experimental Forest,1932 hurricane recovery,14,Crow_1980_arca,biomass_ag_OM,178.0763889,NA,Measurements are between aboveground biomass and total biomass based on figures; ForC did not specify what manipulations occurred; pulled from Betydb,0,NA,1,1
@@ -285,7 +285,7 @@ ForC,11576,Porce II chronosequence 2,Forest recovery following agricultural aban
 GROA,14027,Porce II chronosequence 2,3674,18,Sierra_2012_tcai,organic.layer_OM,5.2,14027,should be 5.3,0,duplicate of 11574,NA,NA
 ForC,11524,Porce II chronosequence 2,Forest recovery following agricultural abandonment.13y,13,Sierra_2012_tcai,organic.layer_OM,3.25,NA,Removed from ForC,1,,NA,NA
 ForC,11525,Porce II chronosequence 2,Forest recovery following agricultural abandonment.13y,13,Sierra_2012_tcai,organic.layer_OM,2.22,NA,Removed from ForC,1,,NA,NA
-GROA,14020,Porce II chronosequence 2,3685,13,Sierra_2012_tcai,organic.layer_OM,5.2,14020,Should use GROA data,0,,,
+GROA,14020,Porce II chronosequence 2,3685,13,Sierra_2012_tcai,organic.layer_OM,5.2,14020,Should use GROA data,0,NA,NA,NA
 ForC,11541,Porce II chronosequence 2,Forest recovery following agricultural abandonment.14y,14,Sierra_2012_tcai,organic.layer_OM,0.26,NA,Removed from ForC,1,duplicate of 14021,NA,NA
 ForC,11542,Porce II chronosequence 2,Forest recovery following agricultural abandonment.14y,14,Sierra_2012_tcai,organic.layer_OM,2.22,NA,Removed from ForC,1,NA,NA,NA
 ForC,11543,Porce II chronosequence 2,Forest recovery following agricultural abandonment.14y,14,Sierra_2012_tcai,organic.layer_OM,3.76,NA,Removed from ForC,1,NA,NA,NA
