@@ -343,7 +343,7 @@ GROA,3464,Surutu,2696,15,Steininger_2000_sfsa,biomass_ag_OM,12.5,3464,same measu
 ForC,14074,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,5,Steininger_2000_sfsa,biomass_ag_OM,31.2,NA,NA,0,NA,1,1
 ForC,14075,Surutu,Forest recovery following slash and burn agriculture.5y S7 or S18,5,Steininger_2000_sfsa,biomass_ag_OM,44.9,NA,same measurement different units,0,duplicate of 3465,1,1
 GROA,3465,Surutu,2697,5,Steininger_2000_sfsa,biomass_ag_OM,4.7,3465,same measurement different units,0,duplicate of 14075,1,1
-ForC,19886,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,organic.layer_OM,5.5,NA,,,,,
-ForC,19887,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,organic.layer_OM,5.6,NA,,,,,
-ForC,19888,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,organic.layer_OM,5.9,NA,,,,,
-GROA,5369,Porce II chronosequence 2,3662,19,Sierra_2012_tcai,organic.layer_OM,10.4,5369,5369,,,,
+ForC,19886,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,organic.layer_OM,5.5,NA,Removed from ForC,1,NA,NA,NA
+ForC,19887,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,organic.layer_OM,5.6,NA,Removed from ForC,1,NA,NA,NA
+ForC,19888,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,organic.layer_OM,5.9,NA,Removed from ForC,1,NA,NA,NA
+GROA,5369,Porce II chronosequence 2,3662,19,Sierra_2012_tcai,organic.layer_OM,10.4,5369,5369,0,duplicate of 11611,NA,NA
