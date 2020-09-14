@@ -114,6 +114,8 @@ class ForestLearn(object):
         n_jobs (integer): Integer number of threads (CPUs) to train model, -1 uses all
         verbose (integer): Controls the verbosity: the higher, the more messages.
         refit (boolean): Refit an estimator using the best found parameters on the whole dataset.
+        
+        Returns: None
         """
         # Define grid_search
         grid_search = GridSearchCV(self.mdl, params, n_jobs=n_jobs, verbose=verbose, cv=k, scoring=scoring, 
@@ -143,6 +145,8 @@ class ForestLearn(object):
         out_modelfilename (string): Output file name to save trained model, using pickle, should have extension .pkl
         in_params (dictionary): Dictionary with parameters names (str) as keys and parameter setting as value to train the model
         in_modelfilename (string): Input file name of trained model to load parameters, should have extension .pkl
+        
+        Returns: None
         """
         # Exit if in_params or in_modelfilename is not given
         if (in_params is None) and (in_modelfilename is None):
@@ -168,6 +172,8 @@ class ForestLearn(object):
         
         Inputs:
         in_modelfilename (string): Input file name of trained model to save, should have extension .pkl
+        
+        Returns: None
         """
         self.mdl = pickle.load(open(in_modelfilename, 'rb'))
         self.best_params = self.mdl.named_steps['learn'].get_params()
@@ -239,6 +245,8 @@ class ForestLearn(object):
         name (string): Name of dataset to save scores using "save_scores" method, examples could be "training", "testing", or "validation"
         other_columns (list): Other columns that should also be included, this could be a unique ID of datapoints
         dropna (boolean): Whether to remove records with any nan values. If set to False and NaN values are not resolved, this will cause an error.
+        
+        Returns: None
         """
         # Prepare output dataframe with columns
         if len(other_columns)>0:
@@ -286,6 +294,8 @@ class ForestLearn(object):
         
         Inputs:
         out_file (string): File name to save scores to
+        
+        Returns: None
         """
         # Create dictionary and save
         dict_list = [self.rmse, self.r2, self.avg_res, self.avg_abs_res]
@@ -302,6 +312,8 @@ class ForestLearn(object):
         out_file (string): File name to save data with predictions to
         chunksize (integer): Chunk size to read data as, this is helpfull if the data is larger than memory can read
         dropna (boolean): Whether to remove records with any nan values. If set to False and NaN values are not resolved, this will cause an error.
+        
+        Returns: None
         """
         # Prepare output dataframe
         out_df = pd.DataFrame(columns=self.xy+['Est'])
@@ -337,6 +349,9 @@ class ForestLearn(object):
     def setup_rf_model(self):
         '''
         Sets up a random forest model with no feature selection or scaling
+        
+        Returns:
+        self.mdl (Sk-learn Pipeline object)
         '''
         mdl1 = RandomForestRegressor(
             n_estimators=500,
@@ -355,6 +370,9 @@ class ForestLearn(object):
     def setup_rf_model_scale(self):
         '''
         Sets up a random forest model with numeric feature scaling and one-hot-encoding
+        
+        Returns:
+        self.mdl (Sk-learn Pipeline object)
         '''
         numeric_transformer = Pipeline(steps=[
             ('scale', StandardScaler())])
@@ -383,6 +401,9 @@ class ForestLearn(object):
     def setup_rf_model_PCA(self):
         '''
         Sets up a random forest model with numeric feature scaling, one-hot-encoding, and principle component analysis
+        
+        Returns:
+        self.mdl (Sk-learn Pipeline object)
         '''
         numeric_transformer = Pipeline(steps=[
             ('scale', StandardScaler()),
@@ -413,6 +434,9 @@ class ForestLearn(object):
     def setup_rf_model_scale_SVR_FS(self):
         '''
         Sets up a random forest model with numeric feature scaling, one-hot-encoding, and support vector machine feature selection
+        
+        Returns:
+        self.mdl (Sk-learn Pipeline object)
         '''
         numeric_transformer = Pipeline(steps=[
             ('scale', StandardScaler())])
@@ -442,6 +466,9 @@ class ForestLearn(object):
     def setup_rf_model_scale_RF_FS(self):
         '''
         Sets up a random forest model with numeric feature scaling, one-hot-encoding, and random forest model feature selection
+        
+        Returns:
+        self.mdl (Sk-learn Pipeline object)
         '''
         numeric_transformer = Pipeline(steps=[
             ('scale', StandardScaler())])
@@ -472,6 +499,9 @@ class ForestLearn(object):
     def setup_xgb_model(self):
         '''
         Sets up a XGBoost model 
+        
+        Returns:
+        self.mdl (Sk-learn Pipeline object)
         '''
         mdl1 = xgb.XGBRegressor(
             learning_rate=0.1,
@@ -489,6 +519,9 @@ class ForestLearn(object):
     def setup_xgb_model_scale(self):
         '''
         Sets up a XGBoost model with numeric feature scaling and one-hot-encoding
+        
+        Returns:
+        self.mdl (Sk-learn Pipeline object)
         '''
         numeric_transformer = Pipeline(steps=[('scale', StandardScaler())])
 
@@ -517,6 +550,9 @@ class ForestLearn(object):
     def setup_xgb_model_PCA(self):
         '''
         Sets up a XGBoost model with numeric feature scaling, one-hot-encoding, and principle component analysis
+        
+        Returns:
+        self.mdl (Sk-learn Pipeline object)
         '''
         numeric_transformer = Pipeline(steps=[
             ('scale', StandardScaler()),
@@ -548,6 +584,9 @@ class ForestLearn(object):
     def setup_xgb_model_RF_FS(self):
         '''
         Sets up a XGBoost model with numeric feature scaling, one-hot-encoding, and random forest feature selection
+        
+        Returns:
+        self.mdl (Sk-learn Pipeline object)
         '''
         numeric_transformer = Pipeline(steps=[('scale', StandardScaler())])
 
