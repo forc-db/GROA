@@ -8,24 +8,48 @@
 rm(list = ls())
 
 # Set working directory as ForC main folder ####
-setwd(".")
+setwd("C:/Users/HerrmannV/Dropbox (Smithsonian)/GitHub/forc-db/GROA") # needs to be the GROA repo (not GROA-ForC_integration sub-folder)
 
 # Load libaries ####
 library(RCurl)
 library(dplyr)
+
 # Load data ####
 
 ## GROA data ####
-GROA_measurements <-  read.csv("data/nonsoil_litter_CWD.csv", stringsAsFactors = F)
-GROA_sites <-  read.csv("data/sitesf.csv", stringsAsFactors = F)
+GROA_measurements <-  read.csv("data/biomass_litter_CWD.csv", stringsAsFactors = F)
+GROA_sites <-  read.csv("data/sites.csv", stringsAsFactors = F)
 GROA_litterature <-  read.csv("data/GROA literature.csv", stringsAsFactors = F)
+
+
+### remove first column of it is just the rowname
+if(substr(names(GROA_measurements)[1], 1, 1) == "X") GROA_measurements <- GROA_measurements[, -1]
+if(substr(names(GROA_sites)[1], 1, 1) == "X") GROA_sites <- GROA_sites[, -1]
+if(substr(names(GROA_litterature)[1], 1, 1) == "X") GROA_litterature <- GROA_litterature[, -1]
 
 #### remove worldclim_bio data
 GROA_sites <- GROA_sites[, !grepl("worldclim_", names(GROA_sites))]
 
+#### removing measurements that don't have site info (They originally did but Suzanne removed them because they were mangrove or bamboo, see this comment: https://github.com/forc-db/GROA/issues/17#issuecomment-445977335). It represents around 175 sites.
+sort(unique(GROA_measurements$site.id[!GROA_measurements$site.id %in% GROA_sites$site.id])) # site.id that will be removed
+
+GROA_measurements <- GROA_measurements[GROA_measurements$site.id %in% GROA_sites$site.id, ] 
+
+#### remove sites with no measurements
+(sites_to_remove <- sort(setdiff(GROA_sites$site.id, GROA_measurements$site.id))) # thee are sites IDs that will be removed because they don't exist in the measurements
+GROA_sites <- GROA_sites[!GROA_sites$site.id %in% sites_to_remove, ]
+
+
+
 #### remove 2 sites (4788 and 5243) in measurements because  @CookPatton said "yes I can confirm that sites 4788 and 5243 should be deleted. The geolocation falls where there is no information in Dinerstein for ecoregion/biome (presumably in the ocean).")
 
 GROA_measurements <- GROA_measurements[!GROA_measurements$site.id %in% c(4788, 5243), ] 
+
+
+
+#### minor fix in n column for some records
+
+GROA_measurements[GROA_measurements$site.id %in% 363 & GROA_measurements$plot.size %in% 0.24, ]$n <- 2 
 
 ## ForC data ####
 na_codes <- c("NA", "NI", "NRA", "NaN", "NAC") # "999"
@@ -42,6 +66,7 @@ try.regexec <- regexec('title=(.*) id=', try, perl = T)
 try.regmatches <- regmatches(try, try.regexec)
 
 ForC_files <- sapply(try.regmatches, function(x) x[2])
+ForC_files <- ForC_files[!ForC_files %in% "ForC_sites_missing_coordinates.csv"]
 
 ForC_data <- NULL
 for(f in ForC_files) {
@@ -64,19 +89,46 @@ ForC_data$HISTORY$plot.name[is.na(ForC_data$HISTORY$plot.name)] <- "Not named"
 ## GROA vs ForC potential duplicates or true duplicates necessary files ####
 
 ## file of sites that were ID-ed as true duplicates by this very script.
-true.duplicate.sites <- read.csv("new_data/potential_duplicates/true.duplicate.sites.csv", stringsAsFactors = F)
+true.duplicate.sites <- read.csv("GROA-ForC_integration/new_data/potential_duplicates/true.duplicate.sites.csv", stringsAsFactors = F)
 ## file of sites that were ID-ed as potential duplicates by this very script.
-# potential.duplicate.sites <-  read.csv("new_data/potential_duplicates/potential.duplicate.sites.csv", stringsAsFactors = F)
+# potential.duplicate.sites <-  read.csv("GROA-ForC_integration/new_data/potential_duplicates/potential.duplicate.sites.csv", stringsAsFactors = F)
 ## file that someone manunally edited to say wether the potential duplicated sites were legit independant or actual duplicates (manually created looking at potential.duplicate.sites.csv)
-ForC.GROA.potential.duplicate.manually.solved <- read.csv("new_data/potential_duplicates/ForC.GROA.potential.duplicate.sites.list.csv")
-ForC.GROA.potential.duplicate.manually.solved <- ForC.GROA.potential.duplicate.manually.solved[!duplicated(ForC.GROA.potential.duplicate.manually.solved),]
+ForC.GROA.potential.sites.duplicate.manually.solved <- read.csv("GROA-ForC_integration/new_data/potential_duplicates/ForC.GROA.potential.duplicate.sites.list.csv")
+ForC.GROA.potential.sites.duplicate.manually.solved <- ForC.GROA.potential.sites.duplicate.manually.solved[!duplicated(ForC.GROA.potential.sites.duplicate.manually.solved),] # just removing duplicated rows
+
+
+## file that someone manunally edited to say wether the potential duplicated record were legit independant or actual duplicates(manually created looking at potential.duplicate.records.csv)
+ForC.GROA.potential.record.duplicate.manually.solved <- read.csv("GROA-ForC_integration/Duplicates_processing/ForC.GROA.potential.duplicate.measurement.list.csv")
+
+# write the GROA.measurement.id of duplicated measurement into their corresonding ForC record
+for(i in 1:nrow(ForC.GROA.potential.record.duplicate.manually.solved)) {
+  GROA_measurements.ID <- ForC.GROA.potential.record.duplicate.manually.solved$ï..GROA.measurement.ID[i]
+  ForC_measurements.ID <- ForC.GROA.potential.record.duplicate.manually.solved$is.duplicate.of.ForC.measurement.ID[i]
+  
+  GROA.site.ID <- GROA_measurements$site.id[GROA_measurements$measurement.id %in%GROA_measurements.ID ]
+  
+  ForC_data$MEASUREMENTS$GROA.measurement.ID[ForC_data$MEASUREMENTS$measurement.ID %in% ForC_measurements.ID ] <- GROA_measurements.ID
+  ForC_data$MEASUREMENTS$source.notes[ForC_data$MEASUREMENTS$measurement.ID %in% ForC_measurements.ID ] <- ifelse(is.na(  ForC_data$MEASUREMENTS$source.notes[ForC_data$MEASUREMENTS$measurement.ID %in% ForC_measurements.ID ]), 
+                                                                                                                  paste0("GROA measurement.id #", GROA_measurements.ID, ", site.id #", GROA.site.ID),
+                                                                                                                  paste0(    ForC_data$MEASUREMENTS$source.notes[ForC_data$MEASUREMENTS$measurement.ID %in% ForC_measurements.ID ] ,
+                                                                                                                             ". GROA measurement.id #", GROA_measurements.ID, ", site.id #", GROA.site.ID))
+  
+  # print(GROA_measurements[GROA_measurements$measurement.id %in% GROA_measurements.ID, ])
+  # print(ForC_data$MEASUREMENTS[ForC_data$MEASUREMENTS$measurement.ID %in% ForC_measurements.ID, ])
+  # readline("")
+}
+
+
+ForC_data$MEASUREMENTS[ForC_data$MEASUREMENTS$measurement.ID %in% ForC.GROA.potential.record.duplicate.manually.solved$is.duplicate.of.ForC.measurement.ID, ]
+
+
 
 ## variable_name_conversion table ####
-variable_name_conversion <- read.csv("GROA-ForC mapping/variable_name_conversion.csv", stringsAsFactors = F)
+variable_name_conversion <- read.csv("GROA-ForC_integration/GROA-ForC mapping/variable_name_conversion.csv", stringsAsFactors = F)
 
 # pre-fixes and preparations ####
 ## set refor.type to plot.name key ####
-refor.type.to.plot.name.key <-  data.frame(plot.name = c("regrowth stand regenerating via spontaneous natural regeneration","regrowth stand regenerating via assisted natural regeneration","regrowth stand regenerating via initial tree planting", "diverse species plantation", "monoculture plantation", "intensive tree monocrop", "multistrata stand", "stand with tree intercropping", "silvopastoral system", "transitional ecosystem", "cropland", "pasture", "intact/ old growth stand", "fire", "harvest", "shifting cultivation"), row.names = c("SNR", "ANR", "ITP", "DP", "MP", "TMC", "MS", "TI", "SP", "TR", "C", "PA", "OG", "F", "H", "SC"), stringsAsFactors = F)
+refor.type.to.plot.name.key <-  data.frame(plot.name = c("regrowth stand regenerating via spontaneous natural regeneration","regrowth stand regenerating via assisted natural regeneration","regrowth stand regenerating via initial tree planting", "diverse species plantation", "monoculture plantation", "intensive tree monocrop", "multistrata stand", "stand with tree intercropping", "silvopastoral system", "transitional ecosystem", "cropland", "pasture", "intact/ old growth stand", "burned", "harvest", "shifting cultivation"), row.names = c("SNR", "ANR", "ITP", "DP", "MP", "TMC", "MS", "TI", "SP", "TR", "C", "PA", "OG", "F", "H", "SC"), stringsAsFactors = F)
 
 
 
@@ -105,17 +157,23 @@ for(site in GROA_measurements$site.id) {
   
 } 
 
+
 ## Create plot.name ####
 
 ## if site.sitename different than what is in the site table, paste that, otherwise use only refor.type.to.plot.name.key
 GROA_measurements$plot.name <- ""
+
 for(i in 1:nrow(GROA_measurements)) {
+  
   if(!GROA_measurements$sites.sitename[i] %in% GROA_sites$site.sitename[GROA_sites$site.id %in% GROA_measurements$site.id[i] & GROA_sites$study.id %in% GROA_measurements$study.id[i]]) {
+    
+    # remove the sitename part and keep what is extra
     s <- GROA_sites$site.sitename[GROA_sites$site.id %in% GROA_measurements$site.id[i] & GROA_sites$study.id %in% GROA_measurements$study.id[i]]
     
     GROA_measurements$plot.name[i] <- gsub(s, "", GROA_measurements$sites.sitename[i])
     GROA_measurements$plot.name[i] <- gsub("^ | $", "",  GROA_measurements$plot.name[i] )
     
+    #minor fix
     if(s %in% "Porce II chronosequence 2") GROA_measurements$plot.name[i] <- paste0(2,   GROA_measurements$plot.name[i])
     
     # if(grepl(" ([0-9]{1,})$", s)) GROA_measurements$plot.name[i] <- GROA_measurements$sites.sitename[i]
@@ -130,6 +188,8 @@ for(i in 1:nrow(GROA_measurements)) {
 
 GROA_measurements$plot.name <- paste(GROA_measurements$plot.name, refor.type.to.plot.name.key[GROA_measurements$refor.type,])
 GROA_measurements$plot.name <- gsub("^ | $", "", GROA_measurements$plot.name)
+
+# add when plot was established if it is a regrowth and we know both date and stand.age
 GROA_measurements$plot.name <- ifelse(grepl("regrowth", GROA_measurements$plot.name) & !is.na(GROA_measurements$date) & !is.na(GROA_measurements$stand.age), paste(GROA_measurements$plot.name, "established around", GROA_measurements$date - GROA_measurements$stand.age),GROA_measurements$plot.name )
 
 ## if there is multiple plot.id for one plot.name, append a number to have a one to one plot.id/plot.name relationship
@@ -146,6 +206,46 @@ for(p in unique(GROA_measurements$plot.name)) {
 }
 
 
+## fix a couple chronosequences (that were found later in the script but that we are now fixing here by giving stand age in the plot ID, ther were cases where all dates are NA but stnad age is different)
+
+# for some SERC plot in McMahon_2010_efar
+x <- GROA_measurements[is.na(GROA_measurements$date) & !is.na(GROA_measurements$stand.age) & GROA_measurements$citation.ID %in% "McMahon_2010_efar" & grepl(paste0(443:471, collapse = "|"), GROA_measurements$plot.name), ]
+x$plot.name <- paste0(x$plot.name, ". Stange age = ", x$stand.age, ".")
+GROA_measurements[is.na(GROA_measurements$date) & !is.na(GROA_measurements$stand.age) & GROA_measurements$citation.ID %in% "McMahon_2010_efar" & grepl(paste0(443:471, collapse = "|"), GROA_measurements$plot.name), ] <- x
+
+# for one Wanglang Nature reserve in Zhang_2011_lbpd
+
+x <- GROA_measurements[is.na(GROA_measurements$date) & !is.na(GROA_measurements$stand.age) & GROA_measurements$citation.ID %in% "Zhang_2011_lbpd" & grepl(3948, GROA_measurements$plot.name), ]
+x$plot.name <- paste0(x$plot.name, ". Stange age = ", x$stand.age, ".")
+GROA_measurements[is.na(GROA_measurements$date) & !is.na(GROA_measurements$stand.age) & GROA_measurements$citation.ID %in% "Zhang_2011_lbpd" & grepl(3948, GROA_measurements$plot.name), ] <- x
+
+
+## if there is multiple plot.area for several measurement of agb in a same plot.id, append plot area to plot.name
+x <- GROA_measurements[grepl("aboveground_biomass", GROA_measurements$variables.name ), ]
+x <- GROA_measurements[GROA_measurements$plot.id %in% x$plot.id, ]
+plot.id.of.concern <- names(tapply(x$n * x$plot.size, x$plot.id, function(x) length(unique(x)))) [tapply(x$n * x$plot.size, x$plot.id, function(x) length(unique(x))) > 1]
+
+for(p in plot.id.of.concern) {
+  X <- GROA_measurements[GROA_measurements$plot.id %in% p, ]
+  
+  print(X[, c("site.id", "plot.id", "plot.name", "n", "plot.size", "variables.name")])
+  # readline("before")
+  for(plot.area in unique(X$n * X$plot.size)) {
+    
+    x <- X[(X$n * X$plot.size) %in% plot.area, ]
+    idx_agb <- grep("aboveground_biomass", x$variables.name)
+    if(length(idx_agb) > 0) x$plot.name <- paste0(x$plot.name, ". plot.area = ", x$n * x$plot.size)[idx_agb[1]]
+    
+    X[(X$n * X$plot.size) %in% plot.area, ] <- x
+    
+  }
+  
+  print(X[, c("site.id", "plot.id", "plot.name", "n", "plot.size", "variables.name")])
+  # readline("after")
+  
+  GROA_measurements[GROA_measurements$plot.id %in% p, ]$plot.name <- X$plot.name
+}
+
 ### Fix problems in GROA site.id and site.sitenames ####
 #### see https://github.com/forc-db/GROA/issues/17#issuecomment-443344303
 
@@ -153,7 +253,7 @@ for(p in unique(GROA_measurements$plot.name)) {
 ### ID duplicated sites if there is more
 duplicated.site.ids <- sort(unique(GROA_sites$site.id[duplicated( GROA_sites$site.id)])) # should be empty
 if(length(duplicated.site.ids) > 0) {
- 
+  
   exact.same.site.just.different.study.id <- NULL
   same.coordiantes.same.site.name.different.study.id.some.diff.elev.amt.amp.soil <- NULL
   same.coordiantes.but.different.site.name <- NULL
@@ -190,7 +290,7 @@ same.coordiantes.same.site.name.different.study.id.some.diff.elev.amt.amp.soil #
 GROA_sites[GROA_sites$site.id %in% same.coordiantes.same.site.name.different.study.id.some.diff.elev.amt.amp.soil, ][order(GROA_sites[GROA_sites$site.id %in% same.coordiantes.same.site.name.different.study.id.some.diff.elev.amt.amp.soil, ]$site.id),]
 
 row.to.keep <- data.frame(site.id =same.coordiantes.same.site.name.different.study.id.some.diff.elev.amt.amp.soil,
-                          row.to.keep = c(3,2,1,2,1,1,2,1,1,2,2,2,2,1,1,1,2,2,2)) # this was decided looking at output of line above. Keeping the row with the most information of what aseems most accurate
+                          row.to.keep = c(3,2,1,2,1,1,2,1,1,1,2,2,1,1,1,2,2,2)) # this was decided looking at output of line above. Keeping the row with the most information of what aseems most accurate
 
 for(s in same.coordiantes.same.site.name.different.study.id.some.diff.elev.amt.amp.soil) {
   x <- GROA_sites[GROA_sites$site.id %in% s, ]
@@ -254,6 +354,9 @@ GROA_sites <- GROA_sites[!(GROA_sites$site.id %in% c(2218, 2219) & GROA_sites$st
 # GROA_sites <- GROA_sites[!GROA_sites$site.id %in% 2199, ]
 
 
+## rename sites that are legitimate sites
+GROA_sites[GROA_sites$site.id %in% c(10, 40, 59, 61, 291, 2114, 2403, 3606, 3871, 13973), ]$site.sitename <- paste(GROA_sites[GROA_sites$site.id %in% c(10, 40, 59, 61, 291, 2114, 2403, 3606, 3871, 13973), ]$site.sitename, ifelse(duplicated(GROA_sites[GROA_sites$site.id %in% c(10, 40, 59, 61, 291, 2114, 2403, 3606, 3871, 13973), ]$site.sitename), 2, 1), sep = ".")
+
 ## only 3140 exist in GROA_measurements but also exists in soil... so we need to rename 13974 by 3140 in soil data
 GROA_sites[GROA_sites$site.id %in% c(3140, 13974), ]
 GROA_measurements[GROA_measurements$site.id %in%  c(3140, 13974), ]
@@ -268,6 +371,8 @@ table(GROA_measurements[GROA_measurements$site.id %in%  c(100, 3817, 2414), ]$si
 
 GROA_sites <- GROA_sites[!GROA_sites$site.id %in% c(3817, 2414), ]
 GROA_measurements[GROA_measurements$site.id %in%  c(3817, 2414), ]$site.id <- 100
+ForC.GROA.potential.sites.duplicate.manually.solved[ForC.GROA.potential.sites.duplicate.manually.solved$GROA.site.ID %in% c(3817, 2414), ]$GROA.site.ID <- 100
+
 warning("RENAME site.id 3817 and 2414 by 100 in soil data when we merge it")
 
 ## merge 293 and 2417 remove 2417 from GROA_sites and rename 2417 by 293 in measurements
@@ -277,6 +382,7 @@ table(GROA_measurements[GROA_measurements$site.id %in%  c(293, 2417), ]$site.id)
 
 GROA_sites <- GROA_sites[!GROA_sites$site.id %in% 2417, ]
 GROA_measurements[GROA_measurements$site.id %in%  c(2417), ]$site.id <- 293
+ForC.GROA.potential.sites.duplicate.manually.solved[ForC.GROA.potential.sites.duplicate.manually.solved$GROA.site.ID %in%  c(2417), ]$GROA.site.ID <- 293
 
 ## merge 3821 and 2039 remove 3817 from GROA_sites and rename 3821 by 2039 in measurements
 GROA_sites[GROA_sites$site.id %in% c(3821, 2039), ]
@@ -286,13 +392,14 @@ table(GROA_measurements[GROA_measurements$site.id %in% c(3821, 2039), ]$plot.nam
 
 GROA_sites <- GROA_sites[!GROA_sites$site.id %in% 3821, ]
 GROA_measurements[GROA_measurements$site.id %in%  c(3821), ]$site.id <- 2039
+ForC.GROA.potential.sites.duplicate.manually.solved[ForC.GROA.potential.sites.duplicate.manually.solved$GROA.site.ID %in%  c(3821), ]$GROA.site.ID <- 2039
 
 
 ### ID duplicated sites if there is more
 duplicated.site.ids <- sort(unique(GROA_sites$site.id[duplicated( GROA_sites$site.id)])) # should be empty
 if(length(duplicated.site.ids) > 0) {
   
-  stop("there still are duplicated site.id!") 
+  warning("there still are duplicated site.id!") 
   
   exact.same.site.just.different.study.id <- NULL
   same.coordiantes.same.site.name.different.study.id.some.diff.elev.amt.amp.soil <- NULL
@@ -313,11 +420,12 @@ if(length(duplicated.site.ids) > 0) {
   duplicated.site.ids[!duplicated.site.ids %in% c(exact.same.site.just.different.study.id, same.coordiantes.same.site.name.different.study.id.some.diff.elev.amt.amp.soil, same.coordiantes.but.different.site.name, same.site.name.but.different.coordiantes, differemt.site.name.and.different.coordinates)]
 } # if(length(duplicated.site.ids) > 0)
 
-exact.same.site.just.different.study.id
-same.coordiantes.same.site.name.different.study.id.some.diff.elev.amt.amp.soil
-same.coordiantes.but.different.site.name
-same.site.name.but.different.coordiantes
-differemt.site.name.and.different.coordinates
+# uncomment this if length(duplicated.site.ids)>0
+# exact.same.site.just.different.study.id
+# same.coordiantes.same.site.name.different.study.id.some.diff.elev.amt.amp.soil
+# same.coordiantes.but.different.site.name
+# same.site.name.but.different.coordiantes
+# differemt.site.name.and.different.coordinates
 
 
 # # this we don't need to worry about. We won't look at site.sitename in measurements anymore.
@@ -344,7 +452,7 @@ differemt.site.name.and.different.coordinates
 ### ID duplicated sites that have different site.id
 duplicated.site.sitename <- sort(unique(GROA_sites$site.sitename[duplicated( GROA_sites$site.sitename)]))
 if(length(duplicated.site.sitename) > 0) {
-
+  
   exact.same.site.just.different.site.id.or.study.id <- NULL
   same.coordiantes.different.site.name.different..site.id.or.study.id.some.diff.elev.amt.amp.soil <- NULL
   legitmiate.different.sites <- NULL
@@ -369,9 +477,6 @@ legitmiate.different.sites
 
 deal.with.duplicate.site.name <- data.frame(GROA.site.ID = GROA_sites$site.id, site.sitename = GROA_sites$site.sitename, unique.sites.sitename = make.unique(GROA_sites$site.sitename), stringsAsFactors = F)[GROA_sites$site.sitename %in% legitmiate.different.sites,]
 deal.with.duplicate.site.name <- deal.with.duplicate.site.name[order(deal.with.duplicate.site.name$unique.sites.sitename), ]
-
-
-
 
 
 # Function to format GROA into ForC format ####
@@ -421,6 +526,7 @@ GROA_to_ForC_format_SITES <- function(i, newForC.siteID) {
     clay = as.character(clay),
     soil.classification =  ifelse(is.na(GROA_sites$soil.classification[i]), "NAC", GROA_sites$soil.classification[i]),
     measurement.refs = GROA_sites$measurement.refs[i],
+    site.notes = paste0("GROA site.id #", GROA.site.ID),
     GROA.site.ID = GROA.site.ID,
     lacks.info.from.ori.pub = 0,
     loaded.from = "[Cook-Patton database citation, in ForC format]",
@@ -462,12 +568,12 @@ for( i in 1:nrow(GROA_sites)) {
   
   if(!GROA.site.ID %in%  ForC_data$SITES$GROA.site.ID) {
     
-    # site has not been merged into ForC so we need to check if it is a duplicate or not, either by looking atForC.GROA.potential.duplicate.manually.solved or by comparing site names etc...
+    # site has not been merged into ForC so we need to check if it is a duplicate or not, either by looking atForC.GROA.potential.sites.duplicate.manually.solved or by comparing site names etc...
     
-    ### First look at ForC.GROA.potential.duplicate.manually.solved
-    if(GROA.site.ID %in% ForC.GROA.potential.duplicate.manually.solved$GROA.site.ID) {
+    ### First look at ForC.GROA.potential.sites.duplicate.manually.solved
+    if(GROA.site.ID %in% ForC.GROA.potential.sites.duplicate.manually.solved$GROA.site.ID) {
       
-      x <- ForC.GROA.potential.duplicate.manually.solved[ForC.GROA.potential.duplicate.manually.solved$GROA.site.ID %in% GROA.site.ID, ]
+      x <- ForC.GROA.potential.sites.duplicate.manually.solved[ForC.GROA.potential.sites.duplicate.manually.solved$GROA.site.ID %in% GROA.site.ID, ]
       print(x)
       
       # make sure the problem has been solved correctly
@@ -479,6 +585,8 @@ for( i in 1:nrow(GROA_sites)) {
         if(is.na( ForC_data$SITES$GROA.site.ID[ForC_data$SITES$site.ID %in% x[, 2][!is.na(x[, 2])]])) {
           cat("Add ID into  ForC GROA.site.ID field of the corresponding ForC site. Press [enter].")
           ForC_data$SITES$GROA.site.ID[ForC_data$SITES$site.ID %in% x[, 2][!is.na(x[, 2])]] <- GROA.site.ID
+          ForC_data$SITES$site.notes[ForC_data$SITES$site.ID %in% x[, 2][!is.na(x[, 2])]] <- ifelse(is.na(ForC_data$SITES$site.notes[ForC_data$SITES$site.ID %in% x[, 2][!is.na(x[, 2])]]),  paste0("GROA site.id #", GROA.site.ID), paste0(ForC_data$SITES$site.notes[ForC_data$SITES$site.ID %in% x[, 2][!is.na(x[, 2])]],  ". GROA site.id #", GROA.site.ID))
+          
         }else{
           cat("this GROA site has a potential duplicate within the very GROA data... keep track of that...")
           problem.of.duplicates.within.GROA <- rbind(problem.of.duplicates.within.GROA, paste("ForC.siteID =",  ForC_data$SITES$site.ID[ForC_data$SITES$site.ID %in% x[, 2][!is.na(x[, 2])]], ", GROA sites:",  ForC_data$SITES$GROA.site.ID[ForC_data$SITES$site.ID %in% x[, 2][!is.na(x[, 2])]], GROA.site.ID))
@@ -496,11 +604,11 @@ for( i in 1:nrow(GROA_sites)) {
         ForC_data$SITES <- bind_rows(ForC_data$SITES, GROA_to_ForC_format_SITES(i, newForC.siteID))
       } # if( !is.na(x[, 3]) )
       
-    } #  if(GROA.site.ID %in% ForC.GROA.potential.duplicate.manually.solved$GROA.site.ID) 
+    } #  if(GROA.site.ID %in% ForC.GROA.potential.sites.duplicate.manually.solved$GROA.site.ID) 
     
     ### Second, if first was not the case, compare site names etc and parse into true duplicate or potential duplicates files
     
-    if(!GROA.site.ID %in% ForC.GROA.potential.duplicate.manually.solved$GROA.site.ID) {
+    if(!GROA.site.ID %in% ForC.GROA.potential.sites.duplicate.manually.solved$GROA.site.ID) {
       if(sites.sitename %in% ForC_data$SITES$sites.sitename) {
         
         forC_record <- ForC_data$SITES[ForC_data$SITES$sites.sitename %in% sites.sitename, ]
@@ -556,21 +664,24 @@ for( i in 1:nrow(GROA_sites)) {
           
           
         } # if different measurement.refs --> add to potential duplicates table, along with ForC site
-      } # if sitename does exists ####
+      } # if sitename does exists
       
       
-      if(!sites.sitename %in% ForC_data$SITES$sites.sitename) { # if sitename does NOT exists ####
+      if(!sites.sitename %in% ForC_data$SITES$sites.sitename) { # if sitename does NOT exists
         newForC.siteID <- newForC.siteID + 1
         ForC_data$SITES <- bind_rows(ForC_data$SITES, GROA_to_ForC_format_SITES(i, newForC.siteID))
       } #if(!sites.sitename %in% ForC_data$SITES$sites.sitename)
       
       
-    } #if(GROA.site.ID %in% ForC.GROA.potential.duplicate.manually.solved$GROA.site.ID)
+    } #if(!GROA.site.ID %in% ForC.GROA.potential.sites.duplicate.manually.solved$GROA.site.ID)
     
     
-  } # if(!GROA.site.ID %in%  ForC_data$SITES$GROA.site.ID)
+  } # if(GROA.site.ID %in%  ForC_data$SITES$GROA.site.ID)
   
 } # for( i in 1:nrow(GROA_sites))
+
+potential.duplicate.sites # should be NULL
+problem.of.duplicates.within.GROA # should be NULL
 
 # Create a new record in CITATIONS if one does not already exist ####
 
@@ -600,7 +711,7 @@ for(i in 1:nrow(GROA_litterature)) {
     )
   }
 }
-problem.of.duplicates.within.GROA
+problem.of.duplicates.within.GROA # should be empty
 # used to give this:
 # >problem.of.duplicates.within.GROA
 # [,1]                                       
@@ -627,6 +738,7 @@ for( i in 1:nrow(GROA_measurements)) {
   GROA.plot.ID <- GROA_measurements$plot.id[i]
   GROA.measurement.ID <- GROA_measurements$measurement.id[i]
   
+  
   if(exists("add.record.to.forC")) rm(add.record.to.forC) # make sure we start from scratch for each record
   
   if(GROA.measurement.ID %in% ForC_data$MEASUREMENTS$GROA.measurement.ID) { #skip the whole thing since the measurement was already paired with or inported in ForC
@@ -641,7 +753,7 @@ for( i in 1:nrow(GROA_measurements)) {
     
     # find records in the same sites in ForC MEASUREMENTS, idependant of GROA records already entered
     ForC.measurements.at.that.site <- ForC_data$MEASUREMENTS[ForC_data$MEASUREMENTS$sites.sitename %in% sites.sitename & is.na(ForC_data$MEASUREMENTS$GROA.measurement.ID),]
-  
+    
     # record some values  that we will have to look at
     stand.age <- GROA_measurements$stand.age[i]
     
@@ -656,106 +768,109 @@ for( i in 1:nrow(GROA_measurements)) {
     if(is.na(variable.name)) add.record.to.forC <- F 
     
     # if there is an equivalent for this variable in ForC, move forward with extra steps
-
+    
     if(!is.na(variable.name)) {
       if(nrow(ForC.measurements.at.that.site) > 0 ) {    # if site already exists in ForC MEASUREMENTS
-      ## Find out if the mearsurement is a duplicate. If it is (and if it is clear that the measurement was made in an existing ForC plot), replace the plot.name of all other measurments in that plot by the corresponding ForC plot.name and move on. If it is not, add new data to ForC. If it is unclear, save a file that collects potential duplicates for later manual revision. ####
-      ## True duplicates are defines as same site.sitename, stand.age, variable.name, citation.ID and mean as in ForC measurements.
-      
-      
-      
-      corresponding.forC.records.looking.at.age <- ForC.measurements.at.that.site[!my_is.na(ForC.measurements.at.that.site$stand.age) & abs(as.numeric(ForC.measurements.at.that.site$stand.age) - stand.age) < 0.4
-                                                                                  & abs(as.numeric(ForC.measurements.at.that.site$stand.age) - stand.age) == min(abs(as.numeric(ForC.measurements.at.that.site$stand.age) - stand.age))
-                                                                                  & ForC.measurements.at.that.site$citation.ID %in% citation.ID,]
-      
-      
-      unique.corresponding.ForC.plot.name.looking.at.age <- unique(corresponding.forC.records.looking.at.age$plot.name)
-      
-      
-      if(length(unique.corresponding.ForC.plot.name.looking.at.age) == 1) { # if only one possible plot.name
-        if(!GROA.plot.ID %in% keeping.track.of.plot.names$GROA.plot.ID) keeping.track.of.plot.names <- rbind(keeping.track.of.plot.names,
-                                                                                                             data.frame(GROA.site.ID, GROA.plot.ID, sites.sitename, GROA.automated.plot.name = GROA_measurements$plot.name[i], ForC.plot.name = unique.corresponding.ForC.plot.name.looking.at.age))
+        ## Find out if the mearsurement is a duplicate. If it is (and if it is clear that the measurement was made in an existing ForC plot), replace the plot.name of all other measurments in that plot by the corresponding ForC plot.name and move on. If it is not, add new data to ForC. If it is unclear, save a file that collects potential duplicates for later manual revision. ####
+        ## True duplicates are defines as same site.sitename, stand.age, variable.name, citation.ID and mean as in ForC measurements.
         
-        GROA_measurements[GROA_measurements$plot.id %in% GROA_measurements$plot.id[i], ]$plot.name <- unique.corresponding.ForC.plot.name.looking.at.age
         
-        # then decide if record should be added to ForC
         
-        if(!variable.name %in% corresponding.forC.records.looking.at.age$variable.name) add.record.to.forC <- TRUE # this is a new variable so yes, we want the record
+        corresponding.forC.records.looking.at.age <- ForC.measurements.at.that.site[!my_is.na(ForC.measurements.at.that.site$stand.age) & abs(as.numeric(ForC.measurements.at.that.site$stand.age) - stand.age) < 0.4
+                                                                                    & abs(as.numeric(ForC.measurements.at.that.site$stand.age) - stand.age) == min(abs(as.numeric(ForC.measurements.at.that.site$stand.age) - stand.age))
+                                                                                    & ForC.measurements.at.that.site$citation.ID %in% citation.ID,]
         
-        if(variable.name %in% corresponding.forC.records.looking.at.age$variable.name & any(abs(corresponding.forC.records.looking.at.age$mean[corresponding.forC.records.looking.at.age$variable.name %in% variable.name] - value) <= 0.4)) { # this is the same variable and the value is very close so we already have the record in ForC. Let's add the measurement.id into GROA.measurement.ID.
-          add.record.to.forC <- FALSE 
-          ForC_data$MEASUREMENTS$GROA.measurement.ID[ForC_data$MEASUREMENTS$measurement.ID %in% corresponding.forC.records.looking.at.age[abs(corresponding.forC.records.looking.at.age$mean[corresponding.forC.records.looking.at.age$variable.name %in% variable.name] - value) <= 0.4 & abs(corresponding.forC.records.looking.at.age$mean[corresponding.forC.records.looking.at.age$variable.name %in% variable.name] - value) == min(abs(corresponding.forC.records.looking.at.age$mean[corresponding.forC.records.looking.at.age$variable.name %in% variable.name] - value) <= 0.4), ]$measurement.ID] <- GROA.measurement.ID
-        }
         
-        if(variable.name %in% corresponding.forC.records.looking.at.age$variable.name & !any(abs(corresponding.forC.records.looking.at.age$mean[corresponding.forC.records.looking.at.age$variable.name %in% variable.name] - value) <= 0.4)) { # potential duplicate --> put that in a file for later manual review
-          potential.duplicate.records <- rbind(potential.duplicate.records, 
-                                              cbind(From = "ForC",  
-                                                    corresponding.forC.records.looking.at.age[corresponding.forC.records.looking.at.age$variable.name %in% variable.name, c("measurement.ID", "sites.sitename", "plot.name", "stand.age", "citation.ID", "variable.name", "mean", "GROA.measurement.ID")]),
-                                              data.frame(From = "GROA", measurement.ID = GROA.measurement.ID, sites.sitename, plot.name = GROA.plot.ID, stand.age, citation.ID, variable.name, mean = value, GROA.measurement.ID = GROA.measurement.ID))
-          add.record.to.forC <- FALSE # don't add that data yet!
-        }
+        unique.corresponding.ForC.plot.name.looking.at.age <- unique(corresponding.forC.records.looking.at.age$plot.name)
         
-      } # if(length(unique.corresponding.ForC.plot.name.looking.at.age) == 1)
-      
-      if(length(unique.corresponding.ForC.plot.name.looking.at.age) > 1) { # if more than one possible plot.name
         
-        # is there a record that is exactly the same that we can use to find out what plot we are talking about ?
-        
-        corresponding.forC.records.looking.at.more.than.age <- corresponding.forC.records.looking.at.age[
-          corresponding.forC.records.looking.at.age$citation.ID %in% citation.ID 
-          & corresponding.forC.records.looking.at.age$variable.name %in% variable.name 
-          & abs(corresponding.forC.records.looking.at.age$mean - value) <= 0.4  # 0.4 to allow rounding
-          & abs(corresponding.forC.records.looking.at.age$mean - value) == min(abs(corresponding.forC.records.looking.at.age$mean - value)),]
-        
-        unique.corresponding.ForC.plot.name.second.pass.looking.at.more.than.age <- unique(corresponding.forC.records.looking.at.more.than.age$plot.name)
-        
-        if(length(unique.corresponding.ForC.plot.name.second.pass.looking.at.more.than.age) == 1) { # if only one possible plot.name because same variable and same value, we have a true duplicate. so let's keep that record and add the measurement.id into GROA.measurement.ID.
-          
+        if(length(unique.corresponding.ForC.plot.name.looking.at.age) == 1) { # if only one possible plot.name
           if(!GROA.plot.ID %in% keeping.track.of.plot.names$GROA.plot.ID) keeping.track.of.plot.names <- rbind(keeping.track.of.plot.names,
-                                                                                                               data.frame(GROA.site.ID, GROA.plot.ID, sites.sitename, GROA.automated.plot.name = GROA_measurements$plot.name[i], ForC.plot.name = unique.corresponding.ForC.plot.name.second.pass.looking.at.more.than.age))
+                                                                                                               data.frame(GROA.site.ID, GROA.plot.ID, sites.sitename, GROA.automated.plot.name = GROA_measurements$plot.name[i], ForC.plot.name = unique.corresponding.ForC.plot.name.looking.at.age))
           
-          GROA_measurements[GROA_measurements$plot.id %in% GROA_measurements$plot.id[i], ]$plot.name <- unique.corresponding.ForC.plot.name.second.pass.looking.at.more.than.age
+          GROA_measurements[GROA_measurements$plot.id %in% GROA_measurements$plot.id[i], ]$plot.name <- unique.corresponding.ForC.plot.name.looking.at.age
           
-          add.record.to.forC <- FALSE 
-          ForC_data$MEASUREMENTS$GROA.measurement.ID[ForC_data$MEASUREMENTS$measurement.ID %in% corresponding.forC.records.looking.at.age[abs(corresponding.forC.records.looking.at.age$mean[corresponding.forC.records.looking.at.age$variable.name %in% variable.name] - value) <= 0.4 & abs(corresponding.forC.records.looking.at.age$mean[corresponding.forC.records.looking.at.age$variable.name %in% variable.name] - value) == min(abs(corresponding.forC.records.looking.at.age$mean[corresponding.forC.records.looking.at.age$variable.name %in% variable.name] - value) <= 0.4), ]$measurement.ID] <- GROA.measurement.ID
+          # then decide if record should be added to ForC
           
-        }
+          if(!variable.name %in% corresponding.forC.records.looking.at.age$variable.name | GROA.measurement.ID %in% ForC.GROA.potential.record.duplicate.manually.solved$ï..GROA.measurement.ID[!is.na(ForC.GROA.potential.record.duplicate.manually.solved$is.independent.of.ForC.meaurement.ID)]) add.record.to.forC <- TRUE # this is a new variable or it was manually Id-ed as independant, so yes, we want the record
+          
+          if(variable.name %in% corresponding.forC.records.looking.at.age$variable.name & any(abs(corresponding.forC.records.looking.at.age$mean[corresponding.forC.records.looking.at.age$variable.name %in% variable.name] - value) <= 0.4)) { # this is the same variable and the value is very close so we already have the record in ForC. Let's add the measurement.id into GROA.measurement.ID.
+            add.record.to.forC <- FALSE 
+            ForC_data$MEASUREMENTS$GROA.measurement.ID[ForC_data$MEASUREMENTS$measurement.ID %in% corresponding.forC.records.looking.at.age[abs(corresponding.forC.records.looking.at.age$mean[corresponding.forC.records.looking.at.age$variable.name %in% variable.name] - value) <= 0.4 & abs(corresponding.forC.records.looking.at.age$mean[corresponding.forC.records.looking.at.age$variable.name %in% variable.name] - value) == min(abs(corresponding.forC.records.looking.at.age$mean[corresponding.forC.records.looking.at.age$variable.name %in% variable.name] - value) <= 0.4), ]$measurement.ID] <- GROA.measurement.ID
+          }
+          
+          if(!GROA.measurement.ID %in% ForC.GROA.potential.record.duplicate.manually.solved$ï..GROA.measurement.ID[!is.na(ForC.GROA.potential.record.duplicate.manually.solved$is.independent.of.ForC.meaurement.ID)] & (variable.name %in% corresponding.forC.records.looking.at.age$variable.name & !any(abs(corresponding.forC.records.looking.at.age$mean[corresponding.forC.records.looking.at.age$variable.name %in% variable.name] - value) <= 0.4))) { # potential duplicate htat was not solved yet --> put that in a file for later manual review
+            
+            potential.duplicate.records <- rbind(potential.duplicate.records, 
+                                                 cbind(From = "ForC",  
+                                                       corresponding.forC.records.looking.at.age[corresponding.forC.records.looking.at.age$variable.name %in% variable.name, c("measurement.ID", "sites.sitename", "plot.name", "stand.age", "citation.ID", "variable.name", "mean", "GROA.measurement.ID")]),
+                                                 data.frame(From = "GROA", measurement.ID = GROA.measurement.ID, sites.sitename, plot.name = GROA.plot.ID, stand.age, citation.ID, variable.name, mean = value, GROA.measurement.ID = GROA.measurement.ID))
+            add.record.to.forC <- FALSE # don't add that data yet!
+          }
+          
+        } # if(length(unique.corresponding.ForC.plot.name.looking.at.age) == 1)
         
-        if(length(unique.corresponding.ForC.plot.name.second.pass.looking.at.more.than.age) > 1) {
-          stop("still more than one plot possible")
-          add.record.to.forC <- FALSE
-        }
+        if(length(unique.corresponding.ForC.plot.name.looking.at.age) > 1) { # if more than one possible plot.name
+          
+          # is there a record that is exactly the same that we can use to find out what plot we are talking about ?
+          
+          corresponding.forC.records.looking.at.more.than.age <- corresponding.forC.records.looking.at.age[
+            corresponding.forC.records.looking.at.age$citation.ID %in% citation.ID 
+            & corresponding.forC.records.looking.at.age$variable.name %in% variable.name 
+            & abs(corresponding.forC.records.looking.at.age$mean - value) <= 0.4  # 0.4 to allow rounding
+            & abs(corresponding.forC.records.looking.at.age$mean - value) == min(abs(corresponding.forC.records.looking.at.age$mean - value)),]
+          
+          unique.corresponding.ForC.plot.name.second.pass.looking.at.more.than.age <- unique(corresponding.forC.records.looking.at.more.than.age$plot.name)
+          
+          if(length(unique.corresponding.ForC.plot.name.second.pass.looking.at.more.than.age) == 1) { # if only one possible plot.name because same variable and same value, we have a true duplicate. so let's keep that record and add the measurement.id into GROA.measurement.ID.
+            
+            if(!GROA.plot.ID %in% keeping.track.of.plot.names$GROA.plot.ID) keeping.track.of.plot.names <- rbind(keeping.track.of.plot.names,
+                                                                                                                 data.frame(GROA.site.ID, GROA.plot.ID, sites.sitename, GROA.automated.plot.name = GROA_measurements$plot.name[i], ForC.plot.name = unique.corresponding.ForC.plot.name.second.pass.looking.at.more.than.age))
+            
+            GROA_measurements[GROA_measurements$plot.id %in% GROA_measurements$plot.id[i], ]$plot.name <- unique.corresponding.ForC.plot.name.second.pass.looking.at.more.than.age
+            
+            add.record.to.forC <- FALSE 
+            ForC_data$MEASUREMENTS$GROA.measurement.ID[ForC_data$MEASUREMENTS$measurement.ID %in% corresponding.forC.records.looking.at.age[abs(corresponding.forC.records.looking.at.age$mean[corresponding.forC.records.looking.at.age$variable.name %in% variable.name] - value) <= 0.4 & abs(corresponding.forC.records.looking.at.age$mean[corresponding.forC.records.looking.at.age$variable.name %in% variable.name] - value) == min(abs(corresponding.forC.records.looking.at.age$mean[corresponding.forC.records.looking.at.age$variable.name %in% variable.name] - value) <= 0.4), ]$measurement.ID] <- GROA.measurement.ID
+            
+          }
+          
+          if(length(unique.corresponding.ForC.plot.name.second.pass.looking.at.more.than.age) > 1) {
+            stop("still more than one plot possible")
+            add.record.to.forC <- FALSE
+          }
+          if(GROA.measurement.ID %in% ForC.GROA.potential.record.duplicate.manually.solved$ï..GROA.measurement.ID[!is.na(ForC.GROA.potential.record.duplicate.manually.solved$is.independent.of.ForC.meaurement.ID)]) add.record.to.forC = TRUE # add to ForC if manually Id-ed as non-duplicate
+          if(!GROA.measurement.ID %in% ForC.GROA.potential.record.duplicate.manually.solved$ï..GROA.measurement.ID[!is.na(ForC.GROA.potential.record.duplicate.manually.solved$is.independent.of.ForC.meaurement.ID)] & (length(unique.corresponding.ForC.plot.name.second.pass.looking.at.more.than.age) == 0 & nrow(corresponding.forC.records.looking.at.age) > 0)) {
+            potential.duplicate.records <- rbind(potential.duplicate.records, 
+                                                 cbind(From = "ForC",  
+                                                       corresponding.forC.records.looking.at.age[corresponding.forC.records.looking.at.age$variable.name %in% variable.name, c("measurement.ID", "sites.sitename", "plot.name", "stand.age", "citation.ID", "variable.name", "mean", "GROA.measurement.ID")]),
+                                                 data.frame(From = "GROA", measurement.ID = GROA.measurement.ID, sites.sitename, plot.name = GROA.plot.ID, stand.age, citation.ID, variable.name, mean = value, GROA.measurement.ID = GROA.measurement.ID))
+            add.record.to.forC <- FALSE
+          }
+          
+        } # if(length(unique.corresponding.ForC.plot.name) > 1)
         
-        if(length(unique.corresponding.ForC.plot.name.second.pass.looking.at.more.than.age) == 0 & nrow(corresponding.forC.records.looking.at.age) > 0) {
-          potential.duplicate.records <- rbind(potential.duplicate.records, 
-                                              cbind(From = "ForC",  
-                                                    corresponding.forC.records.looking.at.age[corresponding.forC.records.looking.at.age$variable.name %in% variable.name, c("measurement.ID", "sites.sitename", "plot.name", "stand.age", "citation.ID", "variable.name", "mean", "GROA.measurement.ID")]),
-                                              data.frame(From = "GROA", measurement.ID = GROA.measurement.ID, sites.sitename, plot.name = GROA.plot.ID, stand.age, citation.ID, variable.name, mean = value, GROA.measurement.ID = GROA.measurement.ID))
-          add.record.to.forC <- FALSE
-        }
+        if(length(unique.corresponding.ForC.plot.name.looking.at.age) == 0 ) { # leave the automated plotname and add the record to ForC
+          add.record.to.forC = TRUE
+        } # if(length(unique.corresponding.ForC.plot.name.looking.at.age) == 0)
         
-      } # if(length(unique.corresponding.ForC.plot.name) > 1)
+        
+        
+        
+        
+        
+      } # if(nrow(ForC.measurements.at.that.site) > 0 ) 
       
-      if(length(unique.corresponding.ForC.plot.name.looking.at.age) == 0 ) { # leave the automated plotname and add the record to ForC
-        add.record.to.forC = TRUE
-      } # if(length(unique.corresponding.ForC.plot.name.looking.at.age) == 0)
-      
-      
-      
-      
-      
-      
-    } # if(nrow(ForC.measurements.at.that.site) > 0 ) 
-    
-    if(nrow(ForC.measurements.at.that.site) == 0 ) {# if site does not alrweady exists in ForC MEASUREMENTS
-      add.record.to.forC <- TRUE
-    } # if(nrow(ForC.measurements.at.that.site) == 0 )
+      if(nrow(ForC.measurements.at.that.site) == 0 ) {# if site does not alrweady exists in ForC MEASUREMENTS
+        add.record.to.forC <- TRUE
+      } # if(nrow(ForC.measurements.at.that.site) == 0 )
     } # if(!is.na(variable.name))
     
     
     # import data if deemed necessary ####
     
     if(add.record.to.forC) {
+      
+      if(length(sites.sitename) == 0 ) sites.sitename <- GROA_sites$site.sitename[GROA_sites$site.id %in% GROA.site.ID][1]
       
       cat("Creating new record:",paste(sites.sitename, variable.name), "\n")
       
@@ -811,7 +926,7 @@ for( i in 1:nrow(GROA_measurements)) {
                                                         dominant.life.form = ifelse(GROA_measurements$refor.type[i] %in% "PA", "2GW",
                                                                                     ifelse(GROA_measurements$refor.type[i] %in% "C", "NAC", "woody")),
                                                         dominant.veg = "NAC",
-                                                        veg.notes = GROA_measurements$Species[i],
+                                                        # veg.notes = GROA_measurements$Species[i],
                                                         variable.name = c(variable.name, "stand.density")[c(TRUE, !is.na(GROA_measurements$density[i]))],
                                                         date = as.character(ifelse(is.na(GROA_measurements$date[i]), "NI", GROA_measurements$date[i])),
                                                         date.loc = ifelse(is.na(GROA_measurements$date[i]), 9, 8),
@@ -834,9 +949,10 @@ for( i in 1:nrow(GROA_measurements)) {
                                                         coV_1.value = as.character(other.cov.values[1]),
                                                         covariate_2 = other.covariates[2],
                                                         coV_2.value = as.character(other.cov.values[2]),
+                                                        conflicts = "I", # putting I since we know we did not import a duplicate
                                                         
                                                         citation.ID = GROA_litterature$citation.ID[GROA_litterature$study.id %in% GROA_measurements$study.id[i]],
-                                                        source.notes = paste0("GROA measurement.ID #", GROA.measurement.ID),
+                                                        source.notes = paste0("GROA measurement.id #", GROA.measurement.ID, ", site.id #", GROA.site.ID),
                                                         loaded.from = "[Cook-Patton database citation, in ForC format]",
                                                         loaded.by = paste("R script by Valentine Herrmann"),
                                                         checked.ori.pub = ifelse(grepl("Guo|Krankina", GROA_litterature$citation.ID[GROA_litterature$study.id %in% GROA_measurements$study.id[i]]), 0, 1), # "1" for all studies, except "0" for Guo and Krankina
@@ -853,21 +969,33 @@ for( i in 1:nrow(GROA_measurements)) {
   } # if(!GROA.measurement.ID %in% ForC_data$MEASUREMENTS$GROA.measurement.ID) 
   
 } # for( i in 1:nrow(GROA_measurements)) 
- 
+
 tail(ForC_data$MEASUREMENTS)
 dim(keeping.track.of.plot.names)
-dim(potential.duplicate.records)
+dim(potential.duplicate.records) # should be empty. If not, save rows of GROA-ForC_integration/new_data/potential_duplicates/potential.duplicate.records.csv at the end of GROA-ForC_integration/new_data/potential_duplicates/previous_rounds/potential.duplicate.records.csv and save the new set by uncommenting line below
+
+# NOTE: comment from Krista in this issue (https://github.com/forc-db/ForC/issues/98): "I took a quick look. Plese don import duplicated  for Subtropical broad-leaved evergreen forest chronosequence. The ForC estimate is more comprehensive." This means we leave record.id 3663, 3665, 3667, 13692, 13694 in the potential duplicate files and don't resolve them... qwe could I gues,, saying thet are duplicates of corresponding forC measurements, mut it is not exactly technically the case.
+
+# write.csv(potential.duplicate.records, file = "GROA-ForC_integration/new_data/potential_duplicates/potential.duplicate.records.csv", row.names = F)
 
 
+## fix a few covariate names
+unique(ForC_data$MEASUREMENTS$covariate_1)
+ForC_data$MEASUREMENTS$covariate_1 <- gsub("min_", "min\\.", ForC_data$MEASUREMENTS$covariate_1)
+ForC_data$MEASUREMENTS$covariate_1 <- gsub("max_", "max\\.", ForC_data$MEASUREMENTS$covariate_1)
+ForC_data$MEASUREMENTS$covariate_1 <- gsub("dbh", "diameter", ForC_data$MEASUREMENTS$covariate_1)
+
+
+ForC_data$MEASUREMENTS$covariate_2 <- gsub("min_", "min\\.", ForC_data$MEASUREMENTS$covariate_2)
+ForC_data$MEASUREMENTS$covariate_2 <- gsub("max_", "max\\.", ForC_data$MEASUREMENTS$covariate_2)
+ForC_data$MEASUREMENTS$covariate_2 <- gsub("dbh", "diameter", ForC_data$MEASUREMENTS$covariate_2)
 # Create a new record in HISTORY if one does not already exist ####
-
 # group GROA_measurements by sites.sitename and plotname (but first get the right site names)
 GROA_measurements$new.sites.sitename <- ForC_data$SITES$sites.sitename[match(GROA_measurements$site.id, ForC_data$SITES$GROA.site.ID)]
 
 
 # site_plots <- unique(paste(ForC_data$MEASUREMENTS[ForC_data$MEASUREMENTS$NEW_RECORD == 1,]$sites.sitename, ForC_data$MEASUREMENTS[ForC_data$MEASUREMENTS$NEW_RECORD == 1,]$plot.name))
 # g_m_id <- ForC_data$MEASUREMENTS[ForC_data$MEASUREMENTS$NEW_RECORD == 1,]$GROA.measurement.ID[paste(ForC_data$MEASUREMENTS[ForC_data$MEASUREMENTS$NEW_RECORD == 1,]$sites.sitename, ForC_data$MEASUREMENTS[ForC_data$MEASUREMENTS$NEW_RECORD == 1,]$plot.name) %in% s_p]
-
 
 site_plots <- unique(paste(ForC_data$MEASUREMENTS[!is.na(ForC_data$MEASUREMENTS$GROA.measurement.ID),]$sites.sitename, ForC_data$MEASUREMENTS[!is.na(ForC_data$MEASUREMENTS$GROA.measurement.ID),]$plot.name))
 
@@ -877,6 +1005,7 @@ s_p.with.other.date.age.issues.to.fix <- NULL
 
 something.not.unique.when.it.should <- NULL
 
+
 for(s_p in site_plots) {
   cat(paste("creating HISTORY for", s_p, "\n"))
   
@@ -885,23 +1014,33 @@ for(s_p in site_plots) {
   groa_sub <- GROA_measurements[GROA_measurements$measurement.id %in% g_m_id, ]
   
   # groa_sub <- GROA_measurements[paste(GROA_new_site.sitenames, GROA_measurements$plot.name) %in% s_p, ]
+  # if(!grepl("aboveground_biomass", groa_sub$variables.name )) stop()
   
   sites.sitename <- unique(groa_sub$new.sites.sitename)
   site.id <- unique(groa_sub$site.id)
-  GROA.plot.ID <- unique(groa_sub$plot.id)
+  plot.id <- unique(groa_sub$plot.id)
   plot.name <- unique(groa_sub$plot.name)
-  plot.area <- as.character(ifelse(is.na(unique(groa_sub$n * groa_sub$plot.size)), "NAC", unique(groa_sub$n * groa_sub$plot.size)))
+  plot.area <- as.character(ifelse(is.na(unique(groa_sub$n * groa_sub$plot.size)) | !any(groa_sub$variables.name %in% "aboveground_biomass"), "NAC", unique(groa_sub$n * groa_sub$plot.size)))
   refor.type <- unique(groa_sub$refor.type)
   prior <- unique(groa_sub$prior)
-  prior.duration <- unique(groa_sub$prior.disturbance.notes)
+  prior.disturbance.notes <- unique(groa_sub$prior.disturbance.notes)
   
   if(s_p %in% paste(ForC_data$HISTORY$sites.sitename, ForC_data$HISTORY$plot.name)) {
     cat("Found site", sites.sitename, "\n")
+    
+    ForC_data$HISTORY[paste(ForC_data$HISTORY$sites.sitename, ForC_data$HISTORY$plot.name) %in% s_p,]$GROA.site.ID = site.id
+    ForC_data$HISTORY[paste(ForC_data$HISTORY$sites.sitename, ForC_data$HISTORY$plot.name) %in% s_p,]$hist.notes = ifelse(is.na( ForC_data$HISTORY[paste(ForC_data$HISTORY$sites.sitename, ForC_data$HISTORY$plot.name) %in% s_p,]$hist.notes), paste0("Plot also in GROA site.id #", site.id),
+                                                                                                                          paste0(ForC_data$HISTORY[paste(ForC_data$HISTORY$sites.sitename, ForC_data$HISTORY$plot.name) %in% s_p,]$hist.notes, ". Plot also in GROA site.id #", site.id))
+    
   } else {
     
-    if(any(sapply(list(sites.sitename, site.id, GROA.plot.ID, plot.name, plot.area, refor.type, prior, prior.duration), length) != 1)) something.not.unique.when.it.should <- rbind(something.not.unique.when.it.should, data.frame(variable = c("sites.sitename", "site.id", "GROA.plot.ID", "plot.name", "plot.area", "refor.type", "prior", "prior.duration")[ which(sapply(list(sites.sitename, site.id, GROA.plot.ID, plot.name, plot.area, refor.type, prior, prior.duration), length) >1)], values = sapply(list(sites.sitename, site.id, GROA.plot.ID, plot.name, plot.area, refor.type, prior, prior.duration), paste, collapse = ",")[ which(sapply(list(sites.sitename, site.id, GROA.plot.ID, plot.name, plot.area, refor.type, prior, prior.duration), length) >1)], site.plot.name = s_p, site.id, plot.id = GROA.plot.ID))
+    if(any(sapply(list(sites.sitename, site.id, plot.id, plot.name, plot.area, refor.type, prior, prior.disturbance.notes), length) != 1)) {
+      something.not.unique.when.it.should <- rbind(something.not.unique.when.it.should, 
+                                                   data.frame(variable = c("sites.sitename", "site.id", "plot.id", "plot.name", "plot.area", "refor.type", "prior", "prior.disturbance.notes")[ which(sapply(list(sites.sitename, site.id, plot.id, plot.name, plot.area, refor.type, prior, prior.disturbance.notes), length) >1)], values = sapply(list(sites.sitename, site.id, plot.id, plot.name, plot.area, refor.type, prior, prior.disturbance.notes), paste, collapse = ",")[ which(sapply(list(sites.sitename, site.id, plot.id, plot.name, plot.area, refor.type, prior, prior.disturbance.notes), length) >1)], site.plot.name = s_p, site.id, plot.id = plot.id)
+      )
+    }
     
-    if(!any(sapply(list(sites.sitename, site.id, plot.name, plot.area, refor.type, prior, prior.duration), length) != 1)) {
+    if(!any(sapply(list(sites.sitename, site.id, plot.name, plot.area, refor.type, prior, prior.disturbance.notes), length) != 1)) {
       
       
       date <- unique(groa_sub$date)
@@ -949,7 +1088,7 @@ for(s_p in site_plots) {
           hist.notes <- NA
           
           level <- NA
-
+          
           
         }
         
@@ -959,13 +1098,13 @@ for(s_p in site_plots) {
                                  ifelse(prior %in% "SC", "Shifting cultivation",
                                         ifelse(prior %in% "H", "Harvest",
                                                ifelse(prior %in% "F", "Burned",
-                                                      ifelse(prior %in% "D", "NAC[TKA1]",
+                                                      ifelse(prior %in% "D", "NAC",
                                                              ifelse(prior %in% "PA", "Grazed",
                                                                     ifelse(prior %in% c("C/PA", "PA/C", 
                                                                                         "SC/PA/H", 
                                                                                         "PA/C", "SC/PA", "SC,PA", "SC & PA", "SC,PA", "SC, PA"), 'Agriculture_generic', 
                                                                            ifelse(prior %in% c("H/D", "F/D", "H/F", "F/H", "M"), "StandClearing",
-                                                                                  ifelse(prior %in% c("SC/C", "TMC "), "Cultivation", NA))))))))))
+                                                                                  ifelse(prior %in% c("SC/C", "TMC "), "Cultivation", "NAC"))))))))))
           
           
           percent.mortality <-  c(ifelse(prior %in% "C", '100', 
@@ -996,7 +1135,7 @@ for(s_p in site_plots) {
           }
           
           if(prior %in% "SC/F") {
-            hist.type <- c("Fire", "Shifting cultivation")
+            hist.type <- c("Burned", "Shifting cultivation")
             percent.mortality <- "100"
           }
           
@@ -1009,7 +1148,7 @@ for(s_p in site_plots) {
           level <- c(rep("NAC", length(hist.type)), NA, NA)
           percent.mortality <-  c(rep(percent.mortality, length(hist.type)), NA, NA)
           
-          hist.notes <- c(rep(prior.duration, length(hist.type)), NA, NA)
+          hist.notes <- c(rep(prior.disturbance.notes, length(hist.type)), NA, NA)
           
           hist.type <- c(hist.type, "Establishment of oldest trees", "Initiation of post-disturbance cohort (planted or natural)")
           
@@ -1029,27 +1168,27 @@ for(s_p in site_plots) {
                                              ifelse(refor.type %in% "F", "Burned",
                                                     ifelse(refor.type %in% "D", "NAC",
                                                            ifelse(refor.type %in% "PA", "Grazed",
-                                                                  ifelse(refor.type %in% "OG", "No severe disturbance", NA))))))))
+                                                                  ifelse(refor.type %in% "OG", "No severe disturbance", "NAC"))))))))
         percent.mortality <-  c(ifelse(refor.type %in% "C", '100', 
                                        ifelse(refor.type %in% "SC", "100",
                                               ifelse(refor.type %in% "H", "100",
                                                      ifelse(refor.type %in% "F", "NAC",
                                                             ifelse(refor.type %in% "D", "NAC",
                                                                    ifelse(refor.type %in% "PA", "100",
-                                                                          ifelse(refor.type %in% "OG", NA, NA))))))))
+                                                                          ifelse(refor.type %in% "OG", NA, "NAC"))))))))
         est.regrowth.assumed.same.year <- NA
         level <- NA
-        hist.notes <- "[prior.duration]"
+        hist.notes <- "[prior.disturbance.notes]"
         
       }  # if( !refor.type %in% "SNR")
       
       
       date <- as.character(unique(ifelse(!is.na(date - stand.age), floor(date - stand.age), "NAC")))
-      date.loc <- ifelse(date %in% "NAC", 9, 8)
+      date.loc <- as.character(ifelse(date %in% "NAC", 9, 8))
       
       units = NA
       
-      
+      if (length(plot.id) > 1) stop()
       rows.to.add <- data.frame( #####
                                  history.ID = ceiling(max(ForC_data$HISTORY$history.ID)) + seq(event.sequence) / 100,
                                  sites.sitename,
@@ -1064,9 +1203,9 @@ for(s_p in site_plots) {
                                  level,
                                  units,
                                  percent.mortality = unlist(percent.mortality),
-                                 hist.notes,
+                                 hist.notes = ifelse(is.na(hist.notes), paste0("GROA site.id #", site.id, ", plot.id #", plot.id), paste0(hist.notes, ". GROA site.id #", site.id, "and plot.id #", plot.id)),
                                  NEW_RECORD = TRUE,
-                                 GROA.plot.ID,
+                                 GROA.site.ID = site.id,
                                  stringsAsFactors = F
       )
       
@@ -1087,22 +1226,30 @@ something.not.unique.when.it.should[something.not.unique.when.it.should$variable
 something.not.unique.when.it.should[something.not.unique.when.it.should$variable %in% "prior",]
 
 
+
+for(s_p in s_p.with.chronosequence.to.fix) {
+  g_m_id <- ForC_data$MEASUREMENTS$GROA.measurement.ID[!is.na(ForC_data$MEASUREMENTS$GROA.measurement.ID)][paste(ForC_data$MEASUREMENTS[!is.na(ForC_data$MEASUREMENTS$GROA.measurement.ID),]$sites.sitename, ForC_data$MEASUREMENTS[!is.na(ForC_data$MEASUREMENTS$GROA.measurement.ID),]$plot.name) %in% s_p]
+  groa_sub <- GROA_measurements[GROA_measurements$measurement.id %in% g_m_id, ]
+  # print(groa_sub)
+  # readline("press[enter]")
+}
+
 site.id.plot.id.more.than.one.prior<- NULL
 for(s_p in something.not.unique.when.it.should[something.not.unique.when.it.should$variable %in% "prior",]$site.plot.name) {
   g_m_id <- ForC_data$MEASUREMENTS$GROA.measurement.ID[!is.na(ForC_data$MEASUREMENTS$GROA.measurement.ID)][paste(ForC_data$MEASUREMENTS[!is.na(ForC_data$MEASUREMENTS$GROA.measurement.ID),]$sites.sitename, ForC_data$MEASUREMENTS[!is.na(ForC_data$MEASUREMENTS$GROA.measurement.ID),]$plot.name) %in% s_p]
   groa_sub <- GROA_measurements[GROA_measurements$measurement.id %in% g_m_id, ]
-  print(groa_sub)
-  readline("press[enter]")
+  # print(groa_sub)
+  # readline("press[enter]")
   site.id.plot.id.more.than.one.prior <- rbind(site.id.plot.id.more.than.one.prior,  data.frame(unique(groa_sub[, c("site.id", "plot.id")]), measurement.id = paste(groa_sub$measurement.id, collapse = ", ")))
 }
 
-site.id.plot.id.more.than.one.prior.duration <- NULL
-for(s_p in something.not.unique.when.it.should[something.not.unique.when.it.should$variable %in% "prior.duration",]$site.plot.name) {
+site.id.plot.id.more.than.one.prior.disturbance.notes <- NULL
+for(s_p in something.not.unique.when.it.should[something.not.unique.when.it.should$variable %in% "prior.disturbance.notes",]$site.plot.name) {
   g_m_id <- ForC_data$MEASUREMENTS$GROA.measurement.ID[!is.na(ForC_data$MEASUREMENTS$GROA.measurement.ID)][paste(ForC_data$MEASUREMENTS[!is.na(ForC_data$MEASUREMENTS$GROA.measurement.ID),]$sites.sitename, ForC_data$MEASUREMENTS[!is.na(ForC_data$MEASUREMENTS$GROA.measurement.ID),]$plot.name) %in% s_p]
   groa_sub <- GROA_measurements[GROA_measurements$measurement.id %in% g_m_id, ]
-  print(groa_sub)
-  readline("press[enter]")
-  site.id.plot.id.more.than.one.prior.duration <- rbind(site.id.plot.id.more.than.one.prior.duration, data.frame(unique(groa_sub[, c("site.id", "plot.id")]), measurement.id = paste(groa_sub$measurement.id, collapse = ", ")))
+  # print(groa_sub)
+  # readline("press[enter]")
+  site.id.plot.id.more.than.one.prior.disturbance.notes <- rbind(site.id.plot.id.more.than.one.prior.disturbance.notes, data.frame(unique(groa_sub[, c("site.id", "plot.id")]), measurement.id = paste(groa_sub$measurement.id, collapse = ", ")))
 }
 
 
@@ -1110,25 +1257,46 @@ site.id.plot.id.more.than.one.plot.area <- NULL
 for(s_p in something.not.unique.when.it.should[something.not.unique.when.it.should$variable %in% "plot.area",]$site.plot.name) {
   g_m_id <- ForC_data$MEASUREMENTS$GROA.measurement.ID[!is.na(ForC_data$MEASUREMENTS$GROA.measurement.ID)][paste(ForC_data$MEASUREMENTS[!is.na(ForC_data$MEASUREMENTS$GROA.measurement.ID),]$sites.sitename, ForC_data$MEASUREMENTS[!is.na(ForC_data$MEASUREMENTS$GROA.measurement.ID),]$plot.name) %in% s_p]
   groa_sub <- GROA_measurements[GROA_measurements$measurement.id %in% g_m_id, ]
-  # print(groa_sub)
+  print(groa_sub)
   # readline("press[enter]")
   site.id.plot.id.more.than.one.plot.area <- rbind(site.id.plot.id.more.than.one.plot.area, data.frame(unique(groa_sub[, c("site.id", "plot.id")]), measurement.id = paste(groa_sub$measurement.id, collapse = ", ")))
 }
 
+all(site.id.plot.id.more.than.one.plot.area$plot.id %in% 1188) # should be TRUE, plot.id 1188 never had agb calculated to plot.area is NA in HISTORY and this is just to days that there would be 2 different plots if we were looking at the plot.area
+
 
 cat("All done.\n")
 
+# fix a few minor things
+ForC_data$HISTORY$hist.type <- gsub("fertilization", "Fertilization", ForC_data$HISTORY$hist.type )
+
+
+# deal with conflicts notes for the ones manually identified as independant ####
+
+## edit the ForC records
+idx <- ForC_data$MEASUREMENTS$measurement.ID %in% ForC.GROA.potential.record.duplicate.manually.solved$is.independent.of.ForC.meaurement.ID
+ForC_data$MEASUREMENTS[idx, ]$conflicts.notes <- paste0(ifelse(is.na(ForC_data$MEASUREMENTS[idx, ]$conflicts.notes), "", paste0(ForC_data$MEASUREMENTS[idx, ]$conflicts.notes , ". ")), "Manually identidifed as idenpendent of GROA measurement.id #", ForC.GROA.potential.record.duplicate.manually.solved$ï..GROA.measurement.ID[match(ForC_data$MEASUREMENTS[idx, ]$measurement.ID, ForC.GROA.potential.record.duplicate.manually.solved$is.independent.of.ForC.meaurement.ID)])
+
+
+
+
 # double check a few things ####
 
-all(ForC_data$MEASUREMENTS$sites.sitename[ForC_data$MEASUREMENTS$NEW_RECORD] %in% ForC_data$SITES$sites.sitename)
-sum(!(ForC_data$MEASUREMENTS$sites.sitename[ForC_data$MEASUREMENTS$NEW_RECORD] %in% ForC_data$HISTORY$sites.sitename))
-sum(!(ForC_data$MEASUREMENTS$plot.name[ForC_data$MEASUREMENTS$NEW_RECORD] %in% ForC_data$HISTORY$plot.name))
+all(ForC_data$MEASUREMENTS$sites.sitename[ForC_data$MEASUREMENTS$NEW_RECORD] %in% ForC_data$SITES$sites.sitename) # has to be TRUE
+sum(!(ForC_data$MEASUREMENTS$sites.sitename[ForC_data$MEASUREMENTS$NEW_RECORD] %in% ForC_data$HISTORY$sites.sitename)) # has to be 0
+sum(!(ForC_data$MEASUREMENTS$plot.name[ForC_data$MEASUREMENTS$NEW_RECORD] %in% ForC_data$HISTORY$plot.name)) # has to be 0
+any(duplicated(ForC_data$HISTORY$history.ID)) # should be FALSE or, if any, should all be coming from ForC (and be already existing mistakes)
 
-all(paste(ForC_data$MEASUREMENTS$sites.sitename, ForC_data$MEASUREMENTS$plot.name)[ForC_data$MEASUREMENTS$NEW_RECORD][!ForC_data$MEASUREMENTS$plot.name[ForC_data$MEASUREMENTS$NEW_RECORD] %in% ForC_data$HISTORY$plot.name] %in% something.not.unique.when.it.should$site.plot.name) # ok good
+ForC_data$HISTORY[duplicated(ForC_data$HISTORY$history.ID), ]
+
+all(paste(ForC_data$MEASUREMENTS$sites.sitename, ForC_data$MEASUREMENTS$plot.name)[ForC_data$MEASUREMENTS$NEW_RECORD][!ForC_data$MEASUREMENTS$plot.name[ForC_data$MEASUREMENTS$NEW_RECORD] %in% ForC_data$HISTORY$plot.name] %in% something.not.unique.when.it.should$site.plot.name) # should be TRUE, those are sites whose history was not imported
+
+# remove sites that don't have any measurements
+ForC_data$SITES <- ForC_data$SITES[!(ForC_data$SITES$NEW_RECORD %in% 1 & !ForC_data$SITES$sites.sitename %in% ForC_data$MEASUREMENTS$sites.sitename),] # removes Bura and N'hambita
 
 # save ####
 
-write.csv(true.duplicate.sites, file = "new_data/potential_duplicates/true.duplicate.sites.csv", row.names = F)
+write.csv(true.duplicate.sites, file = "GROA-ForC_integration/new_data/potential_duplicates/true.duplicate.sites.csv", row.names = F)
 # write.csv(potential.duplicate.sites, file = "new_data/potential_duplicates/potential.duplicate.sites.csv", row.names = F)
 # write.csv(potential.duplicate.records, file = "new_data/potential_duplicates/potential.duplicate.records.csv", row.names = F)
 
@@ -1137,18 +1305,32 @@ sum(ForC_data$MEASUREMENTS$NEW_RECORD)
 sum(ForC_data$SITES$NEW_RECORD)
 sum(ForC_data$HISTORY$NEW_RECORD)
 
-write.csv(filter(ForC_data$SITES, NEW_RECORD==TRUE), "new_data/new_SITES.csv", row.names = F)
-write.csv(filter(ForC_data$CITATIONS, NEW_RECORD==TRUE), "new_data/new_CITATIONS.csv", row.names = F)
-write.csv(filter(ForC_data$MEASUREMENTS, NEW_RECORD==TRUE), "new_data/new_MEASUREMENTS.csv", row.names = F)
-write.csv(filter(ForC_data$HISTORY, NEW_RECORD==TRUE), "new_data/new_HISTORY.csv", row.names = F)
+write.csv(filter(ForC_data$SITES, NEW_RECORD==TRUE), "GROA-ForC_integration/new_data/new_SITES.csv", row.names = F)
+write.csv(filter(ForC_data$CITATIONS, NEW_RECORD==TRUE), "GROA-ForC_integration/new_data/new_CITATIONS.csv", row.names = F)
+write.csv(filter(ForC_data$MEASUREMENTS, NEW_RECORD==TRUE), "GROA-ForC_integration/new_data/new_MEASUREMENTS.csv", row.names = F)
+write.csv(filter(ForC_data$HISTORY, NEW_RECORD==TRUE), "GROA-ForC_integration/new_data/new_HISTORY.csv", row.names = F)
+
+
+# create ID mappings
+siteID_mapping <- unique(ForC_data$SITES[!is.na(ForC_data$SITES$GROA.site.ID), c("site.ID", "GROA.site.ID")])
+colnames(siteID_mapping)[1] <- "ForC.site.ID"
+
+write.csv(siteID_mapping, file = "GROA-ForC_integration/GROA-ForC mapping/GROA-ForC_sites_mapping.csv", row.names = F)
+
+measurementID_mapping <- unique(ForC_data$MEASUREMENTS[!is.na(ForC_data$MEASUREMENTS$GROA.measurement.ID), c("measurement.ID", "GROA.measurement.ID")])
+colnames(measurementID_mapping)[1] <- "ForC.measurement.ID"
+
+write.csv(measurementID_mapping ,file = "GROA-ForC_integration/GROA-ForC mapping/GROA-ForC_measurements_mapping.csv", row.names = F)
 
 
 
-# Sites.to.save <- ForC_data$SITES[ForC_data$SITES$sites.sitename %in% ForC_data$MEASUREMENTS$sites.sitename[ForC_data$MEASUREMENTS$NEW_RECORD],]
-# History.to.save <- ForC_data$HISTORY[paste(ForC_data$HISTORY$sites.sitename, ForC_data$HISTORY$plot.name) %in% paste(ForC_data$MEASUREMENTS$sites.sitename, ForC_data$MEASUREMENTS$plot.name)[ForC_data$MEASUREMENTS$NEW_RECORD],]
-# 
-# write.csv(Sites.to.save, "new_data/new_SITES.csv", row.names = F)
-# write.csv(History.to.save, "new_data/new_HISTORY.csv", row.names = F)
+# save in local ForC
+
+write.csv(select(ForC_data$SITES, -NEW_RECORD, -GROA.site.ID), paste0(dirname(getwd()), "/forc/data/ForC_sites.csv"), row.names = F)
+write.csv(select(ForC_data$CITATIONS, -NEW_RECORD), paste0(dirname(getwd()), "/forc/data/ForC_citations.csv"), row.names = F)
+write.csv(select(ForC_data$MEASUREMENTS, -NEW_RECORD, -GROA.measurement.ID), paste0(dirname(getwd()), "/forc/data/ForC_measurements.csv"), row.names = F)
+write.csv(select(ForC_data$HISTORY, -NEW_RECORD, -GROA.site.ID), paste0(dirname(getwd()), "/forc/data/ForC_history.csv"), row.names = F)
+
 
 
 

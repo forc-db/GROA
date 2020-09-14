@@ -1,5 +1,11 @@
-From,measurement.ID,sites.sitename,plot.name,stand.age,citation.ID,variable.name,mean,source.notes,GROA.measurement.ID
-ForC,19886,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,organic.layer_OM,5.5,NA,NA
-ForC,19887,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,organic.layer_OM,5.6,NA,NA
-ForC,19888,Porce II chronosequence 2,Forest recovery following agricultural abandonment.19y,19,Sierra_2012_tcai,organic.layer_OM,5.9,NA,NA
-GROA,5369,Porce II chronosequence 2,3662,19,Sierra_2012_tcai,organic.layer_OM,10.4,,5369
+"From","measurement.ID","sites.sitename","plot.name","stand.age","citation.ID","variable.name","mean","GROA.measurement.ID"
+"ForC",14044,"Subtropical broad-leaved evergreen forest chronosequence","Forest recovery following clear-cut.2y","2","Li_1999_ssit","biomass_ag_OM",20.0612,NA
+"GROA",3663,"Subtropical broad-leaved evergreen forest chronosequence","2757","2","Li_1999_ssit","biomass_ag_OM",4.5,3663
+"ForC",14042,"Subtropical broad-leaved evergreen forest chronosequence","Forest recovery following clear-cut.10y","10","Li_1999_ssit","biomass_ag_OM",47.806,NA
+"GROA",3665,"Subtropical broad-leaved evergreen forest chronosequence","2758","10","Li_1999_ssit","biomass_ag_OM",15.3,3665
+"ForC",14043,"Subtropical broad-leaved evergreen forest chronosequence","Forest recovery following clear-cut.25y","25","Li_1999_ssit","biomass_ag_OM",117.839,NA
+"GROA",3667,"Subtropical broad-leaved evergreen forest chronosequence","2759","25","Li_1999_ssit","biomass_ag_OM",89.3,3667
+"ForC",14045,"Subtropical broad-leaved evergreen forest chronosequence","Forest recovery following clear-cut.40y","40","Li_1999_ssit","biomass_ag_OM",85.0696,NA
+"GROA",13692,"Subtropical broad-leaved evergreen forest chronosequence","9782","40","Li_1999_ssit","biomass_ag_OM",70.8,13692
+"ForC",14046,"Subtropical broad-leaved evergreen forest chronosequence","Forest recovery following clear-cut.60y","60","Li_1999_ssit","biomass_ag_OM",95.7493,NA
+"GROA",13694,"Subtropical broad-leaved evergreen forest chronosequence","9784","60","Li_1999_ssit","biomass_ag_OM",83.6,13694
