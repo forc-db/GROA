@@ -178,7 +178,7 @@ class ForestLearn(object):
         self.mdl = pickle.load(open(in_modelfilename, 'rb'))
         self.best_params = self.mdl.named_steps['learn'].get_params()
         
-    # def save_feature_importances(self, feature_importance_filename):
+    def save_feature_importances(self, feature_importance_filename):
     #     """
     #     Saves feature importances from trained model
     #
@@ -260,6 +260,7 @@ class ForestLearn(object):
             df = df.dropna()
             
         # Predict and calculate residual
+        #print(df[self.predictors])
         y_hat = self.mdl.predict(df[self.predictors])
         residual = df[self.y_column].values - y_hat
         

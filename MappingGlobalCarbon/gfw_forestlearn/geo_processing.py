@@ -11,7 +11,7 @@ import multiprocessing as mp
 from multiprocessing import Pool #  Process pool
 from multiprocessing import sharedctypes
 import tqdm
-
+import statistics
 
 
 def get_raster_extent(in0):
@@ -272,6 +272,7 @@ def get_reference_coordinates(df, reference_raster_file, in_lat_name='y', in_lon
         ref_coords = rasterio.transform.xy(metadata.get('transform'), raster_row, raster_column, offset='center')
         out_df.at[i,out_lon_name] = ref_coords[0]
         out_df.at[i,out_lat_name] = ref_coords[1]
+    return out_df
 
 
 def stratify_split(df, stratify_column=None, test_size = 0.2):
@@ -292,7 +293,7 @@ def stratify_split(df, stratify_column=None, test_size = 0.2):
         return train_test_split(df, stratify=df[stratify_column].values, test_size=test_size)
 
 
-def convert_point_df_to_shapefile(df, out_prefix, x_field, y_field, out_crs='epsg:4326'):
+def save_dataframe_as_csv_and_shp(df, out_prefix, x_field, y_field, out_crs='epsg:4326'):
     """
     Save a dataframe of points as a CSV and SHP
     
@@ -310,11 +311,10 @@ def convert_point_df_to_shapefile(df, out_prefix, x_field, y_field, out_crs='eps
         os.mkdir(out_prefix) 
     out_prefix = '{}/{}'.format(out_prefix,out_prefix)
     geometry = [Point(xy) for xy in zip(df[x_field].values, df[y_field].values)]
-    crs = {'init': out_crs}
-    gdf = GeoDataFrame(df.copy(), crs=crs, geometry=geometry)
+    gdf = gpd.GeoDataFrame(df.copy(), crs=out_crs, geometry=geometry)
     gdf.to_file('{}.shp'.format(out_prefix))
     return None
-   
+    
 
 def average_plots_with_matching_coords(df, x_field, y_field):
     """
@@ -363,11 +363,36 @@ def find_matching_plot_coords(unique_df, df, x_field, y_field):
         match_rows = df[(df[y_field]==lat)&(df[x_field]==lon)]
         match_df = match_df.append(match_rows, ignore_index = True)
     return match_df
+    
+def remove_outliers_using_z_score(df, target_column, sigma=3):
+    """
+    Remove outliers from data using z_score
+    
+    Inputs:
+    unique_df (DataFrame): 
+    df (DataFrame): Dataframe with values to filter
+    target_column (String): Column to use to find outliers
+    sigma (Number): Number of standard deviations to use as upper and lower bounds
+        
+    Returns: 
+    out_df (DataFrame): DataFrame result with outliers removed
+    """
+    target_values = df[target_column].values
+    target_values = target_values[~np.isnan(target_values)]
+    standard_dev = statistics.stdev(target_values)
+    mean = np.mean(target_values)
+    lower_bound = mean-1.96*standard_dev
+    upper_bound = mean+1.96*standard_dev
+    
+    out_df = df.copy()
+    out_df = out_df[out_df[target_column]>=lower_bound]
+    out_df = out_df[out_df[target_column]<=upper_bound]
+    return out_df
         
 
 def sample_raster_at_point_location(args):
     """
-    Easier to be called using function get_covariates_at_point_locations
+    Helper function for get_covariates_at_point_locations
     """
     coordinates = args[0]
     raster_file = args[1]
