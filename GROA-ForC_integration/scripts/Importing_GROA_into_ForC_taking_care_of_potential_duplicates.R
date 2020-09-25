@@ -926,7 +926,7 @@ for( i in 1:nrow(GROA_measurements)) {
                                                         dominant.life.form = ifelse(GROA_measurements$refor.type[i] %in% "PA", "2GW",
                                                                                     ifelse(GROA_measurements$refor.type[i] %in% "C", "NAC", "woody")),
                                                         dominant.veg = "NAC",
-                                                        # veg.notes = GROA_measurements$Species[i],
+                                                        veg.notes = GROA_measurements$Species[i],
                                                         variable.name = c(variable.name, "stand.density")[c(TRUE, !is.na(GROA_measurements$density[i]))],
                                                         date = as.character(ifelse(is.na(GROA_measurements$date[i]), "NI", GROA_measurements$date[i])),
                                                         date.loc = ifelse(is.na(GROA_measurements$date[i]), 9, 8),
