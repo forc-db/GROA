@@ -45,7 +45,7 @@ class ForestLearn(object):
 
     """
 
-    def __init__(self, predictors=[], y_column=None, xy = ['x','y'], cat_feats = [], one_hot_feats = []):
+    def __init__(self, predictors=[], y_column=None, xy = [], cat_feats = [], one_hot_feats = []):
         """
         Defines predictors, response variable, coordinate column names, binary features, categorical features, and numeric features
         
@@ -131,6 +131,7 @@ class ForestLearn(object):
         # Save cv_results to cv_results_filename
         cv_results_df = pd.DataFrame.from_dict(grid_search.cv_results_)
         cv_results_df.to_csv(cv_results_filename,index=False)
+        return self.mdl
                 
         
     def fit_model_with_params(self, train, out_modelfilename, in_params=None, in_modelfilename=None): 
@@ -154,6 +155,7 @@ class ForestLearn(object):
         # If in_params is given, load parameters for "learn" machine learning part of the pipeline
         elif in_params:
             self.mdl.named_steps['learn'].set_params(**in_params)
+            params = in_params
         # If in_modelfilename is given, load parameters from modelfile for "learn" machine learning part of the pipeline
         elif in_modelfilename:
             in_model = pickle.load(open(in_modelfilename, 'rb'))
@@ -165,6 +167,7 @@ class ForestLearn(object):
         self.best_params = params
         # Save to out_modelfilename
         pickle.dump(self.mdl, open(out_modelfilename, 'wb'))
+        return self.mdl
         
     def load_model_from_file(self, in_modelfilename): 
         """
@@ -177,6 +180,7 @@ class ForestLearn(object):
         """
         self.mdl = pickle.load(open(in_modelfilename, 'rb'))
         self.best_params = self.mdl.named_steps['learn'].get_params()
+        return self.mdl
         
     def save_feature_importances(self, feature_importance_filename):
     #     """
@@ -616,6 +620,3 @@ class ForestLearn(object):
         return self.mdl
            
              
-     
-     
-

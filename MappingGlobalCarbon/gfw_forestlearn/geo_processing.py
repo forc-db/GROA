@@ -1,55 +1,24 @@
 import pandas as pd
 import numpy as np
 import os
-import subprocess
-from osgeo import gdal
 from sklearn.model_selection import train_test_split
 import geopandas as gpd
+from geopandas import GeoDataFrame
 from shapely.geometry import Point
 import rasterio
 import multiprocessing as mp
 from multiprocessing import Pool #  Process pool
 from multiprocessing import sharedctypes
 import tqdm
-import statistics
-
-
-def get_raster_extent(in0):
-    """
-    For every input in0 return raster extent, and raster resolution
-    
-    Inputs:
-    in0 (String): Filename of input file to grab raster extent and resolution from
-    
-    Returns: None
-    """
-    gt = in0.GetGeoTransform()
-    xs = in0.RasterXSize
-    ys = in0.RasterYSize
-    x1 = gt[0] + 0 * gt[1] + 0 * gt[2]
-    y1 = gt[3] + 0 * gt[4] + 0 * gt[5]
-    x2 = gt[0] + xs * gt[1] + ys * gt[2]
-    y2 = gt[3] + xs * gt[4] + ys * gt[5]
-    extent0 = [min(x1, x2), min(y1, y2), max(x1, x2), max(y1, y2)]
-    res0 = [max(abs(gt[1]), abs(gt[4])), max(abs(gt[2]), abs(gt[5]))]
-    return extent0, res0
 
 def raster_clip(mask_file, in_file, out_file, resampling_method='near', out_format='Float32',
-                srcnodata='nan', dstnodata='nan'):
+                srcnodata='nan', dstnodata='nan', max_memory='2000'):
     """
-    Reprojects raster in "in_file" to the same projection and resolution as "mask_file" using gdalwarp.
-        See gdalwarp documentation for more information https://gdal.org/programs/gdalwarp.html
-    
-    Inputs:
-    mask_file (String): Filename of mask file that will be read for projection and resolution
-    in_file (String): Filename of raster that will be reprojected to match projection and resolution of mask_file
-    out_file (String): Output filename
-    resampling_method (String): Resampling method, see gdalwarp documentation for options
-    out_format (String): Out format of raster data, see gdalwarp documentation for options
-    srcnodata (Number): Output raster no-data value
-    dstnodata (Number): Input raster no-data value
-                
-    Returns: None
+    From learn2map
+    for every input in_file, get the same spatial resolution, projection, and
+    extent as the input mask_file.
+
+    output is a new raster file: out_file.
     """
     in0 = gdal.Open(mask_file)
     prj0 = in0.GetProjection()
@@ -57,6 +26,12 @@ def raster_clip(mask_file, in_file, out_file, resampling_method='near', out_form
     extent0 = ' '.join(map(str, extent0))
     res0 = ' '.join(map(str, res0))
     size0 = '{} {}'.format(str(in0.RasterXSize), str(in0.RasterYSize))
+
+    in1 = gdal.Open(in_file)
+    prj1 = in1.GetProjection()
+    extent1, res1 = get_raster_extent(in1)
+    extent1 = ' '.join(map(str, extent1))
+    res1 = ' '.join(map(str, res1))
 
     if (out_format=='Float32') or (out_format=='Float64'):
         predictor_num = 3
@@ -72,28 +47,17 @@ def raster_clip(mask_file, in_file, out_file, resampling_method='near', out_form
     print(gdal_expression)
     subprocess.check_output(gdal_expression, shell=True)
     in0 = None
+    in1 = None
     return
     
-def rasterize_shapefile(shape_file, mask_file, out_file, layer_name, burn_value=1, dstnodata=0, out_format='Byte',at=False):
+def rasterize_shapefile(shapefile, mask_file, outfile, layer_name, burn_value=1, nodata_val=0, out_format='Byte',
+                        at=True,srcnodata=255, max_memory='2000'):
     """
-    Rasterize shapefile in shape_file to same projection and resolution as mask_file using gdal_rasterize
-        See gdalwarp documentation for more information https://gdal.org/programs/gdal_rasterize.html
-    
-    Inputs:
-    shape_file (String): Filename of shapefile that will be rasterized
-    mask_file (String): Filename of raster that will be read for projection and resolution
-    out_file (String): Output filename
-    layer_name (String): Name of layer in shapefile to rasterize, often the name of the .shp file
-    burn_value (Number): Value to burn to raster
-    dstnodata (Number): No-data value to assign to raster
-    out_format (String): Out format of raster data, see gdalwarp documentation for options
-    at (Binary): If false only pixels with their center in a shape will be burned, otherwise all pixels touching the shape will be burned
-    
-    Returns: None
+    rasterize shapefile to same projection as mask_file
     """
     in0 = gdal.Open(mask_file)
     prj0 = in0.GetProjection()
-    extent0, res0 = get_raster_extent(in0)
+    extent0, res0 = rt.get_raster_extent(in0)
     extent0 = ' '.join(map(str, extent0))
     res0 = ' '.join(map(str, res0))
     size0 = '{} {}'.format(str(in0.RasterXSize), str(in0.RasterYSize))
@@ -102,99 +66,47 @@ def rasterize_shapefile(shape_file, mask_file, out_file, layer_name, burn_value=
         gdal_expression = (
             'gdal_rasterize -burn {} -at -a_srs {} -te {} -ts {} -tr {} '
             '-l {} -a_nodata {} -ot {} -co COMPRESS=LZW -co NUM_THREADS=ALL_CPUS '
-            '"{}" "{}"').format(burn_value, prj0, extent0, size0, res0, layer_name, dstnodata, out_format, shape_file, out_file)
+            '"{}" "{}"').format(burn_value, prj0, extent0, size0, res0, layer_name, nodata_val, out_format, shapefile, outfile)
     else: 
         gdal_expression = (
             'gdal_rasterize -burn {} -a_srs {} -te {} -ts {} -tr {} '
             '-l {} -a_nodata {} -ot {} -co COMPRESS=LZW -co NUM_THREADS=ALL_CPUS '
-            '"{}" "{}"').format(burn_value, prj0, extent0, size0, res0, layer_name, dstnodata, out_format, shape_file, out_file)
+            '"{}" "{}"').format(burn_value, prj0, extent0, size0, res0, layer_name, nodata_val, out_format, shapefile, outfile)
     print(gdal_expression)
     subprocess.check_output(gdal_expression, shell=True)
     in0 = None
+    in1 = None
     return 
-    
-def modify_vrt_xml(out_file_vrt):
-    """
-    Modify the virtual raster format file to include multiple bands from each raster
-    
-    Inputs:
-    out_file_vrt (String): Filename of vrt file
-    
-    Returns:
-    field_names (List): Field names from VRT
-    """
-    vrt_doc = etree.parse(out_file_vrt)
-    root = vrt_doc.getroot()
-    path = os.path.dirname(out_file_vrt)
-    n = 0
-    field_names = []
-    for element in root.iter('VRTRasterBand'):
-        path_relative = element.xpath('.//SourceFilename/@relativeToVRT')
-        file_text = element.xpath('.//SourceFilename/text()')
-        if path_relative[0] == '0':
-            file_name = file_text[0]
-        else:
-            file_name = os.path.join(path, file_text[0])
-        in0 = gdal.Open(file_name)
-        if in0.RasterCount == 1:
-            n += 1
-            element.attrib['band'] = str(n)
-            field_names.append('{}_b1'.format(os.path.splitext(os.path.basename(file_text[0]))[0]))
-        else:
-            for band_num in range(in0.RasterCount):
-                band_num += 1
-                n += 1
-                if band_num == 1:
-                    element.attrib['band'] = str(n)
-                    field_names.append('{}_b1'.format(os.path.splitext(os.path.basename(file_text[0]))[0]))
-                else:
-                    new_element = deepcopy(element)
-                    new_element.attrib['band'] = str(n)
-                    source_band = new_element.xpath('.//SourceBand')
-                    source_band[0].text = str(band_num)
-                    root.insert(root.index(element) + band_num - 1, new_element)
-                    field_names.append('{}_b{}'.format(os.path.splitext(os.path.basename(file_text[0]))[0], band_num))
-        in0 = None
-    etree.ElementTree(root).write(out_file_vrt, pretty_print=True)
-    return field_names
-
     
 def build_stack_vrt(in_file_list, out_file):
     """
-    Build raster stack vrt file from in_file_list.
-    
-    Inputs:
-    in_file_list (String): Filename of text file with list of raster files to sample from, separated by new line character
-    out_file (String): Filename of output h5 file
-    
-    Returns: 
-    field_names (List): Field names from in_file_list
+    build raster stack vrt file from in_file_list.
+    :param in_file_list:
+    :param out_file: output vrt file (end with .vrt)
+    :return:
     """
     gdal_expression_01 = (
         'gdalbuildvrt -separate -overwrite -input_file_list "{}" "{}" --config GDAL_CACHEMAX 2000'
     ).format(in_file_list, out_file)
     subprocess.check_output(gdal_expression_01, shell=True)
-    field_names = rt.modify_vrt_xml(out_file)
+    field_names = modify_vrt_xml(out_file)
     print(field_names)
 
     return field_names
 
-def raster_to_h5(in_file_vrt, out_file_h5, field_names, mask_column, mask_valid_range=1, lines=1000, drop_nan=True):
+def raster_to_h5(in_file_vrt, out_file_h5, field_names, mask_column, mask_valid_range=0, lines=100, drop_nan=True):
     """
     Make a layer stack of raster bands to be used in csv output.
     Output is a virtual raster with all bands and csv files with geolocation and valid data.
     All layers should be processed to have the same geolocation and dimensions.
     Mask band should be the 1st band in the in_file_list
-    
-    Inputs:
-    in_file_vrt (String): Filename of the input virtual raster files
-    out_file_h5 (String): Filename of output h5 file
-    field_names (List): List of column names
-    mask_column (String): Column used to mask data
-    mask_valid_range (Number): Number denominating valid pixel in mask band (i.e. 1 for valid)
-    lines (Integer): Numbers of lines to read at once
-    
-    Returns: None
+    :param in_file_vrt: file name of the input virtual raster files
+    :param out_file_h5: file name of output h5 file
+    :param field_names: names of all columns
+    :param mask_column: column used to mask data
+    :param mask_valid_range: define valid data range (e.g.: >0)  in mask band
+    :param lines: numbers of lines to read at once
+    :return: None
     """
     in0 = gdal.Open(in_file_vrt)
     bands = []
@@ -221,7 +133,7 @@ def raster_to_h5(in_file_vrt, out_file_h5, field_names, mask_column, mask_valid_
             else:
                 df1 = pd.DataFrame(data, dtype='float32').transpose()
             df1.columns = ['x', 'y'] + field_names
-            df0 = df1.loc[lambda df: df[mask_column] == mask_valid_range, :]
+            df0 = df1.loc[lambda df: df[mask_column] > mask_valid_range, :]
             store.append('df0', df0, index=False, data_columns=df0.columns)
     with pd.HDFStore(out_file_h5) as store:
         store.create_table_index('df0', columns=['x', 'y'], optlevel=6, kind='medium')
@@ -229,22 +141,13 @@ def raster_to_h5(in_file_vrt, out_file_h5, field_names, mask_column, mask_valid_
     return
     
 def convert_hdf(in_file_list,out_file_name):
-    """
-    Convert a list of rasters to an HDF file
-    
-    Inputs:
-    in_file_list (String): Filename of text file with list of raster files to sample from, separated by new line character
-    out_file (String): Filename of output h5 file
-    
-    Returns: None
-    """
     with open(in_file_list, 'r') as f:
         file_names = f.readlines()
         mask_column = '{}_b1'.format(os.path.basename(os.path.splitext(file_names[0])[0]))
         y_column = '{}_b1'.format(os.path.basename(os.path.splitext(file_names[1])[0]))
     out_vrt = '{}.vrt'.format(out_file_name)
     print(out_vrt)
-    field_names = build_stack_vrt(in_file_list, out_vrt)
+    field_names = rt.build_stack_vrt(in_file_list, out_vrt)
     out_h5 = '{}.h5'.format(out_file_name)
     raster_to_h5(out_vrt, out_h5, field_names, mask_column, mask_valid_range=0, lines=1000, drop_nan=True)
     
@@ -252,17 +155,7 @@ def convert_hdf(in_file_list,out_file_name):
 
 def get_reference_coordinates(df, reference_raster_file, in_lat_name='y', in_lon_name = 'x', out_lat_name = 'Lat_1km', out_lon_name = 'Lon_1km'):
     """
-    Function to find the center coordinate of pixel a point falls within
-    
-    Inputs:
-    df (DataFrame): Input dataframe with each row corresponding to a point
-    reference_raster_file (String): Reference raster used for pixel size
-    in_lat_name (String): Point latitude column
-    in_lon_name (String): Point longitude column
-    out_lat_name (String): New pixel latitude column
-    out_lon_name (String): New pixel longitude column
-    
-    Returns: None
+    #Function to find the coordinates of a lower resolution raster
     """
     out_df = df.copy()
     src = rasterio.open(reference_raster_file)
@@ -272,61 +165,33 @@ def get_reference_coordinates(df, reference_raster_file, in_lat_name='y', in_lon
         ref_coords = rasterio.transform.xy(metadata.get('transform'), raster_row, raster_column, offset='center')
         out_df.at[i,out_lon_name] = ref_coords[0]
         out_df.at[i,out_lat_name] = ref_coords[1]
-    return out_df
 
 
-def stratify_split(df, stratify_column=None, test_size = 0.2):
+def stratify_split(df, stratify_column, test_size = 0.2):
     """
-    Split dataframe randomly, can stratify by defining stratify_column:
-    
-    Inputs:
-    df (DataFrame): Iput dataset to split
-    stratify_column (String): Use this column to stratify split the data
-    test_size (Number): Test dataset size, can be either an integer to set test set size or fraction to split
-    
-    Returns:
-    training_dataset, test_dataset (Tuple): results of split, first the training dataset and second the test dataset
+    #Stratify split dataframe
     """
-    if stratify_column:
-        return train_test_split(df, test_size=test_size)
-    else:
-        return train_test_split(df, stratify=df[stratify_column].values, test_size=test_size)
+    return train_test_split(df,stratify=df[stratify_column].values,test_size=test_size)
 
 
-def save_dataframe_as_csv_and_shp(df, out_prefix, x_field, y_field, out_crs='epsg:4326'):
+def save_point_df_and_shp(df, out_prefix, x_field, y_field, out_crs='epsg:4326'):
     """
-    Save a dataframe of points as a CSV and SHP
-    
-    Inputs:
-    df (DataFrame): Dataframe to save as CSV and shapefile
-    out_prefix (String): Prefix for filename to output to, extensions .csv and .shp will be added before being saved
-    x_field (String): Longitude column name in df
-    y_field (String): Latitude column name in df
-    out_crs (String): CRS to use in shapefile
-    
-    Returns: None
+    #Save plot as a CSV and SHP
     """
     df.to_csv('{}.csv'.format(out_prefix),index=False)
     if not os.path.exists(out_prefix):
         os.mkdir(out_prefix) 
     out_prefix = '{}/{}'.format(out_prefix,out_prefix)
     geometry = [Point(xy) for xy in zip(df[x_field].values, df[y_field].values)]
-    gdf = gpd.GeoDataFrame(df.copy(), crs=out_crs, geometry=geometry)
+    crs = {'init': out_crs}
+    gdf = GeoDataFrame(df.copy(), crs=crs, geometry=geometry)
     gdf.to_file('{}.shp'.format(out_prefix))
     return None
-    
+   
 
 def average_plots_with_matching_coords(df, x_field, y_field):
     """
-    Average plot values within matching coordinates (use after get_reference_coordinates) 
-    
-    Inputs:
-    df (DataFrame): Dataframe to average
-    x_field (String): Longitude column name in df
-    y_field (String): Latitude column name in df
-    
-    Returns: 
-    average_plots (DataFrame): DataFrame result of averaging
+    #Average plot values within matching coordinates (use after get_reference_coordinates) 
     """
     average_plots = pd.DataFrame(columns=list(df))
     coordinates = df[[y_field,x_field]].drop_duplicates()
@@ -343,19 +208,11 @@ def average_plots_with_matching_coords(df, x_field, y_field):
     return average_plots
 
 
-def find_matching_plot_coords(unique_df, df, x_field, y_field):
+def find_matching_plot_coords(unique_df,df, x_field, y_field):
     """
     Find plots that are in the same pixel
-    
-    Inputs:
-    unique_df (DataFrame): 
-    df (DataFrame): Dataframe to save as CSV and shapefile
-    x_field (String): Longitude column name in df
-    y_field (String): Latitude column name in df
-        
-    Returns: 
-    match_df (DataFrame): DataFrame result of unique values
     """
+    #unique_df = df[[x_field,y_field]].drop_duplicates()
     match_df = pd.DataFrame(columns=list(df))
     for i, row in unique_df.iterrows():
         lat = row[y_field]
@@ -363,36 +220,11 @@ def find_matching_plot_coords(unique_df, df, x_field, y_field):
         match_rows = df[(df[y_field]==lat)&(df[x_field]==lon)]
         match_df = match_df.append(match_rows, ignore_index = True)
     return match_df
-    
-def remove_outliers_using_z_score(df, target_column, sigma=3):
-    """
-    Remove outliers from data using z_score
-    
-    Inputs:
-    unique_df (DataFrame): 
-    df (DataFrame): Dataframe with values to filter
-    target_column (String): Column to use to find outliers
-    sigma (Number): Number of standard deviations to use as upper and lower bounds
-        
-    Returns: 
-    out_df (DataFrame): DataFrame result with outliers removed
-    """
-    target_values = df[target_column].values
-    target_values = target_values[~np.isnan(target_values)]
-    standard_dev = statistics.stdev(target_values)
-    mean = np.mean(target_values)
-    lower_bound = mean-1.96*standard_dev
-    upper_bound = mean+1.96*standard_dev
-    
-    out_df = df.copy()
-    out_df = out_df[out_df[target_column]>=lower_bound]
-    out_df = out_df[out_df[target_column]<=upper_bound]
-    return out_df
         
 
 def sample_raster_at_point_location(args):
     """
-    Helper function for get_covariates_at_point_locations
+    #Sample raster at point location
     """
     coordinates = args[0]
     raster_file = args[1]
@@ -414,21 +246,12 @@ def sample_raster_at_point_location(args):
     return df
 
 
-def get_covariates_at_point_locations(df, covariate_raster_list, x_field = 'x', y_field = 'y'):
+def get_covariates_at_point_locations(df, covariate_raster_list, x_name = 'x', y_name = 'y'):
     """
-    Sample rasters at point locations
-    
-    Inputs:
-    df (DataFrame): DataFrame of points to sample
-    covariate_raster_list (List): List of filenames of rasters to sample
-    x_field (String): Longitude column name in df
-    y_field (String): Latitude column name in df
-        
-    Returns: 
-    out_df (DataFrame): DataFrame with original df and new values from covariate_raster_list
+    #Get covarates at point locations
     """
     coords = df.copy()
-    coords = coords[[x_field,y_field]].values
+    coords = coords[[x_name,y_name]].values
     coordinates = [tuple(x) for x in coords]
     args = [[coordinates, x] for x in covariate_raster_list]
     pool = mp.Pool()
@@ -457,6 +280,22 @@ def get_covariates_at_point_locations(df, covariate_raster_list, x_field = 'x', 
 # print(out)    
     
     
+#
+# class OtherClass:
+#   def run(self, sentence, graph):
+#     return False
+#
+# def single(params):
+#     other = OtherClass()
+#     sentences, graph = params
+#     return [other.run(sentence, graph) for sentence in sentences]
+#
+# class SomeClass:
+#    def __init__(self):
+#        self.sentences = [["Some string"]]
+#        self.graphs = ["string"]
+#    def some_method(self):
+#       return list(pool.map(single, zip(self.sentences, self.graphs)))
 #
 # if __name__ == '__main__':  # <- prevent RuntimeError for 'spawn'
 #     # and 'forkserver' start_methods
