@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+folium
+geojson
+geopandas
+GDAL
+rasterio
+rasterstats
+fiona
+streamlit-folium
+rio-tiler
