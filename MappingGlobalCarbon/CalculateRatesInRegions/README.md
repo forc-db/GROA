@@ -4,3 +4,4 @@ This folder contains code to calculate the average carbon sequestration rate and
 
 Contents:
 1. CalculateRateStatisticsInRegion.ipynb: Jupyter notebook using Google Earth Engine's Python API to calculate rate statistics in ecozones by country and continent.
+2. SreamlitApp-CarbonRate-GriscomAreas: Python code for a locally deployable [Streamlit](https://streamlit.io/) based web-app that allows users to calculate carbon sequestration rate and accumulation statistics for inputted regions.
